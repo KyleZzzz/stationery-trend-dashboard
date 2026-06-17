@@ -28,7 +28,6 @@ function renderAll() {
     renderTrendDataTable();
     renderEmergingList();
     renderEmergingTrendChart();
-    setupSeasonFilter();
     updateCount();
 }
 
@@ -58,7 +57,6 @@ function formatMoney(n) {
     return '¥' + n.toLocaleString();
 }
 
-// 各平台颜色（高对比度区分）
 const platformColors = {
     '京东': '#cc0a0a',
     '淘宝/天猫': '#ff6a00',
@@ -79,7 +77,7 @@ const platformTagClass = {
     '小红书': 'platform-tag-xhs'
 };
 
-// 促销活动卡片
+// 促销活动卡片（不受品类筛选影响）
 function renderPromoCards() {
     const container = document.getElementById('promoCards');
     const icons = { jd: '🟥', taobao: '🟧', pdd: '🟡', douyin: '⬛', xhs: '🔴' };
@@ -98,10 +96,13 @@ function renderPromoCards() {
     `).join('');
 }
 
-// 热销商品表格（top20 per category）
+// 热销商品：分品类top20，全品类top30，按销售额降序
 function renderPromoProducts() {
     const tbody = document.getElementById('promoProductsTable');
-    const filtered = filterByCategory(DASHBOARD_DATA.promoProducts).slice(0, 20);
+    const limit = currentCategory === 'all' ? 30 : 20;
+    const filtered = filterByCategory(DASHBOARD_DATA.promoProducts)
+        .sort((a, b) => (b.price * b.sales) - (a.price * a.sales))
+        .slice(0, limit);
     if (filtered.length === 0) {
         tbody.innerHTML = '<tr><td colspan="6" class="px-4 py-8 text-center text-gray-400">当前品类暂无热销数据</td></tr>';
         return;
@@ -120,21 +121,23 @@ function renderPromoProducts() {
     }).join('');
 }
 
-// 应季趋势图表（top10 per category）
-function renderSeasonTrendChart(category = 'all') {
+// 应季趋势：按增长率降序top10
+function renderSeasonTrendChart() {
     const chart = echarts.init(document.getElementById('seasonTrendChart'));
-    let data = filterByCategory(DASHBOARD_DATA.seasonalTrends).slice(0, 10);
+    const data = filterByCategory(DASHBOARD_DATA.seasonalTrends)
+        .sort((a, b) => b.growth - a.growth)
+        .slice(0, 10);
 
     const heatColors = { '爆': '#dc2626', '热': '#ea580c', '暖': '#d97706', '稳': '#65a30d' };
 
     chart.setOption({
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
-        grid: { left: 120, right: 60, top: 20, bottom: 30 },
-        xAxis: { type: 'value', name: '30天增长率%', axisLabel: { formatter: '{value}%' } },
+        grid: { left: 140, right: 60, top: 20, bottom: 30 },
+        xAxis: { type: 'value', name: '增长率%', axisLabel: { formatter: '{value}%' } },
         yAxis: {
             type: 'category',
             data: data.map(d => d.name).reverse(),
-            axisLabel: { fontSize: 12 }
+            axisLabel: { fontSize: 11 }
         },
         series: [{
             type: 'bar',
@@ -143,27 +146,28 @@ function renderSeasonTrendChart(category = 'all') {
                 itemStyle: { color: heatColors[d.heat] || '#6366f1', borderRadius: [0, 4, 4, 0] },
                 label: { show: true, position: 'right', formatter: `{c}% ${d.heat}`, fontSize: 11 }
             })).reverse(),
-            barWidth: 20
+            barWidth: 18
         }]
     });
     window.addEventListener('resize', () => chart.resize());
-    window._seasonChart = chart;
 }
 
-// 热搜词排行（top10 per category）
+// 热搜词：按总曝光量降序top10，全品类覆盖所有品类
 function renderHotwordsChart() {
     const chart = echarts.init(document.getElementById('hotwordsChart'));
-    const filtered = filterByCategory(DASHBOARD_DATA.hotwords).slice(0, 10);
-    const data = filtered.map(h => {
-        const total = Object.values(h.platforms).reduce((a, b) => a + b, 0);
-        return { word: h.word, total };
-    }).sort((a, b) => b.total - a.total);
+    const data = filterByCategory(DASHBOARD_DATA.hotwords)
+        .map(h => {
+            const total = Object.values(h.platforms).reduce((a, b) => a + b, 0);
+            return { word: h.word, total };
+        })
+        .sort((a, b) => b.total - a.total)
+        .slice(0, 10);
 
     chart.setOption({
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: params => {
             return params[0].name + '<br/>总曝光: ' + formatNum(params[0].value);
         }},
-        grid: { left: 120, right: 50, top: 10, bottom: 20 },
+        grid: { left: 130, right: 50, top: 10, bottom: 20 },
         xAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v) } },
         yAxis: {
             type: 'category',
@@ -187,10 +191,13 @@ function renderHotwordsChart() {
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 热搜词各平台曝光量（top10 per category）
+// 热搜词各平台曝光量：按总曝光降序top10
 function renderExposureChart() {
     const chart = echarts.init(document.getElementById('exposureChart'));
-    const hotwords = filterByCategory(DASHBOARD_DATA.hotwords).slice(0, 10);
+    const allHotwords = filterByCategory(DASHBOARD_DATA.hotwords)
+        .map(h => ({ ...h, total: Object.values(h.platforms).reduce((a, b) => a + b, 0) }))
+        .sort((a, b) => b.total - a.total)
+        .slice(0, 10);
     const platforms = ['京东', '淘宝/天猫', '拼多多', '抖音', '小红书'];
     const platformKeys = ['jd', 'taobao', 'pdd', 'douyin', 'xhs'];
     const colors = ['#cc0a0a', '#ff6a00', '#f59e0b', '#1a1a2e', '#e6194b'];
@@ -203,23 +210,27 @@ function renderExposureChart() {
         }},
         legend: { data: platforms, bottom: 0, textStyle: { fontSize: 11 } },
         grid: { left: 60, right: 20, top: 20, bottom: 50 },
-        xAxis: { type: 'category', data: hotwords.map(h => h.word), axisLabel: { rotate: 35, fontSize: 10 } },
+        xAxis: { type: 'category', data: allHotwords.map(h => h.word), axisLabel: { rotate: 35, fontSize: 10 } },
         yAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v) } },
         series: platforms.map((p, i) => ({
             name: p,
             type: 'bar',
             stack: 'total',
-            data: hotwords.map(h => h.platforms[platformKeys[i]]),
+            data: allHotwords.map(h => h.platforms[platformKeys[i]]),
             itemStyle: { color: colors[i] }
         }))
     });
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 趋势品销售数据表（top10 per category）
+// 趋势品：按总销售额降序，全品类top20，分品类top10
 function renderTrendDataTable() {
     const tbody = document.getElementById('trendDataTable');
-    const filtered = filterByCategory(DASHBOARD_DATA.trendProductData).slice(0, 10);
+    const limit = currentCategory === 'all' ? 20 : 10;
+    const filtered = filterByCategory(DASHBOARD_DATA.trendProductData)
+        .map(p => ({ ...p, totalRevenue: p.platforms.reduce((s, pl) => s + pl.revenue, 0) }))
+        .sort((a, b) => b.totalRevenue - a.totalRevenue)
+        .slice(0, limit);
     let rows = [];
     filtered.forEach(product => {
         product.platforms.forEach((p, i) => {
@@ -247,10 +258,13 @@ function renderTrendDataTable() {
     tbody.innerHTML = rows.join('');
 }
 
-// 潜在爆发商品列表（top10 per category）
+// 潜在爆发商品：按爆发指数降序，全品类top20，分品类top10
 function renderEmergingList() {
     const container = document.getElementById('emergingList');
-    const filtered = filterByCategory(DASHBOARD_DATA.emergingProducts).slice(0, 10);
+    const limit = currentCategory === 'all' ? 20 : 10;
+    const filtered = filterByCategory(DASHBOARD_DATA.emergingProducts)
+        .sort((a, b) => b.predictScore - a.predictScore)
+        .slice(0, limit);
     if (filtered.length === 0) {
         container.innerHTML = '<div class="text-center text-gray-400 py-4">当前品类暂无爆发商品数据</div>';
         return;
@@ -275,10 +289,12 @@ function renderEmergingList() {
     `).join('');
 }
 
-// 潜在爆发商品走势图
+// 潜在爆发商品走势图：按爆发指数降序top10
 function renderEmergingTrendChart() {
     const chart = echarts.init(document.getElementById('emergingTrendChart'));
-    const products = filterByCategory(DASHBOARD_DATA.emergingProducts).slice(0, 10);
+    const products = filterByCategory(DASHBOARD_DATA.emergingProducts)
+        .sort((a, b) => b.predictScore - a.predictScore)
+        .slice(0, 10);
     const days = Array.from({ length: 13 }, (_, i) => {
         const d = new Date('2026-06-05');
         d.setDate(d.getDate() + i);
@@ -303,26 +319,13 @@ function renderEmergingTrendChart() {
             data: p.trendData,
             smooth: true,
             symbol: 'none',
-            lineStyle: { width: 2, color: colors[i] },
-            itemStyle: { color: colors[i] },
+            lineStyle: { width: 2, color: colors[i % colors.length] },
+            itemStyle: { color: colors[i % colors.length] },
             areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                { offset: 0, color: colors[i] + '15' },
-                { offset: 1, color: colors[i] + '00' }
+                { offset: 0, color: colors[i % colors.length] + '15' },
+                { offset: 1, color: colors[i % colors.length] + '00' }
             ])}
         }))
     });
     window.addEventListener('resize', () => chart.resize());
-}
-
-// 应季分类筛选
-function setupSeasonFilter() {
-    document.querySelectorAll('.season-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            document.querySelectorAll('.season-btn').forEach(b => {
-                b.className = 'season-btn px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-600';
-            });
-            btn.className = 'season-btn px-3 py-1 text-xs rounded-full bg-indigo-100 text-indigo-700 font-medium';
-            renderSeasonTrendChart(btn.dataset.cat);
-        });
-    });
 }
