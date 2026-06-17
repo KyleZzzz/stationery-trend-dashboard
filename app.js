@@ -65,19 +65,18 @@ function renderPromoCards() {
 // 热销商品表格
 function renderPromoProducts() {
     const tbody = document.getElementById('promoProductsTable');
-    tbody.innerHTML = DASHBOARD_DATA.promoProducts.map(p => `
+    tbody.innerHTML = DASHBOARD_DATA.promoProducts.map(p => {
+        const revenue = p.price * p.sales;
+        return `
         <tr class="hover:bg-gray-50">
             <td class="px-4 py-3 font-bold ${p.rank <= 3 ? 'text-red-500' : 'text-gray-500'}">${p.rank}</td>
             <td class="px-4 py-3 text-gray-900 font-medium">${p.name}</td>
-            <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.topPlatform] || ''}">${p.topPlatform}</span></td>
-            <td class="px-4 py-3 text-right font-medium">¥${p.topPrice}</td>
-            <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.topSales)}</td>
-            <td class="px-4 py-3 text-center">${p.jdMatch ? '<span class="text-green-600 font-medium">✓ 有</span>' : '<span class="text-gray-400">✗ 无</span>'}</td>
-            <td class="px-4 py-3 text-right ${p.jdMatch ? '' : 'text-gray-300'}">${p.jdMatch ? '¥' + p.jdPrice : '-'}</td>
-            <td class="px-4 py-3 text-right ${p.jdMatch ? '' : 'text-gray-300'}">${p.jdMatch ? formatNum(p.jdSales) : '-'}</td>
-            <td class="px-4 py-3 text-right font-medium ${p.jdRevenue > 0 ? 'text-gray-900' : 'text-gray-300'}">${p.jdRevenue > 0 ? formatMoney(p.jdRevenue) : '-'}</td>
-        </tr>
-    `).join('');
+            <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
+            <td class="px-4 py-3 text-right font-medium">¥${p.price}</td>
+            <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.sales)}</td>
+            <td class="px-4 py-3 text-right font-medium text-gray-900">${formatMoney(revenue)}</td>
+        </tr>`;
+    }).join('');
 }
 
 // 应季趋势图表
