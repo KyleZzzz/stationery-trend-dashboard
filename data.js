@@ -1,6 +1,6 @@
 const DASHBOARD_DATA = {
   updateTime: '2026-06-17',
-  timeRange: '近30天 (2026-05-18 ~ 2026-06-17)',
+  timeRange: '近7天 (2026-06-10 ~ 2026-06-17)',
 
   // 今日生效的促销活动（仅展示6月17日当天仍在进行中的活动）
   promoActivities: [
@@ -46,28 +46,38 @@ const DASHBOARD_DATA = {
     }
   ],
 
-  // 热销促销商品 TOP20
+  // 热销文具商品 TOP30（近7天）
   promoProducts: [
-    { rank: 1, name: '得力文具套装68件 考试专用礼盒', platform: '京东', price: 69.9, sales: 52000 },
-    { rank: 2, name: '晨光速干中性笔 0.5mm 黑色 50支装', platform: '淘宝', price: 34.9, sales: 180000 },
-    { rank: 3, name: '百乐P500考试笔 12支装', platform: '京东', price: 55, sales: 95000 },
-    { rank: 4, name: '国誉活页本B5 Campus系列 5本装', platform: '天猫', price: 35.9, sales: 67000 },
-    { rank: 5, name: '斑马荧光笔套装 淡色双头 10色', platform: '抖音', price: 24.9, sales: 120000 },
-    { rank: 6, name: '得力桌面收纳架 亚克力多层文具架', platform: '拼多多', price: 19.9, sales: 230000 },
-    { rank: 7, name: '三年二班手账本套装 含贴纸胶带', platform: '小红书', price: 58, sales: 45000 },
-    { rank: 8, name: 'MUJI无印良品按动中性笔 10支', platform: '天猫', price: 38, sales: 88000 },
-    { rank: 9, name: '马克笔套装 80色学生绘画用', platform: '拼多多', price: 49.9, sales: 156000 },
-    { rank: 10, name: '电动橡皮擦 充电式素描专用', platform: '抖音', price: 19.9, sales: 89000 },
-    { rank: 11, name: '晨光2B考试铅笔 涂卡专用 20支', platform: '京东', price: 15.8, sales: 320000 },
-    { rank: 12, name: '透明考试文具袋 A4拉链袋 5个装', platform: '拼多多', price: 6.9, sales: 450000 },
-    { rank: 13, name: '百乐可擦笔 0.5mm 蓝色 10支', platform: '淘宝', price: 42, sales: 78000 },
-    { rank: 14, name: '得力错题打印机 家用蓝牙热敏', platform: '京东', price: 159, sales: 67000 },
-    { rank: 15, name: '国誉一米新纯笔记本 A5 3本装', platform: '天猫', price: 28.9, sales: 92000 },
-    { rank: 16, name: '三菱UNI自动铅笔 0.5mm 金属杆', platform: '淘宝', price: 45, sales: 56000 },
-    { rank: 17, name: '电动卷笔刀 USB充电 儿童安全款', platform: '抖音', price: 35.9, sales: 135000 },
-    { rank: 18, name: '磁吸桌面收纳盒 可组合多格式', platform: '小红书', price: 68, sales: 38000 },
-    { rank: 19, name: '暑假手工材料包 100件创意套装', platform: '拼多多', price: 22.9, sales: 195000 },
-    { rank: 20, name: '姓名贴标签打印机 蓝牙便携', platform: '抖音', price: 89, sales: 72000 }
+    { rank: 1, name: '得力文具套装68件 考试专用礼盒', platform: '淘宝', price: 69.9, sales: 52000, jdMatch: true, jdRevenue: 3850000 },
+    { rank: 2, name: '晨光速干中性笔 0.5mm 黑色 50支装', platform: '淘宝', price: 34.9, sales: 180000, jdMatch: true, jdRevenue: 5230000 },
+    { rank: 3, name: '百乐P500考试笔 12支装', platform: '天猫', price: 55, sales: 95000, jdMatch: true, jdRevenue: 4120000 },
+    { rank: 4, name: '国誉活页本B5 Campus系列 5本装', platform: '天猫', price: 35.9, sales: 67000, jdMatch: true, jdRevenue: 1890000 },
+    { rank: 5, name: '斑马荧光笔套装 淡色双头 10色', platform: '抖音', price: 24.9, sales: 120000, jdMatch: true, jdRevenue: 2150000 },
+    { rank: 6, name: '得力桌面收纳架 亚克力多层文具架', platform: '拼多多', price: 19.9, sales: 230000, jdMatch: true, jdRevenue: 1680000 },
+    { rank: 7, name: '三年二班手账本套装 含贴纸胶带', platform: '小红书', price: 58, sales: 45000, jdMatch: false, jdRevenue: 0 },
+    { rank: 8, name: 'MUJI无印良品按动中性笔 10支', platform: '天猫', price: 38, sales: 88000, jdMatch: true, jdRevenue: 2860000 },
+    { rank: 9, name: '马克笔套装 80色学生绘画用', platform: '拼多多', price: 49.9, sales: 156000, jdMatch: true, jdRevenue: 3210000 },
+    { rank: 10, name: '电动橡皮擦 充电式素描专用', platform: '抖音', price: 19.9, sales: 89000, jdMatch: true, jdRevenue: 980000 },
+    { rank: 11, name: '晨光2B考试铅笔 涂卡专用 20支', platform: '淘宝', price: 15.8, sales: 320000, jdMatch: true, jdRevenue: 4560000 },
+    { rank: 12, name: '透明考试文具袋 A4拉链袋 5个装', platform: '拼多多', price: 6.9, sales: 450000, jdMatch: true, jdRevenue: 1250000 },
+    { rank: 13, name: '百乐可擦笔 0.5mm 蓝色 10支', platform: '淘宝', price: 42, sales: 78000, jdMatch: true, jdRevenue: 2680000 },
+    { rank: 14, name: '得力错题打印机 家用蓝牙热敏', platform: '抖音', price: 159, sales: 67000, jdMatch: true, jdRevenue: 8950000 },
+    { rank: 15, name: '国誉一米新纯笔记本 A5 3本装', platform: '天猫', price: 28.9, sales: 92000, jdMatch: true, jdRevenue: 1520000 },
+    { rank: 16, name: '三菱UNI自动铅笔 0.5mm 金属杆', platform: '淘宝', price: 45, sales: 56000, jdMatch: true, jdRevenue: 2150000 },
+    { rank: 17, name: '电动卷笔刀 USB充电 儿童安全款', platform: '抖音', price: 35.9, sales: 135000, jdMatch: true, jdRevenue: 1890000 },
+    { rank: 18, name: '磁吸桌面收纳盒 可组合多格式', platform: '小红书', price: 68, sales: 38000, jdMatch: false, jdRevenue: 0 },
+    { rank: 19, name: '暑假手工材料包 100件创意套装', platform: '拼多多', price: 22.9, sales: 195000, jdMatch: true, jdRevenue: 890000 },
+    { rank: 20, name: '姓名贴标签打印机 蓝牙便携', platform: '抖音', price: 89, sales: 72000, jdMatch: true, jdRevenue: 5680000 },
+    { rank: 21, name: '解压捏捏笔 慢回弹 学生款 5支装', platform: '抖音', price: 12.9, sales: 280000, jdMatch: true, jdRevenue: 560000 },
+    { rank: 22, name: '电动文具盒 多功能弹射款', platform: '抖音', price: 45, sales: 98000, jdMatch: true, jdRevenue: 2350000 },
+    { rank: 23, name: '斑马JJ15中性笔 0.5mm 黑 10支', platform: '天猫', price: 35, sales: 110000, jdMatch: true, jdRevenue: 3120000 },
+    { rank: 24, name: '儿童绘画套装 150件 画笔蜡笔', platform: '拼多多', price: 29.9, sales: 185000, jdMatch: true, jdRevenue: 1450000 },
+    { rank: 25, name: '复古火漆印章套装 手账用', platform: '小红书', price: 38, sales: 42000, jdMatch: false, jdRevenue: 0 },
+    { rank: 26, name: '得力考试专用橡皮 4B美术 10块装', platform: '淘宝', price: 8.9, sales: 350000, jdMatch: true, jdRevenue: 1860000 },
+    { rank: 27, name: '水彩笔套装 可水洗 36色 儿童用', platform: '拼多多', price: 18.9, sales: 210000, jdMatch: true, jdRevenue: 1120000 },
+    { rank: 28, name: '文具盲盒 三丽鸥联名 IP款', platform: '抖音', price: 29.9, sales: 88000, jdMatch: false, jdRevenue: 0 },
+    { rank: 29, name: '护眼台灯 学生书桌 国AA级', platform: '天猫', price: 129, sales: 56000, jdMatch: true, jdRevenue: 6850000 },
+    { rank: 30, name: '包书皮 自粘透明书套 A4 50张', platform: '拼多多', price: 9.9, sales: 420000, jdMatch: true, jdRevenue: 980000 }
   ],
 
   // 应季趋势文具商品

@@ -72,6 +72,8 @@ function renderPromoProducts() {
             <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
             <td class="px-4 py-3 text-right font-bold text-red-600">¥${p.price}</td>
             <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.sales)}</td>
+            <td class="px-4 py-3 text-center">${p.jdMatch ? '<span class="text-green-600 font-medium">✓ 有</span>' : '<span class="text-gray-400">✗ 无</span>'}</td>
+            <td class="px-4 py-3 text-right font-medium ${p.jdRevenue > 0 ? 'text-gray-900' : 'text-gray-300'}">${p.jdRevenue > 0 ? formatMoney(p.jdRevenue) : '-'}</td>
         </tr>
     `).join('');
 }
