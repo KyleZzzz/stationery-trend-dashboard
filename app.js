@@ -1,9 +1,17 @@
 let currentCategory = 'all';
 let currentTrend = 'all';
+let currentTimeRange = '7d';
+
+const TIME_RANGES = {
+    'today': { label: '今天 (2026-06-17)', factor: 0.15 },
+    '7d': { label: '近7天 (6.10-6.17)', factor: 1 },
+    '30d': { label: '近30天 (5.18-6.17)', factor: 4.2 }
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     initCategoryFilter();
     initTrendFilter();
+    initTimeFilter();
     renderAll();
 });
 
@@ -32,6 +40,23 @@ function initTrendFilter() {
             renderSeasonTrendChart();
         });
     });
+}
+
+function initTimeFilter() {
+    document.querySelectorAll('.time-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.time-btn').forEach(b => {
+                b.className = 'time-btn px-3 py-1 text-xs rounded-md text-gray-600 hover:bg-gray-200 transition';
+            });
+            btn.className = 'time-btn time-btn-active px-3 py-1 text-xs rounded-md transition';
+            currentTimeRange = btn.dataset.range;
+            renderAll();
+        });
+    });
+}
+
+function scaleSales(sales) {
+    return Math.round(sales * TIME_RANGES[currentTimeRange].factor);
 }
 
 function renderAll() {
@@ -116,21 +141,22 @@ function renderPromoProducts() {
     const tbody = document.getElementById('promoProductsTable');
     const limit = currentCategory === 'all' ? 30 : 20;
     const filtered = filterByCategory(DASHBOARD_DATA.promoProducts)
-        .sort((a, b) => (b.price * b.sales) - (a.price * a.sales))
+        .map(p => ({ ...p, scaledSales: scaleSales(p.sales) }))
+        .sort((a, b) => (b.price * b.scaledSales) - (a.price * a.scaledSales))
         .slice(0, limit);
     if (filtered.length === 0) {
         tbody.innerHTML = '<tr><td colspan="6" class="px-4 py-8 text-center text-gray-400">当前品类暂无热销数据</td></tr>';
         return;
     }
     tbody.innerHTML = filtered.map((p, i) => {
-        const revenue = p.price * p.sales;
+        const revenue = p.price * p.scaledSales;
         return `
         <tr class="hover:bg-gray-50">
             <td class="px-4 py-3 font-bold ${i < 3 ? 'text-red-500' : 'text-gray-500'}">${i + 1}</td>
             <td class="px-4 py-3 text-gray-900 font-medium">${p.name}</td>
             <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
             <td class="px-4 py-3 text-right font-medium">¥${p.price}</td>
-            <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.sales)}</td>
+            <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.scaledSales)}</td>
             <td class="px-4 py-3 text-right font-medium text-gray-900">${formatMoney(revenue)}</td>
         </tr>`;
     }).join('');
@@ -172,9 +198,10 @@ function renderSeasonTrendChart() {
 // 热搜词：按总曝光量降序top10，全品类覆盖所有品类
 function renderHotwordsChart() {
     const chart = echarts.init(document.getElementById('hotwordsChart'));
+    const factor = TIME_RANGES[currentTimeRange].factor;
     const data = filterByCategory(DASHBOARD_DATA.hotwords)
         .map(h => {
-            const total = Object.values(h.platforms).reduce((a, b) => a + b, 0);
+            const total = Math.round(Object.values(h.platforms).reduce((a, b) => a + b, 0) * factor);
             return { word: h.word, total };
         })
         .sort((a, b) => b.total - a.total)
@@ -211,8 +238,9 @@ function renderHotwordsChart() {
 // 热搜词各平台曝光量：按总曝光降序top10
 function renderExposureChart() {
     const chart = echarts.init(document.getElementById('exposureChart'));
+    const factor = TIME_RANGES[currentTimeRange].factor;
     const allHotwords = filterByCategory(DASHBOARD_DATA.hotwords)
-        .map(h => ({ ...h, total: Object.values(h.platforms).reduce((a, b) => a + b, 0) }))
+        .map(h => ({ ...h, total: Math.round(Object.values(h.platforms).reduce((a, b) => a + b, 0) * factor) }))
         .sort((a, b) => b.total - a.total)
         .slice(0, 10);
     const platforms = ['京东', '淘宝/天猫', '拼多多', '抖音', '小红书'];
@@ -233,7 +261,7 @@ function renderExposureChart() {
             name: p,
             type: 'bar',
             stack: 'total',
-            data: allHotwords.map(h => h.platforms[platformKeys[i]]),
+            data: allHotwords.map(h => Math.round(h.platforms[platformKeys[i]] * factor)),
             itemStyle: { color: colors[i] }
         }))
     });
@@ -244,22 +272,25 @@ function renderExposureChart() {
 function renderTrendDataTable() {
     const tbody = document.getElementById('trendDataTable');
     const limit = currentCategory === 'all' ? 20 : 10;
+    const factor = TIME_RANGES[currentTimeRange].factor;
     const filtered = filterByCategory(DASHBOARD_DATA.trendProductData)
-        .map(p => ({ ...p, totalRevenue: p.platforms.reduce((s, pl) => s + pl.revenue, 0) }))
+        .map(p => ({ ...p, totalRevenue: Math.round(p.platforms.reduce((s, pl) => s + pl.revenue, 0) * factor) }))
         .sort((a, b) => b.totalRevenue - a.totalRevenue)
         .slice(0, limit);
     let rows = [];
     filtered.forEach(product => {
         product.platforms.forEach((p, i) => {
-            const totalSales = product.platforms.reduce((a, b) => a + b.sales, 0);
-            const share = ((p.sales / totalSales) * 100).toFixed(1);
+            const scaledSales = Math.round(p.sales * factor);
+            const scaledRevenue = Math.round(p.revenue * factor);
+            const totalSales = Math.round(product.platforms.reduce((a, b) => a + b.sales, 0) * factor);
+            const share = totalSales > 0 ? ((scaledSales / totalSales) * 100).toFixed(1) : '0.0';
             rows.push(`
                 <tr class="hover:bg-gray-50 ${i === 0 ? 'border-t-2 border-gray-100' : ''}">
                     ${i === 0 ? `<td class="px-4 py-3 font-medium text-gray-900" rowspan="${product.platforms.length}">${product.name}</td>` : ''}
                     <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
                     <td class="px-4 py-3 text-right font-medium">¥${p.avgPrice}</td>
-                    <td class="px-4 py-3 text-right">${formatNum(p.sales)}</td>
-                    <td class="px-4 py-3 text-right font-medium">${formatMoney(p.revenue)}</td>
+                    <td class="px-4 py-3 text-right">${formatNum(scaledSales)}</td>
+                    <td class="px-4 py-3 text-right font-medium">${formatMoney(scaledRevenue)}</td>
                     <td class="px-4 py-3">
                         <div class="flex items-center gap-2">
                             <div class="w-16 h-2 bg-gray-100 rounded-full overflow-hidden">
@@ -286,7 +317,9 @@ function renderEmergingList() {
         container.innerHTML = '<div class="text-center text-gray-400 py-4">当前品类暂无爆发商品数据</div>';
         return;
     }
-    container.innerHTML = filtered.map((p, i) => `
+    container.innerHTML = filtered.map((p, i) => {
+        const scaled = scaleSales(p.currentSales);
+        return `
         <div class="p-3 rounded-lg border ${i < 3 ? 'border-red-200 bg-red-50/30' : 'border-gray-100 bg-gray-50/50'}">
             <div class="flex items-center justify-between mb-1.5">
                 <div class="flex items-center gap-2">
@@ -299,11 +332,11 @@ function renderEmergingList() {
             </div>
             <div class="text-xs text-gray-500 mb-1.5">${p.reason}</div>
             <div class="flex items-center gap-4 text-xs">
-                <span class="text-gray-600">当前销量: <b>${formatNum(p.currentSales)}</b></span>
+                <span class="text-gray-600">当前销量: <b>${formatNum(scaled)}</b></span>
                 <span class="trend-up font-bold">↑ 7日增长 ${p.growth7d}%</span>
             </div>
-        </div>
-    `).join('');
+        </div>`;
+    }).join('');
 }
 
 // 潜在爆发商品走势图：按爆发指数降序top10

@@ -51,7 +51,11 @@
                         <span class="w-2 h-2 rounded-full bg-green-500 live-dot"></span>
                         数据更新: 2026-06-17
                     </span>
-                    <span class="px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-600">近7天趋势</span>
+                    <div class="flex gap-1 bg-gray-100 rounded-lg p-1">
+                        <button class="time-btn px-3 py-1 text-xs rounded-md text-gray-600 hover:bg-gray-200 transition" data-range="today">今天</button>
+                        <button class="time-btn time-btn-active px-3 py-1 text-xs rounded-md transition" data-range="7d">近7天</button>
+                        <button class="time-btn px-3 py-1 text-xs rounded-md text-gray-600 hover:bg-gray-200 transition" data-range="30d">近30天</button>
+                    </div>
                 </div>
             </div>
         </div>
