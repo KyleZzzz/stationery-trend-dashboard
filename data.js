@@ -46,18 +46,18 @@ const DASHBOARD_DATA = {
     }
   ],
 
-  // 促销力度最大的商品
+  // 热销促销商品
   promoProducts: [
-    { rank: 1, name: '得力文具套装68件 考试专用礼盒', platform: '京东', originalPrice: 168, promoPrice: 69.9, discount: '4.2折', sales: 52000 },
-    { rank: 2, name: '晨光速干中性笔 0.5mm 黑色 50支装', platform: '淘宝', originalPrice: 89, promoPrice: 34.9, discount: '3.9折', sales: 180000 },
-    { rank: 3, name: '百乐P500考试笔 12支装', platform: '京东', originalPrice: 120, promoPrice: 55, discount: '4.6折', sales: 95000 },
-    { rank: 4, name: '国誉活页本B5 Campus系列 5本装', platform: '天猫', originalPrice: 79, promoPrice: 35.9, discount: '4.5折', sales: 67000 },
-    { rank: 5, name: '斑马荧光笔套装 淡色双头 10色', platform: '抖音', originalPrice: 59, promoPrice: 24.9, discount: '4.2折', sales: 120000 },
-    { rank: 6, name: '三年二班手账本套装 含贴纸胶带', platform: '小红书', originalPrice: 128, promoPrice: 58, discount: '4.5折', sales: 45000 },
-    { rank: 7, name: '得力桌面收纳架 亚克力多层文具架', platform: '拼多多', originalPrice: 69, promoPrice: 19.9, discount: '2.9折', sales: 230000 },
-    { rank: 8, name: 'MUJI无印良品按动中性笔 10支', platform: '天猫', originalPrice: 75, promoPrice: 38, discount: '5.1折', sales: 88000 },
-    { rank: 9, name: '马克笔套装 80色学生绘画用', platform: '拼多多', originalPrice: 158, promoPrice: 49.9, discount: '3.2折', sales: 156000 },
-    { rank: 10, name: '电动橡皮擦 充电式素描专用', platform: '抖音', originalPrice: 49, promoPrice: 19.9, discount: '4.1折', sales: 89000 }
+    { rank: 1, name: '得力文具套装68件 考试专用礼盒', platform: '京东', price: 69.9, sales: 52000 },
+    { rank: 2, name: '晨光速干中性笔 0.5mm 黑色 50支装', platform: '淘宝', price: 34.9, sales: 180000 },
+    { rank: 3, name: '百乐P500考试笔 12支装', platform: '京东', price: 55, sales: 95000 },
+    { rank: 4, name: '国誉活页本B5 Campus系列 5本装', platform: '天猫', price: 35.9, sales: 67000 },
+    { rank: 5, name: '斑马荧光笔套装 淡色双头 10色', platform: '抖音', price: 24.9, sales: 120000 },
+    { rank: 6, name: '三年二班手账本套装 含贴纸胶带', platform: '小红书', price: 58, sales: 45000 },
+    { rank: 7, name: '得力桌面收纳架 亚克力多层文具架', platform: '拼多多', price: 19.9, sales: 230000 },
+    { rank: 8, name: 'MUJI无印良品按动中性笔 10支', platform: '天猫', price: 38, sales: 88000 },
+    { rank: 9, name: '马克笔套装 80色学生绘画用', platform: '拼多多', price: 49.9, sales: 156000 },
+    { rank: 10, name: '电动橡皮擦 充电式素描专用', platform: '抖音', price: 19.9, sales: 89000 }
   ],
 
   // 应季趋势文具商品

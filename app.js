@@ -69,7 +69,7 @@ function renderPromoProducts() {
             <td class="px-4 py-3 font-bold ${p.rank <= 3 ? 'text-red-500' : 'text-gray-500'}">${p.rank}</td>
             <td class="px-4 py-3 text-gray-900 font-medium">${p.name}</td>
             <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
-            <td class="px-4 py-3 text-right font-bold text-red-600">¥${p.promoPrice}</td>
+            <td class="px-4 py-3 text-right font-bold text-red-600">¥${p.price}</td>
             <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.sales)}</td>
         </tr>
     `).join('');
