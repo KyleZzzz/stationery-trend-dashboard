@@ -65,13 +65,21 @@ const DASHBOARD_DATA = {
     { name: '考试专用文具套装', category: 'exam', growth: 185, heat: '爆', avgPrice: 45, sales30d: 890000 },
     { name: '2B铅笔/涂卡笔', category: 'exam', growth: 210, heat: '爆', avgPrice: 12, sales30d: 1560000 },
     { name: '透明文具袋', category: 'exam', growth: 156, heat: '热', avgPrice: 8, sales30d: 2100000 },
+    { name: '考试专用橡皮', category: 'exam', growth: 132, heat: '热', avgPrice: 5, sales30d: 1800000 },
+    { name: '答题卡专用尺', category: 'exam', growth: 98, heat: '暖', avgPrice: 6, sales30d: 750000 },
     { name: '手账本/贴纸套装', category: 'summer', growth: 89, heat: '热', avgPrice: 35, sales30d: 670000 },
     { name: '彩色马克笔套装', category: 'summer', growth: 67, heat: '热', avgPrice: 55, sales30d: 430000 },
     { name: '水彩画材套装', category: 'summer', growth: 72, heat: '暖', avgPrice: 89, sales30d: 280000 },
+    { name: '暑假手工DIY材料包', category: 'summer', growth: 95, heat: '热', avgPrice: 28, sales30d: 520000 },
+    { name: '儿童绘画套装', category: 'summer', growth: 78, heat: '暖', avgPrice: 65, sales30d: 380000 },
     { name: '姓名贴/标签打印机', category: 'back2school', growth: 45, heat: '暖', avgPrice: 68, sales30d: 190000 },
     { name: '书包/减负护脊', category: 'back2school', growth: 38, heat: '暖', avgPrice: 189, sales30d: 320000 },
+    { name: '包书皮/书套', category: 'back2school', growth: 55, heat: '暖', avgPrice: 12, sales30d: 450000 },
+    { name: '文具收纳盒', category: 'back2school', growth: 42, heat: '暖', avgPrice: 25, sales30d: 280000 },
     { name: '桌面收纳/笔筒', category: 'office', growth: 52, heat: '热', avgPrice: 29, sales30d: 510000 },
-    { name: '便利贴/索引贴', category: 'office', growth: 34, heat: '稳', avgPrice: 15, sales30d: 780000 }
+    { name: '便利贴/索引贴', category: 'office', growth: 34, heat: '稳', avgPrice: 15, sales30d: 780000 },
+    { name: '白板笔/白板', category: 'office', growth: 28, heat: '稳', avgPrice: 45, sales30d: 220000 },
+    { name: '文件夹/资料册', category: 'office', growth: 25, heat: '稳', avgPrice: 18, sales30d: 350000 }
   ],
 
   // 各平台热搜词
@@ -83,7 +91,14 @@ const DASHBOARD_DATA = {
     { word: '中性笔推荐', platforms: { jd: 3200000, taobao: 4800000, pdd: 2200000, douyin: 18000000, xhs: 9500000 } },
     { word: '手账大礼盒套装', platforms: { jd: 800000, taobao: 2600000, pdd: 700000, douyin: 16000000, xhs: 11000000 } },
     { word: '开学必备文具清单', platforms: { jd: 2800000, taobao: 4200000, pdd: 3500000, douyin: 6800000, xhs: 3200000 } },
-    { word: '直播带货学习用品', platforms: { jd: 1500000, taobao: 2200000, pdd: 1800000, douyin: 22000000, xhs: 5500000 } }
+    { word: '直播带货学习用品', platforms: { jd: 1500000, taobao: 2200000, pdd: 1800000, douyin: 22000000, xhs: 5500000 } },
+    { word: '考试专用笔', platforms: { jd: 5500000, taobao: 7200000, pdd: 4100000, douyin: 8900000, xhs: 3800000 } },
+    { word: '暑假手工材料包', platforms: { jd: 1800000, taobao: 4500000, pdd: 5200000, douyin: 11000000, xhs: 6800000 } },
+    { word: '桌面收纳神器', platforms: { jd: 2100000, taobao: 3800000, pdd: 2900000, douyin: 13500000, xhs: 9200000 } },
+    { word: '错题打印机', platforms: { jd: 3800000, taobao: 4100000, pdd: 2500000, douyin: 15000000, xhs: 7500000 } },
+    { word: '马克笔套装学生用', platforms: { jd: 1800000, taobao: 2500000, pdd: 1900000, douyin: 11000000, xhs: 8500000 } },
+    { word: 'ins风文具', platforms: { jd: 600000, taobao: 2800000, pdd: 500000, douyin: 9800000, xhs: 14000000 } },
+    { word: '电动橡皮擦', platforms: { jd: 2200000, taobao: 3100000, pdd: 3800000, douyin: 12000000, xhs: 4500000 } }
   ],
 
   // 趋势品各平台销售数据
@@ -122,6 +137,41 @@ const DASHBOARD_DATA = {
       { platform: '拼多多', avgPrice: 25.9, sales: 85000, revenue: 2201500 },
       { platform: '抖音', avgPrice: 35.0, sales: 210000, revenue: 7350000 },
       { platform: '小红书', avgPrice: 42.5, sales: 95000, revenue: 4037500 }
+    ]},
+    { name: '百乐P500考试笔', platforms: [
+      { platform: '京东', avgPrice: 9.5, sales: 180000, revenue: 1710000 },
+      { platform: '淘宝/天猫', avgPrice: 8.8, sales: 250000, revenue: 2200000 },
+      { platform: '拼多多', avgPrice: 6.9, sales: 420000, revenue: 2898000 },
+      { platform: '抖音', avgPrice: 8.5, sales: 130000, revenue: 1105000 },
+      { platform: '小红书', avgPrice: 10.5, sales: 45000, revenue: 472500 }
+    ]},
+    { name: '马克笔80色套装', platforms: [
+      { platform: '京东', avgPrice: 55.0, sales: 42000, revenue: 2310000 },
+      { platform: '淘宝/天猫', avgPrice: 48.5, sales: 95000, revenue: 4607500 },
+      { platform: '拼多多', avgPrice: 32.9, sales: 180000, revenue: 5922000 },
+      { platform: '抖音', avgPrice: 45.0, sales: 120000, revenue: 5400000 },
+      { platform: '小红书', avgPrice: 58.0, sales: 38000, revenue: 2204000 }
+    ]},
+    { name: '桌面亚克力收纳架', platforms: [
+      { platform: '京东', avgPrice: 35.0, sales: 68000, revenue: 2380000 },
+      { platform: '淘宝/天猫', avgPrice: 29.9, sales: 150000, revenue: 4485000 },
+      { platform: '拼多多', avgPrice: 19.9, sales: 280000, revenue: 5572000 },
+      { platform: '抖音', avgPrice: 25.9, sales: 95000, revenue: 2460500 },
+      { platform: '小红书', avgPrice: 38.0, sales: 52000, revenue: 1976000 }
+    ]},
+    { name: '错题打印机', platforms: [
+      { platform: '京东', avgPrice: 189.0, sales: 35000, revenue: 6615000 },
+      { platform: '淘宝/天猫', avgPrice: 168.0, sales: 52000, revenue: 8736000 },
+      { platform: '拼多多', avgPrice: 128.0, sales: 78000, revenue: 9984000 },
+      { platform: '抖音', avgPrice: 159.0, sales: 95000, revenue: 15105000 },
+      { platform: '小红书', avgPrice: 199.0, sales: 22000, revenue: 4378000 }
+    ]},
+    { name: '透明考试文具袋', platforms: [
+      { platform: '京东', avgPrice: 8.9, sales: 320000, revenue: 2848000 },
+      { platform: '淘宝/天猫', avgPrice: 6.5, sales: 580000, revenue: 3770000 },
+      { platform: '拼多多', avgPrice: 3.9, sales: 950000, revenue: 3705000 },
+      { platform: '抖音', avgPrice: 5.9, sales: 220000, revenue: 1298000 },
+      { platform: '小红书', avgPrice: 9.9, sales: 55000, revenue: 544500 }
     ]}
   ],
 
