@@ -2,62 +2,72 @@ const DASHBOARD_DATA = {
   updateTime: '2026-06-17',
   timeRange: '近30天 (2026-05-18 ~ 2026-06-17)',
 
-  // 各平台促销活动
+  // 今日生效的促销活动（仅展示6月17日当天仍在进行中的活动）
   promoActivities: [
     {
       platform: '京东',
       platformKey: 'jd',
-      title: '618文具狂欢',
-      highlights: ['文具5月30日20点开门红', '自营文具多件多折', '晨光/得力品牌日大促'],
-      badge: '主会场',
-      period: '5.30-6.18'
+      title: '618高潮期·文具主会场',
+      highlights: ['自营文具跨店每满200减30', '文具品类券满99减15叠加', '得力/晨光品牌秒杀每日10点场'],
+      badge: '今日生效',
+      period: '6.15-6.18 高潮期'
     },
     {
       platform: '淘宝/天猫',
       platformKey: 'taobao',
-      title: '618年中大促',
-      highlights: ['跨店每满300减50 可叠加', '超4万品牌成交翻倍', '品牌文具前1小时半价'],
-      badge: '跨店满减',
-      period: '5.31-6.18'
+      title: '618狂欢日·跨店满减',
+      highlights: ['跨店每满300减50 今日可用', '文具品类额外满200减25券', '天猫超市文具满88免运费'],
+      badge: '今日生效',
+      period: '6.15-6.18 冲刺期'
     },
     {
       platform: '拼多多',
       platformKey: 'pdd',
-      title: '百亿补贴·文具专场',
-      highlights: ['考试文具直降30%', '开学季文具9.9包邮', '品牌文具百亿补贴价'],
-      badge: '百亿补贴',
-      period: '常驻+加码'
+      title: '百亿补贴·文具加码中',
+      highlights: ['文具专区今日加码再降10%', '9.9特卖文具限量抢', '品牌文具百亿补贴直降'],
+      badge: '今日生效',
+      period: '618加码中 持续至6.18'
     },
     {
       platform: '抖音电商',
       platformKey: 'douyin',
-      title: '618好物节',
-      highlights: ['文具直播间满减叠加', '达人专属券额外8折', '手账文创限时秒杀'],
-      badge: '直播专享',
-      period: '6.1-6.18'
+      title: '618好物节·文具直播专场',
+      highlights: ['今日整点文具秒杀场', '文具直播间粉丝券满50减15', '达人带货专属价限今日'],
+      badge: '今日生效',
+      period: '6.10-6.18 好物节'
     },
     {
       platform: '小红书',
       platformKey: 'xhs',
-      title: '618薯你会买',
-      highlights: ['文具好物集合店满99减20', '笔记种草领专属券', '学生党必入清单专题'],
-      badge: '种草专题',
-      period: '6.8-6.18'
+      title: '618薯你会买·文具专题',
+      highlights: ['笔记种草领满99减20券 今日可领', '文具集合店限时免邮', '学生专属满3件85折'],
+      badge: '今日生效',
+      period: '6.8-6.18 活动期'
     }
   ],
 
-  // 热销促销商品
+  // 热销促销商品 TOP20
   promoProducts: [
     { rank: 1, name: '得力文具套装68件 考试专用礼盒', platform: '京东', price: 69.9, sales: 52000 },
     { rank: 2, name: '晨光速干中性笔 0.5mm 黑色 50支装', platform: '淘宝', price: 34.9, sales: 180000 },
     { rank: 3, name: '百乐P500考试笔 12支装', platform: '京东', price: 55, sales: 95000 },
     { rank: 4, name: '国誉活页本B5 Campus系列 5本装', platform: '天猫', price: 35.9, sales: 67000 },
     { rank: 5, name: '斑马荧光笔套装 淡色双头 10色', platform: '抖音', price: 24.9, sales: 120000 },
-    { rank: 6, name: '三年二班手账本套装 含贴纸胶带', platform: '小红书', price: 58, sales: 45000 },
-    { rank: 7, name: '得力桌面收纳架 亚克力多层文具架', platform: '拼多多', price: 19.9, sales: 230000 },
+    { rank: 6, name: '得力桌面收纳架 亚克力多层文具架', platform: '拼多多', price: 19.9, sales: 230000 },
+    { rank: 7, name: '三年二班手账本套装 含贴纸胶带', platform: '小红书', price: 58, sales: 45000 },
     { rank: 8, name: 'MUJI无印良品按动中性笔 10支', platform: '天猫', price: 38, sales: 88000 },
     { rank: 9, name: '马克笔套装 80色学生绘画用', platform: '拼多多', price: 49.9, sales: 156000 },
-    { rank: 10, name: '电动橡皮擦 充电式素描专用', platform: '抖音', price: 19.9, sales: 89000 }
+    { rank: 10, name: '电动橡皮擦 充电式素描专用', platform: '抖音', price: 19.9, sales: 89000 },
+    { rank: 11, name: '晨光2B考试铅笔 涂卡专用 20支', platform: '京东', price: 15.8, sales: 320000 },
+    { rank: 12, name: '透明考试文具袋 A4拉链袋 5个装', platform: '拼多多', price: 6.9, sales: 450000 },
+    { rank: 13, name: '百乐可擦笔 0.5mm 蓝色 10支', platform: '淘宝', price: 42, sales: 78000 },
+    { rank: 14, name: '得力错题打印机 家用蓝牙热敏', platform: '京东', price: 159, sales: 67000 },
+    { rank: 15, name: '国誉一米新纯笔记本 A5 3本装', platform: '天猫', price: 28.9, sales: 92000 },
+    { rank: 16, name: '三菱UNI自动铅笔 0.5mm 金属杆', platform: '淘宝', price: 45, sales: 56000 },
+    { rank: 17, name: '电动卷笔刀 USB充电 儿童安全款', platform: '抖音', price: 35.9, sales: 135000 },
+    { rank: 18, name: '磁吸桌面收纳盒 可组合多格式', platform: '小红书', price: 68, sales: 38000 },
+    { rank: 19, name: '暑假手工材料包 100件创意套装', platform: '拼多多', price: 22.9, sales: 195000 },
+    { rank: 20, name: '姓名贴标签打印机 蓝牙便携', platform: '抖音', price: 89, sales: 72000 }
   ],
 
   // 应季趋势文具商品
@@ -82,7 +92,7 @@ const DASHBOARD_DATA = {
     { name: '文件夹/资料册', category: 'office', growth: 25, heat: '稳', avgPrice: 18, sales30d: 350000 }
   ],
 
-  // 各平台热搜词
+  // 各平台热搜词（扩充至20个）
   hotwords: [
     { word: '高考必备文具', platforms: { jd: 6200000, taobao: 8800000, pdd: 3500000, douyin: 14000000, xhs: 5200000 } },
     { word: '618文具优惠', platforms: { jd: 9200000, taobao: 11000000, pdd: 4500000, douyin: 7800000, xhs: 2800000 } },
@@ -98,7 +108,12 @@ const DASHBOARD_DATA = {
     { word: '错题打印机', platforms: { jd: 3800000, taobao: 4100000, pdd: 2500000, douyin: 15000000, xhs: 7500000 } },
     { word: '马克笔套装学生用', platforms: { jd: 1800000, taobao: 2500000, pdd: 1900000, douyin: 11000000, xhs: 8500000 } },
     { word: 'ins风文具', platforms: { jd: 600000, taobao: 2800000, pdd: 500000, douyin: 9800000, xhs: 14000000 } },
-    { word: '电动橡皮擦', platforms: { jd: 2200000, taobao: 3100000, pdd: 3800000, douyin: 12000000, xhs: 4500000 } }
+    { word: '电动橡皮擦', platforms: { jd: 2200000, taobao: 3100000, pdd: 3800000, douyin: 12000000, xhs: 4500000 } },
+    { word: '解压文具捏捏笔', platforms: { jd: 1100000, taobao: 2400000, pdd: 1800000, douyin: 18500000, xhs: 11000000 } },
+    { word: '毕业季文具礼物', platforms: { jd: 2600000, taobao: 4800000, pdd: 1500000, douyin: 8200000, xhs: 9800000 } },
+    { word: '护眼台灯学生', platforms: { jd: 5800000, taobao: 6500000, pdd: 3200000, douyin: 9100000, xhs: 4200000 } },
+    { word: '自动铅笔推荐', platforms: { jd: 2900000, taobao: 3600000, pdd: 2100000, douyin: 13000000, xhs: 7800000 } },
+    { word: '文具开箱测评', platforms: { jd: 400000, taobao: 800000, pdd: 300000, douyin: 25000000, xhs: 16000000 } }
   ],
 
   // 趋势品各平台销售数据
@@ -175,7 +190,7 @@ const DASHBOARD_DATA = {
     ]}
   ],
 
-  // 潜在爆发商品
+  // 潜在爆发商品（10个）
   emergingProducts: [
     {
       name: '电动文具盒（多功能弹射）',
@@ -186,6 +201,14 @@ const DASHBOARD_DATA = {
       trendData: [2100, 3200, 4800, 7500, 12000, 15000, 18000, 22000, 28000, 35000, 38000, 42000, 45000]
     },
     {
+      name: 'AI智能错题打印机',
+      reason: '考试季刚需叠加618优惠，抖音直播间持续爆单',
+      currentSales: 67000,
+      growth7d: 198,
+      predictScore: 93,
+      trendData: [8000, 10000, 12000, 15000, 18000, 22000, 28000, 35000, 42000, 50000, 55000, 62000, 67000]
+    },
+    {
       name: '磁吸模块化桌面收纳',
       reason: '小红书爆款笔记超10万赞，淘宝搜索量周增210%',
       currentSales: 28000,
@@ -194,19 +217,11 @@ const DASHBOARD_DATA = {
       trendData: [3500, 4200, 5100, 6800, 9200, 12000, 15500, 18000, 20000, 23000, 25000, 27000, 28000]
     },
     {
-      name: 'AI智能错题打印机',
-      reason: '考试季刚需叠加618优惠，抖音直播间持续爆单',
-      currentSales: 67000,
-      growth7d: 198,
-      predictScore: 92,
-      trendData: [8000, 10000, 12000, 15000, 18000, 22000, 28000, 35000, 42000, 50000, 55000, 62000, 67000]
-    },
-    {
       name: '解压文具（捏捏笔/减压尺）',
       reason: '考前焦虑话题带动，抖音话题播放量15亿+',
       currentSales: 89000,
       growth7d: 165,
-      predictScore: 85,
+      predictScore: 86,
       trendData: [12000, 15000, 18000, 22000, 30000, 38000, 45000, 52000, 60000, 68000, 75000, 82000, 89000]
     },
     {
@@ -214,8 +229,48 @@ const DASHBOARD_DATA = {
       reason: '手账圈+毕业季仪式感，小红书话题曝光5000万+',
       currentSales: 35000,
       growth7d: 142,
-      predictScore: 80,
+      predictScore: 82,
       trendData: [5000, 6500, 8000, 10000, 12500, 15000, 18000, 21000, 24000, 27500, 30000, 33000, 35000]
+    },
+    {
+      name: '电动卷笔刀 USB充电款',
+      reason: '家长群口碑传播+618价格触底，拼多多搜索暴增',
+      currentSales: 52000,
+      growth7d: 188,
+      predictScore: 84,
+      trendData: [5500, 7000, 9000, 12000, 16000, 20000, 25000, 30000, 36000, 42000, 46000, 50000, 52000]
+    },
+    {
+      name: '可擦白板贴墙面涂鸦膜',
+      reason: '家庭教育+暑假场景，抖音亲子类达人集中推荐',
+      currentSales: 31000,
+      growth7d: 175,
+      predictScore: 80,
+      trendData: [3800, 5000, 6200, 8000, 10500, 13000, 16000, 19500, 22000, 25000, 28000, 30000, 31000]
+    },
+    {
+      name: '文具盲盒 联名IP款',
+      reason: '618盲盒专场+二次元IP联名，Z世代人群下单集中',
+      currentSales: 42000,
+      growth7d: 155,
+      predictScore: 79,
+      trendData: [6000, 7500, 9500, 12000, 15000, 18500, 22000, 26000, 30000, 34000, 37000, 40000, 42000]
+    },
+    {
+      name: '水洗标签贴纸打印机',
+      reason: '幼升小/小升初入学准备场景需求爆发，京东搜索量翻倍',
+      currentSales: 25000,
+      growth7d: 210,
+      predictScore: 85,
+      trendData: [2500, 3500, 4500, 6000, 8000, 10500, 13000, 15500, 18000, 20000, 22000, 24000, 25000]
+    },
+    {
+      name: '速干印章 学生奖励款',
+      reason: '教师群体暑假前采购高峰+618低价囤货潮',
+      currentSales: 38000,
+      growth7d: 130,
+      predictScore: 77,
+      trendData: [7000, 8500, 10000, 13000, 16000, 19000, 22000, 25000, 28000, 31000, 34000, 36000, 38000]
     }
   ]
 };

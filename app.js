@@ -22,14 +22,15 @@ function formatMoney(n) {
     return '¥' + n.toLocaleString();
 }
 
+// 各平台颜色（高对比度区分）
 const platformColors = {
-    '京东': '#e1251b',
-    '淘宝/天猫': '#ff5000',
-    '天猫': '#ff5000',
-    '淘宝': '#ff5000',
-    '拼多多': '#e02e24',
-    '抖音': '#111111',
-    '小红书': '#ff2442'
+    '京东': '#cc0a0a',
+    '淘宝/天猫': '#ff6a00',
+    '天猫': '#ff6a00',
+    '淘宝': '#ff6a00',
+    '拼多多': '#f59e0b',
+    '抖音': '#1a1a2e',
+    '小红书': '#e6194b'
 };
 
 const platformTagClass = {
@@ -61,7 +62,7 @@ function renderPromoCards() {
     `).join('');
 }
 
-// 促销力度商品表格
+// 热销商品表格
 function renderPromoProducts() {
     const tbody = document.getElementById('promoProductsTable');
     tbody.innerHTML = DASHBOARD_DATA.promoProducts.map(p => `
@@ -106,7 +107,7 @@ function renderSeasonTrendChart(category = 'all') {
     window._seasonChart = chart;
 }
 
-// 热搜词词云/排行
+// 热搜词排行
 function renderHotwordsChart() {
     const chart = echarts.init(document.getElementById('hotwordsChart'));
     const data = DASHBOARD_DATA.hotwords.map(h => {
@@ -118,17 +119,17 @@ function renderHotwordsChart() {
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: params => {
             return params[0].name + '<br/>总曝光: ' + formatNum(params[0].value);
         }},
-        grid: { left: 110, right: 50, top: 10, bottom: 20 },
+        grid: { left: 120, right: 50, top: 10, bottom: 20 },
         xAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v) } },
         yAxis: {
             type: 'category',
-            data: data.map(d => d.word).reverse(),
+            data: data.slice(0, 15).map(d => d.word).reverse(),
             axisLabel: { fontSize: 11 }
         },
         series: [{
             type: 'bar',
-            data: data.map(d => d.total).reverse(),
-            barWidth: 18,
+            data: data.slice(0, 15).map(d => d.total).reverse(),
+            barWidth: 16,
             itemStyle: {
                 borderRadius: [0, 4, 4, 0],
                 color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
@@ -142,12 +143,13 @@ function renderHotwordsChart() {
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 热搜词各平台曝光量
+// 热搜词各平台曝光量（颜色区分更明显）
 function renderExposureChart() {
     const chart = echarts.init(document.getElementById('exposureChart'));
     const hotwords = DASHBOARD_DATA.hotwords;
     const platforms = ['京东', '淘宝/天猫', '拼多多', '抖音', '小红书'];
     const platformKeys = ['jd', 'taobao', 'pdd', 'douyin', 'xhs'];
+    const colors = ['#cc0a0a', '#ff6a00', '#f59e0b', '#1a1a2e', '#e6194b'];
 
     chart.setOption({
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: params => {
@@ -157,14 +159,14 @@ function renderExposureChart() {
         }},
         legend: { data: platforms, bottom: 0, textStyle: { fontSize: 11 } },
         grid: { left: 60, right: 20, top: 20, bottom: 50 },
-        xAxis: { type: 'category', data: hotwords.map(h => h.word), axisLabel: { rotate: 25, fontSize: 11 } },
+        xAxis: { type: 'category', data: hotwords.map(h => h.word), axisLabel: { rotate: 35, fontSize: 10 } },
         yAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v) } },
         series: platforms.map((p, i) => ({
             name: p,
             type: 'bar',
             stack: 'total',
             data: hotwords.map(h => h.platforms[platformKeys[i]]),
-            itemStyle: { color: Object.values(platformColors)[i] }
+            itemStyle: { color: colors[i] }
         }))
     });
     window.addEventListener('resize', () => chart.resize());
@@ -204,10 +206,10 @@ function renderTrendDataTable() {
 function renderEmergingList() {
     const container = document.getElementById('emergingList');
     container.innerHTML = DASHBOARD_DATA.emergingProducts.map((p, i) => `
-        <div class="p-3 rounded-lg border ${i < 2 ? 'border-red-200 bg-red-50/30' : 'border-gray-100 bg-gray-50/50'}">
+        <div class="p-3 rounded-lg border ${i < 3 ? 'border-red-200 bg-red-50/30' : 'border-gray-100 bg-gray-50/50'}">
             <div class="flex items-center justify-between mb-1.5">
                 <div class="flex items-center gap-2">
-                    <span class="text-sm font-bold ${i < 2 ? 'text-red-500' : 'text-gray-600'}">#${i + 1}</span>
+                    <span class="text-sm font-bold ${i < 3 ? 'text-red-500' : 'text-gray-600'}">#${i + 1}</span>
                     <span class="font-medium text-gray-900 text-sm">${p.name}</span>
                 </div>
                 <span class="px-2 py-0.5 text-xs rounded-full ${p.predictScore >= 90 ? 'hot-badge' : p.predictScore >= 85 ? 'warm-badge' : 'new-badge'} font-bold">
@@ -223,7 +225,7 @@ function renderEmergingList() {
     `).join('');
 }
 
-// 潜在爆发商品走势图
+// 潜在爆发商品走势图（支持10条线，分两组颜色）
 function renderEmergingTrendChart() {
     const chart = echarts.init(document.getElementById('emergingTrendChart'));
     const products = DASHBOARD_DATA.emergingProducts;
@@ -233,7 +235,7 @@ function renderEmergingTrendChart() {
         return `${d.getMonth() + 1}/${d.getDate()}`;
     });
 
-    const colors = ['#dc2626', '#ea580c', '#6366f1', '#0891b2', '#16a34a'];
+    const colors = ['#dc2626', '#ea580c', '#6366f1', '#0891b2', '#16a34a', '#9333ea', '#db2777', '#0d9488', '#ca8a04', '#64748b'];
 
     chart.setOption({
         tooltip: { trigger: 'axis', formatter: params => {
@@ -241,8 +243,8 @@ function renderEmergingTrendChart() {
             params.forEach(p => { s += `${p.marker} ${p.seriesName}: ${formatNum(p.value)}<br/>`; });
             return s;
         }},
-        legend: { data: products.map(p => p.name), bottom: 0, textStyle: { fontSize: 10 } },
-        grid: { left: 50, right: 20, top: 10, bottom: 60 },
+        legend: { data: products.map(p => p.name), bottom: 0, textStyle: { fontSize: 9 }, type: 'scroll' },
+        grid: { left: 50, right: 20, top: 10, bottom: 70 },
         xAxis: { type: 'category', data: days, axisLabel: { fontSize: 10 } },
         yAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v), fontSize: 10 } },
         series: products.map((p, i) => ({
@@ -254,7 +256,7 @@ function renderEmergingTrendChart() {
             lineStyle: { width: 2, color: colors[i] },
             itemStyle: { color: colors[i] },
             areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                { offset: 0, color: colors[i] + '20' },
+                { offset: 0, color: colors[i] + '15' },
                 { offset: 1, color: colors[i] + '00' }
             ])}
         }))
