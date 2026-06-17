@@ -1,4 +1,25 @@
+let currentCategory = 'all';
+
 document.addEventListener('DOMContentLoaded', () => {
+    initCategoryFilter();
+    renderAll();
+});
+
+function initCategoryFilter() {
+    const select = document.getElementById('categoryFilter');
+    CATEGORIES.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        select.appendChild(opt);
+    });
+    select.addEventListener('change', () => {
+        currentCategory = select.value;
+        renderAll();
+    });
+}
+
+function renderAll() {
     renderPromoCards();
     renderPromoProducts();
     renderSeasonTrendChart();
@@ -8,7 +29,22 @@ document.addEventListener('DOMContentLoaded', () => {
     renderEmergingList();
     renderEmergingTrendChart();
     setupSeasonFilter();
-});
+    updateCount();
+}
+
+function updateCount() {
+    const el = document.getElementById('categoryCount');
+    if (currentCategory === 'all') {
+        el.textContent = '';
+    } else {
+        el.textContent = `当前筛选：${currentCategory}`;
+    }
+}
+
+function filterByCategory(arr) {
+    if (currentCategory === 'all') return arr;
+    return arr.filter(d => d.category === currentCategory);
+}
 
 function formatNum(n) {
     if (n >= 100000000) return (n / 100000000).toFixed(1) + '亿';
@@ -62,14 +98,19 @@ function renderPromoCards() {
     `).join('');
 }
 
-// 热销商品表格
+// 热销商品表格（top20 per category）
 function renderPromoProducts() {
     const tbody = document.getElementById('promoProductsTable');
-    tbody.innerHTML = DASHBOARD_DATA.promoProducts.map(p => {
+    const filtered = filterByCategory(DASHBOARD_DATA.promoProducts).slice(0, 20);
+    if (filtered.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="px-4 py-8 text-center text-gray-400">当前品类暂无热销数据</td></tr>';
+        return;
+    }
+    tbody.innerHTML = filtered.map((p, i) => {
         const revenue = p.price * p.sales;
         return `
         <tr class="hover:bg-gray-50">
-            <td class="px-4 py-3 font-bold ${p.rank <= 3 ? 'text-red-500' : 'text-gray-500'}">${p.rank}</td>
+            <td class="px-4 py-3 font-bold ${i < 3 ? 'text-red-500' : 'text-gray-500'}">${i + 1}</td>
             <td class="px-4 py-3 text-gray-900 font-medium">${p.name}</td>
             <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
             <td class="px-4 py-3 text-right font-medium">¥${p.price}</td>
@@ -79,11 +120,10 @@ function renderPromoProducts() {
     }).join('');
 }
 
-// 应季趋势图表
+// 应季趋势图表（top10 per category）
 function renderSeasonTrendChart(category = 'all') {
     const chart = echarts.init(document.getElementById('seasonTrendChart'));
-    let data = DASHBOARD_DATA.seasonalTrends;
-    if (category !== 'all') data = data.filter(d => d.category === category);
+    let data = filterByCategory(DASHBOARD_DATA.seasonalTrends).slice(0, 10);
 
     const heatColors = { '爆': '#dc2626', '热': '#ea580c', '暖': '#d97706', '稳': '#65a30d' };
 
@@ -110,10 +150,11 @@ function renderSeasonTrendChart(category = 'all') {
     window._seasonChart = chart;
 }
 
-// 热搜词排行
+// 热搜词排行（top10 per category）
 function renderHotwordsChart() {
     const chart = echarts.init(document.getElementById('hotwordsChart'));
-    const data = DASHBOARD_DATA.hotwords.map(h => {
+    const filtered = filterByCategory(DASHBOARD_DATA.hotwords).slice(0, 10);
+    const data = filtered.map(h => {
         const total = Object.values(h.platforms).reduce((a, b) => a + b, 0);
         return { word: h.word, total };
     }).sort((a, b) => b.total - a.total);
@@ -126,12 +167,12 @@ function renderHotwordsChart() {
         xAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v) } },
         yAxis: {
             type: 'category',
-            data: data.slice(0, 15).map(d => d.word).reverse(),
+            data: data.map(d => d.word).reverse(),
             axisLabel: { fontSize: 11 }
         },
         series: [{
             type: 'bar',
-            data: data.slice(0, 15).map(d => d.total).reverse(),
+            data: data.map(d => d.total).reverse(),
             barWidth: 16,
             itemStyle: {
                 borderRadius: [0, 4, 4, 0],
@@ -146,10 +187,10 @@ function renderHotwordsChart() {
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 热搜词各平台曝光量（颜色区分更明显）
+// 热搜词各平台曝光量（top10 per category）
 function renderExposureChart() {
     const chart = echarts.init(document.getElementById('exposureChart'));
-    const hotwords = DASHBOARD_DATA.hotwords;
+    const hotwords = filterByCategory(DASHBOARD_DATA.hotwords).slice(0, 10);
     const platforms = ['京东', '淘宝/天猫', '拼多多', '抖音', '小红书'];
     const platformKeys = ['jd', 'taobao', 'pdd', 'douyin', 'xhs'];
     const colors = ['#cc0a0a', '#ff6a00', '#f59e0b', '#1a1a2e', '#e6194b'];
@@ -175,11 +216,12 @@ function renderExposureChart() {
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 趋势品销售数据表
+// 趋势品销售数据表（top10 per category）
 function renderTrendDataTable() {
     const tbody = document.getElementById('trendDataTable');
+    const filtered = filterByCategory(DASHBOARD_DATA.trendProductData).slice(0, 10);
     let rows = [];
-    DASHBOARD_DATA.trendProductData.forEach(product => {
+    filtered.forEach(product => {
         product.platforms.forEach((p, i) => {
             const totalSales = product.platforms.reduce((a, b) => a + b.sales, 0);
             const share = ((p.sales / totalSales) * 100).toFixed(1);
@@ -205,10 +247,15 @@ function renderTrendDataTable() {
     tbody.innerHTML = rows.join('');
 }
 
-// 潜在爆发商品列表
+// 潜在爆发商品列表（top10 per category）
 function renderEmergingList() {
     const container = document.getElementById('emergingList');
-    container.innerHTML = DASHBOARD_DATA.emergingProducts.map((p, i) => `
+    const filtered = filterByCategory(DASHBOARD_DATA.emergingProducts).slice(0, 10);
+    if (filtered.length === 0) {
+        container.innerHTML = '<div class="text-center text-gray-400 py-4">当前品类暂无爆发商品数据</div>';
+        return;
+    }
+    container.innerHTML = filtered.map((p, i) => `
         <div class="p-3 rounded-lg border ${i < 3 ? 'border-red-200 bg-red-50/30' : 'border-gray-100 bg-gray-50/50'}">
             <div class="flex items-center justify-between mb-1.5">
                 <div class="flex items-center gap-2">
@@ -228,10 +275,10 @@ function renderEmergingList() {
     `).join('');
 }
 
-// 潜在爆发商品走势图（支持10条线，分两组颜色）
+// 潜在爆发商品走势图
 function renderEmergingTrendChart() {
     const chart = echarts.init(document.getElementById('emergingTrendChart'));
-    const products = DASHBOARD_DATA.emergingProducts;
+    const products = filterByCategory(DASHBOARD_DATA.emergingProducts).slice(0, 10);
     const days = Array.from({ length: 13 }, (_, i) => {
         const d = new Date('2026-06-05');
         d.setDate(d.getDate() + i);

@@ -58,6 +58,15 @@
     </header>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6">
+
+        <!-- 全局品类筛选 -->
+        <div class="card p-4 flex items-center gap-4 flex-wrap">
+            <span class="text-sm font-medium text-gray-700">品类筛选：</span>
+            <select id="categoryFilter" class="text-sm border border-gray-200 rounded-lg px-3 py-2 min-w-[200px] max-w-[300px]">
+                <option value="all">全部品类</option>
+            </select>
+            <span id="categoryCount" class="text-xs text-gray-400"></span>
+        </div>
         <!-- Section 1: 今日大促活动概览 -->
         <section>
             <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
