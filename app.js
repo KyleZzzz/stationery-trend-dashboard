@@ -1,7 +1,9 @@
 let currentCategory = 'all';
+let currentTrend = 'all';
 
 document.addEventListener('DOMContentLoaded', () => {
     initCategoryFilter();
+    initTrendFilter();
     renderAll();
 });
 
@@ -16,6 +18,19 @@ function initCategoryFilter() {
     select.addEventListener('change', () => {
         currentCategory = select.value;
         renderAll();
+    });
+}
+
+function initTrendFilter() {
+    document.querySelectorAll('.trend-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.trend-btn').forEach(b => {
+                b.className = 'trend-btn px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-600';
+            });
+            btn.className = 'trend-btn px-3 py-1 text-xs rounded-full bg-indigo-100 text-indigo-700 font-medium';
+            currentTrend = btn.dataset.trend;
+            renderSeasonTrendChart();
+        });
     });
 }
 
@@ -121,12 +136,14 @@ function renderPromoProducts() {
     }).join('');
 }
 
-// 应季趋势：按增长率降序top10
+// 应季趋势：按品类+趋势双重筛选，按增长率降序top10
 function renderSeasonTrendChart() {
     const chart = echarts.init(document.getElementById('seasonTrendChart'));
-    const data = filterByCategory(DASHBOARD_DATA.seasonalTrends)
-        .sort((a, b) => b.growth - a.growth)
-        .slice(0, 10);
+    let data = filterByCategory(DASHBOARD_DATA.seasonalTrends);
+    if (currentTrend !== 'all') {
+        data = data.filter(d => d.trend === currentTrend);
+    }
+    data = data.sort((a, b) => b.growth - a.growth).slice(0, 10);
 
     const heatColors = { '爆': '#dc2626', '热': '#ea580c', '暖': '#d97706', '稳': '#65a30d' };
 

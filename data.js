@@ -1,4 +1,4 @@
-const CATEGORIES = ["中性笔","笔记本/记事本","学习套装/礼盒/盲盒","马克笔","文具盒/笔袋/痛包笔袋","铅笔","橡皮擦","荧光笔","手帐","火漆印章","水彩笔","标签贴纸","手工DIY套装","卷笔刀/卷笔器","便签本/便条纸/N次贴","笔筒","文具收纳盒","桌面收纳架","错题打印机","护眼台灯","书皮/书套","美术颜料","办公文具","笔类套装/礼盒","文创用品","姓名贴","电动橡皮擦","拼豆/咕卡套装","彩色铅笔","白板笔","按扣/拉链文件资料袋/收纳袋","修正带","钢笔","画纸/画本","胶水","笔芯/替芯/笔壳","记号笔","练字帖/描红本","圆珠笔","蜡笔","书签","桌面吸尘器"];
+const CATEGORIES = ["中性笔","笔记本/记事本","学习套装/礼盒/盲盒","马克笔","文具盒/笔袋/痛包笔袋","铅笔","橡皮擦","荧光笔","手帐","火漆印章","水彩笔","标签贴纸","手工DIY套装","卷笔刀/卷笔器","便签本/便条纸/N次贴","笔筒","文具收纳盒","桌面收纳架","书皮/书套","美术颜料","办公文具","笔类套装/礼盒","文创用品","姓名贴","拼豆/咕卡套装","彩色铅笔","白板笔","按扣/拉链文件资料袋/收纳袋","修正带","钢笔","画纸/画本","胶水","笔芯/替芯/笔壳","记号笔","练字帖/描红本","圆珠笔","蜡笔","书签"];
 
 const DASHBOARD_DATA = {
   updateTime: '2026-06-17',
@@ -67,28 +67,20 @@ const DASHBOARD_DATA = {
 ],
   promoProducts: [
   {
-    "name": "广博 磨砂包书膜",
+    "name": "齐心 双层拉链袋",
     "platform": "天猫",
-    "price": 7.6,
-    "sales": 497856,
-    "category": "书皮/书套",
+    "price": 18.4,
+    "sales": 486105,
+    "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 1
   },
   {
-    "name": "齐心 透明书皮 加厚",
-    "platform": "天猫",
-    "price": 7,
-    "sales": 492571,
+    "name": "广博 16K书皮 小学生",
+    "platform": "京东",
+    "price": 13.8,
+    "sales": 474157,
     "category": "书皮/书套",
     "rank": 2
-  },
-  {
-    "name": "晨光 考试专用透明袋",
-    "platform": "天猫",
-    "price": 11.7,
-    "sales": 476365,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 3
   },
   {
     "name": "晨光 可擦中性笔",
@@ -96,7 +88,7 @@ const DASHBOARD_DATA = {
     "price": 7.5,
     "sales": 450261,
     "category": "中性笔",
-    "rank": 4
+    "rank": 3
   },
   {
     "name": "辉柏嘉 超净橡皮",
@@ -104,23 +96,39 @@ const DASHBOARD_DATA = {
     "price": 32.5,
     "sales": 445016,
     "category": "橡皮擦",
+    "rank": 4
+  },
+  {
+    "name": "真彩 牛皮纸书套",
+    "platform": "拼多多",
+    "price": 7.3,
+    "sales": 442297,
+    "category": "书皮/书套",
     "rank": 5
   },
   {
-    "name": "齐心 网格收纳袋",
-    "platform": "京东",
-    "price": 16.7,
-    "sales": 439146,
-    "category": "按扣/拉链文件资料袋/收纳袋",
+    "name": "齐心 课本书套 防水",
+    "platform": "拼多多",
+    "price": 13.3,
+    "sales": 438618,
+    "category": "书皮/书套",
     "rank": 6
   },
   {
-    "name": "齐心 牛津布资料袋",
+    "name": "广博 A5文件袋",
     "platform": "抖音",
-    "price": 22.8,
-    "sales": 433468,
+    "price": 24.7,
+    "sales": 436634,
     "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 7
+  },
+  {
+    "name": "晨光 彩色分类文件袋",
+    "platform": "京东",
+    "price": 10.1,
+    "sales": 427848,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 8
   },
   {
     "name": "三菱 子弹头中性笔 0.38mm",
@@ -128,7 +136,7 @@ const DASHBOARD_DATA = {
     "price": 2.5,
     "sales": 423228,
     "category": "中性笔",
-    "rank": 8
+    "rank": 9
   },
   {
     "name": "得力 创意橡皮 食物造型",
@@ -136,23 +144,31 @@ const DASHBOARD_DATA = {
     "price": 14.9,
     "sales": 421902,
     "category": "橡皮擦",
-    "rank": 9
-  },
-  {
-    "name": "得力 A4书皮 50张",
-    "platform": "拼多多",
-    "price": 12.3,
-    "sales": 384382,
-    "category": "书皮/书套",
     "rank": 10
   },
   {
-    "name": "得力 大容量笔芯",
-    "platform": "抖音",
-    "price": 8.5,
-    "sales": 373966,
-    "category": "笔芯/替芯/笔壳",
+    "name": "得力 磨砂包书膜",
+    "platform": "京东",
+    "price": 14.5,
+    "sales": 412154,
+    "category": "书皮/书套",
     "rank": 11
+  },
+  {
+    "name": "百乐 笔芯0.38mm 细",
+    "platform": "抖音",
+    "price": 24.9,
+    "sales": 386109,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 12
+  },
+  {
+    "name": "广博 透明书皮 加厚",
+    "platform": "抖音",
+    "price": 22.8,
+    "sales": 382492,
+    "category": "书皮/书套",
+    "rank": 13
   },
   {
     "name": "百乐 彩色中性笔套装",
@@ -160,23 +176,23 @@ const DASHBOARD_DATA = {
     "price": 6.1,
     "sales": 373378,
     "category": "中性笔",
-    "rank": 12
-  },
-  {
-    "name": "三木 透明文具袋 A4",
-    "platform": "天猫",
-    "price": 21.2,
-    "sales": 371089,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 13
-  },
-  {
-    "name": "齐心 拉链文件袋 5个装",
-    "platform": "天猫",
-    "price": 15.3,
-    "sales": 368291,
-    "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 14
+  },
+  {
+    "name": "百乐 笔杆 金属",
+    "platform": "抖音",
+    "price": 12.4,
+    "sales": 363985,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 15
+  },
+  {
+    "name": "得力 加厚透明袋",
+    "platform": "抖音",
+    "price": 20,
+    "sales": 358746,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 16
   },
   {
     "name": "马可 自动铅笔 0.5mm",
@@ -184,7 +200,15 @@ const DASHBOARD_DATA = {
     "price": 36.6,
     "sales": 357977,
     "category": "铅笔",
-    "rank": 15
+    "rank": 17
+  },
+  {
+    "name": "晨光 蓝色笔芯 子弹头",
+    "platform": "天猫",
+    "price": 16.6,
+    "sales": 355466,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 18
   },
   {
     "name": "蜻蜓 可爱卡通橡皮",
@@ -192,15 +216,31 @@ const DASHBOARD_DATA = {
     "price": 20.4,
     "sales": 351322,
     "category": "橡皮擦",
-    "rank": 16
+    "rank": 19
   },
   {
-    "name": "真彩 全针管笔芯",
-    "platform": "抖音",
-    "price": 10.7,
-    "sales": 338616,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 17
+    "name": "广博 透明文具袋 A4",
+    "platform": "淘宝",
+    "price": 18.4,
+    "sales": 348995,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 20
+  },
+  {
+    "name": "三木 考试专用透明袋",
+    "platform": "拼多多",
+    "price": 12.2,
+    "sales": 347812,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 21
+  },
+  {
+    "name": "得力 修正带替芯 3个",
+    "platform": "拼多多",
+    "price": 16.9,
+    "sales": 338212,
+    "category": "修正带",
+    "rank": 22
   },
   {
     "name": "齐心 告示贴 荧光色",
@@ -208,23 +248,15 @@ const DASHBOARD_DATA = {
     "price": 24.3,
     "sales": 337915,
     "category": "便签本/便条纸/N次贴",
-    "rank": 18
+    "rank": 23
   },
   {
-    "name": "百乐 子弹头笔芯 100支",
-    "platform": "拼多多",
-    "price": 6.4,
-    "sales": 336350,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 19
-  },
-  {
-    "name": "得力 修正带 不断带",
-    "platform": "京东",
-    "price": 9.6,
-    "sales": 334537,
-    "category": "修正带",
-    "rank": 20
+    "name": "晨光 环保包书皮",
+    "platform": "淘宝",
+    "price": 16.6,
+    "sales": 337717,
+    "category": "书皮/书套",
+    "rank": 24
   },
   {
     "name": "辉柏嘉 洞洞铅笔 矫姿",
@@ -232,15 +264,15 @@ const DASHBOARD_DATA = {
     "price": 40.7,
     "sales": 330179,
     "category": "铅笔",
-    "rank": 21
+    "rank": 25
   },
   {
-    "name": "得力 中性笔芯 0.5mm 黑",
-    "platform": "抖音",
-    "price": 11.1,
-    "sales": 328376,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 22
+    "name": "晨光 创意修正带",
+    "platform": "京东",
+    "price": 7.7,
+    "sales": 329653,
+    "category": "修正带",
+    "rank": 26
   },
   {
     "name": "蜻蜓 自动橡皮擦 替芯",
@@ -248,7 +280,7 @@ const DASHBOARD_DATA = {
     "price": 22,
     "sales": 325810,
     "category": "橡皮擦",
-    "rank": 23
+    "rank": 27
   },
   {
     "name": "辉柏嘉 彩色铅笔 水溶性",
@@ -256,7 +288,15 @@ const DASHBOARD_DATA = {
     "price": 47.3,
     "sales": 325519,
     "category": "铅笔",
-    "rank": 24
+    "rank": 28
+  },
+  {
+    "name": "齐心 牛津布资料袋",
+    "platform": "京东",
+    "price": 20.1,
+    "sales": 322256,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 29
   },
   {
     "name": "百乐 ST笔头中性笔",
@@ -264,7 +304,7 @@ const DASHBOARD_DATA = {
     "price": 6.5,
     "sales": 317174,
     "category": "中性笔",
-    "rank": 25
+    "rank": 30
   },
   {
     "name": "晨光 便利贴套装",
@@ -272,7 +312,7 @@ const DASHBOARD_DATA = {
     "price": 19.1,
     "sales": 313383,
     "category": "便签本/便条纸/N次贴",
-    "rank": 26
+    "rank": 31
   },
   {
     "name": "得力 素描橡皮 软",
@@ -280,7 +320,15 @@ const DASHBOARD_DATA = {
     "price": 16.2,
     "sales": 312488,
     "category": "橡皮擦",
-    "rank": 27
+    "rank": 32
+  },
+  {
+    "name": "真彩 中性笔芯 0.5mm 黑",
+    "platform": "抖音",
+    "price": 8.3,
+    "sales": 311192,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 33
   },
   {
     "name": "广博 透明便签",
@@ -288,7 +336,7 @@ const DASHBOARD_DATA = {
     "price": 3.3,
     "sales": 309717,
     "category": "便签本/便条纸/N次贴",
-    "rank": 28
+    "rank": 34
   },
   {
     "name": "得力 加厚便签纸",
@@ -296,31 +344,7 @@ const DASHBOARD_DATA = {
     "price": 23.2,
     "sales": 308897,
     "category": "便签本/便条纸/N次贴",
-    "rank": 29
-  },
-  {
-    "name": "晨光 笔杆 金属",
-    "platform": "拼多多",
-    "price": 11.7,
-    "sales": 308314,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 30
-  },
-  {
-    "name": "真彩 可替芯修正带",
-    "platform": "淘宝",
-    "price": 11.9,
-    "sales": 306685,
-    "category": "修正带",
-    "rank": 31
-  },
-  {
-    "name": "得力 书皮 一年级专用",
-    "platform": "淘宝",
-    "price": 20.8,
-    "sales": 304996,
-    "category": "书皮/书套",
-    "rank": 32
+    "rank": 35
   },
   {
     "name": "晨光 线圈便签本",
@@ -328,23 +352,31 @@ const DASHBOARD_DATA = {
     "price": 16.6,
     "sales": 303949,
     "category": "便签本/便条纸/N次贴",
-    "rank": 33
+    "rank": 36
   },
   {
-    "name": "得力 包书皮 自粘透明",
-    "platform": "淘宝",
-    "price": 19.9,
-    "sales": 297443,
-    "category": "书皮/书套",
-    "rank": 34
+    "name": "可得优 文件夹 A4双夹",
+    "platform": "天猫",
+    "price": 10.3,
+    "sales": 298714,
+    "category": "办公文具",
+    "rank": 37
   },
   {
-    "name": "PLUS 涂改带 考试用",
-    "platform": "拼多多",
-    "price": 6.3,
-    "sales": 295112,
-    "category": "修正带",
-    "rank": 35
+    "name": "晨光 科目分类袋",
+    "platform": "京东",
+    "price": 22.4,
+    "sales": 296569,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 38
+  },
+  {
+    "name": "齐心 透明胶带 封箱",
+    "platform": "天猫",
+    "price": 8.5,
+    "sales": 295543,
+    "category": "办公文具",
+    "rank": 39
   },
   {
     "name": "得力 创意便签 造型",
@@ -352,15 +384,7 @@ const DASHBOARD_DATA = {
     "price": 5.3,
     "sales": 294094,
     "category": "便签本/便条纸/N次贴",
-    "rank": 36
-  },
-  {
-    "name": "得力 防水资料袋",
-    "platform": "淘宝",
-    "price": 14.7,
-    "sales": 293665,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 37
+    "rank": 40
   },
   {
     "name": "百乐 中性笔套装 12支",
@@ -368,7 +392,7 @@ const DASHBOARD_DATA = {
     "price": 1.6,
     "sales": 291780,
     "category": "中性笔",
-    "rank": 38
+    "rank": 41
   },
   {
     "name": "无印良品 康奈尔笔记本",
@@ -376,15 +400,7 @@ const DASHBOARD_DATA = {
     "price": 37,
     "sales": 291464,
     "category": "笔记本/记事本",
-    "rank": 39
-  },
-  {
-    "name": "得力 环保包书皮",
-    "platform": "天猫",
-    "price": 16.1,
-    "sales": 290000,
-    "category": "书皮/书套",
-    "rank": 40
+    "rank": 42
   },
   {
     "name": "得力 橡皮擦 不留痕",
@@ -392,15 +408,23 @@ const DASHBOARD_DATA = {
     "price": 33.2,
     "sales": 286806,
     "category": "橡皮擦",
-    "rank": 41
+    "rank": 43
   },
   {
-    "name": "晨光 16K书皮 小学生",
-    "platform": "拼多多",
-    "price": 17.2,
-    "sales": 276812,
+    "name": "晨光 手工胶水套装",
+    "platform": "京东",
+    "price": 13.9,
+    "sales": 286532,
+    "category": "胶水",
+    "rank": 44
+  },
+  {
+    "name": "晨光 包书皮 自粘透明",
+    "platform": "抖音",
+    "price": 11.5,
+    "sales": 282713,
     "category": "书皮/书套",
-    "rank": 42
+    "rank": 45
   },
   {
     "name": "三菱 考试专用中性笔",
@@ -408,7 +432,15 @@ const DASHBOARD_DATA = {
     "price": 7,
     "sales": 274855,
     "category": "中性笔",
-    "rank": 43
+    "rank": 46
+  },
+  {
+    "name": "国誉 双行修正带",
+    "platform": "抖音",
+    "price": 14.2,
+    "sales": 274679,
+    "category": "修正带",
+    "rank": 47
   },
   {
     "name": "得力 错题本 活页",
@@ -416,79 +448,39 @@ const DASHBOARD_DATA = {
     "price": 25.8,
     "sales": 274235,
     "category": "笔记本/记事本",
-    "rank": 44
-  },
-  {
-    "name": "得力 按动修正带",
-    "platform": "抖音",
-    "price": 11.4,
-    "sales": 274162,
-    "category": "修正带",
-    "rank": 45
-  },
-  {
-    "name": "得力 修正带 大容量",
-    "platform": "拼多多",
-    "price": 11,
-    "sales": 266268,
-    "category": "修正带",
-    "rank": 46
-  },
-  {
-    "name": "齐心 胶棒 固体胶",
-    "platform": "京东",
-    "price": 40.5,
-    "sales": 263858,
-    "category": "办公文具",
-    "rank": 47
-  },
-  {
-    "name": "广博 美工刀 自动锁",
-    "platform": "京东",
-    "price": 53.9,
-    "sales": 262141,
-    "category": "办公文具",
     "rank": 48
   },
   {
-    "name": "真彩 针管笔芯",
+    "name": "PLUS 透明修正带",
     "platform": "京东",
-    "price": 19.9,
-    "sales": 259085,
-    "category": "笔芯/替芯/笔壳",
+    "price": 7.2,
+    "sales": 272453,
+    "category": "修正带",
     "rank": 49
   },
   {
-    "name": "UHU 双面胶点 替芯",
+    "name": "3M 固体胶棒 大号",
     "platform": "淘宝",
-    "price": 12.7,
-    "sales": 259051,
+    "price": 18.1,
+    "sales": 262274,
     "category": "胶水",
     "rank": 50
   },
   {
-    "name": "晨光 包书纸 花色",
-    "platform": "抖音",
-    "price": 9.1,
-    "sales": 251288,
-    "category": "书皮/书套",
+    "name": "UHU PVA白乳胶",
+    "platform": "拼多多",
+    "price": 8,
+    "sales": 252195,
+    "category": "胶水",
     "rank": 51
   },
   {
-    "name": "晨光 迷你修正带",
-    "platform": "拼多多",
-    "price": 8.2,
-    "sales": 249851,
+    "name": "晨光 修正带 大容量",
+    "platform": "抖音",
+    "price": 9.1,
+    "sales": 251048,
     "category": "修正带",
     "rank": 52
-  },
-  {
-    "name": "宝克 防水记号笔",
-    "platform": "淘宝",
-    "price": 24,
-    "sales": 249048,
-    "category": "记号笔",
-    "rank": 53
   },
   {
     "name": "辉柏嘉 素描铅笔套装",
@@ -496,14 +488,22 @@ const DASHBOARD_DATA = {
     "price": 16.5,
     "sales": 244074,
     "category": "铅笔",
+    "rank": 53
+  },
+  {
+    "name": "得力 书皮 一年级专用",
+    "platform": "抖音",
+    "price": 17.4,
+    "sales": 243118,
+    "category": "书皮/书套",
     "rank": 54
   },
   {
-    "name": "得力 手工胶水套装",
-    "platform": "拼多多",
-    "price": 13,
-    "sales": 243586,
-    "category": "胶水",
+    "name": "得力 网格收纳袋",
+    "platform": "淘宝",
+    "price": 12.8,
+    "sales": 242717,
+    "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 55
   },
   {
@@ -515,19 +515,19 @@ const DASHBOARD_DATA = {
     "rank": 56
   },
   {
+    "name": "斑马 快递记号笔",
+    "platform": "淘宝",
+    "price": 11.6,
+    "sales": 241299,
+    "category": "记号笔",
+    "rank": 57
+  },
+  {
     "name": "晨光 儿童剪贴画材料",
     "platform": "京东",
     "price": 48.6,
     "sales": 240435,
     "category": "手工DIY套装",
-    "rank": 57
-  },
-  {
-    "name": "UHU 液体胶水 透明",
-    "platform": "淘宝",
-    "price": 19.8,
-    "sales": 240329,
-    "category": "胶水",
     "rank": 58
   },
   {
@@ -539,11 +539,11 @@ const DASHBOARD_DATA = {
     "rank": 59
   },
   {
-    "name": "晨光 记号笔套装 12色",
-    "platform": "天猫",
-    "price": 19.7,
-    "sales": 236900,
-    "category": "记号笔",
+    "name": "三木 防水资料袋",
+    "platform": "京东",
+    "price": 21.3,
+    "sales": 235952,
+    "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 60
   },
   {
@@ -555,20 +555,36 @@ const DASHBOARD_DATA = {
     "rank": 61
   },
   {
+    "name": "晨光 胶水笔 细头",
+    "platform": "抖音",
+    "price": 17.2,
+    "sales": 233947,
+    "category": "胶水",
+    "rank": 62
+  },
+  {
     "name": "得力 木质手工模型",
     "platform": "抖音",
     "price": 16.2,
     "sales": 233438,
     "category": "手工DIY套装",
-    "rank": 62
+    "rank": 63
   },
   {
-    "name": "PLUS 宽幅修正带",
-    "platform": "淘宝",
-    "price": 7.1,
-    "sales": 226372,
-    "category": "修正带",
-    "rank": 63
+    "name": "得力 订书机 省力型",
+    "platform": "拼多多",
+    "price": 23.5,
+    "sales": 230629,
+    "category": "办公文具",
+    "rank": 64
+  },
+  {
+    "name": "晨光 液体胶水 透明",
+    "platform": "拼多多",
+    "price": 16.4,
+    "sales": 227072,
+    "category": "胶水",
+    "rank": 65
   },
   {
     "name": "晨光 水彩笔画纸套装",
@@ -576,7 +592,7 @@ const DASHBOARD_DATA = {
     "price": 22,
     "sales": 226187,
     "category": "水彩笔",
-    "rank": 64
+    "rank": 66
   },
   {
     "name": "得力 电动橡皮擦 充电",
@@ -584,7 +600,7 @@ const DASHBOARD_DATA = {
     "price": 8.8,
     "sales": 223986,
     "category": "橡皮擦",
-    "rank": 65
+    "rank": 67
   },
   {
     "name": "得力 金属色水彩笔",
@@ -592,7 +608,7 @@ const DASHBOARD_DATA = {
     "price": 64.9,
     "sales": 223408,
     "category": "水彩笔",
-    "rank": 66
+    "rank": 68
   },
   {
     "name": "真彩 可擦水彩笔",
@@ -600,7 +616,7 @@ const DASHBOARD_DATA = {
     "price": 35.6,
     "sales": 221669,
     "category": "水彩笔",
-    "rank": 67
+    "rank": 69
   },
   {
     "name": "三菱 商务签字笔",
@@ -608,46 +624,30 @@ const DASHBOARD_DATA = {
     "price": 5.9,
     "sales": 221341,
     "category": "中性笔",
-    "rank": 68
-  },
-  {
-    "name": "得力 白板 磁性",
-    "platform": "天猫",
-    "price": 56.7,
-    "sales": 220124,
-    "category": "办公文具",
-    "rank": 69
-  },
-  {
-    "name": "UHU 热熔胶枪",
-    "platform": "抖音",
-    "price": 16.9,
-    "sales": 217875,
-    "category": "胶水",
     "rank": 70
   },
   {
-    "name": "真彩 按动笔芯 替换装",
-    "platform": "拼多多",
-    "price": 19.4,
-    "sales": 215243,
+    "name": "真彩 大容量笔芯",
+    "platform": "天猫",
+    "price": 4.6,
+    "sales": 221188,
     "category": "笔芯/替芯/笔壳",
     "rank": 71
   },
   {
-    "name": "得力 课本书套 防水",
+    "name": "得力 CD记号笔",
     "platform": "抖音",
-    "price": 8.2,
-    "sales": 212759,
-    "category": "书皮/书套",
+    "price": 12.2,
+    "sales": 215698,
+    "category": "记号笔",
     "rank": 72
   },
   {
-    "name": "得力 速干笔芯",
-    "platform": "天猫",
-    "price": 16.2,
-    "sales": 211213,
-    "category": "笔芯/替芯/笔壳",
+    "name": "得力 手工白胶",
+    "platform": "拼多多",
+    "price": 11.4,
+    "sales": 212774,
+    "category": "胶水",
     "rank": 73
   },
   {
@@ -659,26 +659,26 @@ const DASHBOARD_DATA = {
     "rank": 74
   },
   {
-    "name": "得力 记号笔 黑色 粗头",
-    "platform": "京东",
-    "price": 4.7,
-    "sales": 208580,
-    "category": "记号笔",
-    "rank": 75
-  },
-  {
     "name": "得力 考研专用笔记本",
     "platform": "天猫",
     "price": 31.2,
     "sales": 208092,
     "category": "笔记本/记事本",
+    "rank": 75
+  },
+  {
+    "name": "真彩 子弹头笔芯 100支",
+    "platform": "淘宝",
+    "price": 10.5,
+    "sales": 207925,
+    "category": "笔芯/替芯/笔壳",
     "rank": 76
   },
   {
-    "name": "宝克 金色记号笔",
-    "platform": "淘宝",
-    "price": 23.4,
-    "sales": 205556,
+    "name": "斑马 银色记号笔",
+    "platform": "抖音",
+    "price": 13,
+    "sales": 203797,
     "category": "记号笔",
     "rank": 77
   },
@@ -691,28 +691,20 @@ const DASHBOARD_DATA = {
     "rank": 78
   },
   {
-    "name": "广博 自粘书套 免裁剪",
-    "platform": "淘宝",
-    "price": 18.9,
-    "sales": 199825,
-    "category": "书皮/书套",
-    "rank": 79
-  },
-  {
     "name": "得力 编织手链材料包",
     "platform": "淘宝",
     "price": 31.5,
     "sales": 198694,
     "category": "手工DIY套装",
-    "rank": 80
+    "rank": 79
   },
   {
-    "name": "真彩 红色笔芯",
-    "platform": "京东",
-    "price": 3.7,
-    "sales": 198260,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 81
+    "name": "晨光 记号笔 黑色 粗头",
+    "platform": "天猫",
+    "price": 23.9,
+    "sales": 197778,
+    "category": "记号笔",
+    "rank": 80
   },
   {
     "name": "真彩 双头水彩笔",
@@ -720,23 +712,15 @@ const DASHBOARD_DATA = {
     "price": 15.4,
     "sales": 197286,
     "category": "水彩笔",
-    "rank": 82
+    "rank": 81
   },
   {
-    "name": "宝克 双头记号笔",
+    "name": "UHU 双面胶点 替芯",
     "platform": "淘宝",
-    "price": 24.5,
-    "sales": 192313,
-    "category": "记号笔",
-    "rank": 83
-  },
-  {
-    "name": "广博 双层拉链袋",
-    "platform": "拼多多",
-    "price": 12.9,
-    "sales": 190088,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 84
+    "price": 9.4,
+    "sales": 192324,
+    "category": "胶水",
+    "rank": 82
   },
   {
     "name": "晨光 衍纸套装",
@@ -744,7 +728,7 @@ const DASHBOARD_DATA = {
     "price": 16.5,
     "sales": 189593,
     "category": "手工DIY套装",
-    "rank": 85
+    "rank": 83
   },
   {
     "name": "touch 水性马克笔 24色",
@@ -752,23 +736,23 @@ const DASHBOARD_DATA = {
     "price": 29.3,
     "sales": 188194,
     "category": "马克笔",
-    "rank": 86
+    "rank": 84
   },
   {
-    "name": "晨光 彩色圆珠笔 多色",
-    "platform": "淘宝",
-    "price": 30.2,
-    "sales": 187926,
-    "category": "圆珠笔",
-    "rank": 87
-  },
-  {
-    "name": "广博 长尾夹 混合装 盒装",
+    "name": "晨光 笔壳 透明",
     "platform": "京东",
-    "price": 11.9,
-    "sales": 187303,
-    "category": "办公文具",
-    "rank": 88
+    "price": 20.7,
+    "sales": 187094,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 85
+  },
+  {
+    "name": "施耐德 复古圆珠笔",
+    "platform": "抖音",
+    "price": 10.3,
+    "sales": 186983,
+    "category": "圆珠笔",
+    "rank": 86
   },
   {
     "name": "樱花 高光橡皮",
@@ -776,7 +760,7 @@ const DASHBOARD_DATA = {
     "price": 5.9,
     "sales": 183402,
     "category": "橡皮擦",
-    "rank": 89
+    "rank": 87
   },
   {
     "name": "马利 水彩笔 补充装",
@@ -784,7 +768,15 @@ const DASHBOARD_DATA = {
     "price": 54.9,
     "sales": 183285,
     "category": "水彩笔",
-    "rank": 90
+    "rank": 88
+  },
+  {
+    "name": "得力 白板 磁性",
+    "platform": "淘宝",
+    "price": 47.2,
+    "sales": 182998,
+    "category": "办公文具",
+    "rank": 89
   },
   {
     "name": "晨光 粗杆专用削笔器",
@@ -792,7 +784,7 @@ const DASHBOARD_DATA = {
     "price": 40.9,
     "sales": 182804,
     "category": "卷笔刀/卷笔器",
-    "rank": 91
+    "rank": 90
   },
   {
     "name": "touch 马克笔补充液",
@@ -800,7 +792,7 @@ const DASHBOARD_DATA = {
     "price": 144.2,
     "sales": 182281,
     "category": "马克笔",
-    "rank": 92
+    "rank": 91
   },
   {
     "name": "得力 橡皮擦套装",
@@ -808,7 +800,7 @@ const DASHBOARD_DATA = {
     "price": 25.3,
     "sales": 181266,
     "category": "橡皮擦",
-    "rank": 93
+    "rank": 92
   },
   {
     "name": "斯塔 荧光马克笔套装",
@@ -816,15 +808,7 @@ const DASHBOARD_DATA = {
     "price": 146.8,
     "sales": 181103,
     "category": "马克笔",
-    "rank": 94
-  },
-  {
-    "name": "晨光 CD记号笔",
-    "platform": "淘宝",
-    "price": 11.5,
-    "sales": 180705,
-    "category": "记号笔",
-    "rank": 95
+    "rank": 93
   },
   {
     "name": "齐心 便利贴 莫兰迪色",
@@ -832,7 +816,15 @@ const DASHBOARD_DATA = {
     "price": 13.8,
     "sales": 180020,
     "category": "便签本/便条纸/N次贴",
-    "rank": 96
+    "rank": 94
+  },
+  {
+    "name": "真彩 可水洗蜡笔",
+    "platform": "淘宝",
+    "price": 47.2,
+    "sales": 179308,
+    "category": "蜡笔",
+    "rank": 95
   },
   {
     "name": "晨光 樱花橡皮",
@@ -840,15 +832,31 @@ const DASHBOARD_DATA = {
     "price": 23.3,
     "sales": 179306,
     "category": "橡皮擦",
+    "rank": 96
+  },
+  {
+    "name": "得力 长尾夹 混合装 盒装",
+    "platform": "淘宝",
+    "price": 44.6,
+    "sales": 178466,
+    "category": "办公文具",
     "rank": 97
   },
   {
-    "name": "晨光 快递记号笔",
-    "platform": "淘宝",
-    "price": 6.2,
-    "sales": 176676,
+    "name": "斑马 金色记号笔",
+    "platform": "京东",
+    "price": 8,
+    "sales": 177340,
     "category": "记号笔",
     "rank": 98
+  },
+  {
+    "name": "得力 迷你白板笔",
+    "platform": "抖音",
+    "price": 13.9,
+    "sales": 176668,
+    "category": "白板笔",
+    "rank": 99
   },
   {
     "name": "得力 牛皮封面记事本",
@@ -856,39 +864,39 @@ const DASHBOARD_DATA = {
     "price": 36.1,
     "sales": 175989,
     "category": "笔记本/记事本",
-    "rank": 99
-  },
-  {
-    "name": "华夏万卷 楷书练字帖",
-    "platform": "抖音",
-    "price": 15.5,
-    "sales": 174664,
-    "category": "练字帖/描红本",
     "rank": 100
   },
   {
-    "name": "得力 PVA白乳胶",
-    "platform": "拼多多",
-    "price": 28.3,
-    "sales": 172885,
-    "category": "胶水",
+    "name": "得力 印台 速干",
+    "platform": "天猫",
+    "price": 34.2,
+    "sales": 174000,
+    "category": "办公文具",
     "rank": 101
   },
   {
-    "name": "斑马 多功能圆珠笔",
-    "platform": "抖音",
-    "price": 31.4,
-    "sales": 172792,
-    "category": "圆珠笔",
+    "name": "得力 防水记号笔",
+    "platform": "京东",
+    "price": 7.5,
+    "sales": 173768,
+    "category": "记号笔",
     "rank": 102
   },
   {
-    "name": "施耐德 圆珠笔 按动 0.7mm",
-    "platform": "拼多多",
-    "price": 18.2,
-    "sales": 172780,
-    "category": "圆珠笔",
+    "name": "田英章 古诗词字帖",
+    "platform": "淘宝",
+    "price": 20.3,
+    "sales": 172701,
+    "category": "练字帖/描红本",
     "rank": 103
+  },
+  {
+    "name": "得力 针管笔芯",
+    "platform": "京东",
+    "price": 17.3,
+    "sales": 172586,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 104
   },
   {
     "name": "得力 儿童水彩笔 粗头",
@@ -896,7 +904,7 @@ const DASHBOARD_DATA = {
     "price": 57.8,
     "sales": 172577,
     "category": "水彩笔",
-    "rank": 104
+    "rank": 105
   },
   {
     "name": "齐心 索引标签贴",
@@ -904,31 +912,31 @@ const DASHBOARD_DATA = {
     "price": 6.7,
     "sales": 171406,
     "category": "便签本/便条纸/N次贴",
-    "rank": 105
-  },
-  {
-    "name": "田英章 练字帖 行楷",
-    "platform": "淘宝",
-    "price": 32.3,
-    "sales": 169057,
-    "category": "练字帖/描红本",
     "rank": 106
   },
   {
-    "name": "马利 蜡笔套装 桶装",
-    "platform": "京东",
-    "price": 34,
-    "sales": 168197,
+    "name": "得力 荧光蜡笔",
+    "platform": "天猫",
+    "price": 39.3,
+    "sales": 170473,
     "category": "蜡笔",
     "rank": 107
   },
   {
-    "name": "晨光 油性记号笔",
+    "name": "斑马 圆珠笔 旋转出芯",
     "platform": "抖音",
-    "price": 20.2,
-    "sales": 167519,
-    "category": "记号笔",
+    "price": 13.5,
+    "sales": 169308,
+    "category": "圆珠笔",
     "rank": 108
+  },
+  {
+    "name": "得力 油性圆珠笔",
+    "platform": "拼多多",
+    "price": 7.1,
+    "sales": 168175,
+    "category": "圆珠笔",
+    "rank": 109
   },
   {
     "name": "得力 软头水彩笔 48色",
@@ -936,7 +944,7 @@ const DASHBOARD_DATA = {
     "price": 18.1,
     "sales": 166702,
     "category": "水彩笔",
-    "rank": 109
+    "rank": 110
   },
   {
     "name": "百乐 直液式走珠笔",
@@ -944,15 +952,15 @@ const DASHBOARD_DATA = {
     "price": 5.1,
     "sales": 166535,
     "category": "中性笔",
-    "rank": 110
+    "rank": 111
   },
   {
-    "name": "晨光 透明杆圆珠笔",
-    "platform": "天猫",
-    "price": 12.3,
-    "sales": 165738,
-    "category": "圆珠笔",
-    "rank": 111
+    "name": "晨光 剪刀 安全圆头",
+    "platform": "拼多多",
+    "price": 37.1,
+    "sales": 166087,
+    "category": "办公文具",
+    "rank": 112
   },
   {
     "name": "得力 透明卷笔刀",
@@ -960,53 +968,45 @@ const DASHBOARD_DATA = {
     "price": 29.8,
     "sales": 165206,
     "category": "卷笔刀/卷笔器",
-    "rank": 112
-  },
-  {
-    "name": "得力 科目分类袋",
-    "platform": "天猫",
-    "price": 17,
-    "sales": 164386,
-    "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 113
   },
   {
-    "name": "马利 蜡笔 48色 专业",
-    "platform": "抖音",
-    "price": 14.5,
-    "sales": 163020,
-    "category": "蜡笔",
+    "name": "PLUS 可替芯修正带",
+    "platform": "拼多多",
+    "price": 10.3,
+    "sales": 164431,
+    "category": "修正带",
     "rank": 114
   },
   {
-    "name": "广博 回形针 100枚",
+    "name": "施耐德 圆珠笔 按动 0.7mm",
     "platform": "抖音",
-    "price": 17.7,
-    "sales": 160577,
-    "category": "办公文具",
+    "price": 14.1,
+    "sales": 164188,
+    "category": "圆珠笔",
     "rank": 115
   },
   {
-    "name": "广博 双面胶 强力",
-    "platform": "抖音",
-    "price": 22.6,
-    "sales": 160491,
-    "category": "办公文具",
+    "name": "六品堂 成人行书字帖",
+    "platform": "拼多多",
+    "price": 20.6,
+    "sales": 162391,
+    "category": "练字帖/描红本",
     "rank": 116
   },
   {
-    "name": "司马彦 凹槽练字帖 自动消失",
+    "name": "三木 拉链文件袋 5个装",
     "platform": "天猫",
-    "price": 33.3,
-    "sales": 160048,
-    "category": "练字帖/描红本",
+    "price": 12.8,
+    "sales": 161793,
+    "category": "按扣/拉链文件资料袋/收纳袋",
     "rank": 117
   },
   {
-    "name": "华夏万卷 硬笔书法字帖",
-    "platform": "天猫",
-    "price": 24.8,
-    "sales": 159752,
+    "name": "田英章 练字帖 行楷",
+    "platform": "淘宝",
+    "price": 28.4,
+    "sales": 160219,
     "category": "练字帖/描红本",
     "rank": 118
   },
@@ -1035,43 +1035,43 @@ const DASHBOARD_DATA = {
     "rank": 121
   },
   {
-    "name": "绘儿乐 蜡笔 36色 儿童",
-    "platform": "京东",
-    "price": 17,
-    "sales": 157732,
-    "category": "蜡笔",
-    "rank": 122
-  },
-  {
-    "name": "三木 加厚透明袋",
-    "platform": "抖音",
-    "price": 5.5,
-    "sales": 157121,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 123
-  },
-  {
     "name": "纳川 办公桌面架",
     "platform": "淘宝",
     "price": 22.8,
     "sales": 156966,
     "category": "桌面收纳架",
+    "rank": 122
+  },
+  {
+    "name": "齐心 速干白板笔",
+    "platform": "淘宝",
+    "price": 17.1,
+    "sales": 156955,
+    "category": "白板笔",
+    "rank": 123
+  },
+  {
+    "name": "宝克 记号笔套装 12色",
+    "platform": "天猫",
+    "price": 23.8,
+    "sales": 156175,
+    "category": "记号笔",
     "rank": 124
   },
   {
-    "name": "真彩 液体粉笔 无尘",
-    "platform": "京东",
-    "price": 7.1,
-    "sales": 156361,
-    "category": "白板笔",
+    "name": "晨光 圆珠笔 粗杆",
+    "platform": "拼多多",
+    "price": 15.1,
+    "sales": 154157,
+    "category": "圆珠笔",
     "rank": 125
   },
   {
-    "name": "得力 白板擦+笔套装",
-    "platform": "天猫",
-    "price": 13.9,
-    "sales": 153130,
-    "category": "白板笔",
+    "name": "晨光 胶棒 固体胶",
+    "platform": "抖音",
+    "price": 14.4,
+    "sales": 150773,
+    "category": "办公文具",
     "rank": 126
   },
   {
@@ -1083,12 +1083,28 @@ const DASHBOARD_DATA = {
     "rank": 127
   },
   {
+    "name": "绘儿乐 蜡笔 36色 儿童",
+    "platform": "京东",
+    "price": 12,
+    "sales": 149876,
+    "category": "蜡笔",
+    "rank": 128
+  },
+  {
     "name": "三菱 木质铅笔 HB 50支",
     "platform": "抖音",
     "price": 52.3,
     "sales": 149868,
     "category": "铅笔",
-    "rank": 128
+    "rank": 129
+  },
+  {
+    "name": "PLUS 宽幅修正带",
+    "platform": "拼多多",
+    "price": 5.3,
+    "sales": 149758,
+    "category": "修正带",
+    "rank": 130
   },
   {
     "name": "国誉 手账胶带 和纸",
@@ -1096,7 +1112,7 @@ const DASHBOARD_DATA = {
     "price": 69.6,
     "sales": 149600,
     "category": "手帐",
-    "rank": 129
+    "rank": 131
   },
   {
     "name": "中华 2B考试铅笔 涂卡专用",
@@ -1104,7 +1120,7 @@ const DASHBOARD_DATA = {
     "price": 10.9,
     "sales": 149578,
     "category": "铅笔",
-    "rank": 130
+    "rank": 132
   },
   {
     "name": "宜家 折叠收纳盒",
@@ -1112,31 +1128,23 @@ const DASHBOARD_DATA = {
     "price": 78.6,
     "sales": 149412,
     "category": "文具收纳盒",
-    "rank": 131
-  },
-  {
-    "name": "得力 圆珠笔 速干 蓝色",
-    "platform": "拼多多",
-    "price": 2.3,
-    "sales": 149123,
-    "category": "圆珠笔",
-    "rank": 132
-  },
-  {
-    "name": "绘儿乐 丝滑蜡笔 24色",
-    "platform": "抖音",
-    "price": 22.5,
-    "sales": 148719,
-    "category": "蜡笔",
     "rank": 133
   },
   {
-    "name": "得力 细头记号笔",
-    "platform": "淘宝",
-    "price": 23.4,
-    "sales": 147873,
-    "category": "记号笔",
+    "name": "咕卡星球 拼豆模板 卡通",
+    "platform": "抖音",
+    "price": 23.1,
+    "sales": 148886,
+    "category": "拼豆/咕卡套装",
     "rank": 134
+  },
+  {
+    "name": "真彩 蜡笔套装 桶装",
+    "platform": "淘宝",
+    "price": 46.1,
+    "sales": 147677,
+    "category": "蜡笔",
+    "rank": 135
   },
   {
     "name": "三丽鸥 高考加油礼盒",
@@ -1144,14 +1152,6 @@ const DASHBOARD_DATA = {
     "price": 107.4,
     "sales": 147367,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 135
-  },
-  {
-    "name": "晨光 学生胶水 安全",
-    "platform": "抖音",
-    "price": 23.3,
-    "sales": 147239,
-    "category": "胶水",
     "rank": 136
   },
   {
@@ -1163,36 +1163,28 @@ const DASHBOARD_DATA = {
     "rank": 137
   },
   {
-    "name": "创意工坊 拼豆豆 补充装",
-    "platform": "天猫",
-    "price": 44.2,
-    "sales": 145831,
-    "category": "拼豆/咕卡套装",
+    "name": "晨光 磁吸白板笔",
+    "platform": "拼多多",
+    "price": 24.7,
+    "sales": 145442,
+    "category": "白板笔",
     "rank": 138
   },
   {
-    "name": "可得优 印台 速干",
-    "platform": "京东",
-    "price": 33,
-    "sales": 145369,
-    "category": "办公文具",
+    "name": "得力 全针管笔芯",
+    "platform": "抖音",
+    "price": 3.2,
+    "sales": 145436,
+    "category": "笔芯/替芯/笔壳",
     "rank": 139
   },
   {
-    "name": "晨光 圆珠笔芯 替换",
+    "name": "田英章 笔画练字",
     "platform": "抖音",
-    "price": 21.2,
-    "sales": 145075,
-    "category": "圆珠笔",
+    "price": 25.1,
+    "sales": 145250,
+    "category": "练字帖/描红本",
     "rank": 140
-  },
-  {
-    "name": "温莎 临摹纸 拷贝纸",
-    "platform": "淘宝",
-    "price": 31.4,
-    "sales": 144661,
-    "category": "画纸/画本",
-    "rank": 141
   },
   {
     "name": "无印良品 透明笔筒",
@@ -1200,39 +1192,15 @@ const DASHBOARD_DATA = {
     "price": 12.3,
     "sales": 144417,
     "category": "笔筒",
-    "rank": 142
+    "rank": 141
   },
   {
-    "name": "宝克 白色记号笔",
+    "name": "温莎 油画纸 亚麻",
     "platform": "天猫",
-    "price": 10.9,
-    "sales": 144141,
-    "category": "记号笔",
-    "rank": 143
-  },
-  {
-    "name": "得力 彩色分类文件袋",
-    "platform": "京东",
-    "price": 6,
-    "sales": 142967,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 144
-  },
-  {
-    "name": "真彩 修正带替芯 3个",
-    "platform": "抖音",
-    "price": 14.1,
-    "sales": 141960,
-    "category": "修正带",
-    "rank": 145
-  },
-  {
-    "name": "晨光 水溶性蜡笔",
-    "platform": "京东",
-    "price": 45.3,
-    "sales": 141811,
-    "category": "蜡笔",
-    "rank": 146
+    "price": 31.8,
+    "sales": 142910,
+    "category": "画纸/画本",
+    "rank": 142
   },
   {
     "name": "Hobonichi 手账印章套装",
@@ -1240,7 +1208,7 @@ const DASHBOARD_DATA = {
     "price": 49.2,
     "sales": 141131,
     "category": "手帐",
-    "rank": 147
+    "rank": 143
   },
   {
     "name": "迪士尼 大容量笔袋",
@@ -1248,7 +1216,7 @@ const DASHBOARD_DATA = {
     "price": 54.3,
     "sales": 140995,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 148
+    "rank": 144
   },
   {
     "name": "晨光 透明笔袋 考试用",
@@ -1256,7 +1224,15 @@ const DASHBOARD_DATA = {
     "price": 45.3,
     "sales": 138198,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 149
+    "rank": 145
+  },
+  {
+    "name": "真彩 油画棒 重彩",
+    "platform": "淘宝",
+    "price": 48.1,
+    "sales": 138046,
+    "category": "蜡笔",
+    "rank": 146
   },
   {
     "name": "无印良品 斜插式笔筒",
@@ -1264,7 +1240,7 @@ const DASHBOARD_DATA = {
     "price": 11.5,
     "sales": 137029,
     "category": "笔筒",
-    "rank": 150
+    "rank": 147
   },
   {
     "name": "三菱 刷题专用中性笔",
@@ -1272,7 +1248,7 @@ const DASHBOARD_DATA = {
     "price": 2.1,
     "sales": 136217,
     "category": "中性笔",
-    "rank": 151
+    "rank": 148
   },
   {
     "name": "斑马 荧光笔 粗细双头",
@@ -1280,15 +1256,15 @@ const DASHBOARD_DATA = {
     "price": 16.1,
     "sales": 136094,
     "category": "荧光笔",
-    "rank": 152
+    "rank": 149
   },
   {
-    "name": "晨光 白板笔 12色套装",
-    "platform": "抖音",
-    "price": 25.1,
-    "sales": 135317,
+    "name": "真彩 环保白板笔",
+    "platform": "淘宝",
+    "price": 26.6,
+    "sales": 134776,
     "category": "白板笔",
-    "rank": 153
+    "rank": 150
   },
   {
     "name": "晨光 书脊标签",
@@ -1296,7 +1272,7 @@ const DASHBOARD_DATA = {
     "price": 95,
     "sales": 134751,
     "category": "标签贴纸",
-    "rank": 154
+    "rank": 151
   },
   {
     "name": "迪士尼 IP联名文具盲盒",
@@ -1304,23 +1280,7 @@ const DASHBOARD_DATA = {
     "price": 66.3,
     "sales": 134251,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 155
-  },
-  {
-    "name": "UHU 万能胶",
-    "platform": "天猫",
-    "price": 9.4,
-    "sales": 134066,
-    "category": "胶水",
-    "rank": 156
-  },
-  {
-    "name": "华夏万卷 成人行书字帖",
-    "platform": "淘宝",
-    "price": 19.6,
-    "sales": 133760,
-    "category": "练字帖/描红本",
-    "rank": 157
+    "rank": 152
   },
   {
     "name": "纽赛 桌面书架 置物架",
@@ -1328,15 +1288,31 @@ const DASHBOARD_DATA = {
     "price": 26,
     "sales": 133604,
     "category": "桌面收纳架",
-    "rank": 158
+    "rank": 153
   },
   {
-    "name": "UHU 胶棒 36g 可水洗",
-    "platform": "天猫",
-    "price": 14.5,
-    "sales": 132369,
-    "category": "胶水",
-    "rank": 159
+    "name": "齐心 白板擦+笔套装",
+    "platform": "抖音",
+    "price": 23,
+    "sales": 132610,
+    "category": "白板笔",
+    "rank": 154
+  },
+  {
+    "name": "真彩 速干笔芯",
+    "platform": "抖音",
+    "price": 16.6,
+    "sales": 132276,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 155
+  },
+  {
+    "name": "得力 自粘书套 免裁剪",
+    "platform": "京东",
+    "price": 5.8,
+    "sales": 132165,
+    "category": "书皮/书套",
+    "rank": 156
   },
   {
     "name": "纽赛 铁艺收纳架",
@@ -1344,15 +1320,15 @@ const DASHBOARD_DATA = {
     "price": 31.8,
     "sales": 132078,
     "category": "桌面收纳架",
-    "rank": 160
+    "rank": 157
   },
   {
-    "name": "白雪 白板笔 可擦 黑色",
+    "name": "康颂 速写本 A4",
     "platform": "京东",
-    "price": 8.5,
-    "sales": 131547,
-    "category": "白板笔",
-    "rank": 161
+    "price": 45.4,
+    "sales": 131744,
+    "category": "画纸/画本",
+    "rank": 158
   },
   {
     "name": "马利 丙烯马克笔",
@@ -1360,15 +1336,7 @@ const DASHBOARD_DATA = {
     "price": 139.8,
     "sales": 131161,
     "category": "马克笔",
-    "rank": 162
-  },
-  {
-    "name": "手工达人 拼豆镊子工具",
-    "platform": "抖音",
-    "price": 58.2,
-    "sales": 130990,
-    "category": "拼豆/咕卡套装",
-    "rank": 163
+    "rank": 159
   },
   {
     "name": "kinbor TN旅行手账",
@@ -1376,15 +1344,7 @@ const DASHBOARD_DATA = {
     "price": 38.7,
     "sales": 130713,
     "category": "手帐",
-    "rank": 164
-  },
-  {
-    "name": "田英章 控笔训练字帖",
-    "platform": "淘宝",
-    "price": 29.2,
-    "sales": 130529,
-    "category": "练字帖/描红本",
-    "rank": 165
+    "rank": 160
   },
   {
     "name": "国誉 手账大礼盒套装",
@@ -1392,31 +1352,31 @@ const DASHBOARD_DATA = {
     "price": 32.4,
     "sales": 130093,
     "category": "手帐",
-    "rank": 166
+    "rank": 161
   },
   {
-    "name": "司马彦 数字描红本",
-    "platform": "拼多多",
-    "price": 15.9,
-    "sales": 129973,
-    "category": "练字帖/描红本",
-    "rank": 167
-  },
-  {
-    "name": "真彩 牛皮纸书套",
-    "platform": "天猫",
-    "price": 8.8,
-    "sales": 129963,
-    "category": "书皮/书套",
-    "rank": 168
-  },
-  {
-    "name": "白雪 迷你白板笔",
+    "name": "康颂 牛皮纸画本",
     "platform": "抖音",
-    "price": 6.5,
-    "sales": 129670,
-    "category": "白板笔",
-    "rank": 169
+    "price": 62,
+    "sales": 130041,
+    "category": "画纸/画本",
+    "rank": 162
+  },
+  {
+    "name": "得力 布料蜡笔",
+    "platform": "淘宝",
+    "price": 24.5,
+    "sales": 129603,
+    "category": "蜡笔",
+    "rank": 163
+  },
+  {
+    "name": "斑马 多功能圆珠笔",
+    "platform": "京东",
+    "price": 27.4,
+    "sales": 129542,
+    "category": "圆珠笔",
+    "rank": 164
   },
   {
     "name": "纽赛 透明分层收纳架",
@@ -1424,39 +1384,31 @@ const DASHBOARD_DATA = {
     "price": 66.4,
     "sales": 129244,
     "category": "桌面收纳架",
-    "rank": 170
+    "rank": 165
   },
   {
-    "name": "广博 订书机 省力型",
-    "platform": "拼多多",
-    "price": 48.8,
-    "sales": 129201,
-    "category": "办公文具",
-    "rank": 171
-  },
-  {
-    "name": "康颂 刮画纸 彩色",
-    "platform": "抖音",
-    "price": 33.1,
-    "sales": 128951,
-    "category": "画纸/画本",
-    "rank": 172
-  },
-  {
-    "name": "拼豆世界 咕卡底卡 透明",
+    "name": "咕卡星球 拼豆收纳盒",
     "platform": "京东",
-    "price": 25.8,
-    "sales": 128355,
+    "price": 16.2,
+    "sales": 128626,
     "category": "拼豆/咕卡套装",
-    "rank": 173
+    "rank": 166
   },
   {
-    "name": "施耐德 圆珠笔 粗杆",
-    "platform": "天猫",
-    "price": 14,
-    "sales": 126322,
-    "category": "圆珠笔",
-    "rank": 174
+    "name": "得力 美工刀 自动锁",
+    "platform": "抖音",
+    "price": 12,
+    "sales": 127656,
+    "category": "办公文具",
+    "rank": 167
+  },
+  {
+    "name": "得力 人体彩绘蜡笔",
+    "platform": "淘宝",
+    "price": 14.7,
+    "sales": 126674,
+    "category": "蜡笔",
+    "rank": 168
   },
   {
     "name": "晨光 削笔器 替换刀片",
@@ -1464,15 +1416,7 @@ const DASHBOARD_DATA = {
     "price": 44.2,
     "sales": 125369,
     "category": "卷笔刀/卷笔器",
-    "rank": 175
-  },
-  {
-    "name": "斑马 蓝色笔芯 子弹头",
-    "platform": "拼多多",
-    "price": 11.2,
-    "sales": 125231,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 176
+    "rank": 169
   },
   {
     "name": "兄弟 标签打印机 蓝牙",
@@ -1480,7 +1424,7 @@ const DASHBOARD_DATA = {
     "price": 120,
     "sales": 124135,
     "category": "标签贴纸",
-    "rank": 177
+    "rank": 170
   },
   {
     "name": "纽赛 分格笔筒",
@@ -1488,15 +1432,23 @@ const DASHBOARD_DATA = {
     "price": 33.7,
     "sales": 123796,
     "category": "笔筒",
-    "rank": 178
+    "rank": 171
   },
   {
-    "name": "晨光 商务圆珠笔",
-    "platform": "京东",
-    "price": 6.1,
-    "sales": 122498,
-    "category": "圆珠笔",
-    "rank": 179
+    "name": "晨光 白板笔 可擦 黑色",
+    "platform": "天猫",
+    "price": 34.8,
+    "sales": 123691,
+    "category": "白板笔",
+    "rank": 172
+  },
+  {
+    "name": "广博 票据收纳袋",
+    "platform": "淘宝",
+    "price": 13.6,
+    "sales": 122988,
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "rank": 173
   },
   {
     "name": "马利 双头马克笔 学生用",
@@ -1504,7 +1456,7 @@ const DASHBOARD_DATA = {
     "price": 104.8,
     "sales": 121809,
     "category": "马克笔",
-    "rank": 180
+    "rank": 174
   },
   {
     "name": "得力 文具福袋 随机",
@@ -1512,15 +1464,15 @@ const DASHBOARD_DATA = {
     "price": 44.8,
     "sales": 121648,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 181
+    "rank": 175
   },
   {
-    "name": "温莎 手绘本 硬壳",
-    "platform": "抖音",
-    "price": 35.3,
-    "sales": 121648,
-    "category": "画纸/画本",
-    "rank": 182
+    "name": "拼豆世界 咕卡套装 全套材料",
+    "platform": "淘宝",
+    "price": 26.4,
+    "sales": 121588,
+    "category": "拼豆/咕卡套装",
+    "rank": 176
   },
   {
     "name": "广博 N次贴 强粘",
@@ -1528,15 +1480,31 @@ const DASHBOARD_DATA = {
     "price": 24.2,
     "sales": 120577,
     "category": "便签本/便条纸/N次贴",
-    "rank": 183
+    "rank": 177
   },
   {
-    "name": "兄弟 开学姓名贴 定制",
+    "name": "得力 旋转蜡笔 不脏手",
+    "platform": "抖音",
+    "price": 40.2,
+    "sales": 120013,
+    "category": "蜡笔",
+    "rank": 178
+  },
+  {
+    "name": "可得优 双面胶 强力",
+    "platform": "淘宝",
+    "price": 41.9,
+    "sales": 119895,
+    "category": "办公文具",
+    "rank": 179
+  },
+  {
+    "name": "晨光 金属色彩铅",
     "platform": "拼多多",
-    "price": 41.4,
+    "price": 56.5,
     "sales": 119411,
-    "category": "姓名贴",
-    "rank": 184
+    "category": "彩色铅笔",
+    "rank": 180
   },
   {
     "name": "幻彩 暑假手工材料包 100件",
@@ -1544,31 +1512,23 @@ const DASHBOARD_DATA = {
     "price": 16.4,
     "sales": 119263,
     "category": "手工DIY套装",
-    "rank": 185
+    "rank": 181
   },
   {
-    "name": "墨点 小学生字帖",
-    "platform": "京东",
-    "price": 29.8,
-    "sales": 118992,
-    "category": "练字帖/描红本",
-    "rank": 186
-  },
-  {
-    "name": "3M 502胶水",
+    "name": "3M 热熔胶枪",
     "platform": "抖音",
-    "price": 21,
-    "sales": 118661,
+    "price": 22,
+    "sales": 118804,
     "category": "胶水",
-    "rank": 187
+    "rank": 182
   },
   {
-    "name": "老人头 素描纸 160g A4",
-    "platform": "天猫",
-    "price": 65,
-    "sales": 117955,
-    "category": "画纸/画本",
-    "rank": 188
+    "name": "白雪 细头白板笔",
+    "platform": "抖音",
+    "price": 26.6,
+    "sales": 118574,
+    "category": "白板笔",
+    "rank": 183
   },
   {
     "name": "三丽鸥 新学期必备套装",
@@ -1576,23 +1536,7 @@ const DASHBOARD_DATA = {
     "price": 85.3,
     "sales": 117922,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 189
-  },
-  {
-    "name": "天文 静音电动橡皮",
-    "platform": "抖音",
-    "price": 25.1,
-    "sales": 117814,
-    "category": "电动橡皮擦",
-    "rank": 190
-  },
-  {
-    "name": "得力 学生修正带套装",
-    "platform": "拼多多",
-    "price": 14.5,
-    "sales": 117777,
-    "category": "修正带",
-    "rank": 191
+    "rank": 184
   },
   {
     "name": "晨光 指示标签 箭头",
@@ -1600,7 +1544,7 @@ const DASHBOARD_DATA = {
     "price": 13.5,
     "sales": 117386,
     "category": "便签本/便条纸/N次贴",
-    "rank": 192
+    "rank": 185
   },
   {
     "name": "晨光 显示器增高收纳",
@@ -1608,23 +1552,7 @@ const DASHBOARD_DATA = {
     "price": 42.6,
     "sales": 116733,
     "category": "桌面收纳架",
-    "rank": 193
-  },
-  {
-    "name": "晨光 固体胶棒 大号",
-    "platform": "淘宝",
-    "price": 21.1,
-    "sales": 116173,
-    "category": "胶水",
-    "rank": 194
-  },
-  {
-    "name": "马可 素描彩铅",
-    "platform": "拼多多",
-    "price": 119.8,
-    "sales": 116007,
-    "category": "彩色铅笔",
-    "rank": 195
+    "rank": 186
   },
   {
     "name": "得力 桌面杂物收纳",
@@ -1632,7 +1560,15 @@ const DASHBOARD_DATA = {
     "price": 59.3,
     "sales": 115630,
     "category": "文具收纳盒",
-    "rank": 196
+    "rank": 187
+  },
+  {
+    "name": "六品堂 幼儿描红",
+    "platform": "拼多多",
+    "price": 38.2,
+    "sales": 115257,
+    "category": "练字帖/描红本",
+    "rank": 188
   },
   {
     "name": "kinbor 盐系手账本",
@@ -1640,15 +1576,7 @@ const DASHBOARD_DATA = {
     "price": 79.3,
     "sales": 115119,
     "category": "手帐",
-    "rank": 197
-  },
-  {
-    "name": "得力 三角蜡笔 幼儿",
-    "platform": "淘宝",
-    "price": 19.6,
-    "sales": 114971,
-    "category": "蜡笔",
-    "rank": 198
+    "rank": 189
   },
   {
     "name": "得力 水彩笔套装 36色 可水洗",
@@ -1656,7 +1584,15 @@ const DASHBOARD_DATA = {
     "price": 49,
     "sales": 114967,
     "category": "水彩笔",
-    "rank": 199
+    "rank": 190
+  },
+  {
+    "name": "真彩 迷你修正带",
+    "platform": "京东",
+    "price": 5.6,
+    "sales": 114533,
+    "category": "修正带",
+    "rank": 191
   },
   {
     "name": "晨光 软皮笔记本",
@@ -1664,7 +1600,7 @@ const DASHBOARD_DATA = {
     "price": 29.4,
     "sales": 114199,
     "category": "笔记本/记事本",
-    "rank": 200
+    "rank": 192
   },
   {
     "name": "纽赛 办公笔筒套装",
@@ -1672,15 +1608,15 @@ const DASHBOARD_DATA = {
     "price": 43.8,
     "sales": 113976,
     "category": "笔筒",
-    "rank": 201
+    "rank": 193
   },
   {
-    "name": "精臣 刺绣姓名贴",
+    "name": "辉柏嘉 油性彩铅 72色",
     "platform": "抖音",
-    "price": 42,
+    "price": 57.2,
     "sales": 113963,
-    "category": "姓名贴",
-    "rank": 202
+    "category": "彩色铅笔",
+    "rank": 194
   },
   {
     "name": "辉柏嘉 活动铅笔 金属杆",
@@ -1688,39 +1624,31 @@ const DASHBOARD_DATA = {
     "price": 44.5,
     "sales": 113902,
     "category": "铅笔",
-    "rank": 203
+    "rank": 195
   },
   {
-    "name": "辉柏嘉 马克雷诺彩铅",
-    "platform": "京东",
-    "price": 50.2,
-    "sales": 113108,
-    "category": "彩色铅笔",
-    "rank": 204
+    "name": "获多福 素描纸 160g A4",
+    "platform": "天猫",
+    "price": 57.5,
+    "sales": 111327,
+    "category": "画纸/画本",
+    "rank": 196
   },
   {
-    "name": "得力 胶水笔 细头",
-    "platform": "抖音",
-    "price": 26.4,
-    "sales": 112972,
-    "category": "胶水",
-    "rank": 205
-  },
-  {
-    "name": "司马彦 英文练字帖",
-    "platform": "拼多多",
-    "price": 13,
-    "sales": 111332,
-    "category": "练字帖/描红本",
-    "rank": 206
-  },
-  {
-    "name": "齐心 彩色白板笔 套装",
-    "platform": "抖音",
-    "price": 20.6,
-    "sales": 108696,
+    "name": "得力 液体粉笔 无尘",
+    "platform": "淘宝",
+    "price": 7.7,
+    "sales": 110653,
     "category": "白板笔",
-    "rank": 207
+    "rank": 197
+  },
+  {
+    "name": "康颂 水彩纸 300g",
+    "platform": "天猫",
+    "price": 41.5,
+    "sales": 110487,
+    "category": "画纸/画本",
+    "rank": 198
   },
   {
     "name": "创意家居 亚克力笔筒",
@@ -1728,7 +1656,7 @@ const DASHBOARD_DATA = {
     "price": 38.8,
     "sales": 108689,
     "category": "笔筒",
-    "rank": 208
+    "rank": 199
   },
   {
     "name": "三丽鸥 中考文具套装",
@@ -1736,7 +1664,7 @@ const DASHBOARD_DATA = {
     "price": 21.6,
     "sales": 108114,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 209
+    "rank": 200
   },
   {
     "name": "得力 拼豆套装",
@@ -1744,7 +1672,7 @@ const DASHBOARD_DATA = {
     "price": 21.6,
     "sales": 108096,
     "category": "手工DIY套装",
-    "rank": 210
+    "rank": 201
   },
   {
     "name": "辉柏嘉 水彩笔 桶装 24色",
@@ -1752,15 +1680,15 @@ const DASHBOARD_DATA = {
     "price": 61.1,
     "sales": 107690,
     "category": "水彩笔",
-    "rank": 211
+    "rank": 202
   },
   {
-    "name": "咕卡星球 咕卡装饰宝石",
-    "platform": "抖音",
-    "price": 47.9,
-    "sales": 107624,
-    "category": "拼豆/咕卡套装",
-    "rank": 212
+    "name": "斑马 彩色圆珠笔 多色",
+    "platform": "拼多多",
+    "price": 26.5,
+    "sales": 107621,
+    "category": "圆珠笔",
+    "rank": 203
   },
   {
     "name": "猫太子 静音电动削笔器",
@@ -1768,23 +1696,23 @@ const DASHBOARD_DATA = {
     "price": 38.1,
     "sales": 106650,
     "category": "卷笔刀/卷笔器",
-    "rank": 213
+    "rank": 204
   },
   {
-    "name": "晨光 大头笔 物流用",
-    "platform": "拼多多",
-    "price": 6.2,
-    "sales": 106215,
-    "category": "记号笔",
-    "rank": 214
+    "name": "绘儿乐 水溶性蜡笔",
+    "platform": "淘宝",
+    "price": 46.1,
+    "sales": 105726,
+    "category": "蜡笔",
+    "rank": 205
   },
   {
-    "name": "温莎 彩铅纸 细纹",
-    "platform": "京东",
-    "price": 21.7,
-    "sales": 105413,
-    "category": "画纸/画本",
-    "rank": 215
+    "name": "施耐德 圆珠笔芯 替换",
+    "platform": "天猫",
+    "price": 21.8,
+    "sales": 105606,
+    "category": "圆珠笔",
+    "rank": 206
   },
   {
     "name": "得力 价格标签贴",
@@ -1792,55 +1720,23 @@ const DASHBOARD_DATA = {
     "price": 106.5,
     "sales": 105325,
     "category": "标签贴纸",
-    "rank": 216
+    "rank": 207
   },
   {
-    "name": "得力 银色记号笔",
-    "platform": "抖音",
-    "price": 20.5,
-    "sales": 105225,
-    "category": "记号笔",
-    "rank": 217
+    "name": "兄弟 衣物姓名标",
+    "platform": "京东",
+    "price": 40.9,
+    "sales": 103852,
+    "category": "姓名贴",
+    "rank": 208
   },
   {
-    "name": "真彩 白板笔 大容量",
-    "platform": "抖音",
-    "price": 31,
-    "sales": 104892,
-    "category": "白板笔",
-    "rank": 218
-  },
-  {
-    "name": "辉柏嘉 素描电动橡皮套装",
+    "name": "真彩 A4书皮 50张",
     "platform": "淘宝",
-    "price": 28.7,
-    "sales": 104876,
-    "category": "电动橡皮擦",
-    "rank": 219
-  },
-  {
-    "name": "手工达人 拼豆套装 5mm",
-    "platform": "淘宝",
-    "price": 44.3,
-    "sales": 104699,
-    "category": "拼豆/咕卡套装",
-    "rank": 220
-  },
-  {
-    "name": "DIY乐园 咕卡贴纸 闪钻",
-    "platform": "拼多多",
-    "price": 30.4,
-    "sales": 104344,
-    "category": "拼豆/咕卡套装",
-    "rank": 221
-  },
-  {
-    "name": "真彩 布料蜡笔",
-    "platform": "天猫",
-    "price": 23.2,
-    "sales": 104154,
-    "category": "蜡笔",
-    "rank": 222
+    "price": 23.3,
+    "sales": 103430,
+    "category": "书皮/书套",
+    "rank": 209
   },
   {
     "name": "得力 按动中性笔 黑色",
@@ -1848,7 +1744,7 @@ const DASHBOARD_DATA = {
     "price": 4.4,
     "sales": 103307,
     "category": "中性笔",
-    "rank": 223
+    "rank": 210
   },
   {
     "name": "kinbor 线圈笔记本 A5",
@@ -1856,15 +1752,23 @@ const DASHBOARD_DATA = {
     "price": 25.9,
     "sales": 103284,
     "category": "笔记本/记事本",
-    "rank": 224
+    "rank": 211
   },
   {
-    "name": "康颂 马克笔专用纸",
-    "platform": "京东",
-    "price": 20.2,
-    "sales": 103221,
-    "category": "画纸/画本",
-    "rank": 225
+    "name": "国誉 按动修正带",
+    "platform": "抖音",
+    "price": 6.3,
+    "sales": 103059,
+    "category": "修正带",
+    "rank": 212
+  },
+  {
+    "name": "真彩 丝滑蜡笔 24色",
+    "platform": "天猫",
+    "price": 23.3,
+    "sales": 103012,
+    "category": "蜡笔",
+    "rank": 213
   },
   {
     "name": "得力 收纳标签贴",
@@ -1872,7 +1776,15 @@ const DASHBOARD_DATA = {
     "price": 112.1,
     "sales": 100635,
     "category": "标签贴纸",
-    "rank": 226
+    "rank": 214
+  },
+  {
+    "name": "拼豆世界 拼豆镊子工具",
+    "platform": "天猫",
+    "price": 10.1,
+    "sales": 100543,
+    "category": "拼豆/咕卡套装",
+    "rank": 215
   },
   {
     "name": "纽赛 儿童卡通笔筒",
@@ -1880,7 +1792,7 @@ const DASHBOARD_DATA = {
     "price": 21.3,
     "sales": 100139,
     "category": "笔筒",
-    "rank": 227
+    "rank": 216
   },
   {
     "name": "得力 卡通卷笔刀",
@@ -1888,7 +1800,15 @@ const DASHBOARD_DATA = {
     "price": 35.4,
     "sales": 99867,
     "category": "卷笔刀/卷笔器",
-    "rank": 228
+    "rank": 217
+  },
+  {
+    "name": "樱花 颜料调色盘",
+    "platform": "天猫",
+    "price": 38.2,
+    "sales": 99811,
+    "category": "美术颜料",
+    "rank": 218
   },
   {
     "name": "纽赛 竹木收纳架",
@@ -1896,23 +1816,23 @@ const DASHBOARD_DATA = {
     "price": 44.2,
     "sales": 99638,
     "category": "桌面收纳架",
-    "rank": 229
+    "rank": 219
   },
   {
-    "name": "兄弟 姓名贴打印机",
-    "platform": "天猫",
-    "price": 98.5,
-    "sales": 99412,
-    "category": "姓名贴",
-    "rank": 230
-  },
-  {
-    "name": "九木杂物社 文艺笔记本",
+    "name": "DIY乐园 拼豆豆 补充装",
     "platform": "抖音",
-    "price": 30,
-    "sales": 99258,
-    "category": "文创用品",
-    "rank": 231
+    "price": 56.3,
+    "sales": 99637,
+    "category": "拼豆/咕卡套装",
+    "rank": 220
+  },
+  {
+    "name": "晨光 彩铅套装 专业级",
+    "platform": "天猫",
+    "price": 127.4,
+    "sales": 99412,
+    "category": "彩色铅笔",
+    "rank": 221
   },
   {
     "name": "齐心 便签本 横线",
@@ -1920,15 +1840,15 @@ const DASHBOARD_DATA = {
     "price": 20.8,
     "sales": 99150,
     "category": "便签本/便条纸/N次贴",
-    "rank": 232
+    "rank": 222
   },
   {
-    "name": "敦煌 古风书签 流苏",
-    "platform": "拼多多",
-    "price": 31.4,
-    "sales": 98782,
-    "category": "书签",
-    "rank": 233
+    "name": "斑马 圆珠笔 速干 蓝色",
+    "platform": "京东",
+    "price": 3,
+    "sales": 99130,
+    "category": "圆珠笔",
+    "rank": 223
   },
   {
     "name": "天文 电动卷笔刀 USB充电",
@@ -1936,7 +1856,31 @@ const DASHBOARD_DATA = {
     "price": 48.4,
     "sales": 98356,
     "category": "卷笔刀/卷笔器",
-    "rank": 234
+    "rank": 224
+  },
+  {
+    "name": "百乐 红色笔芯",
+    "platform": "淘宝",
+    "price": 4.1,
+    "sales": 98274,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 225
+  },
+  {
+    "name": "晨光 细头记号笔",
+    "platform": "京东",
+    "price": 23.8,
+    "sales": 98256,
+    "category": "记号笔",
+    "rank": 226
+  },
+  {
+    "name": "墨点 硬笔书法字帖",
+    "platform": "抖音",
+    "price": 32.4,
+    "sales": 98159,
+    "category": "练字帖/描红本",
+    "rank": 227
   },
   {
     "name": "得力 痛包笔袋 可展示",
@@ -1944,7 +1888,15 @@ const DASHBOARD_DATA = {
     "price": 62.6,
     "sales": 98105,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 235
+    "rank": 228
+  },
+  {
+    "name": "拼豆世界 拼豆套装 5mm",
+    "platform": "拼多多",
+    "price": 38.2,
+    "sales": 98070,
+    "category": "拼豆/咕卡套装",
+    "rank": 229
   },
   {
     "name": "纽赛 木质笔筒",
@@ -1952,7 +1904,7 @@ const DASHBOARD_DATA = {
     "price": 36.8,
     "sales": 98050,
     "category": "笔筒",
-    "rank": 236
+    "rank": 230
   },
   {
     "name": "无印良品 磁吸收纳盒 模块化",
@@ -1960,7 +1912,15 @@ const DASHBOARD_DATA = {
     "price": 75.9,
     "sales": 97936,
     "category": "文具收纳盒",
-    "rank": 237
+    "rank": 231
+  },
+  {
+    "name": "晨光 胶棒 36g 可水洗",
+    "platform": "拼多多",
+    "price": 22.6,
+    "sales": 97742,
+    "category": "胶水",
+    "rank": 232
   },
   {
     "name": "晨光 亚克力多层收纳架",
@@ -1968,7 +1928,7 @@ const DASHBOARD_DATA = {
     "price": 68.8,
     "sales": 97628,
     "category": "桌面收纳架",
-    "rank": 238
+    "rank": 233
   },
   {
     "name": "三年二班 卡通笔袋",
@@ -1976,15 +1936,7 @@ const DASHBOARD_DATA = {
     "price": 36.4,
     "sales": 97324,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 239
-  },
-  {
-    "name": "得力 自动橡皮擦 笔形",
-    "platform": "拼多多",
-    "price": 37.3,
-    "sales": 97321,
-    "category": "电动橡皮擦",
-    "rank": 240
+    "rank": 234
   },
   {
     "name": "晨光 旋转收纳盒",
@@ -1992,7 +1944,7 @@ const DASHBOARD_DATA = {
     "price": 35.2,
     "sales": 97301,
     "category": "文具收纳盒",
-    "rank": 241
+    "rank": 235
   },
   {
     "name": "百乐 窗口荧光笔",
@@ -2000,15 +1952,15 @@ const DASHBOARD_DATA = {
     "price": 14.7,
     "sales": 96888,
     "category": "荧光笔",
-    "rank": 242
+    "rank": 236
   },
   {
-    "name": "创意工坊 拼豆挂件材料",
-    "platform": "京东",
-    "price": 48.1,
-    "sales": 96677,
-    "category": "拼豆/咕卡套装",
-    "rank": 243
+    "name": "斑马 双头记号笔",
+    "platform": "抖音",
+    "price": 20.6,
+    "sales": 96281,
+    "category": "记号笔",
+    "rank": 237
   },
   {
     "name": "法卡勒 马克笔收纳盒",
@@ -2016,23 +1968,7 @@ const DASHBOARD_DATA = {
     "price": 130.4,
     "sales": 95413,
     "category": "马克笔",
-    "rank": 244
-  },
-  {
-    "name": "作业帮 错题打印机 高清",
-    "platform": "京东",
-    "price": 181.5,
-    "sales": 94831,
-    "category": "错题打印机",
-    "rank": 245
-  },
-  {
-    "name": "晨光 透明亚克力书签",
-    "platform": "京东",
-    "price": 19.5,
-    "sales": 94755,
-    "category": "书签",
-    "rank": 246
+    "rank": 238
   },
   {
     "name": "无印良品 活页本 B5",
@@ -2040,23 +1976,15 @@ const DASHBOARD_DATA = {
     "price": 18.6,
     "sales": 94508,
     "category": "笔记本/记事本",
-    "rank": 247
+    "rank": 239
   },
   {
-    "name": "晨光 儿童彩色铅笔 24色",
-    "platform": "抖音",
-    "price": 99,
-    "sales": 94488,
-    "category": "彩色铅笔",
-    "rank": 248
-  },
-  {
-    "name": "得力 彩铅画本套装",
+    "name": "樱花 国画颜料 12色",
     "platform": "京东",
-    "price": 46.9,
-    "sales": 93734,
-    "category": "彩色铅笔",
-    "rank": 249
+    "price": 87.4,
+    "sales": 93781,
+    "category": "美术颜料",
+    "rank": 240
   },
   {
     "name": "国誉 空白素描本",
@@ -2064,7 +1992,7 @@ const DASHBOARD_DATA = {
     "price": 13.9,
     "sales": 93702,
     "category": "笔记本/记事本",
-    "rank": 250
+    "rank": 241
   },
   {
     "name": "马可 考试涂卡铅笔 20支",
@@ -2072,23 +2000,7 @@ const DASHBOARD_DATA = {
     "price": 7.1,
     "sales": 93582,
     "category": "铅笔",
-    "rank": 251
-  },
-  {
-    "name": "宝虹 绘画本 A3",
-    "platform": "天猫",
-    "price": 64.8,
-    "sales": 92426,
-    "category": "画纸/画本",
-    "rank": 252
-  },
-  {
-    "name": "晨光 透明胶带 封箱",
-    "platform": "拼多多",
-    "price": 20.1,
-    "sales": 91590,
-    "category": "办公文具",
-    "rank": 253
+    "rank": 242
   },
   {
     "name": "晨光 多层文具收纳",
@@ -2096,23 +2008,15 @@ const DASHBOARD_DATA = {
     "price": 17.9,
     "sales": 91390,
     "category": "文具收纳盒",
-    "rank": 254
+    "rank": 243
   },
   {
-    "name": "晨光 卡通书签",
-    "platform": "京东",
-    "price": 24.9,
-    "sales": 90975,
-    "category": "书签",
-    "rank": 255
-  },
-  {
-    "name": "得力 圆珠笔 旋转出芯",
-    "platform": "抖音",
-    "price": 24.8,
-    "sales": 90898,
-    "category": "圆珠笔",
-    "rank": 256
+    "name": "马利 油画颜料 24色",
+    "platform": "天猫",
+    "price": 105.8,
+    "sales": 91001,
+    "category": "美术颜料",
+    "rank": 244
   },
   {
     "name": "斑马 大容量中性笔",
@@ -2120,7 +2024,7 @@ const DASHBOARD_DATA = {
     "price": 5.4,
     "sales": 90838,
     "category": "中性笔",
-    "rank": 257
+    "rank": 245
   },
   {
     "name": "慕娜美 护眼荧光笔 莫兰迪",
@@ -2128,15 +2032,7 @@ const DASHBOARD_DATA = {
     "price": 20,
     "sales": 90458,
     "category": "荧光笔",
-    "rank": 258
-  },
-  {
-    "name": "晨光 电动橡皮 细节擦除",
-    "platform": "淘宝",
-    "price": 39.5,
-    "sales": 90322,
-    "category": "电动橡皮擦",
-    "rank": 259
+    "rank": 246
   },
   {
     "name": "晨光 直液式荧光笔",
@@ -2144,71 +2040,47 @@ const DASHBOARD_DATA = {
     "price": 8.4,
     "sales": 90276,
     "category": "荧光笔",
-    "rank": 260
+    "rank": 247
   },
   {
-    "name": "得力 创意修正带",
-    "platform": "拼多多",
-    "price": 7.4,
-    "sales": 89568,
-    "category": "修正带",
-    "rank": 261
-  },
-  {
-    "name": "晨光 烫印姓名贴",
+    "name": "MARCO 马克雷诺彩铅",
     "platform": "淘宝",
-    "price": 38,
+    "price": 52.3,
     "sales": 89427,
-    "category": "姓名贴",
-    "rank": 262
+    "category": "彩色铅笔",
+    "rank": 248
   },
   {
-    "name": "拼豆世界 拼豆收纳盒",
-    "platform": "京东",
-    "price": 53.2,
-    "sales": 88971,
-    "category": "拼豆/咕卡套装",
-    "rank": 263
-  },
-  {
-    "name": "九木 金属书签 创意",
+    "name": "田英章 数字描红本",
     "platform": "天猫",
-    "price": 32.2,
-    "sales": 88947,
-    "category": "书签",
-    "rank": 264
+    "price": 16.5,
+    "sales": 89377,
+    "category": "练字帖/描红本",
+    "rank": 249
   },
   {
-    "name": "辉柏嘉 高光电动橡皮",
-    "platform": "抖音",
-    "price": 35.4,
-    "sales": 88900,
-    "category": "电动橡皮擦",
-    "rank": 265
+    "name": "田英章 英文练字帖",
+    "platform": "天猫",
+    "price": 22.3,
+    "sales": 88246,
+    "category": "练字帖/描红本",
+    "rank": 250
   },
   {
-    "name": "小猿 AI错题整理打印机",
-    "platform": "拼多多",
-    "price": 112.9,
-    "sales": 88459,
-    "category": "错题打印机",
-    "rank": 266
-  },
-  {
-    "name": "晨光 复古圆珠笔",
+    "name": "老人头 彩铅纸 细纹",
     "platform": "淘宝",
-    "price": 16.1,
-    "sales": 88372,
-    "category": "圆珠笔",
-    "rank": 267
+    "price": 39.9,
+    "sales": 88100,
+    "category": "画纸/画本",
+    "rank": 251
   },
   {
-    "name": "三木 A5文件袋",
-    "platform": "淘宝",
-    "price": 24.2,
-    "sales": 88124,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 268
+    "name": "MUJI 手绘明信片套装",
+    "platform": "京东",
+    "price": 56.8,
+    "sales": 87953,
+    "category": "文创用品",
+    "rank": 252
   },
   {
     "name": "3M 抽取式便签",
@@ -2216,7 +2088,7 @@ const DASHBOARD_DATA = {
     "price": 9.2,
     "sales": 87783,
     "category": "便签本/便条纸/N次贴",
-    "rank": 269
+    "rank": 253
   },
   {
     "name": "慕娜美 果冻色荧光笔",
@@ -2224,15 +2096,15 @@ const DASHBOARD_DATA = {
     "price": 30.7,
     "sales": 87769,
     "category": "荧光笔",
-    "rank": 270
+    "rank": 254
   },
   {
-    "name": "汉印 便携打印机 墨盒",
+    "name": "鲁本斯 颜料画笔套装",
     "platform": "拼多多",
-    "price": 175.6,
-    "sales": 87724,
-    "category": "错题打印机",
-    "rank": 271
+    "price": 70.8,
+    "sales": 87506,
+    "category": "美术颜料",
+    "rank": 255
   },
   {
     "name": "纽赛 创意笔筒 收纳",
@@ -2240,7 +2112,23 @@ const DASHBOARD_DATA = {
     "price": 29.3,
     "sales": 87485,
     "category": "笔筒",
-    "rank": 272
+    "rank": 256
+  },
+  {
+    "name": "kinbor 治愈系文具",
+    "platform": "京东",
+    "price": 72.9,
+    "sales": 87380,
+    "category": "文创用品",
+    "rank": 257
+  },
+  {
+    "name": "手工 定制书签",
+    "platform": "抖音",
+    "price": 12.3,
+    "sales": 87332,
+    "category": "书签",
+    "rank": 258
   },
   {
     "name": "东洋 淡色荧光笔 双头",
@@ -2248,7 +2136,7 @@ const DASHBOARD_DATA = {
     "price": 22.5,
     "sales": 87310,
     "category": "荧光笔",
-    "rank": 273
+    "rank": 259
   },
   {
     "name": "慕娜美 儿童马克笔 可水洗",
@@ -2256,31 +2144,7 @@ const DASHBOARD_DATA = {
     "price": 60.5,
     "sales": 86635,
     "category": "马克笔",
-    "rank": 274
-  },
-  {
-    "name": "辉柏嘉 彩色铅笔 48色 水溶性",
-    "platform": "抖音",
-    "price": 61.2,
-    "sales": 86484,
-    "category": "彩色铅笔",
-    "rank": 275
-  },
-  {
-    "name": "英雄 文具笔礼盒",
-    "platform": "京东",
-    "price": 90.4,
-    "sales": 86159,
-    "category": "笔类套装/礼盒",
-    "rank": 276
-  },
-  {
-    "name": "九木杂物社 莫兰迪色文具",
-    "platform": "京东",
-    "price": 20.6,
-    "sales": 85750,
-    "category": "文创用品",
-    "rank": 277
+    "rank": 260
   },
   {
     "name": "晨光 绘图铅笔 2H-8B",
@@ -2288,15 +2152,7 @@ const DASHBOARD_DATA = {
     "price": 32.5,
     "sales": 85357,
     "category": "铅笔",
-    "rank": 278
-  },
-  {
-    "name": "手工 夜光书签",
-    "platform": "天猫",
-    "price": 12.1,
-    "sales": 85285,
-    "category": "书签",
-    "rank": 279
+    "rank": 261
   },
   {
     "name": "法卡勒 动漫专用马克笔",
@@ -2304,7 +2160,7 @@ const DASHBOARD_DATA = {
     "price": 107.4,
     "sales": 84638,
     "category": "马克笔",
-    "rank": 280
+    "rank": 262
   },
   {
     "name": "Hobonichi 手账周计划本",
@@ -2312,15 +2168,15 @@ const DASHBOARD_DATA = {
     "price": 85.8,
     "sales": 84629,
     "category": "手帐",
-    "rank": 281
+    "rank": 263
   },
   {
-    "name": "斑马 笔壳 透明",
-    "platform": "京东",
-    "price": 15.3,
-    "sales": 84285,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 282
+    "name": "敦煌 金属书签 创意",
+    "platform": "淘宝",
+    "price": 28.5,
+    "sales": 84528,
+    "category": "书签",
+    "rank": 264
   },
   {
     "name": "得力 弹射文具盒",
@@ -2328,7 +2184,7 @@ const DASHBOARD_DATA = {
     "price": 52.7,
     "sales": 84155,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 283
+    "rank": 265
   },
   {
     "name": "得力 密码锁文具盒",
@@ -2336,15 +2192,15 @@ const DASHBOARD_DATA = {
     "price": 21.9,
     "sales": 83426,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 284
+    "rank": 266
   },
   {
-    "name": "晨光 文具姓名贴",
+    "name": "MARCO 秘密花园彩铅",
     "platform": "抖音",
-    "price": 88.2,
+    "price": 114.6,
     "sales": 83405,
-    "category": "姓名贴",
-    "rank": 285
+    "category": "彩色铅笔",
+    "rank": 267
   },
   {
     "name": "晨光 升学礼物套装",
@@ -2352,7 +2208,7 @@ const DASHBOARD_DATA = {
     "price": 100.7,
     "sales": 83399,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 286
+    "rank": 268
   },
   {
     "name": "幻彩 毛毡手工包",
@@ -2360,23 +2216,7 @@ const DASHBOARD_DATA = {
     "price": 65.3,
     "sales": 83096,
     "category": "手工DIY套装",
-    "rank": 287
-  },
-  {
-    "name": "得力 电动橡皮擦 充电式",
-    "platform": "天猫",
-    "price": 48.7,
-    "sales": 83047,
-    "category": "电动橡皮擦",
-    "rank": 288
-  },
-  {
-    "name": "得力 热敏打印机 学生",
-    "platform": "京东",
-    "price": 189.1,
-    "sales": 82431,
-    "category": "错题打印机",
-    "rank": 289
+    "rank": 269
   },
   {
     "name": "得力 折叠伸缩笔筒",
@@ -2384,7 +2224,7 @@ const DASHBOARD_DATA = {
     "price": 26.1,
     "sales": 82183,
     "category": "笔筒",
-    "rank": 290
+    "rank": 270
   },
   {
     "name": "晨光 手写标签纸",
@@ -2392,7 +2232,15 @@ const DASHBOARD_DATA = {
     "price": 54,
     "sales": 82072,
     "category": "标签贴纸",
-    "rank": 291
+    "rank": 271
+  },
+  {
+    "name": "精臣 刺绣姓名贴",
+    "platform": "天猫",
+    "price": 35.2,
+    "sales": 81841,
+    "category": "姓名贴",
+    "rank": 272
   },
   {
     "name": "得力 抽屉式收纳盒",
@@ -2400,7 +2248,7 @@ const DASHBOARD_DATA = {
     "price": 49.3,
     "sales": 81743,
     "category": "文具收纳盒",
-    "rank": 292
+    "rank": 273
   },
   {
     "name": "纳川 笔筒收纳架",
@@ -2408,31 +2256,23 @@ const DASHBOARD_DATA = {
     "price": 65.5,
     "sales": 81724,
     "category": "文具收纳盒",
-    "rank": 293
+    "rank": 274
   },
   {
-    "name": "晨光 姓名贴 防水免缝",
+    "name": "MARCO 彩色铅笔 48色 水溶性",
     "platform": "抖音",
-    "price": 33.9,
+    "price": 47.1,
     "sales": 81329,
-    "category": "姓名贴",
-    "rank": 294
+    "category": "彩色铅笔",
+    "rank": 275
   },
   {
-    "name": "MUJI 创意书签 金属",
-    "platform": "淘宝",
-    "price": 34.5,
-    "sales": 81059,
-    "category": "文创用品",
-    "rank": 295
-  },
-  {
-    "name": "斑马 笔芯0.38mm 细",
-    "platform": "淘宝",
-    "price": 18.3,
-    "sales": 80997,
-    "category": "笔芯/替芯/笔壳",
-    "rank": 296
+    "name": "晨光 白色记号笔",
+    "platform": "拼多多",
+    "price": 11.3,
+    "sales": 81293,
+    "category": "记号笔",
+    "rank": 276
   },
   {
     "name": "得力 桌面笔筒 多功能",
@@ -2440,7 +2280,7 @@ const DASHBOARD_DATA = {
     "price": 17.8,
     "sales": 80846,
     "category": "笔筒",
-    "rank": 297
+    "rank": 277
   },
   {
     "name": "无印良品 桌面收纳盒 透明",
@@ -2448,7 +2288,7 @@ const DASHBOARD_DATA = {
     "price": 82.3,
     "sales": 80395,
     "category": "文具收纳盒",
-    "rank": 298
+    "rank": 278
   },
   {
     "name": "得力 折纸套装 1000张",
@@ -2456,7 +2296,7 @@ const DASHBOARD_DATA = {
     "price": 44,
     "sales": 80286,
     "category": "手工DIY套装",
-    "rank": 299
+    "rank": 279
   },
   {
     "name": "晨光 方格本 网格",
@@ -2464,55 +2304,31 @@ const DASHBOARD_DATA = {
     "price": 42.2,
     "sales": 80213,
     "category": "笔记本/记事本",
-    "rank": 300
+    "rank": 280
   },
   {
-    "name": "齐心 文件夹 A4双夹",
-    "platform": "拼多多",
-    "price": 46.9,
-    "sales": 80135,
-    "category": "办公文具",
-    "rank": 301
-  },
-  {
-    "name": "欧普 USB台灯 宿舍",
+    "name": "九木 磁性书签 套装",
     "platform": "天猫",
-    "price": 128.8,
-    "sales": 79853,
-    "category": "护眼台灯",
-    "rank": 302
+    "price": 29.5,
+    "sales": 80024,
+    "category": "书签",
+    "rank": 281
   },
   {
-    "name": "樱花 迷你电动橡皮",
-    "platform": "抖音",
-    "price": 39.5,
-    "sales": 79689,
-    "category": "电动橡皮擦",
-    "rank": 303
-  },
-  {
-    "name": "晨光 人体彩绘蜡笔",
-    "platform": "拼多多",
-    "price": 44.9,
-    "sales": 79675,
-    "category": "蜡笔",
-    "rank": 304
-  },
-  {
-    "name": "美的 橡皮屑吸尘器",
+    "name": "手工 木质书签",
     "platform": "天猫",
-    "price": 78.5,
-    "sales": 79646,
-    "category": "桌面吸尘器",
-    "rank": 305
+    "price": 21.2,
+    "sales": 79876,
+    "category": "书签",
+    "rank": 282
   },
   {
-    "name": "得力 塑料书皮 卡通",
+    "name": "兄弟 文具姓名贴",
     "platform": "抖音",
-    "price": 17.9,
-    "sales": 79206,
-    "category": "书皮/书套",
-    "rank": 306
+    "price": 97.9,
+    "sales": 79769,
+    "category": "姓名贴",
+    "rank": 283
   },
   {
     "name": "迪士尼 自动进铅卷笔器",
@@ -2520,7 +2336,31 @@ const DASHBOARD_DATA = {
     "price": 51.3,
     "sales": 79160,
     "category": "卷笔刀/卷笔器",
-    "rank": 307
+    "rank": 284
+  },
+  {
+    "name": "华夏万卷 控笔训练字帖",
+    "platform": "抖音",
+    "price": 29.8,
+    "sales": 79107,
+    "category": "练字帖/描红本",
+    "rank": 285
+  },
+  {
+    "name": "精臣 校服姓名标签",
+    "platform": "拼多多",
+    "price": 33.7,
+    "sales": 78927,
+    "category": "姓名贴",
+    "rank": 286
+  },
+  {
+    "name": "DIY乐园 咕卡底卡 透明",
+    "platform": "京东",
+    "price": 35.1,
+    "sales": 78819,
+    "category": "拼豆/咕卡套装",
+    "rank": 287
   },
   {
     "name": "迪士尼 小学生文具套装",
@@ -2528,7 +2368,7 @@ const DASHBOARD_DATA = {
     "price": 30,
     "sales": 78620,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 308
+    "rank": 288
   },
   {
     "name": "兄弟 姓名贴 刺绣",
@@ -2536,7 +2376,31 @@ const DASHBOARD_DATA = {
     "price": 77.2,
     "sales": 78224,
     "category": "标签贴纸",
-    "rank": 309
+    "rank": 289
+  },
+  {
+    "name": "真彩 学生修正带套装",
+    "platform": "天猫",
+    "price": 4,
+    "sales": 78020,
+    "category": "修正带",
+    "rank": 290
+  },
+  {
+    "name": "广博 回形针 100枚",
+    "platform": "天猫",
+    "price": 13.5,
+    "sales": 77978,
+    "category": "办公文具",
+    "rank": 291
+  },
+  {
+    "name": "精臣 姓名贴 防水免缝",
+    "platform": "天猫",
+    "price": 86.9,
+    "sales": 77892,
+    "category": "姓名贴",
+    "rank": 292
   },
   {
     "name": "幻彩 串珠手工材料",
@@ -2544,31 +2408,31 @@ const DASHBOARD_DATA = {
     "price": 41.4,
     "sales": 77524,
     "category": "手工DIY套装",
-    "rank": 310
+    "rank": 293
   },
   {
-    "name": "兄弟 硅胶姓名扣",
+    "name": "晨光 素描彩铅",
     "platform": "拼多多",
-    "price": 18.6,
+    "price": 28.2,
     "sales": 77479,
-    "category": "姓名贴",
-    "rank": 311
+    "category": "彩色铅笔",
+    "rank": 294
   },
   {
-    "name": "百乐 透明示范钢笔",
-    "platform": "抖音",
-    "price": 198.3,
-    "sales": 77222,
-    "category": "钢笔",
-    "rank": 312
+    "name": "墨点 凹槽练字帖 自动消失",
+    "platform": "淘宝",
+    "price": 29.9,
+    "sales": 77449,
+    "category": "练字帖/描红本",
+    "rank": 295
   },
   {
-    "name": "作业帮 错题本打印机 A4",
-    "platform": "抖音",
-    "price": 275.9,
-    "sales": 76498,
-    "category": "错题打印机",
-    "rank": 313
+    "name": "温莎牛顿 手指画颜料 儿童",
+    "platform": "拼多多",
+    "price": 124.7,
+    "sales": 76410,
+    "category": "美术颜料",
+    "rank": 296
   },
   {
     "name": "雅柯莱 分类标签贴",
@@ -2576,7 +2440,7 @@ const DASHBOARD_DATA = {
     "price": 117.4,
     "sales": 76361,
     "category": "标签贴纸",
-    "rank": 314
+    "rank": 297
   },
   {
     "name": "印迹 火漆封蜡枪",
@@ -2584,7 +2448,15 @@ const DASHBOARD_DATA = {
     "price": 55.6,
     "sales": 76344,
     "category": "火漆印章",
-    "rank": 315
+    "rank": 298
+  },
+  {
+    "name": "晨光 涂改带 考试用",
+    "platform": "淘宝",
+    "price": 10,
+    "sales": 76172,
+    "category": "修正带",
+    "rank": 299
   },
   {
     "name": "得力 考试专用橡皮",
@@ -2592,7 +2464,31 @@ const DASHBOARD_DATA = {
     "price": 24.1,
     "sales": 75942,
     "category": "橡皮擦",
-    "rank": 316
+    "rank": 300
+  },
+  {
+    "name": "雅柯莱 开学姓名贴 定制",
+    "platform": "天猫",
+    "price": 90.1,
+    "sales": 75434,
+    "category": "姓名贴",
+    "rank": 301
+  },
+  {
+    "name": "得力 三角蜡笔 幼儿",
+    "platform": "拼多多",
+    "price": 14.8,
+    "sales": 75429,
+    "category": "蜡笔",
+    "rank": 302
+  },
+  {
+    "name": "六品堂 楷书练字帖",
+    "platform": "抖音",
+    "price": 36,
+    "sales": 75314,
+    "category": "练字帖/描红本",
+    "rank": 303
   },
   {
     "name": "晨光 开学大礼包",
@@ -2600,31 +2496,23 @@ const DASHBOARD_DATA = {
     "price": 76.3,
     "sales": 75170,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 317
+    "rank": 304
   },
   {
-    "name": "欧普 充电台灯 夹式",
-    "platform": "京东",
-    "price": 276.8,
-    "sales": 75163,
-    "category": "护眼台灯",
-    "rank": 318
-  },
-  {
-    "name": "得力 静音吸尘器",
+    "name": "马利 水粉颜料 果冻",
     "platform": "抖音",
-    "price": 30.5,
-    "sales": 74995,
-    "category": "桌面吸尘器",
-    "rank": 319
+    "price": 17.8,
+    "sales": 75097,
+    "category": "美术颜料",
+    "rank": 305
   },
   {
-    "name": "天文 电动橡皮 替芯装",
-    "platform": "淘宝",
-    "price": 18.1,
-    "sales": 74491,
-    "category": "电动橡皮擦",
-    "rank": 320
+    "name": "绘儿乐 蜡笔 48色 专业",
+    "platform": "抖音",
+    "price": 40.8,
+    "sales": 74709,
+    "category": "蜡笔",
+    "rank": 306
   },
   {
     "name": "手帐星球 火漆信封套装",
@@ -2632,23 +2520,15 @@ const DASHBOARD_DATA = {
     "price": 30.8,
     "sales": 74121,
     "category": "火漆印章",
-    "rank": 321
+    "rank": 307
   },
   {
-    "name": "得力 可水洗蜡笔",
-    "platform": "抖音",
-    "price": 37.4,
-    "sales": 74057,
-    "category": "蜡笔",
-    "rank": 322
-  },
-  {
-    "name": "小米 手持吸尘器 桌面",
+    "name": "PLUS 修正带 不断带",
     "platform": "淘宝",
-    "price": 57.1,
-    "sales": 73817,
-    "category": "桌面吸尘器",
-    "rank": 323
+    "price": 10.1,
+    "sales": 73845,
+    "category": "修正带",
+    "rank": 308
   },
   {
     "name": "晨光 旋转笔筒 大容量",
@@ -2656,7 +2536,23 @@ const DASHBOARD_DATA = {
     "price": 10,
     "sales": 73675,
     "category": "笔筒",
-    "rank": 324
+    "rank": 309
+  },
+  {
+    "name": "精臣 烫印姓名贴",
+    "platform": "京东",
+    "price": 69.5,
+    "sales": 73640,
+    "category": "姓名贴",
+    "rank": 310
+  },
+  {
+    "name": "九木杂物社 莫兰迪色文具",
+    "platform": "天猫",
+    "price": 76.3,
+    "sales": 73375,
+    "category": "文创用品",
+    "rank": 311
   },
   {
     "name": "晨光 透明标签贴",
@@ -2664,7 +2560,15 @@ const DASHBOARD_DATA = {
     "price": 90,
     "sales": 73180,
     "category": "标签贴纸",
-    "rank": 325
+    "rank": 312
+  },
+  {
+    "name": "晨光 万能胶",
+    "platform": "拼多多",
+    "price": 9.9,
+    "sales": 73172,
+    "category": "胶水",
+    "rank": 313
   },
   {
     "name": "kinbor 手账素材本",
@@ -2672,47 +2576,7 @@ const DASHBOARD_DATA = {
     "price": 79,
     "sales": 73160,
     "category": "手帐",
-    "rank": 326
-  },
-  {
-    "name": "松下 智能调光台灯",
-    "platform": "天猫",
-    "price": 332.1,
-    "sales": 73001,
-    "category": "护眼台灯",
-    "rank": 327
-  },
-  {
-    "name": "纽赛 学生桌面清洁器",
-    "platform": "淘宝",
-    "price": 72.9,
-    "sales": 72952,
-    "category": "桌面吸尘器",
-    "rank": 328
-  },
-  {
-    "name": "咕卡星球 拼豆模板 卡通",
-    "platform": "淘宝",
-    "price": 31.8,
-    "sales": 72815,
-    "category": "拼豆/咕卡套装",
-    "rank": 329
-  },
-  {
-    "name": "百乐 可替换墨囊钢笔",
-    "platform": "抖音",
-    "price": 93.9,
-    "sales": 72797,
-    "category": "钢笔",
-    "rank": 330
-  },
-  {
-    "name": "得力 桌面吸尘器 迷你",
-    "platform": "拼多多",
-    "price": 59.8,
-    "sales": 72549,
-    "category": "桌面吸尘器",
-    "rank": 331
+    "rank": 314
   },
   {
     "name": "兄弟 姓名贴 防水",
@@ -2720,31 +2584,15 @@ const DASHBOARD_DATA = {
     "price": 56.2,
     "sales": 72335,
     "category": "标签贴纸",
-    "rank": 332
+    "rank": 315
   },
   {
-    "name": "英雄 EF尖钢笔",
-    "platform": "天猫",
-    "price": 129,
-    "sales": 71093,
-    "category": "钢笔",
-    "rank": 333
-  },
-  {
-    "name": "DIY乐园 迷你咕卡材料包",
+    "name": "派克 明尖钢笔",
     "platform": "京东",
-    "price": 50.8,
-    "sales": 70786,
-    "category": "拼豆/咕卡套装",
-    "rank": 334
-  },
-  {
-    "name": "明基 触控台灯",
-    "platform": "拼多多",
-    "price": 226.9,
-    "sales": 70283,
-    "category": "护眼台灯",
-    "rank": 335
+    "price": 27.9,
+    "sales": 69658,
+    "category": "钢笔",
+    "rank": 316
   },
   {
     "name": "三年二班 电动文具盒 多功能",
@@ -2752,23 +2600,7 @@ const DASHBOARD_DATA = {
     "price": 35,
     "sales": 69643,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 336
-  },
-  {
-    "name": "真彩 荧光蜡笔",
-    "platform": "天猫",
-    "price": 31.8,
-    "sales": 69182,
-    "category": "蜡笔",
-    "rank": 337
-  },
-  {
-    "name": "真彩 透明修正带",
-    "platform": "淘宝",
-    "price": 3.5,
-    "sales": 68530,
-    "category": "修正带",
-    "rank": 338
+    "rank": 317
   },
   {
     "name": "晨光 磁吸笔筒",
@@ -2776,7 +2608,15 @@ const DASHBOARD_DATA = {
     "price": 13,
     "sales": 68352,
     "category": "笔筒",
-    "rank": 339
+    "rank": 318
+  },
+  {
+    "name": "英雄 透明示范钢笔",
+    "platform": "天猫",
+    "price": 69.9,
+    "sales": 68244,
+    "category": "钢笔",
+    "rank": 319
   },
   {
     "name": "斑马 彩色荧光笔 学生用",
@@ -2784,7 +2624,7 @@ const DASHBOARD_DATA = {
     "price": 12.8,
     "sales": 68231,
     "category": "荧光笔",
-    "rank": 340
+    "rank": 320
   },
   {
     "name": "东洋 速干荧光笔",
@@ -2792,7 +2632,7 @@ const DASHBOARD_DATA = {
     "price": 26.7,
     "sales": 67839,
     "category": "荧光笔",
-    "rank": 341
+    "rank": 321
   },
   {
     "name": "得力 桌上小书架",
@@ -2800,39 +2640,15 @@ const DASHBOARD_DATA = {
     "price": 59.9,
     "sales": 67644,
     "category": "桌面收纳架",
-    "rank": 342
+    "rank": 322
   },
   {
-    "name": "喵喵机 学习打印机 护眼",
+    "name": "手工 永生花书签",
     "platform": "淘宝",
-    "price": 210.3,
-    "sales": 67543,
-    "category": "错题打印机",
-    "rank": 343
-  },
-  {
-    "name": "晨光 中性笔套装 12色",
-    "platform": "天猫",
-    "price": 79.8,
-    "sales": 67292,
-    "category": "笔类套装/礼盒",
-    "rank": 344
-  },
-  {
-    "name": "晨光 压花书签",
-    "platform": "天猫",
-    "price": 30.7,
-    "sales": 67208,
+    "price": 16.3,
+    "sales": 66880,
     "category": "书签",
-    "rank": 345
-  },
-  {
-    "name": "MUJI 复古文具",
-    "platform": "天猫",
-    "price": 12.2,
-    "sales": 67029,
-    "category": "文创用品",
-    "rank": 346
+    "rank": 323
   },
   {
     "name": "印迹 火漆印章头 定制",
@@ -2840,7 +2656,15 @@ const DASHBOARD_DATA = {
     "price": 44.9,
     "sales": 66644,
     "category": "火漆印章",
-    "rank": 347
+    "rank": 324
+  },
+  {
+    "name": "宝克 油性记号笔",
+    "platform": "京东",
+    "price": 17.7,
+    "sales": 66564,
+    "category": "记号笔",
+    "rank": 325
   },
   {
     "name": "宜家 亚克力收纳架",
@@ -2848,23 +2672,15 @@ const DASHBOARD_DATA = {
     "price": 35.1,
     "sales": 66451,
     "category": "文具收纳盒",
-    "rank": 348
+    "rank": 326
   },
   {
-    "name": "三年二班 创意笔筒 北欧",
-    "platform": "抖音",
-    "price": 75.4,
-    "sales": 66424,
-    "category": "文创用品",
-    "rank": 349
-  },
-  {
-    "name": "得力 键盘吸尘器",
-    "platform": "天猫",
-    "price": 59.2,
-    "sales": 65905,
-    "category": "桌面吸尘器",
-    "rank": 350
+    "name": "创意工坊 咕卡贴纸 闪钻",
+    "platform": "京东",
+    "price": 31.3,
+    "sales": 65778,
+    "category": "拼豆/咕卡套装",
+    "rank": 327
   },
   {
     "name": "得力 文件收纳架",
@@ -2872,23 +2688,7 @@ const DASHBOARD_DATA = {
     "price": 34.9,
     "sales": 65583,
     "category": "桌面收纳架",
-    "rank": 351
-  },
-  {
-    "name": "英雄 马克笔+彩铅套装",
-    "platform": "抖音",
-    "price": 196.9,
-    "sales": 65516,
-    "category": "笔类套装/礼盒",
-    "rank": 352
-  },
-  {
-    "name": "MUJI ins风文具套装",
-    "platform": "拼多多",
-    "price": 50.6,
-    "sales": 65380,
-    "category": "文创用品",
-    "rank": 353
+    "rank": 328
   },
   {
     "name": "Hobonichi 手账装饰花边剪刀",
@@ -2896,7 +2696,15 @@ const DASHBOARD_DATA = {
     "price": 70.8,
     "sales": 65373,
     "category": "手帐",
-    "rank": 354
+    "rank": 329
+  },
+  {
+    "name": "敦煌 卡通书签",
+    "platform": "淘宝",
+    "price": 25.5,
+    "sales": 65264,
+    "category": "书签",
+    "rank": 330
   },
   {
     "name": "斯塔 马克笔套装 80色",
@@ -2904,7 +2712,15 @@ const DASHBOARD_DATA = {
     "price": 125.4,
     "sales": 65256,
     "category": "马克笔",
-    "rank": 355
+    "rank": 331
+  },
+  {
+    "name": "鲁本斯 固体水彩 便携",
+    "platform": "天猫",
+    "price": 103.9,
+    "sales": 65138,
+    "category": "美术颜料",
+    "rank": 332
   },
   {
     "name": "法卡勒 金属色马克笔",
@@ -2912,7 +2728,7 @@ const DASHBOARD_DATA = {
     "price": 32.4,
     "sales": 65054,
     "category": "马克笔",
-    "rank": 356
+    "rank": 333
   },
   {
     "name": "国誉 道林纸笔记本",
@@ -2920,23 +2736,23 @@ const DASHBOARD_DATA = {
     "price": 10,
     "sales": 65047,
     "category": "笔记本/记事本",
-    "rank": 357
+    "rank": 334
   },
   {
-    "name": "晨光 学生笔类大礼包",
+    "name": "九木 夜光书签",
     "platform": "拼多多",
-    "price": 77,
-    "sales": 64794,
-    "category": "笔类套装/礼盒",
-    "rank": 358
+    "price": 12.6,
+    "sales": 64987,
+    "category": "书签",
+    "rank": 335
   },
   {
-    "name": "精臣 幼儿园名字贴",
+    "name": "辉柏嘉 儿童彩色铅笔 24色",
     "platform": "天猫",
-    "price": 77.5,
+    "price": 101.3,
     "sales": 64492,
-    "category": "姓名贴",
-    "rank": 359
+    "category": "彩色铅笔",
+    "rank": 336
   },
   {
     "name": "晨光 资料收纳盒",
@@ -2944,23 +2760,31 @@ const DASHBOARD_DATA = {
     "price": 64.2,
     "sales": 64343,
     "category": "文具收纳盒",
-    "rank": 360
+    "rank": 337
   },
   {
-    "name": "晨光 钢笔礼盒 毕业礼物",
-    "platform": "天猫",
-    "price": 176.5,
-    "sales": 63907,
-    "category": "笔类套装/礼盒",
-    "rank": 361
-  },
-  {
-    "name": "施耐德 学生圆珠笔 套装",
+    "name": "广博 塑料书皮 卡通",
     "platform": "抖音",
-    "price": 14.9,
-    "sales": 62943,
-    "category": "圆珠笔",
-    "rank": 362
+    "price": 20.1,
+    "sales": 63624,
+    "category": "书皮/书套",
+    "rank": 338
+  },
+  {
+    "name": "创意工坊 拼豆挂件材料",
+    "platform": "天猫",
+    "price": 42.1,
+    "sales": 63313,
+    "category": "拼豆/咕卡套装",
+    "rank": 339
+  },
+  {
+    "name": "得力 包书纸 花色",
+    "platform": "淘宝",
+    "price": 19.8,
+    "sales": 62813,
+    "category": "书皮/书套",
+    "rank": 340
   },
   {
     "name": "奥特曼 幼儿园文具礼盒",
@@ -2968,7 +2792,15 @@ const DASHBOARD_DATA = {
     "price": 48.8,
     "sales": 62783,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 363
+    "rank": 341
+  },
+  {
+    "name": "马利 颜料补充装",
+    "platform": "淘宝",
+    "price": 79.1,
+    "sales": 62772,
+    "category": "美术颜料",
+    "rank": 342
   },
   {
     "name": "Hobonichi 手账本 A6 活页",
@@ -2976,31 +2808,31 @@ const DASHBOARD_DATA = {
     "price": 35.2,
     "sales": 62720,
     "category": "手帐",
-    "rank": 364
+    "rank": 343
   },
   {
-    "name": "鲁本斯 金属色颜料",
+    "name": "百乐 商务圆珠笔",
+    "platform": "拼多多",
+    "price": 14.3,
+    "sales": 62615,
+    "category": "圆珠笔",
+    "rank": 344
+  },
+  {
+    "name": "kinbor ins风文具套装",
+    "platform": "京东",
+    "price": 22.7,
+    "sales": 62434,
+    "category": "文创用品",
+    "rank": 345
+  },
+  {
+    "name": "英雄 马克笔+彩铅套装",
     "platform": "抖音",
-    "price": 25.6,
+    "price": 45,
     "sales": 62400,
-    "category": "美术颜料",
-    "rank": 365
-  },
-  {
-    "name": "田英章 幼儿描红",
-    "platform": "抖音",
-    "price": 30.6,
-    "sales": 62383,
-    "category": "练字帖/描红本",
-    "rank": 366
-  },
-  {
-    "name": "派克 学生钢笔 正姿",
-    "platform": "抖音",
-    "price": 59.5,
-    "sales": 62238,
-    "category": "钢笔",
-    "rank": 367
+    "category": "笔类套装/礼盒",
+    "rank": 346
   },
   {
     "name": "慕娜美 荧光笔套装 6色",
@@ -3008,23 +2840,7 @@ const DASHBOARD_DATA = {
     "price": 27.1,
     "sales": 62163,
     "category": "荧光笔",
-    "rank": 368
-  },
-  {
-    "name": "百乐 画笔套装 水彩",
-    "platform": "天猫",
-    "price": 182.3,
-    "sales": 61800,
-    "category": "笔类套装/礼盒",
-    "rank": 369
-  },
-  {
-    "name": "飞利浦 全光谱台灯",
-    "platform": "拼多多",
-    "price": 389.2,
-    "sales": 61652,
-    "category": "护眼台灯",
-    "rank": 370
+    "rank": 347
   },
   {
     "name": "东洋 柔和色荧光笔",
@@ -3032,7 +2848,7 @@ const DASHBOARD_DATA = {
     "price": 33.2,
     "sales": 61427,
     "category": "荧光笔",
-    "rank": 371
+    "rank": 348
   },
   {
     "name": "kinbor 手账贴纸 100张",
@@ -3040,47 +2856,39 @@ const DASHBOARD_DATA = {
     "price": 76.7,
     "sales": 61191,
     "category": "手帐",
-    "rank": 372
+    "rank": 349
   },
   {
-    "name": "温莎牛顿 水彩颜料 36色",
+    "name": "得力 钢笔礼盒 毕业礼物",
     "platform": "拼多多",
-    "price": 66,
+    "price": 105.7,
     "sales": 60961,
-    "category": "美术颜料",
-    "rank": 373
-  },
-  {
-    "name": "松下 无频闪护眼灯",
-    "platform": "抖音",
-    "price": 67.4,
-    "sales": 60631,
-    "category": "护眼台灯",
-    "rank": 374
-  },
-  {
-    "name": "得力 手工白胶",
-    "platform": "天猫",
-    "price": 16.2,
-    "sales": 60631,
-    "category": "胶水",
-    "rank": 375
-  },
-  {
-    "name": "晨光 毛笔套装 书法",
-    "platform": "京东",
-    "price": 144,
-    "sales": 60263,
     "category": "笔类套装/礼盒",
-    "rank": 376
+    "rank": 350
   },
   {
-    "name": "青竹 国画颜料 12色",
+    "name": "百乐 金属杆钢笔",
+    "platform": "抖音",
+    "price": 138,
+    "sales": 60451,
+    "category": "钢笔",
+    "rank": 351
+  },
+  {
+    "name": "毕加索 铅笔套装 绘画用",
     "platform": "京东",
-    "price": 25.4,
+    "price": 44.6,
     "sales": 59972,
-    "category": "美术颜料",
-    "rank": 377
+    "category": "笔类套装/礼盒",
+    "rank": 352
+  },
+  {
+    "name": "故宫文创 古风书签 流苏",
+    "platform": "京东",
+    "price": 26.1,
+    "sales": 59496,
+    "category": "书签",
+    "rank": 353
   },
   {
     "name": "百乐 荧光笔 大容量",
@@ -3088,15 +2896,55 @@ const DASHBOARD_DATA = {
     "price": 13.1,
     "sales": 59387,
     "category": "荧光笔",
-    "rank": 378
+    "rank": 354
   },
   {
-    "name": "雅柯莱 书本姓名贴 透明",
+    "name": "樱花 金属色颜料",
+    "platform": "抖音",
+    "price": 37.6,
+    "sales": 59283,
+    "category": "美术颜料",
+    "rank": 355
+  },
+  {
+    "name": "凌美 学生钢笔 正姿",
+    "platform": "京东",
+    "price": 36.6,
+    "sales": 58802,
+    "category": "钢笔",
+    "rank": 356
+  },
+  {
+    "name": "DIY乐园 咕卡奶油胶",
+    "platform": "抖音",
+    "price": 35.1,
+    "sales": 58369,
+    "category": "拼豆/咕卡套装",
+    "rank": 357
+  },
+  {
+    "name": "得力 软芯彩铅",
     "platform": "淘宝",
-    "price": 72.9,
+    "price": 95.6,
     "sales": 58095,
-    "category": "姓名贴",
-    "rank": 379
+    "category": "彩色铅笔",
+    "rank": 358
+  },
+  {
+    "name": "鲁本斯 水彩颜料 36色",
+    "platform": "京东",
+    "price": 18.9,
+    "sales": 58016,
+    "category": "美术颜料",
+    "rank": 359
+  },
+  {
+    "name": "凌美 复古钢笔",
+    "platform": "抖音",
+    "price": 24.4,
+    "sales": 57981,
+    "category": "钢笔",
+    "rank": 360
   },
   {
     "name": "马利 建筑手绘马克笔",
@@ -3104,47 +2952,23 @@ const DASHBOARD_DATA = {
     "price": 121.8,
     "sales": 57856,
     "category": "马克笔",
-    "rank": 380
+    "rank": 361
   },
   {
-    "name": "晨光 衣物姓名标",
+    "name": "MARCO 彩铅画本套装",
     "platform": "拼多多",
-    "price": 56.2,
+    "price": 74.9,
     "sales": 57805,
-    "category": "姓名贴",
-    "rank": 381
-  },
-  {
-    "name": "施耐德 油性圆珠笔",
-    "platform": "拼多多",
-    "price": 33.9,
-    "sales": 57388,
-    "category": "圆珠笔",
-    "rank": 382
-  },
-  {
-    "name": "得力 油性彩铅 72色",
-    "platform": "拼多多",
-    "price": 69.7,
-    "sales": 57146,
     "category": "彩色铅笔",
-    "rank": 383
+    "rank": 362
   },
   {
-    "name": "老人头 儿童画本 空白",
-    "platform": "京东",
-    "price": 64.8,
-    "sales": 56884,
+    "name": "宝虹 马克笔专用纸",
+    "platform": "拼多多",
+    "price": 35.1,
+    "sales": 57026,
     "category": "画纸/画本",
-    "rank": 384
-  },
-  {
-    "name": "晨光 计算器 太阳能",
-    "platform": "抖音",
-    "price": 33.3,
-    "sales": 56874,
-    "category": "办公文具",
-    "rank": 385
+    "rank": 363
   },
   {
     "name": "晨光 学习用品礼盒",
@@ -3152,23 +2976,15 @@ const DASHBOARD_DATA = {
     "price": 46.9,
     "sales": 56556,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 386
+    "rank": 364
   },
   {
-    "name": "喵喵机 错题打印机 蓝牙",
-    "platform": "抖音",
-    "price": 157.5,
-    "sales": 56543,
-    "category": "错题打印机",
-    "rank": 387
-  },
-  {
-    "name": "温莎 速写本 A4",
-    "platform": "抖音",
-    "price": 56,
-    "sales": 55673,
-    "category": "画纸/画本",
-    "rank": 388
+    "name": "九木 压花书签",
+    "platform": "拼多多",
+    "price": 9.8,
+    "sales": 55666,
+    "category": "书签",
+    "rank": 365
   },
   {
     "name": "印迹 火漆印章 花朵款",
@@ -3176,7 +2992,15 @@ const DASHBOARD_DATA = {
     "price": 63.1,
     "sales": 55060,
     "category": "火漆印章",
-    "rank": 389
+    "rank": 366
+  },
+  {
+    "name": "3M 学生胶水 安全",
+    "platform": "淘宝",
+    "price": 2.9,
+    "sales": 54849,
+    "category": "胶水",
+    "rank": 367
   },
   {
     "name": "慢作 火漆勺 木柄",
@@ -3184,7 +3008,23 @@ const DASHBOARD_DATA = {
     "price": 49.9,
     "sales": 54666,
     "category": "火漆印章",
-    "rank": 390
+    "rank": 368
+  },
+  {
+    "name": "百乐 按动笔芯 替换装",
+    "platform": "抖音",
+    "price": 16.9,
+    "sales": 54633,
+    "category": "笔芯/替芯/笔壳",
+    "rank": 369
+  },
+  {
+    "name": "真彩 白板笔 替换芯",
+    "platform": "拼多多",
+    "price": 19.8,
+    "sales": 54435,
+    "category": "白板笔",
+    "rank": 370
   },
   {
     "name": "纳川 文具整理架",
@@ -3192,23 +3032,47 @@ const DASHBOARD_DATA = {
     "price": 48.4,
     "sales": 54372,
     "category": "文具收纳盒",
-    "rank": 391
+    "rank": 371
   },
   {
-    "name": "得力 双行修正带",
-    "platform": "天猫",
-    "price": 13.9,
-    "sales": 53238,
-    "category": "修正带",
-    "rank": 392
+    "name": "晨光 贴纸式姓名贴",
+    "platform": "抖音",
+    "price": 55.7,
+    "sales": 54299,
+    "category": "姓名贴",
+    "rank": 372
   },
   {
-    "name": "马利 颜料补充装",
+    "name": "kinbor 创意书签 金属",
+    "platform": "抖音",
+    "price": 29.6,
+    "sales": 53526,
+    "category": "文创用品",
+    "rank": 373
+  },
+  {
+    "name": "kinbor 复古文具",
+    "platform": "抖音",
+    "price": 35.4,
+    "sales": 53497,
+    "category": "文创用品",
+    "rank": 374
+  },
+  {
+    "name": "手工达人 迷你咕卡材料包",
+    "platform": "淘宝",
+    "price": 16.5,
+    "sales": 53472,
+    "category": "拼豆/咕卡套装",
+    "rank": 375
+  },
+  {
+    "name": "晨光 彩色笔全套",
     "platform": "京东",
-    "price": 76.7,
+    "price": 121.8,
     "sales": 53228,
-    "category": "美术颜料",
-    "rank": 393
+    "category": "笔类套装/礼盒",
+    "rank": 376
   },
   {
     "name": "得力 考试文具套装 68件",
@@ -3216,15 +3080,7 @@ const DASHBOARD_DATA = {
     "price": 127.3,
     "sales": 53187,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 394
-  },
-  {
-    "name": "明基 阅读台灯 防蓝光",
-    "platform": "天猫",
-    "price": 326.4,
-    "sales": 52885,
-    "category": "护眼台灯",
-    "rank": 395
+    "rank": 377
   },
   {
     "name": "三菱 粗杆铅笔 幼儿用",
@@ -3232,143 +3088,95 @@ const DASHBOARD_DATA = {
     "price": 6,
     "sales": 52730,
     "category": "铅笔",
-    "rank": 396
+    "rank": 378
   },
   {
-    "name": "九木 永生花书签",
-    "platform": "京东",
-    "price": 15.3,
-    "sales": 52565,
-    "category": "书签",
-    "rank": 397
+    "name": "晨光 大头笔 物流用",
+    "platform": "抖音",
+    "price": 3.5,
+    "sales": 51844,
+    "category": "记号笔",
+    "rank": 379
   },
   {
-    "name": "三年二班 国潮文具套装",
-    "platform": "京东",
-    "price": 46.4,
-    "sales": 52546,
-    "category": "文创用品",
-    "rank": 398
-  },
-  {
-    "name": "得力 彩铅收纳笔帘",
-    "platform": "拼多多",
-    "price": 32.2,
-    "sales": 52176,
-    "category": "彩色铅笔",
-    "rank": 399
-  },
-  {
-    "name": "晨光 票据收纳袋",
+    "name": "精臣 硅胶姓名扣",
     "platform": "天猫",
-    "price": 12.9,
-    "sales": 51412,
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "rank": 400
+    "price": 90.7,
+    "sales": 51794,
+    "category": "姓名贴",
+    "rank": 380
   },
   {
-    "name": "松下 长臂台灯 办公",
+    "name": "得力 白板笔 大容量",
     "platform": "淘宝",
-    "price": 251.8,
-    "sales": 51045,
-    "category": "护眼台灯",
-    "rank": 401
+    "price": 8.4,
+    "sales": 50143,
+    "category": "白板笔",
+    "rank": 381
   },
   {
-    "name": "敦煌 书签尺 多功能",
-    "platform": "京东",
-    "price": 10.2,
-    "sales": 48673,
-    "category": "书签",
-    "rank": 402
-  },
-  {
-    "name": "纽赛 可爱卡通吸尘器",
-    "platform": "拼多多",
-    "price": 67.8,
-    "sales": 48640,
-    "category": "桌面吸尘器",
-    "rank": 403
-  },
-  {
-    "name": "得力 错题打印机 彩色",
-    "platform": "抖音",
-    "price": 219.4,
-    "sales": 48624,
-    "category": "错题打印机",
-    "rank": 404
-  },
-  {
-    "name": "DIY乐园 咕卡套装 全套材料",
+    "name": "老人头 临摹纸 拷贝纸",
     "platform": "天猫",
-    "price": 31.9,
-    "sales": 48538,
-    "category": "拼豆/咕卡套装",
-    "rank": 405
-  },
-  {
-    "name": "欧普 床头台灯 护眼",
-    "platform": "抖音",
-    "price": 127.1,
-    "sales": 48331,
-    "category": "护眼台灯",
-    "rank": 406
-  },
-  {
-    "name": "真彩 油画棒 重彩",
-    "platform": "京东",
-    "price": 15.1,
-    "sales": 47888,
-    "category": "蜡笔",
-    "rank": 407
-  },
-  {
-    "name": "齐心 剪刀 安全圆头",
-    "platform": "天猫",
-    "price": 46.5,
-    "sales": 47680,
-    "category": "办公文具",
-    "rank": 408
-  },
-  {
-    "name": "明基 护眼台灯 国AA级",
-    "platform": "京东",
-    "price": 70.7,
-    "sales": 47345,
-    "category": "护眼台灯",
-    "rank": 409
-  },
-  {
-    "name": "敦煌 定制书签",
-    "platform": "抖音",
-    "price": 22.5,
-    "sales": 47007,
-    "category": "书签",
-    "rank": 410
-  },
-  {
-    "name": "温莎牛顿 纺织颜料 手绘",
-    "platform": "拼多多",
-    "price": 17.5,
-    "sales": 46731,
-    "category": "美术颜料",
-    "rank": 411
-  },
-  {
-    "name": "老人头 油画纸 亚麻",
-    "platform": "拼多多",
-    "price": 30.6,
-    "sales": 46475,
+    "price": 46.2,
+    "sales": 49316,
     "category": "画纸/画本",
-    "rank": 412
+    "rank": 382
   },
   {
-    "name": "纽赛 多功能桌面清洁",
-    "platform": "天猫",
-    "price": 32.3,
-    "sales": 45733,
-    "category": "桌面吸尘器",
-    "rank": 413
+    "name": "晨光 练字钢笔 暗尖",
+    "platform": "抖音",
+    "price": 110.9,
+    "sales": 48805,
+    "category": "钢笔",
+    "rank": 383
+  },
+  {
+    "name": "三年二班 原创设计笔",
+    "platform": "京东",
+    "price": 47.8,
+    "sales": 48456,
+    "category": "文创用品",
+    "rank": 384
+  },
+  {
+    "name": "得力 计算器 太阳能",
+    "platform": "抖音",
+    "price": 39.2,
+    "sales": 47524,
+    "category": "办公文具",
+    "rank": 385
+  },
+  {
+    "name": "派克 EF尖钢笔",
+    "platform": "抖音",
+    "price": 174.5,
+    "sales": 47140,
+    "category": "钢笔",
+    "rank": 386
+  },
+  {
+    "name": "获多福 手绘本 硬壳",
+    "platform": "抖音",
+    "price": 14.9,
+    "sales": 47136,
+    "category": "画纸/画本",
+    "rank": 387
+  },
+  {
+    "name": "白雪 白板笔 12色套装",
+    "platform": "抖音",
+    "price": 14.8,
+    "sales": 47006,
+    "category": "白板笔",
+    "rank": 388
+  },
+  {
+    "name": "得力 毛笔套装 书法",
+    "platform": "拼多多",
+    "price": 32.8,
+    "sales": 46731,
+    "category": "笔类套装/礼盒",
+    "rank": 389
   },
   {
     "name": "手帐星球 火漆蜡条 彩色",
@@ -3376,7 +3184,7 @@ const DASHBOARD_DATA = {
     "price": 24.9,
     "sales": 45419,
     "category": "火漆印章",
-    "rank": 414
+    "rank": 390
   },
   {
     "name": "KOKUYO 帆布笔袋 简约",
@@ -3384,7 +3192,7 @@ const DASHBOARD_DATA = {
     "price": 37.9,
     "sales": 45166,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 415
+    "rank": 391
   },
   {
     "name": "手帐星球 火漆蜡粒 多色",
@@ -3392,15 +3200,15 @@ const DASHBOARD_DATA = {
     "price": 72.6,
     "sales": 44658,
     "category": "火漆印章",
-    "rank": 416
+    "rank": 392
   },
   {
-    "name": "派克 钢笔礼盒 商务",
-    "platform": "天猫",
-    "price": 28.6,
-    "sales": 44238,
-    "category": "钢笔",
-    "rank": 417
+    "name": "雅柯莱 幼儿园名字贴",
+    "platform": "抖音",
+    "price": 18,
+    "sales": 44495,
+    "category": "姓名贴",
+    "rank": 393
   },
   {
     "name": "马利 白板用水彩笔",
@@ -3408,31 +3216,31 @@ const DASHBOARD_DATA = {
     "price": 49.1,
     "sales": 43976,
     "category": "水彩笔",
-    "rank": 418
+    "rank": 394
   },
   {
-    "name": "晨光生活馆 设计感便签",
-    "platform": "京东",
-    "price": 41.3,
-    "sales": 43852,
-    "category": "文创用品",
-    "rank": 419
-  },
-  {
-    "name": "毕加索 彩色笔全套",
-    "platform": "抖音",
-    "price": 118.2,
-    "sales": 43685,
-    "category": "笔类套装/礼盒",
-    "rank": 420
-  },
-  {
-    "name": "兄弟 贴纸式姓名贴",
+    "name": "雅柯莱 书本姓名贴 透明",
     "platform": "拼多多",
-    "price": 53.8,
-    "sales": 43165,
+    "price": 57.5,
+    "sales": 43656,
     "category": "姓名贴",
-    "rank": 421
+    "rank": 395
+  },
+  {
+    "name": "晨光 彩铅补充装",
+    "platform": "拼多多",
+    "price": 71.9,
+    "sales": 43165,
+    "category": "彩色铅笔",
+    "rank": 396
+  },
+  {
+    "name": "kinbor 文艺笔记本",
+    "platform": "拼多多",
+    "price": 66.8,
+    "sales": 43067,
+    "category": "文创用品",
+    "rank": 397
   },
   {
     "name": "晨光 桌面卷笔器 大容量",
@@ -3440,15 +3248,23 @@ const DASHBOARD_DATA = {
     "price": 52.7,
     "sales": 42918,
     "category": "卷笔刀/卷笔器",
-    "rank": 422
+    "rank": 398
   },
   {
-    "name": "晨光生活馆 治愈系文具",
-    "platform": "天猫",
-    "price": 56,
-    "sales": 42209,
-    "category": "文创用品",
-    "rank": 423
+    "name": "老人头 绘画本 A3",
+    "platform": "京东",
+    "price": 16.1,
+    "sales": 42890,
+    "category": "画纸/画本",
+    "rank": 399
+  },
+  {
+    "name": "百乐 透明杆圆珠笔",
+    "platform": "京东",
+    "price": 20.4,
+    "sales": 42142,
+    "category": "圆珠笔",
+    "rank": 400
   },
   {
     "name": "宜家 可调节桌面架",
@@ -3456,23 +3272,15 @@ const DASHBOARD_DATA = {
     "price": 87.6,
     "sales": 41704,
     "category": "桌面收纳架",
-    "rank": 424
+    "rank": 401
   },
   {
-    "name": "派克 速写钢笔",
-    "platform": "淘宝",
-    "price": 78.1,
-    "sales": 41585,
-    "category": "钢笔",
-    "rank": 425
-  },
-  {
-    "name": "晨光 签字笔礼盒",
+    "name": "晨光 502胶水",
     "platform": "天猫",
-    "price": 183.5,
-    "sales": 41538,
-    "category": "笔类套装/礼盒",
-    "rank": 426
+    "price": 21.5,
+    "sales": 41530,
+    "category": "胶水",
+    "rank": 402
   },
   {
     "name": "迪士尼 便携卷笔刀",
@@ -3480,23 +3288,23 @@ const DASHBOARD_DATA = {
     "price": 36.5,
     "sales": 41305,
     "category": "卷笔刀/卷笔器",
-    "rank": 427
+    "rank": 403
   },
   {
-    "name": "故宫文创 刺绣书签",
-    "platform": "京东",
-    "price": 24.2,
-    "sales": 40836,
-    "category": "书签",
-    "rank": 428
+    "name": "百乐 学生圆珠笔 套装",
+    "platform": "淘宝",
+    "price": 24.9,
+    "sales": 40499,
+    "category": "圆珠笔",
+    "rank": 404
   },
   {
-    "name": "MARCO 彩铅套装 专业级",
-    "platform": "京东",
-    "price": 34.4,
-    "sales": 40245,
-    "category": "彩色铅笔",
-    "rank": 429
+    "name": "六品堂 小学生字帖",
+    "platform": "天猫",
+    "price": 24.3,
+    "sales": 40421,
+    "category": "练字帖/描红本",
+    "rank": 405
   },
   {
     "name": "三年二班 硅胶笔袋 创意",
@@ -3504,15 +3312,15 @@ const DASHBOARD_DATA = {
     "price": 38.9,
     "sales": 39978,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 430
+    "rank": 406
   },
   {
-    "name": "马利 丙烯颜料套装",
+    "name": "晨光 中性笔套装 12色",
     "platform": "拼多多",
-    "price": 40.4,
+    "price": 67.2,
     "sales": 39759,
-    "category": "美术颜料",
-    "rank": 431
+    "category": "笔类套装/礼盒",
+    "rank": 407
   },
   {
     "name": "晨光 三角杆水彩笔",
@@ -3520,15 +3328,7 @@ const DASHBOARD_DATA = {
     "price": 60.3,
     "sales": 39458,
     "category": "水彩笔",
-    "rank": 432
-  },
-  {
-    "name": "晨光 吸尘器 配件刷头",
-    "platform": "京东",
-    "price": 45.7,
-    "sales": 39395,
-    "category": "桌面吸尘器",
-    "rank": 433
+    "rank": 408
   },
   {
     "name": "晨光 手摇卷笔刀 儿童",
@@ -3536,15 +3336,7 @@ const DASHBOARD_DATA = {
     "price": 55.5,
     "sales": 39253,
     "category": "卷笔刀/卷笔器",
-    "rank": 434
-  },
-  {
-    "name": "三年二班 原创设计笔",
-    "platform": "抖音",
-    "price": 46.4,
-    "sales": 38913,
-    "category": "文创用品",
-    "rank": 435
+    "rank": 409
   },
   {
     "name": "精臣 文件标签 彩色索引",
@@ -3552,7 +3344,7 @@ const DASHBOARD_DATA = {
     "price": 32.9,
     "sales": 37968,
     "category": "标签贴纸",
-    "rank": 436
+    "rank": 410
   },
   {
     "name": "文谷 手账打孔器",
@@ -3560,71 +3352,7 @@ const DASHBOARD_DATA = {
     "price": 71.8,
     "sales": 37891,
     "category": "手帐",
-    "rank": 437
-  },
-  {
-    "name": "晨光 电动橡皮+替芯组合",
-    "platform": "拼多多",
-    "price": 31.7,
-    "sales": 37598,
-    "category": "电动橡皮擦",
-    "rank": 438
-  },
-  {
-    "name": "宝虹 水彩纸 300g",
-    "platform": "京东",
-    "price": 48.2,
-    "sales": 37437,
-    "category": "画纸/画本",
-    "rank": 439
-  },
-  {
-    "name": "英雄 复古钢笔",
-    "platform": "京东",
-    "price": 163.1,
-    "sales": 37419,
-    "category": "钢笔",
-    "rank": 440
-  },
-  {
-    "name": "纽赛 USB充电吸尘器",
-    "platform": "淘宝",
-    "price": 77.3,
-    "sales": 37293,
-    "category": "桌面吸尘器",
-    "rank": 441
-  },
-  {
-    "name": "墨点 古诗词字帖",
-    "platform": "天猫",
-    "price": 24.1,
-    "sales": 37186,
-    "category": "练字帖/描红本",
-    "rank": 442
-  },
-  {
-    "name": "手工达人 咕卡奶油胶",
-    "platform": "淘宝",
-    "price": 33.6,
-    "sales": 36897,
-    "category": "拼豆/咕卡套装",
-    "rank": 443
-  },
-  {
-    "name": "齐心 速干白板笔",
-    "platform": "天猫",
-    "price": 20.8,
-    "sales": 36497,
-    "category": "白板笔",
-    "rank": 444
-  },
-  {
-    "name": "晨光 秘密花园彩铅",
-    "platform": "抖音",
-    "price": 40,
-    "sales": 36359,
-    "category": "彩色铅笔",
-    "rank": 445
+    "rank": 411
   },
   {
     "name": "暮光之印 星座火漆印章",
@@ -3632,7 +3360,7 @@ const DASHBOARD_DATA = {
     "price": 69.3,
     "sales": 36211,
     "category": "火漆印章",
-    "rank": 446
+    "rank": 412
   },
   {
     "name": "晨光 文具盲盒 联名款",
@@ -3640,7 +3368,7 @@ const DASHBOARD_DATA = {
     "price": 52.8,
     "sales": 36122,
     "category": "学习套装/礼盒/盲盒",
-    "rank": 447
+    "rank": 413
   },
   {
     "name": "暮光之印 复古火漆印章套装",
@@ -3648,63 +3376,23 @@ const DASHBOARD_DATA = {
     "price": 84.6,
     "sales": 35889,
     "category": "火漆印章",
-    "rank": 448
+    "rank": 414
   },
   {
-    "name": "kinbor 手绘明信片套装",
+    "name": "得力 文具笔礼盒",
     "platform": "淘宝",
-    "price": 21,
-    "sales": 35648,
-    "category": "文创用品",
-    "rank": 449
-  },
-  {
-    "name": "温莎牛顿 水粉颜料 果冻",
-    "platform": "淘宝",
-    "price": 36.8,
+    "price": 61.8,
     "sales": 35628,
-    "category": "美术颜料",
-    "rank": 450
-  },
-  {
-    "name": "百乐 彩笔套装 150件",
-    "platform": "抖音",
-    "price": 47.7,
-    "sales": 35282,
     "category": "笔类套装/礼盒",
-    "rank": 451
+    "rank": 415
   },
   {
-    "name": "天文 USB充电橡皮擦",
-    "platform": "淘宝",
-    "price": 18.9,
-    "sales": 34781,
-    "category": "电动橡皮擦",
-    "rank": 452
-  },
-  {
-    "name": "百乐 考试笔套装",
-    "platform": "拼多多",
-    "price": 121.4,
-    "sales": 34563,
-    "category": "笔类套装/礼盒",
-    "rank": 453
-  },
-  {
-    "name": "晨光 钢笔套装 含墨囊",
+    "name": "白雪 彩色白板笔 套装",
     "platform": "京东",
-    "price": 134.3,
-    "sales": 34517,
-    "category": "钢笔",
-    "rank": 454
-  },
-  {
-    "name": "得力 无线吸尘器 小型",
-    "platform": "淘宝",
-    "price": 33.5,
-    "sales": 34155,
-    "category": "桌面吸尘器",
-    "rank": 455
+    "price": 17.3,
+    "sales": 35275,
+    "category": "白板笔",
+    "rank": 416
   },
   {
     "name": "得力 多功能桌面架",
@@ -3712,23 +3400,15 @@ const DASHBOARD_DATA = {
     "price": 23,
     "sales": 33900,
     "category": "桌面收纳架",
-    "rank": 456
+    "rank": 417
   },
   {
-    "name": "晨光 环保白板笔",
-    "platform": "淘宝",
-    "price": 20.9,
-    "sales": 33485,
-    "category": "白板笔",
-    "rank": 457
-  },
-  {
-    "name": "晨光 旋转蜡笔 不脏手",
-    "platform": "抖音",
-    "price": 44.7,
-    "sales": 33435,
-    "category": "蜡笔",
-    "rank": 458
+    "name": "得力 姓名贴打印机",
+    "platform": "天猫",
+    "price": 57.4,
+    "sales": 33856,
+    "category": "姓名贴",
+    "rank": 418
   },
   {
     "name": "Hobonichi 手账模板尺",
@@ -3736,7 +3416,23 @@ const DASHBOARD_DATA = {
     "price": 64.7,
     "sales": 33264,
     "category": "手帐",
-    "rank": 459
+    "rank": 419
+  },
+  {
+    "name": "樱花 纺织颜料 手绘",
+    "platform": "天猫",
+    "price": 56.6,
+    "sales": 33199,
+    "category": "美术颜料",
+    "rank": 420
+  },
+  {
+    "name": "创意工坊 咕卡装饰宝石",
+    "platform": "抖音",
+    "price": 31.2,
+    "sales": 33112,
+    "category": "拼豆/咕卡套装",
+    "rank": 421
   },
   {
     "name": "宜家 杂志收纳架",
@@ -3744,15 +3440,7 @@ const DASHBOARD_DATA = {
     "price": 76.4,
     "sales": 32723,
     "category": "桌面收纳架",
-    "rank": 460
-  },
-  {
-    "name": "樱花 学生电动橡皮",
-    "platform": "抖音",
-    "price": 26.2,
-    "sales": 32723,
-    "category": "电动橡皮擦",
-    "rank": 461
+    "rank": 422
   },
   {
     "name": "手帐星球 火漆蜡片 成品",
@@ -3760,23 +3448,23 @@ const DASHBOARD_DATA = {
     "price": 43.2,
     "sales": 31726,
     "category": "火漆印章",
-    "rank": 462
+    "rank": 423
   },
   {
-    "name": "晨光 磁性书签 套装",
-    "platform": "京东",
-    "price": 32.9,
-    "sales": 31324,
-    "category": "书签",
-    "rank": 463
-  },
-  {
-    "name": "六品堂 笔画练字",
+    "name": "敦煌 透明亚克力书签",
     "platform": "抖音",
-    "price": 19.2,
-    "sales": 31298,
-    "category": "练字帖/描红本",
-    "rank": 464
+    "price": 26.8,
+    "sales": 31192,
+    "category": "书签",
+    "rank": 424
+  },
+  {
+    "name": "晨光生活馆 国潮文具套装",
+    "platform": "拼多多",
+    "price": 32.5,
+    "sales": 30530,
+    "category": "文创用品",
+    "rank": 425
   },
   {
     "name": "得力 迷你卷笔刀",
@@ -3784,7 +3472,7 @@ const DASHBOARD_DATA = {
     "price": 24,
     "sales": 30419,
     "category": "卷笔刀/卷笔器",
-    "rank": 465
+    "rank": 426
   },
   {
     "name": "三年二班 铁皮文具盒",
@@ -3792,23 +3480,7 @@ const DASHBOARD_DATA = {
     "price": 36.5,
     "sales": 29112,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 466
-  },
-  {
-    "name": "晨光 金属杆钢笔",
-    "platform": "抖音",
-    "price": 16.6,
-    "sales": 29087,
-    "category": "钢笔",
-    "rank": 467
-  },
-  {
-    "name": "白雪 白板笔 替换芯",
-    "platform": "天猫",
-    "price": 18.8,
-    "sales": 28985,
-    "category": "白板笔",
-    "rank": 468
+    "rank": 427
   },
   {
     "name": "儿童乐园 剪纸套装",
@@ -3816,23 +3488,7 @@ const DASHBOARD_DATA = {
     "price": 18.4,
     "sales": 28742,
     "category": "手工DIY套装",
-    "rank": 469
-  },
-  {
-    "name": "真彩 细头白板笔",
-    "platform": "淘宝",
-    "price": 31.9,
-    "sales": 28416,
-    "category": "白板笔",
-    "rank": 470
-  },
-  {
-    "name": "老人头 牛皮纸画本",
-    "platform": "抖音",
-    "price": 9.3,
-    "sales": 28404,
-    "category": "画纸/画本",
-    "rank": 471
+    "rank": 428
   },
   {
     "name": "兄弟 热敏标签纸 卷装",
@@ -3840,31 +3496,7 @@ const DASHBOARD_DATA = {
     "price": 22.4,
     "sales": 28132,
     "category": "标签贴纸",
-    "rank": 472
-  },
-  {
-    "name": "欧普 折叠台灯 便携",
-    "platform": "天猫",
-    "price": 184.2,
-    "sales": 28044,
-    "category": "护眼台灯",
-    "rank": 473
-  },
-  {
-    "name": "MARCO 金属色彩铅",
-    "platform": "天猫",
-    "price": 22.4,
-    "sales": 27878,
-    "category": "彩色铅笔",
-    "rank": 474
-  },
-  {
-    "name": "辉柏嘉 软芯彩铅",
-    "platform": "淘宝",
-    "price": 67.7,
-    "sales": 27252,
-    "category": "彩色铅笔",
-    "rank": 475
+    "rank": 429
   },
   {
     "name": "得力 双孔卷笔刀",
@@ -3872,7 +3504,7 @@ const DASHBOARD_DATA = {
     "price": 35.4,
     "sales": 27008,
     "category": "卷笔刀/卷笔器",
-    "rank": 476
+    "rank": 430
   },
   {
     "name": "迪士尼 多层文具盒",
@@ -3880,47 +3512,31 @@ const DASHBOARD_DATA = {
     "price": 26.6,
     "sales": 26919,
     "category": "文具盒/笔袋/痛包笔袋",
-    "rank": 477
+    "rank": 431
   },
   {
-    "name": "得力 彩铅补充装",
+    "name": "MUJI 设计感便签",
+    "platform": "拼多多",
+    "price": 64.5,
+    "sales": 26712,
+    "category": "文创用品",
+    "rank": 432
+  },
+  {
+    "name": "获多福 儿童画本 空白",
     "platform": "淘宝",
-    "price": 68.3,
-    "sales": 26464,
-    "category": "彩色铅笔",
-    "rank": 478
+    "price": 65.9,
+    "sales": 26437,
+    "category": "画纸/画本",
+    "rank": 433
   },
   {
-    "name": "派克 旋转吸墨钢笔",
+    "name": "晨光 彩铅收纳笔帘",
     "platform": "抖音",
-    "price": 128.9,
-    "sales": 26455,
-    "category": "钢笔",
-    "rank": 479
-  },
-  {
-    "name": "得力 标签打印一体机",
-    "platform": "京东",
-    "price": 97.7,
-    "sales": 26433,
-    "category": "错题打印机",
-    "rank": 480
-  },
-  {
-    "name": "兄弟 校服姓名标签",
-    "platform": "抖音",
-    "price": 10.8,
+    "price": 18.4,
     "sales": 26227,
-    "category": "姓名贴",
-    "rank": 481
-  },
-  {
-    "name": "得力 铅笔套装 绘画用",
-    "platform": "天猫",
-    "price": 121.3,
-    "sales": 26162,
-    "category": "笔类套装/礼盒",
-    "rank": 482
+    "category": "彩色铅笔",
+    "rank": 434
   },
   {
     "name": "晨光 创意美劳材料包",
@@ -3928,7 +3544,7 @@ const DASHBOARD_DATA = {
     "price": 27.3,
     "sales": 26127,
     "category": "手工DIY套装",
-    "rank": 483
+    "rank": 435
   },
   {
     "name": "touch 软头马克笔套装",
@@ -3936,47 +3552,23 @@ const DASHBOARD_DATA = {
     "price": 44.5,
     "sales": 25162,
     "category": "马克笔",
-    "rank": 484
+    "rank": 436
   },
   {
-    "name": "樱花 电动橡皮 素描专用",
+    "name": "得力 画笔套装 水彩",
     "platform": "京东",
-    "price": 28.9,
-    "sales": 25024,
-    "category": "电动橡皮擦",
-    "rank": 485
-  },
-  {
-    "name": "温莎牛顿 手指画颜料 儿童",
-    "platform": "京东",
-    "price": 64.3,
+    "price": 103.2,
     "sales": 24105,
-    "category": "美术颜料",
-    "rank": 486
+    "category": "笔类套装/礼盒",
+    "rank": 437
   },
   {
-    "name": "樱花 颜料调色盘",
+    "name": "百乐 考试笔套装",
     "platform": "抖音",
-    "price": 57.3,
+    "price": 92.7,
     "sales": 22187,
-    "category": "美术颜料",
-    "rank": 487
-  },
-  {
-    "name": "晨光生活馆 极简文具",
-    "platform": "抖音",
-    "price": 41.1,
-    "sales": 22074,
-    "category": "文创用品",
-    "rank": 488
-  },
-  {
-    "name": "白雪 磁吸白板笔",
-    "platform": "天猫",
-    "price": 24.1,
-    "sales": 21527,
-    "category": "白板笔",
-    "rank": 489
+    "category": "笔类套装/礼盒",
+    "rank": 438
   },
   {
     "name": "雅柯莱 标签纸 打印机用",
@@ -3984,47 +3576,23 @@ const DASHBOARD_DATA = {
     "price": 93.4,
     "sales": 21366,
     "category": "标签贴纸",
-    "rank": 490
+    "rank": 439
   },
   {
-    "name": "小猿 迷你口袋打印机",
+    "name": "得力 学生笔类大礼包",
     "platform": "淘宝",
-    "price": 281.1,
-    "sales": 20686,
-    "category": "错题打印机",
-    "rank": 491
-  },
-  {
-    "name": "故宫文创 木质书签",
-    "platform": "拼多多",
-    "price": 13.8,
-    "sales": 20673,
-    "category": "书签",
-    "rank": 492
-  },
-  {
-    "name": "温莎牛顿 固体水彩 便携",
-    "platform": "淘宝",
-    "price": 75.4,
+    "price": 119.9,
     "sales": 19966,
-    "category": "美术颜料",
-    "rank": 493
+    "category": "笔类套装/礼盒",
+    "rank": 440
   },
   {
-    "name": "百乐 明尖钢笔",
-    "platform": "淘宝",
-    "price": 24.2,
-    "sales": 19655,
-    "category": "钢笔",
-    "rank": 494
-  },
-  {
-    "name": "温莎牛顿 颜料画笔套装",
+    "name": "得力 签字笔礼盒",
     "platform": "抖音",
-    "price": 94.3,
+    "price": 148.3,
     "sales": 19522,
-    "category": "美术颜料",
-    "rank": 495
+    "category": "笔类套装/礼盒",
+    "rank": 441
   },
   {
     "name": "得力 可叠加收纳盒",
@@ -4032,7 +3600,23 @@ const DASHBOARD_DATA = {
     "price": 43.7,
     "sales": 19352,
     "category": "文具收纳盒",
-    "rank": 496
+    "rank": 442
+  },
+  {
+    "name": "晨光生活馆 极简文具",
+    "platform": "抖音",
+    "price": 48.2,
+    "sales": 18958,
+    "category": "文创用品",
+    "rank": 443
+  },
+  {
+    "name": "故宫文创 刺绣书签",
+    "platform": "天猫",
+    "price": 20.5,
+    "sales": 18593,
+    "category": "书签",
+    "rank": 444
   },
   {
     "name": "暮光之印 火漆印章礼盒",
@@ -4040,7 +3624,7 @@ const DASHBOARD_DATA = {
     "price": 21.3,
     "sales": 18552,
     "category": "火漆印章",
-    "rank": 497
+    "rank": 445
   },
   {
     "name": "森活记 毕业纪念火漆套装",
@@ -4048,1569 +3632,1913 @@ const DASHBOARD_DATA = {
     "price": 65.1,
     "sales": 18158,
     "category": "火漆印章",
-    "rank": 498
+    "rank": 446
   },
   {
-    "name": "鲁本斯 油画颜料 24色",
+    "name": "英雄 彩笔套装 150件",
     "platform": "淘宝",
-    "price": 66.6,
+    "price": 106.6,
     "sales": 18141,
-    "category": "美术颜料",
-    "rank": 499
+    "category": "笔类套装/礼盒",
+    "rank": 447
   },
   {
-    "name": "晨光 大吸力桌面吸尘",
-    "platform": "拼多多",
-    "price": 29.7,
-    "sales": 16416,
-    "category": "桌面吸尘器",
-    "rank": 500
-  },
-  {
-    "name": "作业帮 智能打印机 WiFi",
-    "platform": "抖音",
-    "price": 247.3,
-    "sales": 12725,
-    "category": "错题打印机",
-    "rank": 501
-  },
-  {
-    "name": "得力 拍照打印机 作业",
-    "platform": "淘宝",
-    "price": 244.1,
-    "sales": 12563,
-    "category": "错题打印机",
-    "rank": 502
-  },
-  {
-    "name": "飞利浦 LED台灯 学生书桌",
-    "platform": "京东",
-    "price": 110.3,
-    "sales": 11731,
-    "category": "护眼台灯",
-    "rank": 503
-  },
-  {
-    "name": "百乐 练字钢笔 暗尖",
-    "platform": "抖音",
-    "price": 131.3,
-    "sales": 10927,
+    "name": "晨光 钢笔套装 含墨囊",
+    "platform": "天猫",
+    "price": 111.8,
+    "sales": 17217,
     "category": "钢笔",
-    "rank": 504
+    "rank": 448
+  },
+  {
+    "name": "百乐 速写钢笔",
+    "platform": "淘宝",
+    "price": 112.8,
+    "sales": 15900,
+    "category": "钢笔",
+    "rank": 449
+  },
+  {
+    "name": "MUJI 创意笔筒 北欧",
+    "platform": "天猫",
+    "price": 64.1,
+    "sales": 15893,
+    "category": "文创用品",
+    "rank": 450
+  },
+  {
+    "name": "晨光 书签尺 多功能",
+    "platform": "抖音",
+    "price": 15.9,
+    "sales": 15649,
+    "category": "书签",
+    "rank": 451
+  },
+  {
+    "name": "温莎 刮画纸 彩色",
+    "platform": "天猫",
+    "price": 35,
+    "sales": 15424,
+    "category": "画纸/画本",
+    "rank": 452
+  },
+  {
+    "name": "凌美 可替换墨囊钢笔",
+    "platform": "天猫",
+    "price": 99.8,
+    "sales": 13931,
+    "category": "钢笔",
+    "rank": 453
+  },
+  {
+    "name": "派克 钢笔礼盒 商务",
+    "platform": "淘宝",
+    "price": 180,
+    "sales": 13682,
+    "category": "钢笔",
+    "rank": 454
+  },
+  {
+    "name": "温莎牛顿 丙烯颜料套装",
+    "platform": "京东",
+    "price": 32.1,
+    "sales": 12226,
+    "category": "美术颜料",
+    "rank": 455
+  },
+  {
+    "name": "凌美 旋转吸墨钢笔",
+    "platform": "天猫",
+    "price": 132.4,
+    "sales": 10668,
+    "category": "钢笔",
+    "rank": 456
   }
 ],
   seasonalTrends: [
   {
-    "name": "中性笔 618爆款",
+    "name": "中性笔 考场专用",
     "category": "中性笔",
-    "growth": 205,
-    "heat": "热"
-  },
-  {
-    "name": "中性笔 暑期热卖",
-    "category": "中性笔",
-    "growth": 70,
-    "heat": "热"
-  },
-  {
-    "name": "中性笔 考试必备",
-    "category": "中性笔",
-    "growth": 24,
-    "heat": "热"
-  },
-  {
-    "name": "中性笔 开学预热",
-    "category": "中性笔",
-    "growth": 97,
-    "heat": "稳"
-  },
-  {
-    "name": "中性笔 毕业季精选",
-    "category": "中性笔",
-    "growth": 240,
-    "heat": "爆"
-  },
-  {
-    "name": "中性笔 日常刚需",
-    "category": "中性笔",
-    "growth": 220,
-    "heat": "暖"
-  },
-  {
-    "name": "笔记本/记事本 618爆款",
-    "category": "笔记本/记事本",
-    "growth": 174,
-    "heat": "热"
-  },
-  {
-    "name": "笔记本/记事本 暑期热卖",
-    "category": "笔记本/记事本",
-    "growth": 143,
-    "heat": "爆"
-  },
-  {
-    "name": "笔记本/记事本 考试必备",
-    "category": "笔记本/记事本",
-    "growth": 125,
-    "heat": "稳"
-  },
-  {
-    "name": "笔记本/记事本 开学预热",
-    "category": "笔记本/记事本",
-    "growth": 38,
-    "heat": "爆"
-  },
-  {
-    "name": "笔记本/记事本 毕业季精选",
-    "category": "笔记本/记事本",
-    "growth": 49,
-    "heat": "暖"
-  },
-  {
-    "name": "笔记本/记事本 日常刚需",
-    "category": "笔记本/记事本",
-    "growth": 107,
-    "heat": "暖"
-  },
-  {
-    "name": "学习套装/礼盒/盲盒 618爆款",
-    "category": "学习套装/礼盒/盲盒",
-    "growth": 144,
-    "heat": "暖"
-  },
-  {
-    "name": "学习套装/礼盒/盲盒 暑期热卖",
-    "category": "学习套装/礼盒/盲盒",
-    "growth": 217,
-    "heat": "稳"
-  },
-  {
-    "name": "学习套装/礼盒/盲盒 考试必备",
-    "category": "学习套装/礼盒/盲盒",
-    "growth": 227,
-    "heat": "暖"
-  },
-  {
-    "name": "学习套装/礼盒/盲盒 开学预热",
-    "category": "学习套装/礼盒/盲盒",
-    "growth": 208,
-    "heat": "爆"
-  },
-  {
-    "name": "学习套装/礼盒/盲盒 毕业季精选",
-    "category": "学习套装/礼盒/盲盒",
-    "growth": 89,
-    "heat": "热"
-  },
-  {
-    "name": "学习套装/礼盒/盲盒 日常刚需",
-    "category": "学习套装/礼盒/盲盒",
-    "growth": 224,
-    "heat": "稳"
-  },
-  {
-    "name": "马克笔 618爆款",
-    "category": "马克笔",
-    "growth": 113,
-    "heat": "暖"
-  },
-  {
-    "name": "马克笔 暑期热卖",
-    "category": "马克笔",
-    "growth": 61,
-    "heat": "稳"
-  },
-  {
-    "name": "马克笔 考试必备",
-    "category": "马克笔",
-    "growth": 98,
-    "heat": "爆"
-  },
-  {
-    "name": "马克笔 开学预热",
-    "category": "马克笔",
-    "growth": 149,
-    "heat": "热"
-  },
-  {
-    "name": "马克笔 毕业季精选",
-    "category": "马克笔",
-    "growth": 128,
-    "heat": "稳"
-  },
-  {
-    "name": "马克笔 日常刚需",
-    "category": "马克笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
     "growth": 110,
     "heat": "爆"
   },
   {
-    "name": "文具盒/笔袋/痛包笔袋 618爆款",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "growth": 82,
+    "name": "中性笔 暑假必囤",
+    "category": "中性笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 24,
+    "heat": "热"
+  },
+  {
+    "name": "中性笔 年中大促热卖",
+    "category": "中性笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 223,
+    "heat": "稳"
+  },
+  {
+    "name": "中性笔 办公高效",
+    "category": "中性笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 220,
     "heat": "暖"
   },
   {
-    "name": "文具盒/笔袋/痛包笔袋 暑期热卖",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "growth": 134,
+    "name": "中性笔 球迷手绘",
+    "category": "中性笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 92,
+    "heat": "爆"
+  },
+  {
+    "name": "中性笔 离校必备",
+    "category": "中性笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 44,
+    "heat": "稳"
+  },
+  {
+    "name": "笔记本/记事本 考场专用",
+    "category": "笔记本/记事本",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 130,
+    "heat": "暖"
+  },
+  {
+    "name": "笔记本/记事本 暑假必囤",
+    "category": "笔记本/记事本",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 125,
+    "heat": "稳"
+  },
+  {
+    "name": "笔记本/记事本 618爆款",
+    "category": "笔记本/记事本",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 27,
+    "heat": "爆"
+  },
+  {
+    "name": "笔记本/记事本 会议利器",
+    "category": "笔记本/记事本",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 107,
+    "heat": "暖"
+  },
+  {
+    "name": "笔记本/记事本 球迷手绘",
+    "category": "笔记本/记事本",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 22,
+    "heat": "暖"
+  },
+  {
+    "name": "笔记本/记事本 毕业纪念",
+    "category": "笔记本/记事本",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 182,
+    "heat": "爆"
+  },
+  {
+    "name": "学习套装/礼盒/盲盒 中高考冲刺",
+    "category": "学习套装/礼盒/盲盒",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 150,
+    "heat": "稳"
+  },
+  {
+    "name": "学习套装/礼盒/盲盒 假期绘画",
+    "category": "学习套装/礼盒/盲盒",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 227,
+    "heat": "暖"
+  },
+  {
+    "name": "学习套装/礼盒/盲盒 618囤货首选",
+    "category": "学习套装/礼盒/盲盒",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 60,
+    "heat": "热"
+  },
+  {
+    "name": "学习套装/礼盒/盲盒 办公高效",
+    "category": "学习套装/礼盒/盲盒",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 224,
+    "heat": "稳"
+  },
+  {
+    "name": "学习套装/礼盒/盲盒 球迷手绘",
+    "category": "学习套装/礼盒/盲盒",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 181,
+    "heat": "热"
+  },
+  {
+    "name": "学习套装/礼盒/盲盒 毕业礼物",
+    "category": "学习套装/礼盒/盲盒",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 91,
+    "heat": "热"
+  },
+  {
+    "name": "马克笔 中高考冲刺",
+    "category": "马克笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 170,
+    "heat": "爆"
+  },
+  {
+    "name": "马克笔 假期绘画",
+    "category": "马克笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 98,
+    "heat": "爆"
+  },
+  {
+    "name": "马克笔 年中大促热卖",
+    "category": "马克笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 93,
+    "heat": "热"
+  },
+  {
+    "name": "马克笔 会议利器",
+    "category": "马克笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 110,
+    "heat": "爆"
+  },
+  {
+    "name": "马克笔 球迷手绘",
+    "category": "马克笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 111,
+    "heat": "稳"
+  },
+  {
+    "name": "马克笔 毕业纪念",
+    "category": "马克笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 229,
     "heat": "暖"
   },
   {
     "name": "文具盒/笔袋/痛包笔袋 考试必备",
     "category": "文具盒/笔袋/痛包笔袋",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 190,
+    "heat": "热"
+  },
+  {
+    "name": "文具盒/笔袋/痛包笔袋 暑期手工创作",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
     "growth": 199,
     "heat": "稳"
   },
   {
-    "name": "文具盒/笔袋/痛包笔袋 开学预热",
+    "name": "文具盒/笔袋/痛包笔袋 618爆款",
     "category": "文具盒/笔袋/痛包笔袋",
-    "growth": 90,
-    "heat": "热"
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 127,
+    "heat": "暖"
   },
   {
-    "name": "文具盒/笔袋/痛包笔袋 毕业季精选",
+    "name": "文具盒/笔袋/痛包笔袋 职场必备",
     "category": "文具盒/笔袋/痛包笔袋",
-    "growth": 167,
-    "heat": "热"
-  },
-  {
-    "name": "文具盒/笔袋/痛包笔袋 日常刚需",
-    "category": "文具盒/笔袋/痛包笔袋",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
     "growth": 227,
     "heat": "爆"
   },
   {
-    "name": "铅笔 618爆款",
-    "category": "铅笔",
-    "growth": 52,
-    "heat": "稳"
+    "name": "文具盒/笔袋/痛包笔袋 球迷手绘",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 41,
+    "heat": "热"
   },
   {
-    "name": "铅笔 暑期热卖",
-    "category": "铅笔",
-    "growth": 208,
-    "heat": "热"
+    "name": "文具盒/笔袋/痛包笔袋 毕业礼物",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 138,
+    "heat": "稳"
   },
   {
     "name": "铅笔 考试必备",
     "category": "铅笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 210,
+    "heat": "稳"
+  },
+  {
+    "name": "铅笔 暑期手工创作",
+    "category": "铅笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
     "growth": 70,
     "heat": "热"
   },
   {
-    "name": "铅笔 开学预热",
+    "name": "铅笔 618爆款",
     "category": "铅笔",
-    "growth": 30,
-    "heat": "暖"
-  },
-  {
-    "name": "铅笔 毕业季精选",
-    "category": "铅笔",
-    "growth": 207,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 160,
     "heat": "稳"
   },
   {
-    "name": "铅笔 日常刚需",
+    "name": "铅笔 会议利器",
     "category": "铅笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
     "growth": 113,
     "heat": "热"
   },
   {
-    "name": "橡皮擦 618爆款",
-    "category": "橡皮擦",
-    "growth": 21,
+    "name": "铅笔 球迷手绘",
+    "category": "铅笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 200,
     "heat": "稳"
   },
   {
-    "name": "橡皮擦 暑期热卖",
-    "category": "橡皮擦",
-    "growth": 52,
+    "name": "铅笔 离校必备",
+    "category": "铅笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 46,
     "heat": "爆"
   },
   {
     "name": "橡皮擦 考试必备",
     "category": "橡皮擦",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 230,
+    "heat": "爆"
+  },
+  {
+    "name": "橡皮擦 暑假必囤",
+    "category": "橡皮擦",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
     "growth": 171,
     "heat": "爆"
   },
   {
-    "name": "橡皮擦 开学预热",
+    "name": "橡皮擦 618囤货首选",
     "category": "橡皮擦",
-    "growth": 201,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 194,
     "heat": "稳"
   },
   {
-    "name": "橡皮擦 毕业季精选",
+    "name": "橡皮擦 职场必备",
     "category": "橡皮擦",
-    "growth": 246,
-    "heat": "热"
-  },
-  {
-    "name": "橡皮擦 日常刚需",
-    "category": "橡皮擦",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
     "growth": 230,
     "heat": "热"
   },
   {
-    "name": "荧光笔 618爆款",
-    "category": "荧光笔",
-    "growth": 220,
-    "heat": "爆"
+    "name": "橡皮擦 球迷手绘",
+    "category": "橡皮擦",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 130,
+    "heat": "暖"
   },
   {
-    "name": "荧光笔 暑期热卖",
-    "category": "荧光笔",
-    "growth": 125,
-    "heat": "爆"
+    "name": "橡皮擦 毕业纪念",
+    "category": "橡皮擦",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 185,
+    "heat": "热"
   },
   {
-    "name": "荧光笔 考试必备",
+    "name": "荧光笔 考场专用",
     "category": "荧光笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 20,
+    "heat": "热"
+  },
+  {
+    "name": "荧光笔 暑假必囤",
+    "category": "荧光笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
     "growth": 42,
     "heat": "暖"
   },
   {
-    "name": "荧光笔 开学预热",
+    "name": "荧光笔 年中大促热卖",
     "category": "荧光笔",
-    "growth": 142,
-    "heat": "稳"
-  },
-  {
-    "name": "荧光笔 毕业季精选",
-    "category": "荧光笔",
-    "growth": 55,
-    "heat": "稳"
-  },
-  {
-    "name": "荧光笔 日常刚需",
-    "category": "荧光笔",
-    "growth": 116,
-    "heat": "暖"
-  },
-  {
-    "name": "手帐 618爆款",
-    "category": "手帐",
-    "growth": 190,
-    "heat": "爆"
-  },
-  {
-    "name": "手帐 暑期热卖",
-    "category": "手帐",
-    "growth": 199,
-    "heat": "稳"
-  },
-  {
-    "name": "手帐 考试必备",
-    "category": "手帐",
-    "growth": 143,
-    "heat": "热"
-  },
-  {
-    "name": "手帐 开学预热",
-    "category": "手帐",
-    "growth": 83,
-    "heat": "爆"
-  },
-  {
-    "name": "手帐 毕业季精选",
-    "category": "手帐",
-    "growth": 95,
-    "heat": "热"
-  },
-  {
-    "name": "手帐 日常刚需",
-    "category": "手帐",
-    "growth": 233,
-    "heat": "稳"
-  },
-  {
-    "name": "火漆印章 618爆款",
-    "category": "火漆印章",
-    "growth": 159,
-    "heat": "爆"
-  },
-  {
-    "name": "火漆印章 暑期热卖",
-    "category": "火漆印章",
-    "growth": 43,
-    "heat": "暖"
-  },
-  {
-    "name": "火漆印章 考试必备",
-    "category": "火漆印章",
-    "growth": 244,
-    "heat": "爆"
-  },
-  {
-    "name": "火漆印章 开学预热",
-    "category": "火漆印章",
-    "growth": 23,
-    "heat": "爆"
-  },
-  {
-    "name": "火漆印章 毕业季精选",
-    "category": "火漆印章",
-    "growth": 134,
-    "heat": "爆"
-  },
-  {
-    "name": "火漆印章 日常刚需",
-    "category": "火漆印章",
-    "growth": 119,
-    "heat": "稳"
-  },
-  {
-    "name": "水彩笔 618爆款",
-    "category": "水彩笔",
-    "growth": 128,
-    "heat": "热"
-  },
-  {
-    "name": "水彩笔 暑期热卖",
-    "category": "水彩笔",
-    "growth": 116,
-    "heat": "暖"
-  },
-  {
-    "name": "水彩笔 考试必备",
-    "category": "水彩笔",
-    "growth": 115,
-    "heat": "暖"
-  },
-  {
-    "name": "水彩笔 开学预热",
-    "category": "水彩笔",
-    "growth": 194,
-    "heat": "热"
-  },
-  {
-    "name": "水彩笔 毕业季精选",
-    "category": "水彩笔",
-    "growth": 174,
-    "heat": "暖"
-  },
-  {
-    "name": "水彩笔 日常刚需",
-    "category": "水彩笔",
-    "growth": 236,
-    "heat": "爆"
-  },
-  {
-    "name": "标签贴纸 618爆款",
-    "category": "标签贴纸",
-    "growth": 97,
-    "heat": "热"
-  },
-  {
-    "name": "标签贴纸 暑期热卖",
-    "category": "标签贴纸",
-    "growth": 190,
-    "heat": "热"
-  },
-  {
-    "name": "标签贴纸 考试必备",
-    "category": "标签贴纸",
-    "growth": 216,
-    "heat": "热"
-  },
-  {
-    "name": "标签贴纸 开学预热",
-    "category": "标签贴纸",
-    "growth": 135,
-    "heat": "热"
-  },
-  {
-    "name": "标签贴纸 毕业季精选",
-    "category": "标签贴纸",
-    "growth": 213,
-    "heat": "爆"
-  },
-  {
-    "name": "标签贴纸 日常刚需",
-    "category": "标签贴纸",
-    "growth": 123,
-    "heat": "爆"
-  },
-  {
-    "name": "手工DIY套装 618爆款",
-    "category": "手工DIY套装",
-    "growth": 67,
-    "heat": "热"
-  },
-  {
-    "name": "手工DIY套装 暑期热卖",
-    "category": "手工DIY套装",
-    "growth": 34,
-    "heat": "爆"
-  },
-  {
-    "name": "手工DIY套装 考试必备",
-    "category": "手工DIY套装",
-    "growth": 87,
-    "heat": "稳"
-  },
-  {
-    "name": "手工DIY套装 开学预热",
-    "category": "手工DIY套装",
-    "growth": 76,
-    "heat": "暖"
-  },
-  {
-    "name": "手工DIY套装 毕业季精选",
-    "category": "手工DIY套装",
-    "growth": 22,
-    "heat": "暖"
-  },
-  {
-    "name": "手工DIY套装 日常刚需",
-    "category": "手工DIY套装",
-    "growth": 239,
-    "heat": "热"
-  },
-  {
-    "name": "卷笔刀/卷笔器 618爆款",
-    "category": "卷笔刀/卷笔器",
-    "growth": 36,
-    "heat": "暖"
-  },
-  {
-    "name": "卷笔刀/卷笔器 暑期热卖",
-    "category": "卷笔刀/卷笔器",
-    "growth": 107,
-    "heat": "爆"
-  },
-  {
-    "name": "卷笔刀/卷笔器 考试必备",
-    "category": "卷笔刀/卷笔器",
-    "growth": 188,
-    "heat": "暖"
-  },
-  {
-    "name": "卷笔刀/卷笔器 开学预热",
-    "category": "卷笔刀/卷笔器",
-    "growth": 246,
-    "heat": "稳"
-  },
-  {
-    "name": "卷笔刀/卷笔器 毕业季精选",
-    "category": "卷笔刀/卷笔器",
-    "growth": 62,
-    "heat": "爆"
-  },
-  {
-    "name": "卷笔刀/卷笔器 日常刚需",
-    "category": "卷笔刀/卷笔器",
-    "growth": 126,
-    "heat": "暖"
-  },
-  {
-    "name": "便签本/便条纸/N次贴 618爆款",
-    "category": "便签本/便条纸/N次贴",
-    "growth": 235,
-    "heat": "暖"
-  },
-  {
-    "name": "便签本/便条纸/N次贴 暑期热卖",
-    "category": "便签本/便条纸/N次贴",
-    "growth": 181,
-    "heat": "稳"
-  },
-  {
-    "name": "便签本/便条纸/N次贴 考试必备",
-    "category": "便签本/便条纸/N次贴",
-    "growth": 60,
-    "heat": "爆"
-  },
-  {
-    "name": "便签本/便条纸/N次贴 开学预热",
-    "category": "便签本/便条纸/N次贴",
-    "growth": 187,
-    "heat": "稳"
-  },
-  {
-    "name": "便签本/便条纸/N次贴 毕业季精选",
-    "category": "便签本/便条纸/N次贴",
-    "growth": 101,
-    "heat": "暖"
-  },
-  {
-    "name": "便签本/便条纸/N次贴 日常刚需",
-    "category": "便签本/便条纸/N次贴",
-    "growth": 242,
-    "heat": "暖"
-  },
-  {
-    "name": "笔筒 618爆款",
-    "category": "笔筒",
-    "growth": 205,
-    "heat": "暖"
-  },
-  {
-    "name": "笔筒 暑期热卖",
-    "category": "笔筒",
-    "growth": 24,
-    "heat": "暖"
-  },
-  {
-    "name": "笔筒 考试必备",
-    "category": "笔筒",
-    "growth": 161,
-    "heat": "稳"
-  },
-  {
-    "name": "笔筒 开学预热",
-    "category": "笔筒",
-    "growth": 128,
-    "heat": "爆"
-  },
-  {
-    "name": "笔筒 毕业季精选",
-    "category": "笔筒",
-    "growth": 140,
-    "heat": "爆"
-  },
-  {
-    "name": "笔筒 日常刚需",
-    "category": "笔筒",
-    "growth": 129,
-    "heat": "稳"
-  },
-  {
-    "name": "文具收纳盒 618爆款",
-    "category": "文具收纳盒",
-    "growth": 174,
-    "heat": "稳"
-  },
-  {
-    "name": "文具收纳盒 暑期热卖",
-    "category": "文具收纳盒",
-    "growth": 98,
-    "heat": "热"
-  },
-  {
-    "name": "文具收纳盒 考试必备",
-    "category": "文具收纳盒",
-    "growth": 32,
-    "heat": "热"
-  },
-  {
-    "name": "文具收纳盒 开学预热",
-    "category": "文具收纳盒",
-    "growth": 69,
-    "heat": "爆"
-  },
-  {
-    "name": "文具收纳盒 毕业季精选",
-    "category": "文具收纳盒",
-    "growth": 180,
-    "heat": "稳"
-  },
-  {
-    "name": "文具收纳盒 日常刚需",
-    "category": "文具收纳盒",
-    "growth": 245,
-    "heat": "稳"
-  },
-  {
-    "name": "桌面收纳架 618爆款",
-    "category": "桌面收纳架",
-    "growth": 143,
-    "heat": "稳"
-  },
-  {
-    "name": "桌面收纳架 暑期热卖",
-    "category": "桌面收纳架",
-    "growth": 172,
-    "heat": "热"
-  },
-  {
-    "name": "桌面收纳架 考试必备",
-    "category": "桌面收纳架",
-    "growth": 133,
-    "heat": "爆"
-  },
-  {
-    "name": "桌面收纳架 开学预热",
-    "category": "桌面收纳架",
-    "growth": 239,
-    "heat": "热"
-  },
-  {
-    "name": "桌面收纳架 毕业季精选",
-    "category": "桌面收纳架",
-    "growth": 219,
-    "heat": "热"
-  },
-  {
-    "name": "桌面收纳架 日常刚需",
-    "category": "桌面收纳架",
-    "growth": 132,
-    "heat": "爆"
-  },
-  {
-    "name": "错题打印机 618爆款",
-    "category": "错题打印机",
-    "growth": 113,
-    "heat": "稳"
-  },
-  {
-    "name": "错题打印机 暑期热卖",
-    "category": "错题打印机",
-    "growth": 245,
-    "heat": "爆"
-  },
-  {
-    "name": "错题打印机 考试必备",
-    "category": "错题打印机",
-    "growth": 234,
-    "heat": "暖"
-  },
-  {
-    "name": "错题打印机 开学预热",
-    "category": "错题打印机",
-    "growth": 180,
-    "heat": "暖"
-  },
-  {
-    "name": "错题打印机 毕业季精选",
-    "category": "错题打印机",
-    "growth": 29,
-    "heat": "稳"
-  },
-  {
-    "name": "错题打印机 日常刚需",
-    "category": "错题打印机",
-    "growth": 248,
-    "heat": "热"
-  },
-  {
-    "name": "护眼台灯 618爆款",
-    "category": "护眼台灯",
-    "growth": 82,
-    "heat": "爆"
-  },
-  {
-    "name": "护眼台灯 暑期热卖",
-    "category": "护眼台灯",
-    "growth": 89,
-    "heat": "稳"
-  },
-  {
-    "name": "护眼台灯 考试必备",
-    "category": "护眼台灯",
-    "growth": 105,
-    "heat": "热"
-  },
-  {
-    "name": "护眼台灯 开学预热",
-    "category": "护眼台灯",
-    "growth": 121,
-    "heat": "暖"
-  },
-  {
-    "name": "护眼台灯 毕业季精选",
-    "category": "护眼台灯",
-    "growth": 68,
-    "heat": "热"
-  },
-  {
-    "name": "护眼台灯 日常刚需",
-    "category": "护眼台灯",
-    "growth": 135,
-    "heat": "热"
-  },
-  {
-    "name": "书皮/书套 618爆款",
-    "category": "书皮/书套",
-    "growth": 51,
-    "heat": "爆"
-  },
-  {
-    "name": "书皮/书套 暑期热卖",
-    "category": "书皮/书套",
-    "growth": 163,
-    "heat": "稳"
-  },
-  {
-    "name": "书皮/书套 考试必备",
-    "category": "书皮/书套",
-    "growth": 206,
-    "heat": "爆"
-  },
-  {
-    "name": "书皮/书套 开学预热",
-    "category": "书皮/书套",
-    "growth": 61,
-    "heat": "稳"
-  },
-  {
-    "name": "书皮/书套 毕业季精选",
-    "category": "书皮/书套",
-    "growth": 107,
-    "heat": "稳"
-  },
-  {
-    "name": "书皮/书套 日常刚需",
-    "category": "书皮/书套",
-    "growth": 22,
-    "heat": "暖"
-  },
-  {
-    "name": "美术颜料 618爆款",
-    "category": "美术颜料",
-    "growth": 21,
-    "heat": "爆"
-  },
-  {
-    "name": "美术颜料 暑期热卖",
-    "category": "美术颜料",
-    "growth": 236,
-    "heat": "暖"
-  },
-  {
-    "name": "美术颜料 考试必备",
-    "category": "美术颜料",
-    "growth": 77,
-    "heat": "暖"
-  },
-  {
-    "name": "美术颜料 开学预热",
-    "category": "美术颜料",
-    "growth": 232,
-    "heat": "稳"
-  },
-  {
-    "name": "美术颜料 毕业季精选",
-    "category": "美术颜料",
-    "growth": 147,
-    "heat": "热"
-  },
-  {
-    "name": "美术颜料 日常刚需",
-    "category": "美术颜料",
-    "growth": 138,
-    "heat": "暖"
-  },
-  {
-    "name": "办公文具 618爆款",
-    "category": "办公文具",
-    "growth": 220,
-    "heat": "热"
-  },
-  {
-    "name": "办公文具 暑期热卖",
-    "category": "办公文具",
-    "growth": 80,
-    "heat": "热"
-  },
-  {
-    "name": "办公文具 考试必备",
-    "category": "办公文具",
-    "growth": 178,
-    "heat": "热"
-  },
-  {
-    "name": "办公文具 开学预热",
-    "category": "办公文具",
-    "growth": 173,
-    "heat": "爆"
-  },
-  {
-    "name": "办公文具 毕业季精选",
-    "category": "办公文具",
-    "growth": 186,
-    "heat": "稳"
-  },
-  {
-    "name": "办公文具 日常刚需",
-    "category": "办公文具",
-    "growth": 25,
-    "heat": "稳"
-  },
-  {
-    "name": "笔类套装/礼盒 618爆款",
-    "category": "笔类套装/礼盒",
-    "growth": 189,
-    "heat": "热"
-  },
-  {
-    "name": "笔类套装/礼盒 暑期热卖",
-    "category": "笔类套装/礼盒",
-    "growth": 154,
-    "heat": "热"
-  },
-  {
-    "name": "笔类套装/礼盒 考试必备",
-    "category": "笔类套装/礼盒",
-    "growth": 49,
-    "heat": "稳"
-  },
-  {
-    "name": "笔类套装/礼盒 开学预热",
-    "category": "笔类套装/礼盒",
-    "growth": 114,
-    "heat": "爆"
-  },
-  {
-    "name": "笔类套装/礼盒 毕业季精选",
-    "category": "笔类套装/礼盒",
-    "growth": 225,
-    "heat": "暖"
-  },
-  {
-    "name": "笔类套装/礼盒 日常刚需",
-    "category": "笔类套装/礼盒",
-    "growth": 141,
-    "heat": "爆"
-  },
-  {
-    "name": "文创用品 618爆款",
-    "category": "文创用品",
-    "growth": 159,
-    "heat": "热"
-  },
-  {
-    "name": "文创用品 暑期热卖",
-    "category": "文创用品",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
     "growth": 227,
     "heat": "爆"
   },
   {
-    "name": "文创用品 考试必备",
-    "category": "文创用品",
-    "growth": 150,
+    "name": "荧光笔 会议利器",
+    "category": "荧光笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 116,
     "heat": "暖"
   },
   {
-    "name": "文创用品 开学预热",
-    "category": "文创用品",
-    "growth": 54,
+    "name": "荧光笔 球迷手绘",
+    "category": "荧光笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 60,
+    "heat": "爆"
+  },
+  {
+    "name": "荧光笔 毕业礼物",
+    "category": "荧光笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 93,
+    "heat": "暖"
+  },
+  {
+    "name": "手帐 考场专用",
+    "category": "手帐",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 40,
+    "heat": "稳"
+  },
+  {
+    "name": "手帐 假期绘画",
+    "category": "手帐",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 143,
     "heat": "热"
   },
   {
-    "name": "文创用品 毕业季精选",
-    "category": "文创用品",
-    "growth": 35,
-    "heat": "爆"
+    "name": "手帐 618爆款",
+    "category": "手帐",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 31,
+    "heat": "热"
   },
   {
-    "name": "文创用品 日常刚需",
-    "category": "文创用品",
-    "growth": 28,
-    "heat": "爆"
+    "name": "手帐 职场必备",
+    "category": "手帐",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 233,
+    "heat": "稳"
   },
   {
-    "name": "姓名贴 618爆款",
-    "category": "姓名贴",
-    "growth": 128,
+    "name": "手帐 球迷手绘",
+    "category": "手帐",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 219,
     "heat": "暖"
   },
   {
-    "name": "姓名贴 暑期热卖",
-    "category": "姓名贴",
+    "name": "手帐 离校必备",
+    "category": "手帐",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 232,
+    "heat": "稳"
+  },
+  {
+    "name": "火漆印章 中高考冲刺",
+    "category": "火漆印章",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 60,
+    "heat": "爆"
+  },
+  {
+    "name": "火漆印章 假期绘画",
+    "category": "火漆印章",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 244,
+    "heat": "爆"
+  },
+  {
+    "name": "火漆印章 618爆款",
+    "category": "火漆印章",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 64,
+    "heat": "热"
+  },
+  {
+    "name": "火漆印章 办公高效",
+    "category": "火漆印章",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 119,
+    "heat": "稳"
+  },
+  {
+    "name": "火漆印章 球迷手绘",
+    "category": "火漆印章",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 149,
+    "heat": "爆"
+  },
+  {
+    "name": "火漆印章 毕业纪念",
+    "category": "火漆印章",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 140,
+    "heat": "爆"
+  },
+  {
+    "name": "水彩笔 中高考冲刺",
+    "category": "水彩笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 80,
+    "heat": "热"
+  },
+  {
+    "name": "水彩笔 暑期手工创作",
+    "category": "水彩笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 115,
+    "heat": "暖"
+  },
+  {
+    "name": "水彩笔 618囤货首选",
+    "category": "水彩笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 98,
+    "heat": "暖"
+  },
+  {
+    "name": "水彩笔 职场必备",
+    "category": "水彩笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 236,
+    "heat": "爆"
+  },
+  {
+    "name": "水彩笔 球迷手绘",
+    "category": "水彩笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 78,
+    "heat": "稳"
+  },
+  {
+    "name": "水彩笔 毕业礼物",
+    "category": "水彩笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 49,
+    "heat": "热"
+  },
+  {
+    "name": "标签贴纸 中高考冲刺",
+    "category": "标签贴纸",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 100,
+    "heat": "暖"
+  },
+  {
+    "name": "标签贴纸 暑期手工创作",
+    "category": "标签贴纸",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 216,
+    "heat": "热"
+  },
+  {
+    "name": "标签贴纸 年中大促热卖",
+    "category": "标签贴纸",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 131,
+    "heat": "稳"
+  },
+  {
+    "name": "标签贴纸 办公高效",
+    "category": "标签贴纸",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 123,
+    "heat": "爆"
+  },
+  {
+    "name": "标签贴纸 球迷手绘",
+    "category": "标签贴纸",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 238,
+    "heat": "热"
+  },
+  {
+    "name": "标签贴纸 离校必备",
+    "category": "标签贴纸",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 188,
+    "heat": "暖"
+  },
+  {
+    "name": "手工DIY套装 考试必备",
+    "category": "手工DIY套装",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 121,
+    "heat": "爆"
+  },
+  {
+    "name": "手工DIY套装 暑假必囤",
+    "category": "手工DIY套装",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 87,
+    "heat": "稳"
+  },
+  {
+    "name": "手工DIY套装 618爆款",
+    "category": "手工DIY套装",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 165,
+    "heat": "爆"
+  },
+  {
+    "name": "手工DIY套装 职场必备",
+    "category": "手工DIY套装",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 239,
+    "heat": "热"
+  },
+  {
+    "name": "手工DIY套装 球迷手绘",
+    "category": "手工DIY套装",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 168,
+    "heat": "稳"
+  },
+  {
+    "name": "手工DIY套装 毕业纪念",
+    "category": "手工DIY套装",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 96,
+    "heat": "稳"
+  },
+  {
+    "name": "卷笔刀/卷笔器 考试必备",
+    "category": "卷笔刀/卷笔器",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 141,
+    "heat": "热"
+  },
+  {
+    "name": "卷笔刀/卷笔器 暑假必囤",
+    "category": "卷笔刀/卷笔器",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 188,
+    "heat": "暖"
+  },
+  {
+    "name": "卷笔刀/卷笔器 618囤货首选",
+    "category": "卷笔刀/卷笔器",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 198,
+    "heat": "爆"
+  },
+  {
+    "name": "卷笔刀/卷笔器 办公高效",
+    "category": "卷笔刀/卷笔器",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 126,
+    "heat": "暖"
+  },
+  {
+    "name": "卷笔刀/卷笔器 球迷手绘",
+    "category": "卷笔刀/卷笔器",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 97,
+    "heat": "热"
+  },
+  {
+    "name": "卷笔刀/卷笔器 毕业礼物",
+    "category": "卷笔刀/卷笔器",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 235,
+    "heat": "爆"
+  },
+  {
+    "name": "便签本/便条纸/N次贴 考场专用",
+    "category": "便签本/便条纸/N次贴",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 161,
+    "heat": "暖"
+  },
+  {
+    "name": "便签本/便条纸/N次贴 假期绘画",
+    "category": "便签本/便条纸/N次贴",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 60,
+    "heat": "爆"
+  },
+  {
+    "name": "便签本/便条纸/N次贴 618囤货首选",
+    "category": "便签本/便条纸/N次贴",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 232,
+    "heat": "热"
+  },
+  {
+    "name": "便签本/便条纸/N次贴 会议利器",
+    "category": "便签本/便条纸/N次贴",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 242,
+    "heat": "暖"
+  },
+  {
+    "name": "便签本/便条纸/N次贴 球迷手绘",
+    "category": "便签本/便条纸/N次贴",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 27,
+    "heat": "稳"
+  },
+  {
+    "name": "便签本/便条纸/N次贴 离校必备",
+    "category": "便签本/便条纸/N次贴",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 143,
+    "heat": "热"
+  },
+  {
+    "name": "笔筒 考场专用",
+    "category": "笔筒",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 181,
+    "heat": "爆"
+  },
+  {
+    "name": "笔筒 暑期手工创作",
+    "category": "笔筒",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 161,
+    "heat": "稳"
+  },
+  {
+    "name": "笔筒 年中大促热卖",
+    "category": "笔筒",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 35,
+    "heat": "暖"
+  },
+  {
+    "name": "笔筒 办公高效",
+    "category": "笔筒",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 129,
+    "heat": "稳"
+  },
+  {
+    "name": "笔筒 球迷手绘",
+    "category": "笔筒",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 186,
+    "heat": "暖"
+  },
+  {
+    "name": "笔筒 毕业纪念",
+    "category": "笔筒",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 52,
+    "heat": "暖"
+  },
+  {
+    "name": "文具收纳盒 考场专用",
+    "category": "文具收纳盒",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 201,
+    "heat": "热"
+  },
+  {
+    "name": "文具收纳盒 暑期手工创作",
+    "category": "文具收纳盒",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 32,
+    "heat": "热"
+  },
+  {
+    "name": "文具收纳盒 618爆款",
+    "category": "文具收纳盒",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 69,
+    "heat": "暖"
+  },
+  {
+    "name": "文具收纳盒 会议利器",
+    "category": "文具收纳盒",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 245,
+    "heat": "稳"
+  },
+  {
+    "name": "文具收纳盒 球迷手绘",
+    "category": "文具收纳盒",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 116,
+    "heat": "爆"
+  },
+  {
+    "name": "文具收纳盒 毕业礼物",
+    "category": "文具收纳盒",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 190,
+    "heat": "稳"
+  },
+  {
+    "name": "桌面收纳架 中高考冲刺",
+    "category": "桌面收纳架",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 221,
+    "heat": "暖"
+  },
+  {
+    "name": "桌面收纳架 暑假必囤",
+    "category": "桌面收纳架",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 133,
+    "heat": "爆"
+  },
+  {
+    "name": "桌面收纳架 618囤货首选",
+    "category": "桌面收纳架",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 102,
+    "heat": "稳"
+  },
+  {
+    "name": "桌面收纳架 办公高效",
+    "category": "桌面收纳架",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 132,
+    "heat": "爆"
+  },
+  {
+    "name": "桌面收纳架 球迷手绘",
+    "category": "桌面收纳架",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 46,
+    "heat": "暖"
+  },
+  {
+    "name": "桌面收纳架 离校必备",
+    "category": "桌面收纳架",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 99,
+    "heat": "爆"
+  },
+  {
+    "name": "书皮/书套 中高考冲刺",
+    "category": "书皮/书套",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 241,
+    "heat": "稳"
+  },
+  {
+    "name": "书皮/书套 暑假必囤",
+    "category": "书皮/书套",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 234,
+    "heat": "暖"
+  },
+  {
+    "name": "书皮/书套 618囤货首选",
+    "category": "书皮/书套",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 135,
+    "heat": "爆"
+  },
+  {
+    "name": "书皮/书套 会议利器",
+    "category": "书皮/书套",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 248,
+    "heat": "热"
+  },
+  {
+    "name": "书皮/书套 球迷手绘",
+    "category": "书皮/书套",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 205,
+    "heat": "爆"
+  },
+  {
+    "name": "书皮/书套 毕业纪念",
+    "category": "书皮/书套",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 237,
+    "heat": "热"
+  },
+  {
+    "name": "美术颜料 考试必备",
+    "category": "美术颜料",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 31,
+    "heat": "热"
+  },
+  {
+    "name": "美术颜料 假期绘画",
+    "category": "美术颜料",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 105,
+    "heat": "热"
+  },
+  {
+    "name": "美术颜料 年中大促热卖",
+    "category": "美术颜料",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 169,
+    "heat": "爆"
+  },
+  {
+    "name": "美术颜料 职场必备",
+    "category": "美术颜料",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 135,
+    "heat": "热"
+  },
+  {
+    "name": "美术颜料 球迷手绘",
+    "category": "美术颜料",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 135,
+    "heat": "稳"
+  },
+  {
+    "name": "美术颜料 毕业礼物",
+    "category": "美术颜料",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 146,
+    "heat": "暖"
+  },
+  {
+    "name": "办公文具 考试必备",
+    "category": "办公文具",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 51,
+    "heat": "暖"
+  },
+  {
+    "name": "办公文具 假期绘画",
+    "category": "办公文具",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 206,
+    "heat": "爆"
+  },
+  {
+    "name": "办公文具 618爆款",
+    "category": "办公文具",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 202,
+    "heat": "热"
+  },
+  {
+    "name": "办公文具 会议利器",
+    "category": "办公文具",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 22,
+    "heat": "暖"
+  },
+  {
+    "name": "办公文具 球迷手绘",
+    "category": "办公文具",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 64,
+    "heat": "热"
+  },
+  {
+    "name": "办公文具 离校必备",
+    "category": "办公文具",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 54,
+    "heat": "稳"
+  },
+  {
+    "name": "笔类套装/礼盒 考试必备",
+    "category": "笔类套装/礼盒",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
     "growth": 71,
     "heat": "稳"
   },
   {
-    "name": "姓名贴 考试必备",
-    "category": "姓名贴",
-    "growth": 21,
+    "name": "笔类套装/礼盒 暑期手工创作",
+    "category": "笔类套装/礼盒",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 77,
+    "heat": "暖"
+  },
+  {
+    "name": "笔类套装/礼盒 618囤货首选",
+    "category": "笔类套装/礼盒",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 236,
+    "heat": "暖"
+  },
+  {
+    "name": "笔类套装/礼盒 职场必备",
+    "category": "笔类套装/礼盒",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 138,
+    "heat": "暖"
+  },
+  {
+    "name": "笔类套装/礼盒 球迷手绘",
+    "category": "笔类套装/礼盒",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 224,
+    "heat": "稳"
+  },
+  {
+    "name": "笔类套装/礼盒 毕业纪念",
+    "category": "笔类套装/礼盒",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 193,
     "heat": "爆"
   },
   {
-    "name": "姓名贴 开学预热",
-    "category": "姓名贴",
-    "growth": 225,
-    "heat": "暖"
-  },
-  {
-    "name": "姓名贴 毕业季精选",
-    "category": "姓名贴",
-    "growth": 74,
-    "heat": "暖"
-  },
-  {
-    "name": "姓名贴 日常刚需",
-    "category": "姓名贴",
-    "growth": 144,
+    "name": "文创用品 考场专用",
+    "category": "文创用品",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 91,
     "heat": "热"
   },
   {
-    "name": "电动橡皮擦 618爆款",
-    "category": "电动橡皮擦",
-    "growth": 97,
+    "name": "文创用品 暑期手工创作",
+    "category": "文创用品",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 178,
+    "heat": "热"
+  },
+  {
+    "name": "文创用品 年中大促热卖",
+    "category": "文创用品",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 39,
     "heat": "暖"
   },
   {
-    "name": "电动橡皮擦 暑期热卖",
-    "category": "电动橡皮擦",
-    "growth": 145,
+    "name": "文创用品 会议利器",
+    "category": "文创用品",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 25,
     "heat": "稳"
   },
   {
-    "name": "电动橡皮擦 考试必备",
-    "category": "电动橡皮擦",
-    "growth": 123,
-    "heat": "稳"
+    "name": "文创用品 球迷手绘",
+    "category": "文创用品",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 154,
+    "heat": "热"
   },
   {
-    "name": "电动橡皮擦 开学预热",
-    "category": "电动橡皮擦",
-    "growth": 166,
+    "name": "文创用品 毕业礼物",
+    "category": "文创用品",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 101,
+    "heat": "热"
+  },
+  {
+    "name": "姓名贴 考场专用",
+    "category": "姓名贴",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 111,
     "heat": "暖"
   },
   {
-    "name": "电动橡皮擦 毕业季精选",
-    "category": "电动橡皮擦",
-    "growth": 114,
+    "name": "姓名贴 暑假必囤",
+    "category": "姓名贴",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 49,
+    "heat": "稳"
+  },
+  {
+    "name": "姓名贴 年中大促热卖",
+    "category": "姓名贴",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 73,
+    "heat": "稳"
+  },
+  {
+    "name": "姓名贴 职场必备",
+    "category": "姓名贴",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 141,
     "heat": "爆"
   },
   {
-    "name": "电动橡皮擦 日常刚需",
-    "category": "电动橡皮擦",
-    "growth": 31,
+    "name": "姓名贴 球迷手绘",
+    "category": "姓名贴",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 83,
+    "heat": "爆"
+  },
+  {
+    "name": "姓名贴 离校必备",
+    "category": "姓名贴",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 240,
+    "heat": "暖"
+  },
+  {
+    "name": "拼豆/咕卡套装 中高考冲刺",
+    "category": "拼豆/咕卡套装",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 132,
+    "heat": "稳"
+  },
+  {
+    "name": "拼豆/咕卡套装 暑假必囤",
+    "category": "拼豆/咕卡套装",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 150,
     "heat": "暖"
   },
   {
     "name": "拼豆/咕卡套装 618爆款",
     "category": "拼豆/咕卡套装",
-    "growth": 66,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 106,
+    "heat": "爆"
+  },
+  {
+    "name": "拼豆/咕卡套装 办公高效",
+    "category": "拼豆/咕卡套装",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 28,
+    "heat": "爆"
+  },
+  {
+    "name": "拼豆/咕卡套装 球迷手绘",
+    "category": "拼豆/咕卡套装",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 243,
     "heat": "暖"
   },
   {
-    "name": "拼豆/咕卡套装 暑期热卖",
+    "name": "拼豆/咕卡套装 毕业纪念",
     "category": "拼豆/咕卡套装",
-    "growth": 218,
-    "heat": "暖"
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 148,
+    "heat": "稳"
   },
   {
-    "name": "拼豆/咕卡套装 考试必备",
-    "category": "拼豆/咕卡套装",
-    "growth": 224,
+    "name": "彩色铅笔 中高考冲刺",
+    "category": "彩色铅笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 152,
+    "heat": "爆"
+  },
+  {
+    "name": "彩色铅笔 假期绘画",
+    "category": "彩色铅笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 21,
+    "heat": "爆"
+  },
+  {
+    "name": "彩色铅笔 618囤货首选",
+    "category": "彩色铅笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 140,
+    "heat": "爆"
+  },
+  {
+    "name": "彩色铅笔 职场必备",
+    "category": "彩色铅笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 144,
     "heat": "热"
   },
   {
-    "name": "拼豆/咕卡套装 开学预热",
-    "category": "拼豆/咕卡套装",
-    "growth": 107,
-    "heat": "稳"
+    "name": "彩色铅笔 球迷手绘",
+    "category": "彩色铅笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 172,
+    "heat": "爆"
   },
   {
-    "name": "拼豆/咕卡套装 毕业季精选",
-    "category": "拼豆/咕卡套装",
-    "growth": 153,
+    "name": "彩色铅笔 毕业礼物",
+    "category": "彩色铅笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 57,
+    "heat": "爆"
+  },
+  {
+    "name": "白板笔 中高考冲刺",
+    "category": "白板笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 172,
     "heat": "暖"
   },
   {
-    "name": "拼豆/咕卡套装 日常刚需",
-    "category": "拼豆/咕卡套装",
-    "growth": 147,
-    "heat": "暖"
-  },
-  {
-    "name": "彩色铅笔 618爆款",
-    "category": "彩色铅笔",
-    "growth": 36,
+    "name": "白板笔 假期绘画",
+    "category": "白板笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 123,
     "heat": "稳"
   },
   {
-    "name": "彩色铅笔 暑期热卖",
-    "category": "彩色铅笔",
-    "growth": 62,
+    "name": "白板笔 年中大促热卖",
+    "category": "白板笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 173,
     "heat": "热"
   },
   {
-    "name": "彩色铅笔 考试必备",
-    "category": "彩色铅笔",
-    "growth": 95,
-    "heat": "爆"
-  },
-  {
-    "name": "彩色铅笔 开学预热",
-    "category": "彩色铅笔",
-    "growth": 47,
-    "heat": "稳"
-  },
-  {
-    "name": "彩色铅笔 毕业季精选",
-    "category": "彩色铅笔",
-    "growth": 192,
-    "heat": "爆"
-  },
-  {
-    "name": "彩色铅笔 日常刚需",
-    "category": "彩色铅笔",
-    "growth": 34,
-    "heat": "稳"
-  },
-  {
-    "name": "白板笔 618爆款",
+    "name": "白板笔 办公高效",
     "category": "白板笔",
-    "growth": 235,
-    "heat": "稳"
-  },
-  {
-    "name": "白板笔 暑期热卖",
-    "category": "白板笔",
-    "growth": 136,
-    "heat": "爆"
-  },
-  {
-    "name": "白板笔 考试必备",
-    "category": "白板笔",
-    "growth": 196,
-    "heat": "稳"
-  },
-  {
-    "name": "白板笔 开学预热",
-    "category": "白板笔",
-    "growth": 218,
-    "heat": "爆"
-  },
-  {
-    "name": "白板笔 毕业季精选",
-    "category": "白板笔",
-    "growth": 232,
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 31,
     "heat": "暖"
   },
   {
-    "name": "白板笔 日常刚需",
+    "name": "白板笔 球迷手绘",
     "category": "白板笔",
-    "growth": 151,
-    "heat": "稳"
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 102,
+    "heat": "暖"
   },
   {
-    "name": "按扣/拉链文件资料袋/收纳袋 618爆款",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "growth": 204,
-    "heat": "爆"
-  },
-  {
-    "name": "按扣/拉链文件资料袋/收纳袋 暑期热卖",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "growth": 209,
-    "heat": "爆"
+    "name": "白板笔 离校必备",
+    "category": "白板笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 195,
+    "heat": "热"
   },
   {
     "name": "按扣/拉链文件资料袋/收纳袋 考试必备",
     "category": "按扣/拉链文件资料袋/收纳袋",
-    "growth": 67,
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 192,
+    "heat": "稳"
+  },
+  {
+    "name": "按扣/拉链文件资料袋/收纳袋 暑期手工创作",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 224,
     "heat": "热"
   },
   {
-    "name": "按扣/拉链文件资料袋/收纳袋 开学预热",
+    "name": "按扣/拉链文件资料袋/收纳袋 年中大促热卖",
     "category": "按扣/拉链文件资料袋/收纳袋",
-    "growth": 159,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 207,
+    "heat": "暖"
+  },
+  {
+    "name": "按扣/拉链文件资料袋/收纳袋 职场必备",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 147,
+    "heat": "暖"
+  },
+  {
+    "name": "按扣/拉链文件资料袋/收纳袋 球迷手绘",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 32,
+    "heat": "热"
+  },
+  {
+    "name": "按扣/拉链文件资料袋/收纳袋 毕业纪念",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 104,
+    "heat": "暖"
+  },
+  {
+    "name": "修正带 考试必备",
+    "category": "修正带",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 212,
     "heat": "爆"
   },
   {
-    "name": "按扣/拉链文件资料袋/收纳袋 毕业季精选",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "growth": 41,
-    "heat": "热"
-  },
-  {
-    "name": "按扣/拉链文件资料袋/收纳袋 日常刚需",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "growth": 37,
+    "name": "修正带 暑期手工创作",
+    "category": "修正带",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 95,
     "heat": "爆"
   },
   {
     "name": "修正带 618爆款",
     "category": "修正带",
-    "growth": 174,
-    "heat": "爆"
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 240,
+    "heat": "暖"
   },
   {
-    "name": "修正带 暑期热卖",
+    "name": "修正带 办公高效",
     "category": "修正带",
-    "growth": 53,
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 34,
     "heat": "稳"
   },
   {
-    "name": "修正带 考试必备",
+    "name": "修正带 球迷手绘",
     "category": "修正带",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 191,
+    "heat": "稳"
+  },
+  {
+    "name": "修正带 毕业礼物",
+    "category": "修正带",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 243,
+    "heat": "稳"
+  },
+  {
+    "name": "钢笔 考场专用",
+    "category": "钢笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 232,
+    "heat": "暖"
+  },
+  {
+    "name": "钢笔 暑假必囤",
+    "category": "钢笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 196,
+    "heat": "稳"
+  },
+  {
+    "name": "钢笔 618囤货首选",
+    "category": "钢笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 44,
+    "heat": "稳"
+  },
+  {
+    "name": "钢笔 会议利器",
+    "category": "钢笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 151,
+    "heat": "稳"
+  },
+  {
+    "name": "钢笔 球迷手绘",
+    "category": "钢笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 121,
+    "heat": "热"
+  },
+  {
+    "name": "钢笔 离校必备",
+    "category": "钢笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 151,
+    "heat": "爆"
+  },
+  {
+    "name": "画纸/画本 考场专用",
+    "category": "画纸/画本",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 22,
+    "heat": "稳"
+  },
+  {
+    "name": "画纸/画本 暑假必囤",
+    "category": "画纸/画本",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 67,
+    "heat": "热"
+  },
+  {
+    "name": "画纸/画本 年中大促热卖",
+    "category": "画纸/画本",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 77,
+    "heat": "爆"
+  },
+  {
+    "name": "画纸/画本 办公高效",
+    "category": "画纸/画本",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 37,
+    "heat": "爆"
+  },
+  {
+    "name": "画纸/画本 球迷手绘",
+    "category": "画纸/画本",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 50,
+    "heat": "稳"
+  },
+  {
+    "name": "画纸/画本 毕业纪念",
+    "category": "画纸/画本",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 60,
+    "heat": "热"
+  },
+  {
+    "name": "胶水 考场专用",
+    "category": "胶水",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 42,
+    "heat": "爆"
+  },
+  {
+    "name": "胶水 假期绘画",
+    "category": "胶水",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
     "growth": 168,
     "heat": "爆"
   },
   {
-    "name": "修正带 开学预热",
-    "category": "修正带",
-    "growth": 100,
+    "name": "胶水 年中大促热卖",
+    "category": "胶水",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 110,
     "heat": "热"
   },
   {
-    "name": "修正带 毕业季精选",
-    "category": "修正带",
-    "growth": 80,
-    "heat": "稳"
-  },
-  {
-    "name": "修正带 日常刚需",
-    "category": "修正带",
+    "name": "胶水 会议利器",
+    "category": "胶水",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
     "growth": 154,
     "heat": "热"
   },
   {
-    "name": "钢笔 618爆款",
-    "category": "钢笔",
-    "growth": 143,
-    "heat": "爆"
-  },
-  {
-    "name": "钢笔 暑期热卖",
-    "category": "钢笔",
-    "growth": 127,
+    "name": "胶水 球迷手绘",
+    "category": "胶水",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 210,
     "heat": "暖"
   },
   {
-    "name": "钢笔 考试必备",
-    "category": "钢笔",
+    "name": "胶水 毕业礼物",
+    "category": "胶水",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 198,
+    "heat": "暖"
+  },
+  {
+    "name": "笔芯/替芯/笔壳 中高考冲刺",
+    "category": "笔芯/替芯/笔壳",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 62,
+    "heat": "热"
+  },
+  {
+    "name": "笔芯/替芯/笔壳 假期绘画",
+    "category": "笔芯/替芯/笔壳",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
     "growth": 39,
-    "heat": "暖"
-  },
-  {
-    "name": "钢笔 开学预热",
-    "category": "钢笔",
-    "growth": 40,
-    "heat": "暖"
-  },
-  {
-    "name": "钢笔 毕业季精选",
-    "category": "钢笔",
-    "growth": 120,
-    "heat": "热"
-  },
-  {
-    "name": "钢笔 日常刚需",
-    "category": "钢笔",
-    "growth": 40,
-    "heat": "热"
-  },
-  {
-    "name": "画纸/画本 618爆款",
-    "category": "画纸/画本",
-    "growth": 112,
-    "heat": "热"
-  },
-  {
-    "name": "画纸/画本 暑期热卖",
-    "category": "画纸/画本",
-    "growth": 200,
-    "heat": "暖"
-  },
-  {
-    "name": "画纸/画本 考试必备",
-    "category": "画纸/画本",
-    "growth": 140,
-    "heat": "热"
-  },
-  {
-    "name": "画纸/画本 开学预热",
-    "category": "画纸/画本",
-    "growth": 211,
-    "heat": "暖"
-  },
-  {
-    "name": "画纸/画本 毕业季精选",
-    "category": "画纸/画本",
-    "growth": 159,
-    "heat": "稳"
-  },
-  {
-    "name": "画纸/画本 日常刚需",
-    "category": "画纸/画本",
-    "growth": 157,
-    "heat": "暖"
-  },
-  {
-    "name": "胶水 618爆款",
-    "category": "胶水",
-    "growth": 82,
-    "heat": "热"
-  },
-  {
-    "name": "胶水 暑期热卖",
-    "category": "胶水",
-    "growth": 44,
-    "heat": "热"
-  },
-  {
-    "name": "胶水 考试必备",
-    "category": "胶水",
-    "growth": 241,
-    "heat": "稳"
-  },
-  {
-    "name": "胶水 开学预热",
-    "category": "胶水",
-    "growth": 152,
-    "heat": "稳"
-  },
-  {
-    "name": "胶水 毕业季精选",
-    "category": "胶水",
-    "growth": 199,
-    "heat": "热"
-  },
-  {
-    "name": "胶水 日常刚需",
-    "category": "胶水",
-    "growth": 43,
     "heat": "暖"
   },
   {
     "name": "笔芯/替芯/笔壳 618爆款",
     "category": "笔芯/替芯/笔壳",
-    "growth": 51,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 144,
     "heat": "热"
   },
   {
-    "name": "笔芯/替芯/笔壳 暑期热卖",
+    "name": "笔芯/替芯/笔壳 办公高效",
     "category": "笔芯/替芯/笔壳",
-    "growth": 118,
-    "heat": "爆"
-  },
-  {
-    "name": "笔芯/替芯/笔壳 考试必备",
-    "category": "笔芯/替芯/笔壳",
-    "growth": 112,
-    "heat": "暖"
-  },
-  {
-    "name": "笔芯/替芯/笔壳 开学预热",
-    "category": "笔芯/替芯/笔壳",
-    "growth": 92,
-    "heat": "稳"
-  },
-  {
-    "name": "笔芯/替芯/笔壳 毕业季精选",
-    "category": "笔芯/替芯/笔壳",
-    "growth": 238,
-    "heat": "稳"
-  },
-  {
-    "name": "笔芯/替芯/笔壳 日常刚需",
-    "category": "笔芯/替芯/笔壳",
-    "growth": 160,
-    "heat": "稳"
-  },
-  {
-    "name": "记号笔 618爆款",
-    "category": "记号笔",
-    "growth": 20,
-    "heat": "暖"
-  },
-  {
-    "name": "记号笔 暑期热卖",
-    "category": "记号笔",
-    "growth": 191,
-    "heat": "爆"
-  },
-  {
-    "name": "记号笔 考试必备",
-    "category": "记号笔",
-    "growth": 213,
-    "heat": "爆"
-  },
-  {
-    "name": "记号笔 开学预热",
-    "category": "记号笔",
-    "growth": 33,
-    "heat": "爆"
-  },
-  {
-    "name": "记号笔 毕业季精选",
-    "category": "记号笔",
-    "growth": 47,
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 40,
     "heat": "热"
   },
   {
-    "name": "记号笔 日常刚需",
-    "category": "记号笔",
-    "growth": 46,
+    "name": "笔芯/替芯/笔壳 球迷手绘",
+    "category": "笔芯/替芯/笔壳",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 140,
     "heat": "爆"
   },
   {
-    "name": "练字帖/描红本 618爆款",
-    "category": "练字帖/描红本",
-    "growth": 220,
+    "name": "笔芯/替芯/笔壳 离校必备",
+    "category": "笔芯/替芯/笔壳",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 107,
+    "heat": "稳"
+  },
+  {
+    "name": "记号笔 中高考冲刺",
+    "category": "记号笔",
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 82,
+    "heat": "稳"
+  },
+  {
+    "name": "记号笔 暑期手工创作",
+    "category": "记号笔",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 140,
+    "heat": "热"
+  },
+  {
+    "name": "记号笔 618囤货首选",
+    "category": "记号笔",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 177,
     "heat": "暖"
   },
   {
-    "name": "练字帖/描红本 暑期热卖",
-    "category": "练字帖/描红本",
-    "growth": 35,
-    "heat": "稳"
+    "name": "记号笔 会议利器",
+    "category": "记号笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 157,
+    "heat": "暖"
+  },
+  {
+    "name": "记号笔 球迷手绘",
+    "category": "记号笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 69,
+    "heat": "暖"
+  },
+  {
+    "name": "记号笔 毕业纪念",
+    "category": "记号笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 245,
+    "heat": "爆"
   },
   {
     "name": "练字帖/描红本 考试必备",
     "category": "练字帖/描红本",
-    "growth": 84,
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 102,
+    "heat": "爆"
+  },
+  {
+    "name": "练字帖/描红本 暑期手工创作",
+    "category": "练字帖/描红本",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 241,
     "heat": "稳"
   },
   {
-    "name": "练字帖/描红本 开学预热",
+    "name": "练字帖/描红本 年中大促热卖",
     "category": "练字帖/描红本",
-    "growth": 204,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 211,
+    "heat": "稳"
+  },
+  {
+    "name": "练字帖/描红本 职场必备",
+    "category": "练字帖/描红本",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 43,
+    "heat": "暖"
+  },
+  {
+    "name": "练字帖/描红本 球迷手绘",
+    "category": "练字帖/描红本",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 229,
+    "heat": "爆"
+  },
+  {
+    "name": "练字帖/描红本 毕业礼物",
+    "category": "练字帖/描红本",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 154,
     "heat": "热"
-  },
-  {
-    "name": "练字帖/描红本 毕业季精选",
-    "category": "练字帖/描红本",
-    "growth": 87,
-    "heat": "爆"
-  },
-  {
-    "name": "练字帖/描红本 日常刚需",
-    "category": "练字帖/描红本",
-    "growth": 163,
-    "heat": "爆"
-  },
-  {
-    "name": "圆珠笔 618爆款",
-    "category": "圆珠笔",
-    "growth": 189,
-    "heat": "暖"
-  },
-  {
-    "name": "圆珠笔 暑期热卖",
-    "category": "圆珠笔",
-    "growth": 109,
-    "heat": "暖"
   },
   {
     "name": "圆珠笔 考试必备",
     "category": "圆珠笔",
-    "growth": 185,
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 122,
     "heat": "热"
   },
   {
-    "name": "圆珠笔 开学预热",
+    "name": "圆珠笔 暑假必囤",
     "category": "圆珠笔",
-    "growth": 145,
-    "heat": "热"
-  },
-  {
-    "name": "圆珠笔 毕业季精选",
-    "category": "圆珠笔",
-    "growth": 126,
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 112,
     "heat": "暖"
   },
   {
-    "name": "圆珠笔 日常刚需",
+    "name": "圆珠笔 618爆款",
     "category": "圆珠笔",
-    "growth": 50,
-    "heat": "热"
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 244,
+    "heat": "稳"
   },
   {
-    "name": "蜡笔 618爆款",
-    "category": "蜡笔",
+    "name": "圆珠笔 会议利器",
+    "category": "圆珠笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 160,
+    "heat": "稳"
+  },
+  {
+    "name": "圆珠笔 球迷手绘",
+    "category": "圆珠笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
     "growth": 158,
     "heat": "稳"
   },
   {
-    "name": "蜡笔 暑期热卖",
-    "category": "蜡笔",
-    "growth": 182,
-    "heat": "热"
+    "name": "圆珠笔 离校必备",
+    "category": "圆珠笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 62,
+    "heat": "暖"
   },
   {
     "name": "蜡笔 考试必备",
     "category": "蜡笔",
-    "growth": 57,
-    "heat": "爆"
-  },
-  {
-    "name": "蜡笔 开学预热",
-    "category": "蜡笔",
-    "growth": 85,
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 143,
     "heat": "暖"
   },
   {
-    "name": "蜡笔 毕业季精选",
+    "name": "蜡笔 暑假必囤",
     "category": "蜡笔",
-    "growth": 165,
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 213,
     "heat": "爆"
   },
   {
-    "name": "蜡笔 日常刚需",
+    "name": "蜡笔 618爆款",
     "category": "蜡笔",
-    "growth": 166,
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 48,
+    "heat": "爆"
+  },
+  {
+    "name": "蜡笔 职场必备",
+    "category": "蜡笔",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 46,
+    "heat": "爆"
+  },
+  {
+    "name": "蜡笔 球迷手绘",
+    "category": "蜡笔",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 88,
     "heat": "热"
   },
   {
-    "name": "书签 618爆款",
-    "category": "书签",
-    "growth": 128,
+    "name": "蜡笔 毕业纪念",
+    "category": "蜡笔",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 201,
     "heat": "稳"
   },
   {
-    "name": "书签 暑期热卖",
+    "name": "书签 考场专用",
     "category": "书签",
-    "growth": 26,
-    "heat": "热"
-  },
-  {
-    "name": "书签 考试必备",
-    "category": "书签",
-    "growth": 158,
-    "heat": "稳"
-  },
-  {
-    "name": "书签 开学预热",
-    "category": "书签",
-    "growth": 26,
-    "heat": "暖"
-  },
-  {
-    "name": "书签 毕业季精选",
-    "category": "书签",
-    "growth": 205,
-    "heat": "暖"
-  },
-  {
-    "name": "书签 日常刚需",
-    "category": "书签",
-    "growth": 53,
-    "heat": "暖"
-  },
-  {
-    "name": "桌面吸尘器 618爆款",
-    "category": "桌面吸尘器",
-    "growth": 97,
-    "heat": "稳"
-  },
-  {
-    "name": "桌面吸尘器 暑期热卖",
-    "category": "桌面吸尘器",
-    "growth": 100,
+    "trend": "exam",
+    "trendLabel": "中高考文具",
+    "growth": 163,
     "heat": "爆"
   },
   {
-    "name": "桌面吸尘器 考试必备",
-    "category": "桌面吸尘器",
-    "growth": 29,
+    "name": "书签 假期绘画",
+    "category": "书签",
+    "trend": "summer",
+    "trendLabel": "暑假文创/DIY",
+    "growth": 84,
+    "heat": "稳"
+  },
+  {
+    "name": "书签 618囤货首选",
+    "category": "书签",
+    "trend": "618",
+    "trendLabel": "618大促热卖",
+    "growth": 81,
     "heat": "热"
   },
   {
-    "name": "桌面吸尘器 开学预热",
-    "category": "桌面吸尘器",
-    "growth": 197,
-    "heat": "稳"
-  },
-  {
-    "name": "桌面吸尘器 毕业季精选",
-    "category": "桌面吸尘器",
-    "growth": 244,
+    "name": "书签 办公高效",
+    "category": "书签",
+    "trend": "office",
+    "trendLabel": "办公文具热点",
+    "growth": 163,
     "heat": "爆"
   },
   {
-    "name": "桌面吸尘器 日常刚需",
-    "category": "桌面吸尘器",
-    "growth": 169,
+    "name": "书签 球迷手绘",
+    "category": "书签",
+    "trend": "worldcup",
+    "trendLabel": "世界杯相关",
+    "growth": 248,
     "heat": "稳"
+  },
+  {
+    "name": "书签 毕业礼物",
+    "category": "书签",
+    "trend": "graduation",
+    "trendLabel": "毕业季",
+    "growth": 109,
+    "heat": "爆"
   }
 ],
   hotwords: [
@@ -5618,3061 +5546,2797 @@ const DASHBOARD_DATA = {
     "word": "中性笔推荐",
     "category": "中性笔",
     "platforms": {
-      "jd": 3025108,
-      "taobao": 4457602,
-      "pdd": 1211476,
-      "douyin": 24559344,
-      "xhs": 2441618
+      "jd": 6543013,
+      "taobao": 5762519,
+      "pdd": 4405331,
+      "douyin": 9746621,
+      "xhs": 2660304
     }
   },
   {
     "word": "中性笔测评",
     "category": "中性笔",
     "platforms": {
-      "jd": 7411353,
-      "taobao": 9863086,
-      "pdd": 2881259,
-      "douyin": 18621326,
-      "xhs": 5293304
+      "jd": 4319251,
+      "taobao": 2291121,
+      "pdd": 1839414,
+      "douyin": 16290093,
+      "xhs": 10769542
     }
   },
   {
     "word": "中性笔平替",
     "category": "中性笔",
     "platforms": {
-      "jd": 1389449,
-      "taobao": 6601568,
-      "pdd": 1145560,
-      "douyin": 8357655,
-      "xhs": 9457332
+      "jd": 4180099,
+      "taobao": 3306416,
+      "pdd": 1750153,
+      "douyin": 18274229,
+      "xhs": 13345506
     }
   },
   {
     "word": "中性笔学生党",
     "category": "中性笔",
     "platforms": {
-      "jd": 5733683,
-      "taobao": 6397479,
-      "pdd": 1653208,
-      "douyin": 8000612,
-      "xhs": 10719964
+      "jd": 6627196,
+      "taobao": 8668861,
+      "pdd": 5117123,
+      "douyin": 11836094,
+      "xhs": 3144200
     }
   },
   {
     "word": "中性笔性价比",
     "category": "中性笔",
     "platforms": {
-      "jd": 7113664,
-      "taobao": 9986554,
-      "pdd": 4334431,
-      "douyin": 21468490,
-      "xhs": 6622969
+      "jd": 1447177,
+      "taobao": 6937944,
+      "pdd": 4084197,
+      "douyin": 24732055,
+      "xhs": 6963477
     }
   },
   {
     "word": "中性笔好物分享",
     "category": "中性笔",
     "platforms": {
-      "jd": 1648679,
-      "taobao": 2389193,
-      "pdd": 3468972,
-      "douyin": 17336790,
-      "xhs": 14829489
+      "jd": 6102779,
+      "taobao": 5732908,
+      "pdd": 750468,
+      "douyin": 4699553,
+      "xhs": 12560149
     }
   },
   {
     "word": "笔记本/记事本推荐",
     "category": "笔记本/记事本",
     "platforms": {
-      "jd": 3033596,
-      "taobao": 1090738,
-      "pdd": 4303194,
-      "douyin": 10065925,
-      "xhs": 10873943
+      "jd": 4270087,
+      "taobao": 9314903,
+      "pdd": 1528393,
+      "douyin": 5377082,
+      "xhs": 12649527
     }
   },
   {
     "word": "笔记本/记事本测评",
     "category": "笔记本/记事本",
     "platforms": {
-      "jd": 1773491,
-      "taobao": 6529461,
-      "pdd": 4657452,
-      "douyin": 7113573,
-      "xhs": 2512689
+      "jd": 4837315,
+      "taobao": 5957944,
+      "pdd": 3620865,
+      "douyin": 19216876,
+      "xhs": 11966529
     }
   },
   {
     "word": "笔记本/记事本平替",
     "category": "笔记本/记事本",
     "platforms": {
-      "jd": 6740818,
-      "taobao": 7361395,
-      "pdd": 2978972,
-      "douyin": 15483461,
-      "xhs": 11319830
+      "jd": 6012740,
+      "taobao": 5626876,
+      "pdd": 1375544,
+      "douyin": 17904974,
+      "xhs": 14556907
     }
   },
   {
     "word": "笔记本/记事本学生党",
     "category": "笔记本/记事本",
     "platforms": {
-      "jd": 6374926,
-      "taobao": 9085352,
-      "pdd": 2813438,
-      "douyin": 6502176,
-      "xhs": 10484984
+      "jd": 6589576,
+      "taobao": 6570526,
+      "pdd": 4879761,
+      "douyin": 6578262,
+      "xhs": 6153044
     }
   },
   {
     "word": "笔记本/记事本性价比",
     "category": "笔记本/记事本",
     "platforms": {
-      "jd": 7762629,
-      "taobao": 9931379,
-      "pdd": 3285263,
-      "douyin": 20519045,
-      "xhs": 3277076
+      "jd": 5091175,
+      "taobao": 3301170,
+      "pdd": 2408948,
+      "douyin": 23445692,
+      "xhs": 14442528
     }
   },
   {
     "word": "笔记本/记事本好物分享",
     "category": "笔记本/记事本",
     "platforms": {
-      "jd": 3260560,
-      "taobao": 7733723,
-      "pdd": 1650585,
-      "douyin": 10635791,
-      "xhs": 14010895
+      "jd": 6427075,
+      "taobao": 7130409,
+      "pdd": 3275504,
+      "douyin": 9974405,
+      "xhs": 4964808
     }
   },
   {
     "word": "学习套装/礼盒/盲盒推荐",
     "category": "学习套装/礼盒/盲盒",
     "platforms": {
-      "jd": 3042083,
-      "taobao": 8723873,
-      "pdd": 1894912,
-      "douyin": 17572505,
-      "xhs": 5306268
+      "jd": 1997161,
+      "taobao": 1867288,
+      "pdd": 4151455,
+      "douyin": 23007544,
+      "xhs": 8638750
     }
   },
   {
     "word": "学习套装/礼盒/盲盒测评",
     "category": "学习套装/礼盒/盲盒",
     "platforms": {
-      "jd": 3635629,
-      "taobao": 3195836,
-      "pdd": 933644,
-      "douyin": 17605820,
-      "xhs": 13732073
+      "jd": 5355379,
+      "taobao": 9624767,
+      "pdd": 5402317,
+      "douyin": 22143660,
+      "xhs": 13163515
     }
   },
   {
     "word": "学习套装/礼盒/盲盒平替",
     "category": "学习套装/礼盒/盲盒",
     "platforms": {
-      "jd": 4592187,
-      "taobao": 8121222,
-      "pdd": 4812383,
-      "douyin": 22609267,
-      "xhs": 13182329
+      "jd": 7845381,
+      "taobao": 7947335,
+      "pdd": 1000935,
+      "douyin": 17535719,
+      "xhs": 1768307
     }
   },
   {
     "word": "学习套装/礼盒/盲盒学生党",
     "category": "学习套装/礼盒/盲盒",
     "platforms": {
-      "jd": 7016169,
-      "taobao": 11773226,
-      "pdd": 3973667,
-      "douyin": 5003740,
-      "xhs": 10250003
+      "jd": 6551957,
+      "taobao": 4472191,
+      "pdd": 4642400,
+      "douyin": 23320430,
+      "xhs": 9161889
     }
   },
   {
     "word": "学习套装/礼盒/盲盒性价比",
     "category": "学习套装/礼盒/盲盒",
     "platforms": {
-      "jd": 911593,
-      "taobao": 9876203,
-      "pdd": 2236095,
-      "douyin": 19569600,
-      "xhs": 13931183
+      "jd": 1235172,
+      "taobao": 10664396,
+      "pdd": 733698,
+      "douyin": 22159330,
+      "xhs": 7921578
     }
   },
   {
     "word": "学习套装/礼盒/盲盒好物分享",
     "category": "学习套装/礼盒/盲盒",
     "platforms": {
-      "jd": 4872440,
-      "taobao": 2078252,
-      "pdd": 5332198,
-      "douyin": 3934793,
-      "xhs": 13192301
+      "jd": 6751371,
+      "taobao": 8527910,
+      "pdd": 5800540,
+      "douyin": 15249256,
+      "xhs": 11369467
     }
   },
   {
     "word": "马克笔推荐",
     "category": "马克笔",
     "platforms": {
-      "jd": 3050571,
-      "taobao": 5357009,
-      "pdd": 4986630,
-      "douyin": 3079086,
-      "xhs": 13738593
+      "jd": 7224234,
+      "taobao": 5419673,
+      "pdd": 1274517,
+      "douyin": 18638005,
+      "xhs": 4627972
     }
   },
   {
     "word": "马克笔测评",
     "category": "马克笔",
     "platforms": {
-      "jd": 5497767,
-      "taobao": 10862210,
-      "pdd": 2709836,
-      "douyin": 6098067,
-      "xhs": 10951458
+      "jd": 5873442,
+      "taobao": 2291590,
+      "pdd": 1683768,
+      "douyin": 3070443,
+      "xhs": 14360501
     }
   },
   {
     "word": "马克笔平替",
     "category": "马克笔",
     "platforms": {
-      "jd": 2443557,
-      "taobao": 8881049,
-      "pdd": 1145795,
-      "douyin": 7735074,
-      "xhs": 1044827
+      "jd": 2178022,
+      "taobao": 10267794,
+      "pdd": 626326,
+      "douyin": 17166464,
+      "xhs": 2979707
     }
   },
   {
     "word": "马克笔学生党",
     "category": "马克笔",
     "platforms": {
-      "jd": 7657411,
-      "taobao": 3461099,
-      "pdd": 5133897,
-      "douyin": 3505304,
-      "xhs": 10015023
+      "jd": 6514337,
+      "taobao": 2373856,
+      "pdd": 4405039,
+      "douyin": 18062598,
+      "xhs": 12170733
     }
   },
   {
     "word": "马克笔性价比",
     "category": "马克笔",
     "platforms": {
-      "jd": 1560557,
-      "taobao": 9821027,
-      "pdd": 1186928,
-      "douyin": 18620155,
-      "xhs": 10585289
+      "jd": 4879170,
+      "taobao": 7027622,
+      "pdd": 4558449,
+      "douyin": 20872968,
+      "xhs": 1400629
     }
   },
   {
     "word": "马克笔好物分享",
     "category": "马克笔",
     "platforms": {
-      "jd": 6484321,
-      "taobao": 7422782,
-      "pdd": 3513811,
-      "douyin": 19233794,
-      "xhs": 12373707
+      "jd": 7075667,
+      "taobao": 9925411,
+      "pdd": 2825576,
+      "douyin": 20524108,
+      "xhs": 3774126
     }
   },
   {
     "word": "文具盒/笔袋/痛包笔袋推荐",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": {
-      "jd": 3059058,
-      "taobao": 1990145,
-      "pdd": 2578348,
-      "douyin": 10585667,
-      "xhs": 8170918
+      "jd": 4951308,
+      "taobao": 8972058,
+      "pdd": 3897579,
+      "douyin": 14268467,
+      "xhs": 14617195
     }
   },
   {
     "word": "文具盒/笔袋/痛包笔袋测评",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": {
-      "jd": 7359905,
-      "taobao": 7528585,
-      "pdd": 4486029,
-      "douyin": 16590314,
-      "xhs": 8170842
+      "jd": 6391506,
+      "taobao": 5958413,
+      "pdd": 3465220,
+      "douyin": 5997226,
+      "xhs": 1557487
     }
   },
   {
     "word": "文具盒/笔袋/痛包笔袋平替",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": {
-      "jd": 7794926,
-      "taobao": 9640876,
-      "pdd": 2979206,
-      "douyin": 14860880,
-      "xhs": 2907326
+      "jd": 4010663,
+      "taobao": 1588253,
+      "pdd": 5751717,
+      "douyin": 16797209,
+      "xhs": 4191107
     }
   },
   {
     "word": "文具盒/笔袋/痛包笔袋学生党",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": {
-      "jd": 798654,
-      "taobao": 6148972,
-      "pdd": 794127,
-      "douyin": 24006868,
-      "xhs": 9780042
+      "jd": 6476717,
+      "taobao": 11275520,
+      "pdd": 4167677,
+      "douyin": 12804765,
+      "xhs": 1179578
     }
   },
   {
     "word": "文具盒/笔袋/痛包笔袋性价比",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": {
-      "jd": 2209522,
-      "taobao": 9765852,
-      "pdd": 5637760,
-      "douyin": 17670709,
-      "xhs": 7239396
+      "jd": 1023167,
+      "taobao": 3390848,
+      "pdd": 2883199,
+      "douyin": 19586605,
+      "xhs": 8879680
     }
   },
   {
     "word": "文具盒/笔袋/痛包笔袋好物分享",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": {
-      "jd": 596202,
-      "taobao": 1767312,
-      "pdd": 1695424,
-      "douyin": 12532796,
-      "xhs": 11555112
+      "jd": 7399963,
+      "taobao": 11322911,
+      "pdd": 5350613,
+      "douyin": 3798959,
+      "xhs": 10178785
     }
   },
   {
     "word": "铅笔推荐",
     "category": "铅笔",
     "platforms": {
-      "jd": 3067546,
-      "taobao": 9623280,
-      "pdd": 5670066,
-      "douyin": 18092248,
-      "xhs": 2603242
+      "jd": 2678382,
+      "taobao": 1524442,
+      "pdd": 1020640,
+      "douyin": 9898928,
+      "xhs": 10606418
     }
   },
   {
     "word": "铅笔测评",
     "category": "铅笔",
     "platforms": {
-      "jd": 1722043,
-      "taobao": 4194960,
-      "pdd": 762221,
-      "douyin": 5082562,
-      "xhs": 5390227
+      "jd": 6909570,
+      "taobao": 9625236,
+      "pdd": 5246672,
+      "douyin": 8924009,
+      "xhs": 2754473
     }
   },
   {
     "word": "铅笔平替",
     "category": "铅笔",
     "platforms": {
-      "jd": 5646295,
-      "taobao": 10400702,
-      "pdd": 4812618,
-      "douyin": 21986687,
-      "xhs": 4769824
+      "jd": 5843304,
+      "taobao": 3908712,
+      "pdd": 5377108,
+      "douyin": 16427954,
+      "xhs": 5402507
     }
   },
   {
     "word": "铅笔学生党",
     "category": "铅笔",
     "platforms": {
-      "jd": 1439896,
-      "taobao": 8836846,
-      "pdd": 1954356,
-      "douyin": 22508432,
-      "xhs": 9545062
+      "jd": 6439098,
+      "taobao": 9177185,
+      "pdd": 3930316,
+      "douyin": 7546933,
+      "xhs": 4188422
     }
   },
   {
     "word": "铅笔性价比",
     "category": "铅笔",
     "platforms": {
-      "jd": 2858486,
-      "taobao": 9710676,
-      "pdd": 4588593,
-      "douyin": 16721264,
-      "xhs": 3893503
+      "jd": 4667165,
+      "taobao": 10754074,
+      "pdd": 1207949,
+      "douyin": 18300243,
+      "xhs": 2358730
     }
   },
   {
     "word": "铅笔好物分享",
     "category": "铅笔",
     "platforms": {
-      "jd": 2208083,
-      "taobao": 7111842,
-      "pdd": 5377037,
-      "douyin": 5831798,
-      "xhs": 10736518
+      "jd": 7724258,
+      "taobao": 1720412,
+      "pdd": 2375649,
+      "douyin": 9073810,
+      "xhs": 2583445
     }
   },
   {
     "word": "橡皮擦推荐",
     "category": "橡皮擦",
     "platforms": {
-      "jd": 3076033,
-      "taobao": 6256416,
-      "pdd": 3261784,
-      "douyin": 3598828,
-      "xhs": 11035567
+      "jd": 7905456,
+      "taobao": 5076827,
+      "pdd": 3643702,
+      "douyin": 5529389,
+      "xhs": 6595641
     }
   },
   {
     "word": "橡皮擦测评",
     "category": "橡皮擦",
     "platforms": {
-      "jd": 3584181,
-      "taobao": 11861335,
-      "pdd": 2538414,
-      "douyin": 15574809,
-      "xhs": 2609611
+      "jd": 7427633,
+      "taobao": 2292059,
+      "pdd": 1528123,
+      "douyin": 11850793,
+      "xhs": 3951459
     }
   },
   {
     "word": "橡皮擦平替",
     "category": "橡皮擦",
     "platforms": {
-      "jd": 3497665,
-      "taobao": 11160529,
-      "pdd": 1146029,
-      "douyin": 7112493,
-      "xhs": 6632323
+      "jd": 7675945,
+      "taobao": 6229171,
+      "pdd": 5002499,
+      "douyin": 16058699,
+      "xhs": 6613908
     }
   },
   {
     "word": "橡皮擦学生党",
     "category": "橡皮擦",
     "platforms": {
-      "jd": 2081139,
-      "taobao": 11524719,
-      "pdd": 3114586,
-      "douyin": 21009996,
-      "xhs": 9310081
+      "jd": 6401478,
+      "taobao": 7078850,
+      "pdd": 3692955,
+      "douyin": 24289101,
+      "xhs": 7197267
     }
   },
   {
     "word": "橡皮擦性价比",
     "category": "橡皮擦",
     "platforms": {
-      "jd": 3507451,
-      "taobao": 9655501,
-      "pdd": 3539425,
-      "douyin": 15771819,
-      "xhs": 14547610
+      "jd": 811162,
+      "taobao": 7117300,
+      "pdd": 5032700,
+      "douyin": 17013881,
+      "xhs": 9837781
     }
   },
   {
     "word": "橡皮擦好物分享",
     "category": "橡皮擦",
     "platforms": {
-      "jd": 3819964,
-      "taobao": 1456371,
-      "pdd": 3558650,
-      "douyin": 21130799,
-      "xhs": 9917924
+      "jd": 548554,
+      "taobao": 3117913,
+      "pdd": 4900685,
+      "douyin": 14348662,
+      "xhs": 8988104
     }
   },
   {
     "word": "荧光笔推荐",
     "category": "荧光笔",
     "platforms": {
-      "jd": 3084521,
-      "taobao": 2889552,
-      "pdd": 853502,
-      "douyin": 11105409,
-      "xhs": 5467892
+      "jd": 5632529,
+      "taobao": 8629212,
+      "pdd": 766764,
+      "douyin": 23159851,
+      "xhs": 2584863
     }
   },
   {
     "word": "荧光笔测评",
     "category": "荧光笔",
     "platforms": {
-      "jd": 5446319,
-      "taobao": 8527710,
-      "pdd": 4314606,
-      "douyin": 4067056,
-      "xhs": 13828996
+      "jd": 7945697,
+      "taobao": 5958882,
+      "pdd": 3309575,
+      "douyin": 14777576,
+      "xhs": 5148446
     }
   },
   {
     "word": "荧光笔平替",
     "category": "荧光笔",
     "platforms": {
-      "jd": 1349034,
-      "taobao": 11920356,
-      "pdd": 2979441,
-      "douyin": 14238300,
-      "xhs": 8494821
+      "jd": 2008586,
+      "taobao": 8549630,
+      "pdd": 4627890,
+      "douyin": 15689444,
+      "xhs": 7825308
     }
   },
   {
     "word": "荧光笔学生党",
     "category": "荧光笔",
     "platforms": {
-      "jd": 2722382,
-      "taobao": 3212592,
-      "pdd": 4274815,
-      "douyin": 19511559,
-      "xhs": 9075101
+      "jd": 6363858,
+      "taobao": 4980515,
+      "pdd": 3455593,
+      "douyin": 19031269,
+      "xhs": 10206111
     }
   },
   {
     "word": "荧光笔性价比",
     "category": "荧光笔",
     "platforms": {
-      "jd": 4156415,
-      "taobao": 9600325,
-      "pdd": 2490257,
-      "douyin": 14822374,
-      "xhs": 11201716
+      "jd": 4455160,
+      "taobao": 3480526,
+      "pdd": 3357450,
+      "douyin": 15727518,
+      "xhs": 3316831
     }
   },
   {
     "word": "荧光笔好物分享",
     "category": "荧光笔",
     "platforms": {
-      "jd": 5431845,
-      "taobao": 6800901,
-      "pdd": 1740263,
-      "douyin": 14429801,
-      "xhs": 9099330
+      "jd": 872850,
+      "taobao": 4515414,
+      "pdd": 1925721,
+      "douyin": 19623513,
+      "xhs": 1392763
     }
   },
   {
     "word": "手帐推荐",
     "category": "手帐",
     "platforms": {
-      "jd": 3093008,
-      "taobao": 10522687,
-      "pdd": 3945220,
-      "douyin": 18611990,
-      "xhs": 13900217
+      "jd": 3359603,
+      "taobao": 1181597,
+      "pdd": 3389826,
+      "douyin": 18790312,
+      "xhs": 12574086
     }
   },
   {
     "word": "手帐测评",
     "category": "手帐",
     "platforms": {
-      "jd": 7308457,
-      "taobao": 5194085,
-      "pdd": 590798,
-      "douyin": 14559303,
-      "xhs": 11048380
+      "jd": 963761,
+      "taobao": 9625705,
+      "pdd": 5091026,
+      "douyin": 17704359,
+      "xhs": 6345432
     }
   },
   {
     "word": "手帐平替",
     "category": "手帐",
     "platforms": {
-      "jd": 6700403,
-      "taobao": 1680183,
-      "pdd": 4812852,
-      "douyin": 21364106,
-      "xhs": 10357319
+      "jd": 3841226,
+      "taobao": 10870090,
+      "pdd": 4253281,
+      "douyin": 15320190,
+      "xhs": 9036708
     }
   },
   {
     "word": "手帐学生党",
     "category": "手帐",
     "platforms": {
-      "jd": 3363624,
-      "taobao": 5900465,
-      "pdd": 5435045,
-      "douyin": 18013123,
-      "xhs": 8840121
+      "jd": 6326238,
+      "taobao": 2882180,
+      "pdd": 3218232,
+      "douyin": 13773436,
+      "xhs": 13214956
     }
   },
   {
     "word": "手帐性价比",
     "category": "手帐",
     "platforms": {
-      "jd": 4805379,
-      "taobao": 9545150,
-      "pdd": 1441090,
-      "douyin": 13872929,
-      "xhs": 7855823
+      "jd": 599157,
+      "taobao": 10843752,
+      "pdd": 1682201,
+      "douyin": 14441156,
+      "xhs": 10795882
     }
   },
   {
     "word": "手帐好物分享",
     "category": "手帐",
     "platforms": {
-      "jd": 7043726,
-      "taobao": 1145431,
-      "pdd": 5421876,
-      "douyin": 7728803,
-      "xhs": 8280736
+      "jd": 1197146,
+      "taobao": 5912915,
+      "pdd": 4450757,
+      "douyin": 24898365,
+      "xhs": 7797422
     }
   },
   {
     "word": "火漆印章推荐",
     "category": "火漆印章",
     "platforms": {
-      "jd": 3101496,
-      "taobao": 7155823,
-      "pdd": 1536938,
-      "douyin": 4118570,
-      "xhs": 8332542
+      "jd": 1086677,
+      "taobao": 4733981,
+      "pdd": 512887,
+      "douyin": 14420773,
+      "xhs": 8563309
     }
   },
   {
     "word": "火漆印章测评",
     "category": "火漆印章",
     "platforms": {
-      "jd": 1670595,
-      "taobao": 1860459,
-      "pdd": 2366991,
-      "douyin": 3051550,
-      "xhs": 8267765
+      "jd": 1481825,
+      "taobao": 2292528,
+      "pdd": 1372478,
+      "douyin": 20631142,
+      "xhs": 7542418
     }
   },
   {
     "word": "火漆印章平替",
     "category": "火漆印章",
     "platforms": {
-      "jd": 4551773,
-      "taobao": 2440009,
-      "pdd": 1146264,
-      "douyin": 6489912,
-      "xhs": 12219818
+      "jd": 5673867,
+      "taobao": 2190549,
+      "pdd": 3878672,
+      "douyin": 14950935,
+      "xhs": 10248108
     }
   },
   {
     "word": "火漆印章学生党",
     "category": "火漆印章",
     "platforms": {
-      "jd": 4004867,
-      "taobao": 8588339,
-      "pdd": 1095274,
-      "douyin": 16514687,
-      "xhs": 8605140
+      "jd": 6288619,
+      "taobao": 11783844,
+      "pdd": 2980871,
+      "douyin": 8515604,
+      "xhs": 2223800
     }
   },
   {
     "word": "火漆印章性价比",
     "category": "火漆印章",
     "platforms": {
-      "jd": 5454344,
-      "taobao": 9489974,
-      "pdd": 5891922,
-      "douyin": 12923483,
-      "xhs": 4509930
+      "jd": 4243155,
+      "taobao": 7206978,
+      "pdd": 5506951,
+      "douyin": 13154794,
+      "xhs": 4274932
     }
   },
   {
     "word": "火漆印章好物分享",
     "category": "火漆印章",
     "platforms": {
-      "jd": 1155607,
-      "taobao": 6489961,
-      "pdd": 3603489,
-      "douyin": 23027804,
-      "xhs": 7462141
+      "jd": 1521442,
+      "taobao": 7310415,
+      "pdd": 1475793,
+      "douyin": 8173216,
+      "xhs": 14202081
     }
   },
   {
     "word": "水彩笔推荐",
     "category": "水彩笔",
     "platforms": {
-      "jd": 3109983,
-      "taobao": 3788959,
-      "pdd": 4628656,
-      "douyin": 11625151,
-      "xhs": 2764866
+      "jd": 6313751,
+      "taobao": 8286366,
+      "pdd": 3135949,
+      "douyin": 10051235,
+      "xhs": 4552532
     }
   },
   {
     "word": "水彩笔测评",
     "category": "水彩笔",
     "platforms": {
-      "jd": 3532732,
-      "taobao": 9526834,
-      "pdd": 4143183,
-      "douyin": 13543797,
-      "xhs": 5487149
+      "jd": 1999888,
+      "taobao": 5959351,
+      "pdd": 3153930,
+      "douyin": 23557926,
+      "xhs": 8739404
     }
   },
   {
     "word": "水彩笔平替",
     "category": "水彩笔",
     "platforms": {
-      "jd": 2403142,
-      "taobao": 3199836,
-      "pdd": 2979675,
-      "douyin": 13615719,
-      "xhs": 14082316
+      "jd": 7506508,
+      "taobao": 4511008,
+      "pdd": 3504063,
+      "douyin": 14581680,
+      "xhs": 11459509
     }
   },
   {
     "word": "水彩笔学生党",
     "category": "水彩笔",
     "platforms": {
-      "jd": 4646109,
-      "taobao": 11276212,
-      "pdd": 2255504,
-      "douyin": 15016251,
-      "xhs": 8370160
+      "jd": 6250999,
+      "taobao": 9685509,
+      "pdd": 2743510,
+      "douyin": 3257772,
+      "xhs": 5232644
     }
   },
   {
     "word": "水彩笔性价比",
     "category": "水彩笔",
     "platforms": {
-      "jd": 6103308,
-      "taobao": 9434799,
-      "pdd": 4842755,
-      "douyin": 11974038,
-      "xhs": 1164037
+      "jd": 7887152,
+      "taobao": 3570204,
+      "pdd": 3831701,
+      "douyin": 11868431,
+      "xhs": 11753983
     }
   },
   {
     "word": "水彩笔好物分享",
     "category": "水彩笔",
     "platforms": {
-      "jd": 2767488,
-      "taobao": 11834490,
-      "pdd": 1785102,
-      "douyin": 16326806,
-      "xhs": 6643547
+      "jd": 1845737,
+      "taobao": 8707916,
+      "pdd": 4000830,
+      "douyin": 13448068,
+      "xhs": 6606741
     }
   },
   {
     "word": "标签贴纸推荐",
     "category": "标签贴纸",
     "platforms": {
-      "jd": 3118471,
-      "taobao": 11422095,
-      "pdd": 2220374,
-      "douyin": 19131732,
-      "xhs": 11197191
+      "jd": 4040824,
+      "taobao": 11838751,
+      "pdd": 5759011,
+      "douyin": 5681696,
+      "xhs": 14541754
     }
   },
   {
     "word": "标签贴纸测评",
     "category": "标签贴纸",
     "platforms": {
-      "jd": 5394870,
-      "taobao": 6193209,
-      "pdd": 5919375,
-      "douyin": 24036044,
-      "xhs": 2706534
+      "jd": 2517952,
+      "taobao": 9626174,
+      "pdd": 4935381,
+      "douyin": 4484709,
+      "xhs": 9936390
     }
   },
   {
     "word": "标签贴纸平替",
     "category": "标签贴纸",
     "platforms": {
-      "jd": 7754511,
-      "taobao": 3959663,
-      "pdd": 4813087,
-      "douyin": 20741525,
-      "xhs": 1944815
+      "jd": 1839149,
+      "taobao": 6831467,
+      "pdd": 3129454,
+      "douyin": 14212425,
+      "xhs": 12670909
     }
   },
   {
     "word": "标签贴纸学生党",
     "category": "标签贴纸",
     "platforms": {
-      "jd": 5287352,
-      "taobao": 2964085,
-      "pdd": 3415734,
-      "douyin": 13517815,
-      "xhs": 8135179
+      "jd": 6213379,
+      "taobao": 7587174,
+      "pdd": 2506148,
+      "douyin": 19999939,
+      "xhs": 8241489
     }
   },
   {
     "word": "标签贴纸性价比",
     "category": "标签贴纸",
     "platforms": {
-      "jd": 6752273,
-      "taobao": 9379623,
-      "pdd": 3793587,
-      "douyin": 11024593,
-      "xhs": 11818143
+      "jd": 4031150,
+      "taobao": 10933429,
+      "pdd": 2156452,
+      "douyin": 10582069,
+      "xhs": 5233033
     }
   },
   {
     "word": "标签贴纸好物分享",
     "category": "标签贴纸",
     "platforms": {
-      "jd": 4379369,
-      "taobao": 6179020,
-      "pdd": 5466715,
-      "douyin": 9625808,
-      "xhs": 5824953
+      "jd": 2170033,
+      "taobao": 10105417,
+      "pdd": 1025866,
+      "douyin": 18722919,
+      "xhs": 13011400
     }
   },
   {
     "word": "手工DIY套装推荐",
     "category": "手工DIY套装",
     "platforms": {
-      "jd": 3126958,
-      "taobao": 8055230,
-      "pdd": 5312092,
-      "douyin": 4638312,
-      "xhs": 5629516
+      "jd": 1767898,
+      "taobao": 4391136,
+      "pdd": 2882073,
+      "douyin": 23312157,
+      "xhs": 10530977
     }
   },
   {
     "word": "手工DIY套装测评",
     "category": "手工DIY套装",
     "platforms": {
-      "jd": 7257008,
-      "taobao": 2859584,
-      "pdd": 2195568,
-      "douyin": 12528291,
-      "xhs": 13925918
+      "jd": 3036016,
+      "taobao": 2292997,
+      "pdd": 1216833,
+      "douyin": 7411492,
+      "xhs": 11133377
     }
   },
   {
     "word": "手工DIY套装平替",
     "category": "手工DIY套装",
     "platforms": {
-      "jd": 5605881,
-      "taobao": 4719490,
-      "pdd": 1146499,
-      "douyin": 5867332,
-      "xhs": 3807313
+      "jd": 3671790,
+      "taobao": 9151926,
+      "pdd": 2754845,
+      "douyin": 13843170,
+      "xhs": 13882309
     }
   },
   {
     "word": "手工DIY套装学生党",
     "category": "手工DIY套装",
     "platforms": {
-      "jd": 5928595,
-      "taobao": 5651959,
-      "pdd": 4575963,
-      "douyin": 12019379,
-      "xhs": 7900199
+      "jd": 6175760,
+      "taobao": 5488839,
+      "pdd": 2268787,
+      "douyin": 14742107,
+      "xhs": 11250333
     }
   },
   {
     "word": "手工DIY套装性价比",
     "category": "手工DIY套装",
     "platforms": {
-      "jd": 7401237,
-      "taobao": 9324447,
-      "pdd": 2744419,
-      "douyin": 10075148,
-      "xhs": 8472250
+      "jd": 7675148,
+      "taobao": 7296655,
+      "pdd": 5981202,
+      "douyin": 9295707,
+      "xhs": 12712084
     }
   },
   {
     "word": "手工DIY套装好物分享",
     "category": "手工DIY套装",
     "platforms": {
-      "jd": 5991250,
-      "taobao": 11523550,
-      "pdd": 3648328,
-      "douyin": 24924809,
-      "xhs": 5006359
+      "jd": 2494329,
+      "taobao": 11502918,
+      "pdd": 3550902,
+      "douyin": 23997770,
+      "xhs": 5416059
     }
   },
   {
     "word": "卷笔刀/卷笔器推荐",
     "category": "卷笔刀/卷笔器",
     "platforms": {
-      "jd": 3135446,
-      "taobao": 4688366,
-      "pdd": 2903810,
-      "douyin": 12144893,
-      "xhs": 14061841
+      "jd": 6994972,
+      "taobao": 7943520,
+      "pdd": 5505135,
+      "douyin": 18942619,
+      "xhs": 6520200
     }
   },
   {
     "word": "卷笔刀/卷笔器测评",
     "category": "卷笔刀/卷笔器",
     "platforms": {
-      "jd": 1619146,
-      "taobao": 10525959,
-      "pdd": 3971760,
-      "douyin": 23020538,
-      "xhs": 11145303
+      "jd": 3554079,
+      "taobao": 5959820,
+      "pdd": 2998285,
+      "douyin": 10338275,
+      "xhs": 12330363
     }
   },
   {
     "word": "卷笔刀/卷笔器平替",
     "category": "卷笔刀/卷笔器",
     "platforms": {
-      "jd": 3457250,
-      "taobao": 5479317,
-      "pdd": 2979910,
-      "douyin": 12993138,
-      "xhs": 5669812
+      "jd": 5504431,
+      "taobao": 11472385,
+      "pdd": 2380236,
+      "douyin": 13473915,
+      "xhs": 1093709
     }
   },
   {
     "word": "卷笔刀/卷笔器学生党",
     "category": "卷笔刀/卷笔器",
     "platforms": {
-      "jd": 6569837,
-      "taobao": 8339832,
-      "pdd": 5736193,
-      "douyin": 10520943,
-      "xhs": 7665218
+      "jd": 6138140,
+      "taobao": 3390503,
+      "pdd": 2031426,
+      "douyin": 9484275,
+      "xhs": 14259178
     }
   },
   {
     "word": "卷笔刀/卷笔器性价比",
     "category": "卷笔刀/卷笔器",
     "platforms": {
-      "jd": 550201,
-      "taobao": 9269272,
-      "pdd": 1695252,
-      "douyin": 9125703,
-      "xhs": 5126357
+      "jd": 3819145,
+      "taobao": 3659881,
+      "pdd": 4305953,
+      "douyin": 8009344,
+      "xhs": 6191134
     }
   },
   {
     "word": "卷笔刀/卷笔器好物分享",
     "category": "卷笔刀/卷笔器",
     "platforms": {
-      "jd": 7603131,
-      "taobao": 5868080,
-      "pdd": 1829941,
-      "douyin": 18223811,
-      "xhs": 4187765
+      "jd": 2818625,
+      "taobao": 1900419,
+      "pdd": 575938,
+      "douyin": 7272622,
+      "xhs": 11820718
     }
   },
   {
     "word": "便签本/便条纸/N次贴推荐",
     "category": "便签本/便条纸/N次贴",
     "platforms": {
-      "jd": 3143934,
-      "taobao": 1321502,
-      "pdd": 5995528,
-      "douyin": 19651474,
-      "xhs": 8494166
+      "jd": 4722046,
+      "taobao": 11495905,
+      "pdd": 2628196,
+      "douyin": 14573080,
+      "xhs": 2509422
     }
   },
   {
     "word": "便签本/便条纸/N次贴测评",
     "category": "便签本/便条纸/N次贴",
     "platforms": {
-      "jd": 3481284,
-      "taobao": 7192333,
-      "pdd": 5747953,
-      "douyin": 11512786,
-      "xhs": 8364687
+      "jd": 4072143,
+      "taobao": 9626643,
+      "pdd": 4779736,
+      "douyin": 13265058,
+      "xhs": 13527349
     }
   },
   {
     "word": "便签本/便条纸/N次贴平替",
     "category": "便签本/便条纸/N次贴",
     "platforms": {
-      "jd": 1308619,
-      "taobao": 6239143,
-      "pdd": 4813322,
-      "douyin": 20118944,
-      "xhs": 7532310
+      "jd": 7337072,
+      "taobao": 2792844,
+      "pdd": 2005627,
+      "douyin": 13104660,
+      "xhs": 2305109
     }
   },
   {
     "word": "便签本/便条纸/N次贴学生党",
     "category": "便签本/便条纸/N次贴",
     "platforms": {
-      "jd": 7211080,
-      "taobao": 11027705,
-      "pdd": 1396422,
-      "douyin": 9022507,
-      "xhs": 7430238
+      "jd": 6100520,
+      "taobao": 1292168,
+      "pdd": 1794064,
+      "douyin": 4226443,
+      "xhs": 3268022
     }
   },
   {
     "word": "便签本/便条纸/N次贴性价比",
     "category": "便签本/便条纸/N次贴",
     "platforms": {
-      "jd": 1199166,
-      "taobao": 9214096,
-      "pdd": 646084,
-      "douyin": 8176258,
-      "xhs": 1780463
+      "jd": 7463143,
+      "taobao": 11023107,
+      "pdd": 2630703,
+      "douyin": 6722982,
+      "xhs": 13670185
     }
   },
   {
     "word": "便签本/便条纸/N次贴好物分享",
     "category": "便签本/便条纸/N次贴",
     "platforms": {
-      "jd": 1715012,
-      "taobao": 11212609,
-      "pdd": 5511554,
-      "douyin": 11522813,
-      "xhs": 3369170
+      "jd": 3142921,
+      "taobao": 3297920,
+      "pdd": 3100974,
+      "douyin": 12547473,
+      "xhs": 4225377
     }
   },
   {
     "word": "笔筒推荐",
     "category": "笔筒",
     "platforms": {
-      "jd": 3152421,
-      "taobao": 8954637,
-      "pdd": 3587246,
-      "douyin": 5158055,
-      "xhs": 2926491
+      "jd": 2449119,
+      "taobao": 4048290,
+      "pdd": 5251258,
+      "douyin": 10203541,
+      "xhs": 12498645
     }
   },
   {
     "word": "笔筒测评",
     "category": "笔筒",
     "platforms": {
-      "jd": 5343422,
-      "taobao": 3858708,
-      "pdd": 2024145,
-      "douyin": 22005033,
-      "xhs": 5584072
+      "jd": 4590207,
+      "taobao": 2293466,
+      "pdd": 1061188,
+      "douyin": 16191842,
+      "xhs": 14724335
     }
   },
   {
     "word": "笔筒平替",
     "category": "笔筒",
     "platforms": {
-      "jd": 6659988,
-      "taobao": 6998970,
-      "pdd": 1146733,
-      "douyin": 5244751,
-      "xhs": 9394808
+      "jd": 1669713,
+      "taobao": 5113304,
+      "pdd": 1631018,
+      "douyin": 12735405,
+      "xhs": 3516510
     }
   },
   {
     "word": "笔筒学生党",
     "category": "笔筒",
     "platforms": {
-      "jd": 7852322,
-      "taobao": 2715579,
-      "pdd": 2556652,
-      "douyin": 7524071,
-      "xhs": 7195258
+      "jd": 6062901,
+      "taobao": 10193833,
+      "pdd": 1556703,
+      "douyin": 20968610,
+      "xhs": 6276867
     }
   },
   {
     "word": "笔筒性价比",
     "category": "笔筒",
     "platforms": {
-      "jd": 1848130,
-      "taobao": 9158921,
-      "pdd": 5096916,
-      "douyin": 7226812,
-      "xhs": 12434570
+      "jd": 3607140,
+      "taobao": 7386333,
+      "pdd": 955454,
+      "douyin": 5436620,
+      "xhs": 7149236
     }
   },
   {
     "word": "笔筒好物分享",
     "category": "笔筒",
     "platforms": {
-      "jd": 3326893,
-      "taobao": 5557139,
-      "pdd": 3693167,
-      "douyin": 4821814,
-      "xhs": 2550576
+      "jd": 3467216,
+      "taobao": 4695420,
+      "pdd": 5626010,
+      "douyin": 17822325,
+      "xhs": 10630037
     }
   },
   {
     "word": "文具收纳盒推荐",
     "category": "文具收纳盒",
     "platforms": {
-      "jd": 3160909,
-      "taobao": 5587773,
-      "pdd": 1178964,
-      "douyin": 12664635,
-      "xhs": 11358815
+      "jd": 7676193,
+      "taobao": 7600675,
+      "pdd": 2374320,
+      "douyin": 5834003,
+      "xhs": 8487868
     }
   },
   {
     "word": "文具收纳盒测评",
     "category": "文具收纳盒",
     "platforms": {
-      "jd": 7205560,
-      "taobao": 11525083,
-      "pdd": 3800337,
-      "douyin": 10497280,
-      "xhs": 2803456
+      "jd": 5108271,
+      "taobao": 5960289,
+      "pdd": 2842639,
+      "douyin": 19118625,
+      "xhs": 1921321
     }
   },
   {
     "word": "文具收纳盒平替",
     "category": "文具收纳盒",
     "platforms": {
-      "jd": 4511358,
-      "taobao": 7758797,
-      "pdd": 2980145,
-      "douyin": 12370557,
-      "xhs": 11257307
+      "jd": 3502354,
+      "taobao": 7433763,
+      "pdd": 1256409,
+      "douyin": 12366150,
+      "xhs": 4727910
     }
   },
   {
     "word": "文具收纳盒学生党",
     "category": "文具收纳盒",
     "platforms": {
-      "jd": 993565,
-      "taobao": 5403452,
-      "pdd": 3716881,
-      "douyin": 6025634,
-      "xhs": 6960277
+      "jd": 6025281,
+      "taobao": 8095498,
+      "pdd": 1319342,
+      "douyin": 15710778,
+      "xhs": 9285711
     }
   },
   {
     "word": "文具收纳盒性价比",
     "category": "文具收纳盒",
     "platforms": {
-      "jd": 2497095,
-      "taobao": 9103745,
-      "pdd": 4047749,
-      "douyin": 6277367,
-      "xhs": 9088677
+      "jd": 7251138,
+      "taobao": 3749559,
+      "pdd": 4780204,
+      "douyin": 4150257,
+      "xhs": 14628286
     }
   },
   {
     "word": "文具收纳盒好物分享",
     "category": "文具收纳盒",
     "platforms": {
-      "jd": 4938774,
-      "taobao": 10901669,
-      "pdd": 1874780,
-      "douyin": 20120816,
-      "xhs": 1731982
+      "jd": 3791512,
+      "taobao": 6092921,
+      "pdd": 2651047,
+      "douyin": 23097176,
+      "xhs": 3034696
     }
   },
   {
     "word": "桌面收纳架推荐",
     "category": "桌面收纳架",
     "platforms": {
-      "jd": 3169396,
-      "taobao": 2220909,
-      "pdd": 4270682,
-      "douyin": 20171216,
-      "xhs": 5791140
+      "jd": 5403267,
+      "taobao": 11153060,
+      "pdd": 4997382,
+      "douyin": 23464464,
+      "xhs": 4477091
     }
   },
   {
     "word": "桌面收纳架测评",
     "category": "桌面收纳架",
     "platforms": {
-      "jd": 1567698,
-      "taobao": 8191458,
-      "pdd": 5576530,
-      "douyin": 20989527,
-      "xhs": 14022841
+      "jd": 5626334,
+      "taobao": 9627112,
+      "pdd": 4624091,
+      "douyin": 22045408,
+      "xhs": 3118307
     }
   },
   {
     "word": "桌面收纳架平替",
     "category": "桌面收纳架",
     "platforms": {
-      "jd": 2362727,
-      "taobao": 8518624,
-      "pdd": 4813556,
-      "douyin": 19496364,
-      "xhs": 13119805
+      "jd": 5334994,
+      "taobao": 9754222,
+      "pdd": 881800,
+      "douyin": 11996895,
+      "xhs": 5939310
     }
   },
   {
     "word": "桌面收纳架学生党",
     "category": "桌面收纳架",
     "platforms": {
-      "jd": 1634808,
-      "taobao": 8091325,
-      "pdd": 4877111,
-      "douyin": 4527198,
-      "xhs": 6725297
+      "jd": 5987661,
+      "taobao": 5997162,
+      "pdd": 1081980,
+      "douyin": 10452946,
+      "xhs": 12294556
     }
   },
   {
     "word": "桌面收纳架性价比",
     "category": "桌面收纳架",
     "platforms": {
-      "jd": 3146059,
-      "taobao": 9048570,
-      "pdd": 2998581,
-      "douyin": 5327922,
-      "xhs": 5742784
+      "jd": 3395135,
+      "taobao": 11112785,
+      "pdd": 3104954,
+      "douyin": 24863895,
+      "xhs": 8107337
     }
   },
   {
     "word": "桌面收纳架好物分享",
     "category": "桌面收纳架",
     "platforms": {
-      "jd": 6550655,
-      "taobao": 5246198,
-      "pdd": 5556393,
-      "douyin": 13419817,
-      "xhs": 14913388
-    }
-  },
-  {
-    "word": "错题打印机推荐",
-    "category": "错题打印机",
-    "platforms": {
-      "jd": 3177884,
-      "taobao": 9854044,
-      "pdd": 1862400,
-      "douyin": 5677797,
-      "xhs": 14223465
-    }
-  },
-  {
-    "word": "错题打印机测评",
-    "category": "错题打印机",
-    "platforms": {
-      "jd": 3429836,
-      "taobao": 4857833,
-      "pdd": 1852722,
-      "douyin": 9481774,
-      "xhs": 11242225
-    }
-  },
-  {
-    "word": "错题打印机平替",
-    "category": "错题打印机",
-    "platforms": {
-      "jd": 7714096,
-      "taobao": 9278450,
-      "pdd": 1146968,
-      "douyin": 4622170,
-      "xhs": 14982304
-    }
-  },
-  {
-    "word": "错题打印机学生党",
-    "category": "错题打印机",
-    "platforms": {
-      "jd": 2276050,
-      "taobao": 10779199,
-      "pdd": 537341,
-      "douyin": 3028762,
-      "xhs": 6490316
-    }
-  },
-  {
-    "word": "错题打印机性价比",
-    "category": "错题打印机",
-    "platforms": {
-      "jd": 3795023,
-      "taobao": 8993394,
-      "pdd": 1949414,
-      "douyin": 4378477,
-      "xhs": 2396890
-    }
-  },
-  {
-    "word": "错题打印机好物分享",
-    "category": "错题打印机",
-    "platforms": {
-      "jd": 662536,
-      "taobao": 10590728,
-      "pdd": 3738006,
-      "douyin": 6718819,
-      "xhs": 14094794
-    }
-  },
-  {
-    "word": "护眼台灯推荐",
-    "category": "护眼台灯",
-    "platforms": {
-      "jd": 3186371,
-      "taobao": 6487180,
-      "pdd": 4954118,
-      "douyin": 13184377,
-      "xhs": 8655790
-    }
-  },
-  {
-    "word": "护眼台灯测评",
-    "category": "护眼台灯",
-    "platforms": {
-      "jd": 5291974,
-      "taobao": 1524208,
-      "pdd": 3628915,
-      "douyin": 19974021,
-      "xhs": 8461610
-    }
-  },
-  {
-    "word": "护眼台灯平替",
-    "category": "护眼台灯",
-    "platforms": {
-      "jd": 5565466,
-      "taobao": 10038277,
-      "pdd": 2980379,
-      "douyin": 11747977,
-      "xhs": 2844802
-    }
-  },
-  {
-    "word": "护眼台灯学生党",
-    "category": "护眼台灯",
-    "platforms": {
-      "jd": 2917293,
-      "taobao": 2467072,
-      "pdd": 1697570,
-      "douyin": 23530326,
-      "xhs": 6255336
-    }
-  },
-  {
-    "word": "护眼台灯性价比",
-    "category": "护眼台灯",
-    "platforms": {
-      "jd": 4443988,
-      "taobao": 8938219,
-      "pdd": 900246,
-      "douyin": 3429032,
-      "xhs": 13050997
-    }
-  },
-  {
-    "word": "护眼台灯好物分享",
-    "category": "护眼台灯",
-    "platforms": {
-      "jd": 2274417,
-      "taobao": 4935258,
-      "pdd": 1919618,
-      "douyin": 22017821,
-      "xhs": 13276199
+      "jd": 4115808,
+      "taobao": 7490422,
+      "pdd": 5176083,
+      "douyin": 6372027,
+      "xhs": 9439355
     }
   },
   {
     "word": "书皮/书套推荐",
     "category": "书皮/书套",
     "platforms": {
-      "jd": 3194859,
-      "taobao": 3120316,
-      "pdd": 2545836,
-      "douyin": 20690958,
-      "xhs": 3088115
+      "jd": 3130341,
+      "taobao": 3705444,
+      "pdd": 2120444,
+      "douyin": 19094926,
+      "xhs": 14466313
     }
   },
   {
     "word": "书皮/书套测评",
     "category": "书皮/书套",
     "platforms": {
-      "jd": 7154112,
-      "taobao": 9190582,
-      "pdd": 5405107,
-      "douyin": 8466268,
-      "xhs": 5680994
+      "jd": 6144398,
+      "taobao": 2293935,
+      "pdd": 905543,
+      "douyin": 24972191,
+      "xhs": 4315294
     }
   },
   {
     "word": "书皮/书套平替",
     "category": "书皮/书套",
     "platforms": {
-      "jd": 3416835,
-      "taobao": 10798104,
-      "pdd": 4813791,
-      "douyin": 18873783,
-      "xhs": 4707301
+      "jd": 7167635,
+      "taobao": 1074681,
+      "pdd": 507191,
+      "douyin": 11627640,
+      "xhs": 7150710
     }
   },
   {
     "word": "书皮/书套学生党",
     "category": "书皮/书套",
     "platforms": {
-      "jd": 3558535,
-      "taobao": 5154945,
-      "pdd": 2857800,
-      "douyin": 22031890,
-      "xhs": 6020356
+      "jd": 5950041,
+      "taobao": 3898827,
+      "pdd": 844619,
+      "douyin": 5195113,
+      "xhs": 1303400
     }
   },
   {
     "word": "书皮/书套性价比",
     "category": "书皮/书套",
     "platforms": {
-      "jd": 5092952,
-      "taobao": 8883043,
-      "pdd": 5351078,
-      "douyin": 24479586,
-      "xhs": 9705104
+      "jd": 7039133,
+      "taobao": 7476011,
+      "pdd": 1429705,
+      "douyin": 23577533,
+      "xhs": 1586387
     }
   },
   {
     "word": "书皮/书套好物分享",
     "category": "书皮/书套",
     "platforms": {
-      "jd": 3886298,
-      "taobao": 10279788,
-      "pdd": 5601231,
-      "douyin": 15316822,
-      "xhs": 12457605
+      "jd": 4440104,
+      "taobao": 8887923,
+      "pdd": 2201119,
+      "douyin": 11646879,
+      "xhs": 1844014
     }
   },
   {
     "word": "美术颜料推荐",
     "category": "美术颜料",
     "platforms": {
-      "jd": 3203346,
-      "taobao": 10753451,
-      "pdd": 5637554,
-      "douyin": 6197539,
-      "xhs": 11520440
+      "jd": 857414,
+      "taobao": 7257829,
+      "pdd": 4743505,
+      "douyin": 14725387,
+      "xhs": 10455536
     }
   },
   {
     "word": "美术颜料测评",
     "category": "美术颜料",
     "platforms": {
-      "jd": 1516250,
-      "taobao": 5856957,
-      "pdd": 1681299,
-      "douyin": 18958515,
-      "xhs": 2900379
+      "jd": 6662462,
+      "taobao": 5960758,
+      "pdd": 2686994,
+      "douyin": 5898975,
+      "xhs": 5512280
     }
   },
   {
     "word": "美术颜料平替",
     "category": "美术颜料",
     "platforms": {
-      "jd": 1268204,
-      "taobao": 11557931,
-      "pdd": 1147202,
-      "douyin": 3999589,
-      "xhs": 6569799
+      "jd": 1500276,
+      "taobao": 3395140,
+      "pdd": 5632582,
+      "douyin": 11258385,
+      "xhs": 8362110
     }
   },
   {
     "word": "美术颜料学生党",
     "category": "美术颜料",
     "platforms": {
-      "jd": 4199778,
-      "taobao": 7842818,
-      "pdd": 4018029,
-      "douyin": 20533454,
-      "xhs": 5785375
+      "jd": 5912422,
+      "taobao": 1800492,
+      "pdd": 607258,
+      "douyin": 21937281,
+      "xhs": 4312244
     }
   },
   {
     "word": "美术颜料性价比",
     "category": "美术颜料",
     "platforms": {
-      "jd": 5741917,
-      "taobao": 8827867,
-      "pdd": 4301911,
-      "douyin": 23530141,
-      "xhs": 6359211
+      "jd": 3183130,
+      "taobao": 3839237,
+      "pdd": 5254455,
+      "douyin": 22291170,
+      "xhs": 9065438
     }
   },
   {
     "word": "美术颜料好物分享",
     "category": "美术颜料",
     "platforms": {
-      "jd": 5498179,
-      "taobao": 4624317,
-      "pdd": 3782844,
-      "douyin": 8615824,
-      "xhs": 11639011
+      "jd": 4764399,
+      "taobao": 10285424,
+      "pdd": 4726155,
+      "douyin": 16921730,
+      "xhs": 8248673
     }
   },
   {
     "word": "办公文具推荐",
     "category": "办公文具",
     "platforms": {
-      "jd": 3211834,
-      "taobao": 7386587,
-      "pdd": 3229272,
-      "douyin": 13704120,
-      "xhs": 5952764
+      "jd": 6084488,
+      "taobao": 10810214,
+      "pdd": 1866567,
+      "douyin": 10355848,
+      "xhs": 6444759
     }
   },
   {
     "word": "办公文具测评",
     "category": "办公文具",
     "platforms": {
-      "jd": 3378388,
-      "taobao": 2523332,
-      "pdd": 3457492,
-      "douyin": 7450762,
-      "xhs": 14119763
+      "jd": 7180525,
+      "taobao": 9627581,
+      "pdd": 4468446,
+      "douyin": 8825758,
+      "xhs": 6709266
     }
   },
   {
     "word": "办公文具平替",
     "category": "办公文具",
     "platforms": {
-      "jd": 6619574,
-      "taobao": 1317758,
-      "pdd": 2980614,
-      "douyin": 11125396,
-      "xhs": 8432297
+      "jd": 3332917,
+      "taobao": 5715599,
+      "pdd": 5257973,
+      "douyin": 10889130,
+      "xhs": 9573511
     }
   },
   {
     "word": "办公文具学生党",
     "category": "办公文具",
     "platforms": {
-      "jd": 4841021,
-      "taobao": 10530692,
-      "pdd": 5178259,
-      "douyin": 19035018,
-      "xhs": 5550395
+      "jd": 5874802,
+      "taobao": 10702157,
+      "pdd": 5869897,
+      "douyin": 16679449,
+      "xhs": 7321089
     }
   },
   {
     "word": "办公文具性价比",
     "category": "办公文具",
     "platforms": {
-      "jd": 6390881,
-      "taobao": 8772692,
-      "pdd": 3252743,
-      "douyin": 22580696,
-      "xhs": 3013317
+      "jd": 6827128,
+      "taobao": 11202463,
+      "pdd": 3579206,
+      "douyin": 21004808,
+      "xhs": 2544488
     }
   },
   {
     "word": "办公文具好物分享",
     "category": "办公文具",
     "platforms": {
-      "jd": 7110060,
-      "taobao": 9968847,
-      "pdd": 1964457,
-      "douyin": 23914826,
-      "xhs": 10820417
+      "jd": 5088695,
+      "taobao": 11682925,
+      "pdd": 1751191,
+      "douyin": 22196582,
+      "xhs": 14653332
     }
   },
   {
     "word": "笔类套装/礼盒推荐",
     "category": "笔类套装/礼盒",
     "platforms": {
-      "jd": 3220321,
-      "taobao": 4019723,
-      "pdd": 820990,
-      "douyin": 21210700,
-      "xhs": 14385089
+      "jd": 3811562,
+      "taobao": 3362599,
+      "pdd": 4489629,
+      "douyin": 5986310,
+      "xhs": 2433982
     }
   },
   {
     "word": "笔类套装/礼盒测评",
     "category": "笔类套装/礼盒",
     "platforms": {
-      "jd": 5240526,
-      "taobao": 10189707,
-      "pdd": 5233684,
-      "douyin": 17943010,
-      "xhs": 11339148
+      "jd": 7698589,
+      "taobao": 2294404,
+      "pdd": 749897,
+      "douyin": 11752541,
+      "xhs": 7906252
     }
   },
   {
     "word": "笔类套装/礼盒平替",
     "category": "笔类套装/礼盒",
     "platforms": {
-      "jd": 4470943,
-      "taobao": 2077584,
-      "pdd": 4814025,
-      "douyin": 18251202,
-      "xhs": 10294796
+      "jd": 5165558,
+      "taobao": 8036058,
+      "pdd": 4883363,
+      "douyin": 10519875,
+      "xhs": 10784911
     }
   },
   {
     "word": "笔类套装/礼盒学生党",
     "category": "笔类套装/礼盒",
     "platforms": {
-      "jd": 5482263,
-      "taobao": 2218565,
-      "pdd": 838488,
-      "douyin": 17536582,
-      "xhs": 5315414
+      "jd": 5837182,
+      "taobao": 8603821,
+      "pdd": 5632535,
+      "douyin": 11421617,
+      "xhs": 10329933
     }
   },
   {
     "word": "笔类套装/礼盒性价比",
     "category": "笔类套装/礼盒",
     "platforms": {
-      "jd": 7039845,
-      "taobao": 8717516,
-      "pdd": 2203575,
-      "douyin": 21631251,
-      "xhs": 13667424
+      "jd": 2971126,
+      "taobao": 7565689,
+      "pdd": 1903956,
+      "douyin": 19718446,
+      "xhs": 10023539
     }
   },
   {
     "word": "笔类套装/礼盒好物分享",
     "category": "笔类套装/礼盒",
     "platforms": {
-      "jd": 1221940,
-      "taobao": 4313377,
-      "pdd": 5646070,
-      "douyin": 17213827,
-      "xhs": 10001823
+      "jd": 5412991,
+      "taobao": 2080425,
+      "pdd": 4276227,
+      "douyin": 5471433,
+      "xhs": 7057992
     }
   },
   {
     "word": "文创用品推荐",
     "category": "文创用品",
     "platforms": {
-      "jd": 3228809,
-      "taobao": 11652858,
-      "pdd": 3912708,
-      "douyin": 6717281,
-      "xhs": 8817414
+      "jd": 1538636,
+      "taobao": 6914983,
+      "pdd": 1612691,
+      "douyin": 23616771,
+      "xhs": 12423204
     }
   },
   {
     "word": "文创用品测评",
     "category": "文创用品",
     "platforms": {
-      "jd": 7102664,
-      "taobao": 6856082,
-      "pdd": 1509876,
-      "douyin": 6435257,
-      "xhs": 8558532
+      "jd": 716653,
+      "taobao": 5961227,
+      "pdd": 2531349,
+      "douyin": 14679324,
+      "xhs": 9103238
     }
   },
   {
     "word": "文创用品平替",
     "category": "文创用品",
     "platforms": {
-      "jd": 2322312,
-      "taobao": 2837411,
-      "pdd": 1147437,
-      "douyin": 3377009,
-      "xhs": 12157294
+      "jd": 6998199,
+      "taobao": 10356518,
+      "pdd": 4508754,
+      "douyin": 10150620,
+      "xhs": 11996311
     }
   },
   {
     "word": "文创用品学生党",
     "category": "文创用品",
     "platforms": {
-      "jd": 6123506,
-      "taobao": 4906438,
-      "pdd": 1998718,
-      "douyin": 16038146,
-      "xhs": 5080434
+      "jd": 5799563,
+      "taobao": 6505486,
+      "pdd": 5395174,
+      "douyin": 6163784,
+      "xhs": 13338778
     }
   },
   {
     "word": "文创用品性价比",
     "category": "文创用品",
     "platforms": {
-      "jd": 7688810,
-      "taobao": 8662341,
-      "pdd": 1154408,
-      "douyin": 20681806,
-      "xhs": 10321531
+      "jd": 6615123,
+      "taobao": 3928915,
+      "pdd": 5728706,
+      "douyin": 18432083,
+      "xhs": 3502589
     }
   },
   {
     "word": "文创用品好物分享",
     "category": "文创用品",
     "platforms": {
-      "jd": 2833821,
-      "taobao": 9657907,
-      "pdd": 3827683,
-      "douyin": 10512829,
-      "xhs": 9183228
+      "jd": 5737287,
+      "taobao": 3477926,
+      "pdd": 1301264,
+      "douyin": 10746285,
+      "xhs": 13462651
     }
   },
   {
     "word": "姓名贴推荐",
     "category": "姓名贴",
     "platforms": {
-      "jd": 3237296,
-      "taobao": 8285994,
-      "pdd": 1504426,
-      "douyin": 14223862,
-      "xhs": 3249739
+      "jd": 6765709,
+      "taobao": 10467368,
+      "pdd": 4235752,
+      "douyin": 19247232,
+      "xhs": 8412427
     }
   },
   {
     "word": "姓名贴测评",
     "category": "姓名贴",
     "platforms": {
-      "jd": 1464802,
-      "taobao": 3522457,
-      "pdd": 3286069,
-      "douyin": 16927504,
-      "xhs": 5777917
+      "jd": 1234717,
+      "taobao": 9628050,
+      "pdd": 4312801,
+      "douyin": 17606108,
+      "xhs": 10300225
     }
   },
   {
     "word": "姓名贴平替",
     "category": "姓名贴",
     "platforms": {
-      "jd": 7673682,
-      "taobao": 3597238,
-      "pdd": 2980848,
-      "douyin": 10502815,
-      "xhs": 14019793
+      "jd": 1330840,
+      "taobao": 1676977,
+      "pdd": 4134145,
+      "douyin": 9781365,
+      "xhs": 13207711
     }
   },
   {
     "word": "姓名贴学生党",
     "category": "姓名贴",
     "platforms": {
-      "jd": 6764748,
-      "taobao": 7594312,
-      "pdd": 3158948,
-      "douyin": 14539709,
-      "xhs": 4845453
+      "jd": 5761943,
+      "taobao": 4407151,
+      "pdd": 5157813,
+      "douyin": 22905952,
+      "xhs": 2347622
     }
   },
   {
     "word": "姓名贴性价比",
     "category": "姓名贴",
     "platforms": {
-      "jd": 837774,
-      "taobao": 8607165,
-      "pdd": 5605240,
-      "douyin": 19732360,
-      "xhs": 6975638
+      "jd": 2759121,
+      "taobao": 11292141,
+      "pdd": 4053457,
+      "douyin": 17145721,
+      "xhs": 10981640
     }
   },
   {
     "word": "姓名贴好物分享",
     "category": "姓名贴",
     "platforms": {
-      "jd": 4445702,
-      "taobao": 4002436,
-      "pdd": 2009296,
-      "douyin": 3811831,
-      "xhs": 8364634
-    }
-  },
-  {
-    "word": "电动橡皮擦推荐",
-    "category": "电动橡皮擦",
-    "platforms": {
-      "jd": 3245784,
-      "taobao": 4919130,
-      "pdd": 4596144,
-      "douyin": 21730442,
-      "xhs": 11682064
-    }
-  },
-  {
-    "word": "电动橡皮擦测评",
-    "category": "电动橡皮擦",
-    "platforms": {
-      "jd": 3326940,
-      "taobao": 11188831,
-      "pdd": 5062261,
-      "douyin": 5419751,
-      "xhs": 2997301
-    }
-  },
-  {
-    "word": "电动橡皮擦平替",
-    "category": "电动橡皮擦",
-    "platforms": {
-      "jd": 5525051,
-      "taobao": 4357065,
-      "pdd": 4814260,
-      "douyin": 17628621,
-      "xhs": 1882291
-    }
-  },
-  {
-    "word": "电动橡皮擦学生党",
-    "category": "电动橡皮擦",
-    "platforms": {
-      "jd": 7405991,
-      "taobao": 10282185,
-      "pdd": 4319177,
-      "douyin": 13041273,
-      "xhs": 4610473
-    }
-  },
-  {
-    "word": "电动橡皮擦性价比",
-    "category": "电动橡皮擦",
-    "platforms": {
-      "jd": 1486738,
-      "taobao": 8551990,
-      "pdd": 4556073,
-      "douyin": 18782915,
-      "xhs": 3629744
-    }
-  },
-  {
-    "word": "电动橡皮擦好物分享",
-    "category": "电动橡皮擦",
-    "platforms": {
-      "jd": 6057583,
-      "taobao": 9346966,
-      "pdd": 5690909,
-      "douyin": 19110832,
-      "xhs": 7546040
+      "jd": 6061583,
+      "taobao": 4875427,
+      "pdd": 3826300,
+      "douyin": 16021136,
+      "xhs": 5867310
     }
   },
   {
     "word": "拼豆/咕卡套装推荐",
     "category": "拼豆/咕卡套装",
     "platforms": {
-      "jd": 3254271,
-      "taobao": 1552266,
-      "pdd": 2187862,
-      "douyin": 7237023,
-      "xhs": 6114388
+      "jd": 4492783,
+      "taobao": 3019753,
+      "pdd": 1358814,
+      "douyin": 14877694,
+      "xhs": 4401650
     }
   },
   {
     "word": "拼豆/咕卡套装测评",
     "category": "拼豆/咕卡套装",
     "platforms": {
-      "jd": 5189078,
-      "taobao": 7855206,
-      "pdd": 1338454,
-      "douyin": 15911998,
-      "xhs": 14216686
+      "jd": 1752780,
+      "taobao": 2294873,
+      "pdd": 594252,
+      "douyin": 20532891,
+      "xhs": 11497211
     }
   },
   {
     "word": "拼豆/咕卡套装平替",
     "category": "拼豆/咕卡套装",
     "platforms": {
-      "jd": 3376420,
-      "taobao": 5116891,
-      "pdd": 1147671,
-      "douyin": 24754428,
-      "xhs": 3744790
+      "jd": 3163481,
+      "taobao": 3997436,
+      "pdd": 3759536,
+      "douyin": 9412110,
+      "xhs": 14419111
     }
   },
   {
     "word": "拼豆/咕卡套装学生党",
     "category": "拼豆/咕卡套装",
     "platforms": {
-      "jd": 547234,
-      "taobao": 1970058,
-      "pdd": 5479407,
-      "douyin": 11542837,
-      "xhs": 4375493
+      "jd": 5724323,
+      "taobao": 2308816,
+      "pdd": 4920451,
+      "douyin": 17648120,
+      "xhs": 5356467
     }
   },
   {
     "word": "拼豆/咕卡套装性价比",
     "category": "拼豆/咕卡套装",
     "platforms": {
-      "jd": 2135703,
-      "taobao": 8496814,
-      "pdd": 3506905,
-      "douyin": 17833470,
-      "xhs": 14283851
+      "jd": 6403118,
+      "taobao": 7655367,
+      "pdd": 2378207,
+      "douyin": 15859359,
+      "xhs": 4460690
     }
   },
   {
     "word": "拼豆/咕卡套装好物分享",
     "category": "拼豆/咕卡套装",
     "platforms": {
-      "jd": 7669464,
-      "taobao": 3691496,
-      "pdd": 3872522,
-      "douyin": 12409834,
-      "xhs": 6727446
+      "jd": 6385878,
+      "taobao": 6272928,
+      "pdd": 851336,
+      "douyin": 21295987,
+      "xhs": 12271969
     }
   },
   {
     "word": "彩色铅笔推荐",
     "category": "彩色铅笔",
     "platforms": {
-      "jd": 3262759,
-      "taobao": 9185401,
-      "pdd": 5279580,
-      "douyin": 14743604,
-      "xhs": 14546713
+      "jd": 2219857,
+      "taobao": 6572138,
+      "pdd": 3981876,
+      "douyin": 10508155,
+      "xhs": 14390872
     }
   },
   {
     "word": "彩色铅笔测评",
     "category": "彩色铅笔",
     "platforms": {
-      "jd": 7051216,
-      "taobao": 4521581,
-      "pdd": 3114646,
-      "douyin": 4404245,
-      "xhs": 11436070
+      "jd": 2270844,
+      "taobao": 5961696,
+      "pdd": 2375704,
+      "douyin": 23459674,
+      "xhs": 12694197
     }
   },
   {
     "word": "彩色铅笔平替",
     "category": "彩色铅笔",
     "platforms": {
-      "jd": 1227790,
-      "taobao": 5876718,
-      "pdd": 2981083,
-      "douyin": 9880234,
-      "xhs": 5607288
+      "jd": 4996122,
+      "taobao": 6317895,
+      "pdd": 3384927,
+      "douyin": 9042855,
+      "xhs": 1630512
     }
   },
   {
     "word": "彩色铅笔学生党",
     "category": "彩色铅笔",
     "platforms": {
-      "jd": 1188476,
-      "taobao": 4657932,
-      "pdd": 1139636,
-      "douyin": 10044401,
-      "xhs": 4140512
+      "jd": 5686704,
+      "taobao": 11210480,
+      "pdd": 4683090,
+      "douyin": 12390288,
+      "xhs": 8365311
     }
   },
   {
     "word": "彩色铅笔性价比",
     "category": "彩色铅笔",
     "platforms": {
-      "jd": 2784667,
-      "taobao": 8441638,
-      "pdd": 2457737,
-      "douyin": 16884025,
-      "xhs": 10937958
+      "jd": 2547116,
+      "taobao": 4018593,
+      "pdd": 702958,
+      "douyin": 14572997,
+      "xhs": 11939741
     }
   },
   {
     "word": "彩色铅笔好物分享",
     "category": "彩色铅笔",
     "platforms": {
-      "jd": 1781345,
-      "taobao": 9036026,
-      "pdd": 2054135,
-      "douyin": 5708836,
-      "xhs": 5908852
+      "jd": 6710174,
+      "taobao": 7670429,
+      "pdd": 3376372,
+      "douyin": 4570839,
+      "xhs": 4676628
     }
   },
   {
     "word": "白板笔推荐",
     "category": "白板笔",
     "platforms": {
-      "jd": 3271246,
-      "taobao": 5818537,
-      "pdd": 2871298,
-      "douyin": 22250184,
-      "xhs": 8979038
+      "jd": 7446930,
+      "taobao": 10124522,
+      "pdd": 1104938,
+      "douyin": 6138616,
+      "xhs": 10380095
     }
   },
   {
     "word": "白板笔测评",
     "category": "白板笔",
     "platforms": {
-      "jd": 1413354,
-      "taobao": 1187956,
-      "pdd": 4890838,
-      "douyin": 14896492,
-      "xhs": 8655455
+      "jd": 2788908,
+      "taobao": 9628519,
+      "pdd": 4157155,
+      "douyin": 4386457,
+      "xhs": 13891183
     }
   },
   {
     "word": "白板笔平替",
     "category": "白板笔",
     "platforms": {
-      "jd": 6579159,
-      "taobao": 6636545,
-      "pdd": 4814494,
-      "douyin": 17006041,
-      "xhs": 7469786
+      "jd": 6828763,
+      "taobao": 8638354,
+      "pdd": 3010318,
+      "douyin": 8673600,
+      "xhs": 2841912
     }
   },
   {
     "word": "白板笔学生党",
     "category": "白板笔",
     "platforms": {
-      "jd": 1829719,
-      "taobao": 7345805,
-      "pdd": 2299866,
-      "douyin": 8545965,
-      "xhs": 3905532
+      "jd": 5649084,
+      "taobao": 9112145,
+      "pdd": 4445729,
+      "douyin": 7132455,
+      "xhs": 11374156
     }
   },
   {
     "word": "白板笔性价比",
     "category": "白板笔",
     "platforms": {
-      "jd": 3433632,
-      "taobao": 8386463,
-      "pdd": 1408570,
-      "douyin": 15934580,
-      "xhs": 7592064
+      "jd": 6191113,
+      "taobao": 11381819,
+      "pdd": 4527708,
+      "douyin": 13286634,
+      "xhs": 5418791
     }
   },
   {
     "word": "白板笔好物分享",
     "category": "白板笔",
     "platforms": {
-      "jd": 3393226,
-      "taobao": 3380555,
-      "pdd": 5735748,
-      "douyin": 21007837,
-      "xhs": 5090257
+      "jd": 7034470,
+      "taobao": 9067929,
+      "pdd": 5901408,
+      "douyin": 9845690,
+      "xhs": 11081288
     }
   },
   {
     "word": "按扣/拉链文件资料袋/收纳袋推荐",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": {
-      "jd": 3279734,
-      "taobao": 2451673,
-      "pdd": 5963016,
-      "douyin": 7756765,
-      "xhs": 3411363
+      "jd": 5174004,
+      "taobao": 2676907,
+      "pdd": 3728000,
+      "douyin": 23769078,
+      "xhs": 6369318
     }
   },
   {
     "word": "按扣/拉链文件资料袋/收纳袋测评",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": {
-      "jd": 3275492,
-      "taobao": 8854331,
-      "pdd": 1167031,
-      "douyin": 3388739,
-      "xhs": 5874839
+      "jd": 3306971,
+      "taobao": 2295342,
+      "pdd": 5938607,
+      "douyin": 7313241,
+      "xhs": 1088169
     }
   },
   {
     "word": "按扣/拉链文件资料袋/收纳袋平替",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": {
-      "jd": 4430528,
-      "taobao": 7396372,
-      "pdd": 1147906,
-      "douyin": 24131847,
-      "xhs": 9332285
+      "jd": 1161403,
+      "taobao": 10958813,
+      "pdd": 2635709,
+      "douyin": 8304345,
+      "xhs": 4053312
     }
   },
   {
     "word": "按扣/拉链文件资料袋/收纳袋学生党",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": {
-      "jd": 2470961,
-      "taobao": 10033678,
-      "pdd": 3460095,
-      "douyin": 7047529,
-      "xhs": 3670551
+      "jd": 5611464,
+      "taobao": 7013810,
+      "pdd": 4208368,
+      "douyin": 23874623,
+      "xhs": 14383000
     }
   },
   {
     "word": "按扣/拉链文件资料袋/收纳袋性价比",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": {
-      "jd": 4082596,
-      "taobao": 8331287,
-      "pdd": 5859402,
-      "douyin": 14985134,
-      "xhs": 4246171
+      "jd": 2335111,
+      "taobao": 7745044,
+      "pdd": 2852458,
+      "douyin": 12000272,
+      "xhs": 12897842
     }
   },
   {
     "word": "按扣/拉链文件资料袋/收纳袋好物分享",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": {
-      "jd": 5005107,
-      "taobao": 8725085,
-      "pdd": 3917361,
-      "douyin": 14306839,
-      "xhs": 4271663
+      "jd": 7358766,
+      "taobao": 10465430,
+      "pdd": 2926444,
+      "douyin": 15120542,
+      "xhs": 3485947
     }
   },
   {
     "word": "修正带推荐",
     "category": "修正带",
     "platforms": {
-      "jd": 3288222,
-      "taobao": 10084808,
-      "pdd": 3554733,
-      "douyin": 15263346,
-      "xhs": 11843688
+      "jd": 2901078,
+      "taobao": 6229292,
+      "pdd": 851061,
+      "douyin": 19399539,
+      "xhs": 2358541
     }
   },
   {
     "word": "修正带测评",
     "category": "修正带",
     "platforms": {
-      "jd": 5137630,
-      "taobao": 5520705,
-      "pdd": 2943223,
-      "douyin": 13880987,
-      "xhs": 3094224
+      "jd": 3825035,
+      "taobao": 5962165,
+      "pdd": 2220059,
+      "douyin": 10240024,
+      "xhs": 2285155
     }
   },
   {
     "word": "修正带平替",
     "category": "修正带",
     "platforms": {
-      "jd": 2281898,
-      "taobao": 8156199,
-      "pdd": 2981317,
-      "douyin": 9257654,
-      "xhs": 11194783
+      "jd": 2994044,
+      "taobao": 2279272,
+      "pdd": 2261100,
+      "douyin": 7935090,
+      "xhs": 5264712
     }
   },
   {
     "word": "修正带学生党",
     "category": "修正带",
     "platforms": {
-      "jd": 3112204,
-      "taobao": 1721552,
-      "pdd": 4620325,
-      "douyin": 5549093,
-      "xhs": 3435571
+      "jd": 5573844,
+      "taobao": 4915475,
+      "pdd": 3971006,
+      "douyin": 18616791,
+      "xhs": 3391844
     }
   },
   {
     "word": "修正带性价比",
     "category": "修正带",
     "platforms": {
-      "jd": 4731560,
-      "taobao": 8276112,
-      "pdd": 4810234,
-      "douyin": 14035689,
-      "xhs": 14900278
+      "jd": 5979108,
+      "taobao": 4108270,
+      "pdd": 1177209,
+      "douyin": 10713910,
+      "xhs": 6376893
     }
   },
   {
     "word": "修正带好物分享",
     "category": "修正带",
     "platforms": {
-      "jd": 6616988,
-      "taobao": 3069615,
-      "pdd": 2098974,
-      "douyin": 7605841,
-      "xhs": 3453069
+      "jd": 7683062,
+      "taobao": 11862931,
+      "pdd": 5451480,
+      "douyin": 20395393,
+      "xhs": 9890606
     }
   },
   {
     "word": "钢笔推荐",
     "category": "钢笔",
     "platforms": {
-      "jd": 3296709,
-      "taobao": 6717944,
-      "pdd": 1146451,
-      "douyin": 22769927,
-      "xhs": 6276013
+      "jd": 628152,
+      "taobao": 9781677,
+      "pdd": 3474123,
+      "douyin": 15030001,
+      "xhs": 12347763
     }
   },
   {
     "word": "钢笔测评",
     "category": "钢笔",
     "platforms": {
-      "jd": 6999768,
-      "taobao": 2187080,
-      "pdd": 4719415,
-      "douyin": 24373234,
-      "xhs": 14313608
+      "jd": 4343099,
+      "taobao": 9628988,
+      "pdd": 4001510,
+      "douyin": 13166807,
+      "xhs": 3482142
     }
   },
   {
     "word": "钢笔平替",
     "category": "钢笔",
     "platforms": {
-      "jd": 7633267,
-      "taobao": 8916025,
-      "pdd": 4814729,
-      "douyin": 16383460,
-      "xhs": 13057282
+      "jd": 4826685,
+      "taobao": 4599732,
+      "pdd": 1886491,
+      "douyin": 7565836,
+      "xhs": 6476112
     }
   },
   {
     "word": "钢笔学生党",
     "category": "钢笔",
     "platforms": {
-      "jd": 3753447,
-      "taobao": 4409425,
-      "pdd": 5780554,
-      "douyin": 4050657,
-      "xhs": 3200590
+      "jd": 5536225,
+      "taobao": 2817139,
+      "pdd": 3733645,
+      "douyin": 13358958,
+      "xhs": 6400689
     }
   },
   {
     "word": "钢笔性价比",
     "category": "钢笔",
     "platforms": {
-      "jd": 5380525,
-      "taobao": 8220936,
-      "pdd": 3761067,
-      "douyin": 13086244,
-      "xhs": 11554385
+      "jd": 2123106,
+      "taobao": 11471496,
+      "pdd": 5001959,
+      "douyin": 9427547,
+      "xhs": 13855943
     }
   },
   {
     "word": "钢笔好物分享",
     "category": "钢笔",
     "platforms": {
-      "jd": 728869,
-      "taobao": 8414145,
-      "pdd": 5780587,
-      "douyin": 22904842,
-      "xhs": 2634475
+      "jd": 507357,
+      "taobao": 2260432,
+      "pdd": 2476517,
+      "douyin": 3670245,
+      "xhs": 2295265
     }
   },
   {
     "word": "画纸/画本推荐",
     "category": "画纸/画本",
     "platforms": {
-      "jd": 3305197,
-      "taobao": 3351080,
-      "pdd": 4238169,
-      "douyin": 8276507,
-      "xhs": 14708337
+      "jd": 5855225,
+      "taobao": 2334061,
+      "pdd": 597185,
+      "douyin": 10660462,
+      "xhs": 8336986
     }
   },
   {
     "word": "画纸/画本测评",
     "category": "画纸/画本",
     "platforms": {
-      "jd": 1361906,
-      "taobao": 9853455,
-      "pdd": 995608,
-      "douyin": 12865481,
-      "xhs": 11532993
+      "jd": 4861163,
+      "taobao": 2295811,
+      "pdd": 5782962,
+      "douyin": 16093590,
+      "xhs": 4679128
     }
   },
   {
     "word": "画纸/画本平替",
     "category": "画纸/画本",
     "platforms": {
-      "jd": 5484636,
-      "taobao": 9675852,
-      "pdd": 1148140,
-      "douyin": 23509266,
-      "xhs": 14919780
+      "jd": 6659326,
+      "taobao": 6920191,
+      "pdd": 1511882,
+      "douyin": 7196581,
+      "xhs": 7687513
     }
   },
   {
     "word": "画纸/画本学生党",
     "category": "画纸/画本",
     "platforms": {
-      "jd": 4394689,
-      "taobao": 7097298,
-      "pdd": 1440784,
-      "douyin": 24552221,
-      "xhs": 2965610
+      "jd": 5498605,
+      "taobao": 11718804,
+      "pdd": 3496284,
+      "douyin": 8101126,
+      "xhs": 9409533
     }
   },
   {
     "word": "画纸/画本性价比",
     "category": "画纸/画本",
     "platforms": {
-      "jd": 6029489,
-      "taobao": 8165761,
-      "pdd": 2711899,
-      "douyin": 12136799,
-      "xhs": 8208491
+      "jd": 5767103,
+      "taobao": 7834722,
+      "pdd": 3326710,
+      "douyin": 8141185,
+      "xhs": 7334994
     }
   },
   {
     "word": "画纸/画本好物分享",
     "category": "画纸/画本",
     "platforms": {
-      "jd": 2340750,
-      "taobao": 2758674,
-      "pdd": 3962200,
-      "douyin": 16203844,
-      "xhs": 1815880
+      "jd": 831653,
+      "taobao": 3657933,
+      "pdd": 5001553,
+      "douyin": 8945096,
+      "xhs": 8699924
     }
   },
   {
     "word": "胶水推荐",
     "category": "胶水",
     "platforms": {
-      "jd": 3313684,
-      "taobao": 10984215,
-      "pdd": 1829887,
-      "douyin": 15783088,
-      "xhs": 9140662
+      "jd": 3582299,
+      "taobao": 5886446,
+      "pdd": 3220247,
+      "douyin": 6290923,
+      "xhs": 4326209
     }
   },
   {
     "word": "胶水测评",
     "category": "胶水",
     "platforms": {
-      "jd": 3224044,
-      "taobao": 6519830,
-      "pdd": 2771800,
-      "douyin": 23357728,
-      "xhs": 8752377
+      "jd": 5379226,
+      "taobao": 5962634,
+      "pdd": 2064413,
+      "douyin": 19020374,
+      "xhs": 5876114
     }
   },
   {
     "word": "胶水平替",
     "category": "胶水",
     "platforms": {
-      "jd": 3336006,
-      "taobao": 10435679,
-      "pdd": 2981552,
-      "douyin": 8635073,
-      "xhs": 2782279
+      "jd": 991967,
+      "taobao": 9240650,
+      "pdd": 1137273,
+      "douyin": 6827326,
+      "xhs": 8898913
     }
   },
   {
     "word": "胶水学生党",
     "category": "胶水",
     "platforms": {
-      "jd": 5035932,
-      "taobao": 9785172,
-      "pdd": 2601014,
-      "douyin": 23053784,
-      "xhs": 2730630
+      "jd": 5460985,
+      "taobao": 9620469,
+      "pdd": 3258922,
+      "douyin": 24843294,
+      "xhs": 12418378
     }
   },
   {
     "word": "胶水性价比",
     "category": "胶水",
     "platforms": {
-      "jd": 6678454,
-      "taobao": 8110585,
-      "pdd": 1662732,
-      "douyin": 11187354,
-      "xhs": 4862598
+      "jd": 1911101,
+      "taobao": 4197948,
+      "pdd": 1651460,
+      "douyin": 6854823,
+      "xhs": 14814044
     }
   },
   {
     "word": "胶水好物分享",
     "category": "胶水",
     "platforms": {
-      "jd": 3952631,
-      "taobao": 8103204,
-      "pdd": 2143813,
-      "douyin": 9502845,
-      "xhs": 14997286
+      "jd": 1155949,
+      "taobao": 5055434,
+      "pdd": 2026589,
+      "douyin": 14219947,
+      "xhs": 1104584
     }
   },
   {
     "word": "笔芯/替芯/笔壳推荐",
     "category": "笔芯/替芯/笔壳",
     "platforms": {
-      "jd": 3322172,
-      "taobao": 7617351,
-      "pdd": 4921605,
-      "douyin": 23289669,
-      "xhs": 3572987
+      "jd": 1309373,
+      "taobao": 9438831,
+      "pdd": 5843308,
+      "douyin": 23921385,
+      "xhs": 14315432
     }
   },
   {
     "word": "笔芯/替芯/笔壳测评",
     "category": "笔芯/替芯/笔壳",
     "platforms": {
-      "jd": 5086182,
-      "taobao": 3186205,
-      "pdd": 4547993,
-      "douyin": 11849975,
-      "xhs": 5971762
+      "jd": 5897290,
+      "taobao": 9629457,
+      "pdd": 3845865,
+      "douyin": 21947157,
+      "xhs": 7073100
     }
   },
   {
     "word": "笔芯/替芯/笔壳平替",
     "category": "笔芯/替芯/笔壳",
     "platforms": {
-      "jd": 1187375,
-      "taobao": 11195506,
-      "pdd": 4814963,
-      "douyin": 15760879,
-      "xhs": 4644777
+      "jd": 2824608,
+      "taobao": 11561109,
+      "pdd": 762664,
+      "douyin": 6458071,
+      "xhs": 10110313
     }
   },
   {
     "word": "笔芯/替芯/笔壳学生党",
     "category": "笔芯/替芯/笔壳",
     "platforms": {
-      "jd": 5677174,
-      "taobao": 1473045,
-      "pdd": 3761243,
-      "douyin": 21555348,
-      "xhs": 2495649
+      "jd": 5423366,
+      "taobao": 7522134,
+      "pdd": 3021561,
+      "douyin": 19585462,
+      "xhs": 1427222
     }
   },
   {
     "word": "笔芯/替芯/笔壳性价比",
     "category": "笔芯/替芯/笔壳",
     "platforms": {
-      "jd": 7327418,
-      "taobao": 8055410,
-      "pdd": 613564,
-      "douyin": 10237908,
-      "xhs": 1516705
+      "jd": 5555099,
+      "taobao": 11561174,
+      "pdd": 5476211,
+      "douyin": 5568460,
+      "xhs": 8293095
     }
   },
   {
     "word": "笔芯/替芯/笔壳好物分享",
     "category": "笔芯/替芯/笔壳",
     "platforms": {
-      "jd": 5564512,
-      "taobao": 2447734,
-      "pdd": 5825426,
-      "douyin": 24801847,
-      "xhs": 14178692
+      "jd": 1480245,
+      "taobao": 6452934,
+      "pdd": 4551625,
+      "douyin": 19494799,
+      "xhs": 7509243
     }
   },
   {
     "word": "记号笔推荐",
     "category": "记号笔",
     "platforms": {
-      "jd": 3330659,
-      "taobao": 4250487,
-      "pdd": 2513323,
-      "douyin": 8796249,
-      "xhs": 12005312
+      "jd": 6536447,
+      "taobao": 1991216,
+      "pdd": 2966370,
+      "douyin": 19551846,
+      "xhs": 10304654
     }
   },
   {
     "word": "记号笔测评",
     "category": "记号笔",
     "platforms": {
-      "jd": 6948320,
-      "taobao": 10852580,
-      "pdd": 824185,
-      "douyin": 22342222,
-      "xhs": 3191146
+      "jd": 6415354,
+      "taobao": 2296280,
+      "pdd": 5627317,
+      "douyin": 24873940,
+      "xhs": 8270086
     }
   },
   {
     "word": "记号笔平替",
     "category": "记号笔",
     "platforms": {
-      "jd": 6538744,
-      "taobao": 11955332,
-      "pdd": 1148375,
-      "douyin": 22886686,
-      "xhs": 6507275
+      "jd": 4657249,
+      "taobao": 2881568,
+      "pdd": 5888055,
+      "douyin": 6088816,
+      "xhs": 11321713
     }
   },
   {
     "word": "记号笔学生党",
     "category": "记号笔",
     "platforms": {
-      "jd": 6318417,
-      "taobao": 4160918,
-      "pdd": 4921473,
-      "douyin": 20056912,
-      "xhs": 2260669
+      "jd": 5385746,
+      "taobao": 5423798,
+      "pdd": 2784200,
+      "douyin": 14327629,
+      "xhs": 4436067
     }
   },
   {
     "word": "记号笔性价比",
     "category": "记号笔",
     "platforms": {
-      "jd": 7976382,
-      "taobao": 8000234,
-      "pdd": 5064396,
-      "douyin": 9288463,
-      "xhs": 12170812
+      "jd": 1699096,
+      "taobao": 7924400,
+      "pdd": 3800961,
+      "douyin": 4282098,
+      "xhs": 1772145
     }
   },
   {
     "word": "记号笔好物分享",
     "category": "记号笔",
     "platforms": {
-      "jd": 7176393,
-      "taobao": 7792264,
-      "pdd": 4007039,
-      "douyin": 18100849,
-      "xhs": 13360098
+      "jd": 1804541,
+      "taobao": 7850435,
+      "pdd": 1576661,
+      "douyin": 24769650,
+      "xhs": 13913902
     }
   },
   {
     "word": "练字帖/描红本推荐",
     "category": "练字帖/描红本",
     "platforms": {
-      "jd": 3339147,
-      "taobao": 11883622,
-      "pdd": 5605041,
-      "douyin": 16302830,
-      "xhs": 6437637
+      "jd": 4263520,
+      "taobao": 5543600,
+      "pdd": 5589432,
+      "douyin": 15182307,
+      "xhs": 6293877
     }
   },
   {
     "word": "练字帖/描红本测评",
     "category": "练字帖/描红本",
     "platforms": {
-      "jd": 1310458,
-      "taobao": 7518954,
-      "pdd": 2600377,
-      "douyin": 10834469,
-      "xhs": 14410531
+      "jd": 6933417,
+      "taobao": 5963103,
+      "pdd": 1908768,
+      "douyin": 5800723,
+      "xhs": 9467073
     }
   },
   {
     "word": "练字帖/描红本平替",
     "category": "练字帖/描红本",
     "platforms": {
-      "jd": 4390114,
-      "taobao": 1715159,
-      "pdd": 2981786,
-      "douyin": 8012492,
-      "xhs": 8369774
+      "jd": 6489890,
+      "taobao": 5202027,
+      "pdd": 5513446,
+      "douyin": 5719561,
+      "xhs": 12533114
     }
   },
   {
     "word": "练字帖/描红本学生党",
     "category": "练字帖/描红本",
     "platforms": {
-      "jd": 6959659,
-      "taobao": 6848791,
-      "pdd": 581702,
-      "douyin": 18558476,
-      "xhs": 2025688
+      "jd": 5348126,
+      "taobao": 3325463,
+      "pdd": 2546838,
+      "douyin": 9069797,
+      "xhs": 7444911
     }
   },
   {
     "word": "练字帖/描红本性价比",
     "category": "练字帖/描红本",
     "platforms": {
-      "jd": 1125347,
-      "taobao": 7945058,
-      "pdd": 4015229,
-      "douyin": 8339018,
-      "xhs": 8824918
+      "jd": 5343094,
+      "taobao": 4287626,
+      "pdd": 2125711,
+      "douyin": 24995736,
+      "xhs": 9251196
     }
   },
   {
     "word": "练字帖/描红本好物分享",
     "category": "练字帖/描红本",
     "platforms": {
-      "jd": 1288274,
-      "taobao": 2136793,
-      "pdd": 2188652,
-      "douyin": 11399850,
-      "xhs": 12541504
+      "jd": 2128836,
+      "taobao": 9247936,
+      "pdd": 4101697,
+      "douyin": 8044502,
+      "xhs": 6318561
     }
   },
   {
     "word": "圆珠笔推荐",
     "category": "圆珠笔",
     "platforms": {
-      "jd": 3347634,
-      "taobao": 8516758,
-      "pdd": 3196759,
-      "douyin": 23809411,
-      "xhs": 14869962
+      "jd": 1990594,
+      "taobao": 9095985,
+      "pdd": 2712494,
+      "douyin": 10812769,
+      "xhs": 2283100
     }
   },
   {
     "word": "圆珠笔测评",
     "category": "圆珠笔",
     "platforms": {
-      "jd": 3172596,
-      "taobao": 4185329,
-      "pdd": 4376570,
-      "douyin": 21326716,
-      "xhs": 11629915
+      "jd": 7451481,
+      "taobao": 9629926,
+      "pdd": 3690220,
+      "douyin": 8727507,
+      "xhs": 10664059
     }
   },
   {
     "word": "圆珠笔平替",
     "category": "圆珠笔",
     "platforms": {
-      "jd": 2241483,
-      "taobao": 2474986,
-      "pdd": 4815198,
-      "douyin": 15138299,
-      "xhs": 10232272
+      "jd": 822531,
+      "taobao": 7522486,
+      "pdd": 5138837,
+      "douyin": 5350306,
+      "xhs": 13744514
     }
   },
   {
     "word": "圆珠笔学生党",
     "category": "圆珠笔",
     "platforms": {
-      "jd": 7600902,
-      "taobao": 9536665,
-      "pdd": 1741932,
-      "douyin": 17060040,
-      "xhs": 1790708
+      "jd": 5310507,
+      "taobao": 1227128,
+      "pdd": 2309477,
+      "douyin": 3811965,
+      "xhs": 10453756
     }
   },
   {
     "word": "圆珠笔性价比",
     "category": "圆珠笔",
     "platforms": {
-      "jd": 1774311,
-      "taobao": 7889883,
-      "pdd": 2966061,
-      "douyin": 7389573,
-      "xhs": 5479025
+      "jd": 1487091,
+      "taobao": 11650852,
+      "pdd": 5950462,
+      "douyin": 23709373,
+      "xhs": 2730246
     }
   },
   {
     "word": "圆珠笔好物分享",
     "category": "圆珠笔",
     "platforms": {
-      "jd": 2900155,
-      "taobao": 7481323,
-      "pdd": 5870265,
-      "douyin": 4698852,
-      "xhs": 11722909
+      "jd": 2453132,
+      "taobao": 10645437,
+      "pdd": 1126734,
+      "douyin": 13319353,
+      "xhs": 12723220
     }
   },
   {
     "word": "蜡笔推荐",
     "category": "蜡笔",
     "platforms": {
-      "jd": 3356122,
-      "taobao": 5149894,
-      "pdd": 788477,
-      "douyin": 9315992,
-      "xhs": 9302286
+      "jd": 7217668,
+      "taobao": 1648370,
+      "pdd": 5335556,
+      "douyin": 6443230,
+      "xhs": 12272323
     }
   },
   {
     "word": "蜡笔测评",
     "category": "蜡笔",
     "platforms": {
-      "jd": 5034734,
-      "taobao": 11851704,
-      "pdd": 652762,
-      "douyin": 9818963,
-      "xhs": 8849300
+      "jd": 7969545,
+      "taobao": 2296749,
+      "pdd": 5471671,
+      "douyin": 11654290,
+      "xhs": 11861045
     }
   },
   {
     "word": "蜡笔平替",
     "category": "蜡笔",
     "platforms": {
-      "jd": 7592852,
-      "taobao": 3234813,
-      "pdd": 1148609,
-      "douyin": 22264105,
-      "xhs": 12094771
+      "jd": 2655171,
+      "taobao": 9842946,
+      "pdd": 4764228,
+      "douyin": 4981051,
+      "xhs": 14955914
     }
   },
   {
     "word": "蜡笔学生党",
     "category": "蜡笔",
     "platforms": {
-      "jd": 742145,
-      "taobao": 1224538,
-      "pdd": 2902161,
-      "douyin": 15561604,
-      "xhs": 1555727
+      "jd": 5272887,
+      "taobao": 10128793,
+      "pdd": 2072116,
+      "douyin": 20554132,
+      "xhs": 13462600
     }
   },
   {
     "word": "蜡笔性价比",
     "category": "蜡笔",
     "platforms": {
-      "jd": 2423276,
-      "taobao": 7834707,
-      "pdd": 1916893,
-      "douyin": 6440128,
-      "xhs": 2133132
+      "jd": 5131089,
+      "taobao": 8014078,
+      "pdd": 4275212,
+      "douyin": 22423011,
+      "xhs": 10209297
     }
   },
   {
     "word": "蜡笔好物分享",
     "category": "蜡笔",
     "platforms": {
-      "jd": 4512036,
-      "taobao": 1825853,
-      "pdd": 4051878,
-      "douyin": 19997854,
-      "xhs": 10904315
+      "jd": 2777428,
+      "taobao": 1042938,
+      "pdd": 3651770,
+      "douyin": 18594205,
+      "xhs": 5127880
     }
   },
   {
     "word": "书签推荐",
     "category": "书签",
     "platforms": {
-      "jd": 3364609,
-      "taobao": 1783029,
-      "pdd": 3880195,
-      "douyin": 16822572,
-      "xhs": 3734611
+      "jd": 4944742,
+      "taobao": 5200755,
+      "pdd": 2458617,
+      "douyin": 24073691,
+      "xhs": 8261545
     }
   },
   {
     "word": "书签测评",
     "category": "书签",
     "platforms": {
-      "jd": 6896872,
-      "taobao": 8518079,
-      "pdd": 2428955,
-      "douyin": 20311211,
-      "xhs": 6068684
+      "jd": 987609,
+      "taobao": 5963572,
+      "pdd": 1753123,
+      "douyin": 14581073,
+      "xhs": 13058031
     }
   },
   {
     "word": "书签平替",
     "category": "书签",
     "platforms": {
-      "jd": 5444221,
-      "taobao": 3994640,
-      "pdd": 2982021,
-      "douyin": 7389911,
-      "xhs": 13957269
+      "jd": 4487812,
+      "taobao": 1163405,
+      "pdd": 4389619,
+      "douyin": 4611796,
+      "xhs": 2167314
     }
   },
   {
     "word": "书签学生党",
     "category": "书签",
     "platforms": {
-      "jd": 1383387,
-      "taobao": 3912411,
-      "pdd": 4062391,
-      "douyin": 14063168,
-      "xhs": 1320747
+      "jd": 5235267,
+      "taobao": 8030457,
+      "pdd": 1834755,
+      "douyin": 15296300,
+      "xhs": 2471444
     }
   },
   {
     "word": "书签性价比",
     "category": "书签",
     "platforms": {
-      "jd": 3072240,
-      "taobao": 7779532,
-      "pdd": 867726,
-      "douyin": 5490683,
-      "xhs": 12787239
+      "jd": 1275086,
+      "taobao": 4377304,
+      "pdd": 2599963,
+      "douyin": 21136649,
+      "xhs": 3688347
     }
   },
   {
     "word": "书签好物分享",
     "category": "书签",
     "platforms": {
-      "jd": 6123917,
-      "taobao": 7170382,
-      "pdd": 2233491,
-      "douyin": 13296855,
-      "xhs": 10085721
-    }
-  },
-  {
-    "word": "桌面吸尘器推荐",
-    "category": "桌面吸尘器",
-    "platforms": {
-      "jd": 3373097,
-      "taobao": 9416165,
-      "pdd": 1471913,
-      "douyin": 24329153,
-      "xhs": 12166936
-    }
-  },
-  {
-    "word": "桌面吸尘器测评",
-    "category": "桌面吸尘器",
-    "platforms": {
-      "jd": 1259010,
-      "taobao": 5184454,
-      "pdd": 4205147,
-      "douyin": 8803458,
-      "xhs": 3288069
-    }
-  },
-  {
-    "word": "桌面吸尘器平替",
-    "category": "桌面吸尘器",
-    "platforms": {
-      "jd": 3295591,
-      "taobao": 4754466,
-      "pdd": 4815432,
-      "douyin": 14515718,
-      "xhs": 1819768
-    }
-  },
-  {
-    "word": "桌面吸尘器学生党",
-    "category": "桌面吸尘器",
-    "platforms": {
-      "jd": 2024630,
-      "taobao": 6600285,
-      "pdd": 5222621,
-      "douyin": 12564732,
-      "xhs": 1085767
-    }
-  },
-  {
-    "word": "桌面吸尘器性价比",
-    "category": "桌面吸尘器",
-    "platforms": {
-      "jd": 3721204,
-      "taobao": 7724356,
-      "pdd": 5318558,
-      "douyin": 4541237,
-      "xhs": 9441345
-    }
-  },
-  {
-    "word": "桌面吸尘器好物分享",
-    "category": "桌面吸尘器",
-    "platforms": {
-      "jd": 7735798,
-      "taobao": 1514912,
-      "pdd": 5915104,
-      "douyin": 6595857,
-      "xhs": 9267127
+      "jd": 3101724,
+      "taobao": 2440438,
+      "pdd": 676806,
+      "douyin": 23869056,
+      "xhs": 11532539
     }
   }
 ],
   trendProductData: [
   {
-    "name": "百乐 大容量中性笔",
+    "name": "三菱 大容量中性笔",
     "category": "中性笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 6.4,
-        "sales": 116112,
-        "revenue": 743117
+        "avgPrice": 6.7,
+        "sales": 54633,
+        "revenue": 366041
       },
       {
         "platform": "天猫",
-        "avgPrice": 6.4,
-        "sales": 25702,
-        "revenue": 164493
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 7.4,
-        "sales": 33154,
-        "revenue": 245340
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 6.4,
-        "sales": 209045,
-        "revenue": 1337888
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 4.5,
-        "sales": 245002,
-        "revenue": 1102509
-      }
-    ]
-  },
-  {
-    "name": "斑马 可擦中性笔",
-    "category": "中性笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 2.6,
+        "avgPrice": 6.7,
         "sales": 105850,
-        "revenue": 275210
+        "revenue": 709195
       },
       {
-        "platform": "天猫",
-        "avgPrice": 2.6,
+        "platform": "京东",
+        "avgPrice": 7.7,
         "sales": 81545,
-        "revenue": 212017
+        "revenue": 627897
       },
       {
-        "platform": "京东",
-        "avgPrice": 3,
+        "platform": "抖音",
+        "avgPrice": 6.7,
         "sales": 130124,
-        "revenue": 390372
+        "revenue": 871831
       },
       {
-        "platform": "抖音",
-        "avgPrice": 2.6,
+        "platform": "拼多多",
+        "avgPrice": 4.7,
         "sales": 212626,
-        "revenue": 552828
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 1.8,
-        "sales": 229736,
-        "revenue": 413525
+        "revenue": 999342
       }
     ]
   },
   {
-    "name": "晨光 直液式走珠笔",
+    "name": "三菱 可擦中性笔",
     "category": "中性笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 3.6,
-        "sales": 139558,
-        "revenue": 502409
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 3.6,
-        "sales": 77062,
-        "revenue": 277423
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 4.1,
-        "sales": 109908,
-        "revenue": 450623
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 3.6,
-        "sales": 17921,
-        "revenue": 64516
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 2.5,
-        "sales": 167275,
-        "revenue": 418188
-      }
-    ]
-  },
-  {
-    "name": "得力 子弹头中性笔 0.38mm",
-    "category": "中性笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 4.6,
-        "sales": 74884,
-        "revenue": 344466
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 4.6,
-        "sales": 154470,
-        "revenue": 710562
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 5.3,
-        "sales": 179672,
-        "revenue": 952262
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 4.6,
-        "sales": 144906,
-        "revenue": 666568
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 3.2,
-        "sales": 156836,
-        "revenue": 501875
-      }
-    ]
-  },
-  {
-    "name": "得力 中性笔套装 12支",
-    "category": "中性笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 4,
-        "sales": 113306,
-        "revenue": 453224
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 4,
-        "sales": 234958,
-        "revenue": 939832
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 4.6,
-        "sales": 70323,
-        "revenue": 323486
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 4,
-        "sales": 231395,
-        "revenue": 925580
-      },
-      {
-        "platform": "拼多多",
         "avgPrice": 2.8,
-        "sales": 238237,
-        "revenue": 667064
+        "sales": 89267,
+        "revenue": 249948
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 2.8,
+        "sales": 139558,
+        "revenue": 390762
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 3.2,
+        "sales": 77062,
+        "revenue": 246598
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 2.8,
+        "sales": 109908,
+        "revenue": 307742
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 2,
+        "sales": 17921,
+        "revenue": 35842
       }
     ]
   },
   {
-    "name": "百乐 商务签字笔",
+    "name": "斑马 直液式走珠笔",
     "category": "中性笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 7.5,
+        "avgPrice": 3.9,
+        "sales": 126485,
+        "revenue": 493292
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 3.9,
+        "sales": 74884,
+        "revenue": 292048
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 4.5,
+        "sales": 154470,
+        "revenue": 695115
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 3.9,
+        "sales": 179672,
+        "revenue": 700721
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 2.7,
+        "sales": 144906,
+        "revenue": 391246
+      }
+    ]
+  },
+  {
+    "name": "斑马 子弹头中性笔 0.38mm",
+    "category": "中性笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 3,
+        "sales": 104261,
+        "revenue": 312783
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 3,
+        "sales": 113306,
+        "revenue": 339918
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 3.4,
+        "sales": 234958,
+        "revenue": 798857
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 3,
+        "sales": 70323,
+        "revenue": 210969
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 2.1,
+        "sales": 231395,
+        "revenue": 485930
+      }
+    ]
+  },
+  {
+    "name": "三菱 中性笔套装 12支",
+    "category": "中性笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 5.2,
+        "sales": 232340,
+        "revenue": 1208168
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 5.2,
         "sales": 20959,
-        "revenue": 157193
+        "revenue": 108987
       },
       {
-        "platform": "天猫",
-        "avgPrice": 7.5,
+        "platform": "京东",
+        "avgPrice": 6,
         "sales": 74974,
-        "revenue": 562305
+        "revenue": 449844
       },
       {
-        "platform": "京东",
-        "avgPrice": 8.6,
+        "platform": "抖音",
+        "avgPrice": 5.2,
         "sales": 142148,
-        "revenue": 1222473
+        "revenue": 739170
       },
       {
-        "platform": "抖音",
-        "avgPrice": 7.5,
+        "platform": "拼多多",
+        "avgPrice": 3.6,
         "sales": 133019,
-        "revenue": 997643
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 5.3,
-        "sales": 238778,
-        "revenue": 1265523
+        "revenue": 478868
       }
     ]
   },
   {
-    "name": "kinbor 方格本 网格",
-    "category": "笔记本/记事本",
+    "name": "三菱 商务签字笔",
+    "category": "中性笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 37.2,
-        "sales": 87581,
-        "revenue": 3258013
+        "avgPrice": 7.9,
+        "sales": 181290,
+        "revenue": 1432191
       },
       {
         "platform": "天猫",
-        "avgPrice": 37.2,
-        "sales": 80154,
-        "revenue": 2981729
+        "avgPrice": 7.9,
+        "sales": 206782,
+        "revenue": 1633578
       },
       {
         "platform": "京东",
-        "avgPrice": 42.8,
-        "sales": 53700,
-        "revenue": 2298360
+        "avgPrice": 9.1,
+        "sales": 87570,
+        "revenue": 796887
       },
       {
         "platform": "抖音",
-        "avgPrice": 37.2,
-        "sales": 48931,
-        "revenue": 1820233
+        "avgPrice": 7.9,
+        "sales": 147548,
+        "revenue": 1165629
       },
       {
         "platform": "拼多多",
-        "avgPrice": 26,
-        "sales": 100101,
-        "revenue": 2602626
+        "avgPrice": 5.5,
+        "sales": 176078,
+        "revenue": 968429
       }
     ]
   },
   {
-    "name": "晨光 加厚笔记本 200页",
+    "name": "无印良品 方格本 网格",
     "category": "笔记本/记事本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 14,
+        "avgPrice": 22.9,
+        "sales": 31873,
+        "revenue": 729892
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 22.9,
         "sales": 42549,
-        "revenue": 595686
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 14,
-        "sales": 140253,
-        "revenue": 1963542
+        "revenue": 974372
       },
       {
         "platform": "京东",
-        "avgPrice": 16.1,
-        "sales": 114074,
-        "revenue": 1836591
+        "avgPrice": 26.3,
+        "sales": 140253,
+        "revenue": 3688654
       },
       {
         "platform": "抖音",
-        "avgPrice": 14,
-        "sales": 87547,
-        "revenue": 1225658
+        "avgPrice": 22.9,
+        "sales": 114074,
+        "revenue": 2612295
       },
       {
         "platform": "拼多多",
-        "avgPrice": 9.8,
-        "sales": 29839,
-        "revenue": 292422
+        "avgPrice": 16,
+        "sales": 87547,
+        "revenue": 1400752
+      }
+    ]
+  },
+  {
+    "name": "国誉 加厚笔记本 200页",
+    "category": "笔记本/记事本",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 42.9,
+        "sales": 122974,
+        "revenue": 5275585
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 42.9,
+        "sales": 57278,
+        "revenue": 2457226
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 49.3,
+        "sales": 60434,
+        "revenue": 2979396
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 42.9,
+        "sales": 121752,
+        "revenue": 5223161
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 30,
+        "sales": 136796,
+        "revenue": 4103880
       }
     ]
   },
@@ -8682,321 +8346,321 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 37.9,
-        "sales": 57278,
-        "revenue": 2170836
+        "avgPrice": 31,
+        "sales": 142759,
+        "revenue": 4425529
       },
       {
         "platform": "天猫",
-        "avgPrice": 37.9,
-        "sales": 60434,
-        "revenue": 2290449
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 43.6,
-        "sales": 121752,
-        "revenue": 5308387
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 37.9,
-        "sales": 136796,
-        "revenue": 5184568
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 26.5,
-        "sales": 122661,
-        "revenue": 3250517
-      }
-    ]
-  },
-  {
-    "name": "无印良品 错题本 活页",
-    "category": "笔记本/记事本",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 43.1,
+        "avgPrice": 31,
         "sales": 116184,
-        "revenue": 5007530
+        "revenue": 3601704
       },
       {
-        "platform": "天猫",
-        "avgPrice": 43.1,
+        "platform": "京东",
+        "avgPrice": 35.6,
         "sales": 38764,
-        "revenue": 1670728
+        "revenue": 1379998
       },
       {
-        "platform": "京东",
-        "avgPrice": 49.6,
+        "platform": "抖音",
+        "avgPrice": 31,
         "sales": 42410,
-        "revenue": 2103536
+        "revenue": 1314710
       },
       {
-        "platform": "抖音",
-        "avgPrice": 43.1,
+        "platform": "拼多多",
+        "avgPrice": 21.7,
         "sales": 55107,
-        "revenue": 2375112
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 30.2,
-        "sales": 87937,
-        "revenue": 2655697
+        "revenue": 1195822
       }
     ]
   },
   {
-    "name": "kinbor 考研专用笔记本",
+    "name": "晨光 错题本 活页",
     "category": "笔记本/记事本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 20.5,
+        "avgPrice": 38.5,
+        "sales": 56472,
+        "revenue": 2174172
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 38.5,
         "sales": 33516,
-        "revenue": 687078
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 20.5,
-        "sales": 33317,
-        "revenue": 682999
+        "revenue": 1290366
       },
       {
         "platform": "京东",
-        "avgPrice": 23.6,
-        "sales": 56402,
-        "revenue": 1331087
+        "avgPrice": 44.3,
+        "sales": 33317,
+        "revenue": 1475943
       },
       {
         "platform": "抖音",
-        "avgPrice": 20.5,
-        "sales": 102283,
-        "revenue": 2096802
+        "avgPrice": 38.5,
+        "sales": 56402,
+        "revenue": 2171477
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.3,
-        "sales": 13000,
-        "revenue": 185900
+        "avgPrice": 26.9,
+        "sales": 102283,
+        "revenue": 2751413
       }
     ]
   },
   {
-    "name": "国誉 道林纸笔记本",
+    "name": "国誉 考研专用笔记本",
     "category": "笔记本/记事本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 38.2,
+        "avgPrice": 15.3,
+        "sales": 123975,
+        "revenue": 1896818
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 15.3,
         "sales": 121413,
-        "revenue": 4637977
+        "revenue": 1857619
       },
       {
-        "platform": "天猫",
-        "avgPrice": 38.2,
+        "platform": "京东",
+        "avgPrice": 17.6,
         "sales": 103891,
-        "revenue": 3968636
+        "revenue": 1828482
       },
       {
-        "platform": "京东",
-        "avgPrice": 43.9,
+        "platform": "抖音",
+        "avgPrice": 15.3,
         "sales": 126109,
-        "revenue": 5536185
+        "revenue": 1929468
       },
       {
-        "platform": "抖音",
-        "avgPrice": 38.2,
+        "platform": "拼多多",
+        "avgPrice": 10.7,
         "sales": 91129,
-        "revenue": 3481128
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 26.7,
-        "sales": 135866,
-        "revenue": 3627622
+        "revenue": 975080
       }
     ]
   },
   {
-    "name": "迪士尼 学习用品礼盒",
-    "category": "学习套装/礼盒/盲盒",
+    "name": "kinbor 道林纸笔记本",
+    "category": "笔记本/记事本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 110,
-        "sales": 53221,
-        "revenue": 5854310
+        "avgPrice": 9.4,
+        "sales": 109867,
+        "revenue": 1032750
       },
       {
         "platform": "天猫",
-        "avgPrice": 110,
-        "sales": 72498,
-        "revenue": 7974780
+        "avgPrice": 9.4,
+        "sales": 100590,
+        "revenue": 945546
       },
       {
         "platform": "京东",
-        "avgPrice": 126.5,
-        "sales": 44418,
-        "revenue": 5618877
+        "avgPrice": 10.8,
+        "sales": 43793,
+        "revenue": 472964
       },
       {
         "platform": "抖音",
-        "avgPrice": 110,
-        "sales": 57107,
-        "revenue": 6281770
+        "avgPrice": 9.4,
+        "sales": 56793,
+        "revenue": 533854
       },
       {
         "platform": "拼多多",
-        "avgPrice": 77,
-        "sales": 27630,
-        "revenue": 2127510
+        "avgPrice": 6.6,
+        "sales": 47913,
+        "revenue": 316226
       }
     ]
   },
   {
-    "name": "得力 小学生文具套装",
+    "name": "晨光 学习用品礼盒",
     "category": "学习套装/礼盒/盲盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 36.7,
+        "avgPrice": 20.6,
+        "sales": 16750,
+        "revenue": 345050
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 20.6,
         "sales": 12160,
-        "revenue": 446272
+        "revenue": 250496
       },
       {
-        "platform": "天猫",
-        "avgPrice": 36.7,
+        "platform": "京东",
+        "avgPrice": 23.7,
         "sales": 45922,
-        "revenue": 1685337
+        "revenue": 1088351
       },
       {
-        "platform": "京东",
-        "avgPrice": 42.2,
+        "platform": "抖音",
+        "avgPrice": 20.6,
         "sales": 6036,
-        "revenue": 254719
+        "revenue": 124342
       },
       {
-        "platform": "抖音",
-        "avgPrice": 36.7,
+        "platform": "拼多多",
+        "avgPrice": 14.4,
         "sales": 24850,
-        "revenue": 911995
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 25.7,
-        "sales": 32346,
-        "revenue": 831292
+        "revenue": 357840
       }
     ]
   },
   {
-    "name": "三丽鸥 中考文具套装",
+    "name": "晨光 小学生文具套装",
     "category": "学习套装/礼盒/盲盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 52.4,
+        "avgPrice": 94.5,
+        "sales": 26744,
+        "revenue": 2527308
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 94.5,
         "sales": 16678,
-        "revenue": 873927
+        "revenue": 1576071
       },
       {
-        "platform": "天猫",
-        "avgPrice": 52.4,
+        "platform": "京东",
+        "avgPrice": 108.7,
         "sales": 38118,
-        "revenue": 1997383
+        "revenue": 4143427
       },
       {
-        "platform": "京东",
-        "avgPrice": 60.3,
+        "platform": "抖音",
+        "avgPrice": 94.5,
         "sales": 19486,
-        "revenue": 1175006
+        "revenue": 1841427
       },
       {
-        "platform": "抖音",
-        "avgPrice": 52.4,
+        "platform": "拼多多",
+        "avgPrice": 66.1,
         "sales": 61220,
-        "revenue": 3207928
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 36.7,
-        "sales": 72532,
-        "revenue": 2661924
+        "revenue": 4046642
       }
     ]
   },
   {
-    "name": "奥特曼 高考加油礼盒",
+    "name": "奥特曼 中考文具套装",
     "category": "学习套装/礼盒/盲盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 65.6,
+        "avgPrice": 114.6,
+        "sales": 35179,
+        "revenue": 4031513
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 114.6,
         "sales": 24320,
-        "revenue": 1595392
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 65.6,
-        "sales": 63180,
-        "revenue": 4144608
+        "revenue": 2787072
       },
       {
         "platform": "京东",
-        "avgPrice": 75.4,
-        "sales": 59349,
-        "revenue": 4474915
+        "avgPrice": 131.8,
+        "sales": 63180,
+        "revenue": 8327124
       },
       {
         "platform": "抖音",
-        "avgPrice": 65.6,
-        "sales": 12984,
-        "revenue": 851750
+        "avgPrice": 114.6,
+        "sales": 59349,
+        "revenue": 6801395
       },
       {
         "platform": "拼多多",
-        "avgPrice": 45.9,
-        "sales": 41612,
-        "revenue": 1909991
+        "avgPrice": 80.2,
+        "sales": 12984,
+        "revenue": 1041317
       }
     ]
   },
   {
-    "name": "迪士尼 文具福袋 随机",
+    "name": "迪士尼 高考加油礼盒",
     "category": "学习套装/礼盒/盲盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 51.6,
-        "sales": 70131,
-        "revenue": 3618760
+        "avgPrice": 64.9,
+        "sales": 26253,
+        "revenue": 1703820
       },
       {
         "platform": "天猫",
-        "avgPrice": 51.6,
-        "sales": 34217,
-        "revenue": 1765597
+        "avgPrice": 64.9,
+        "sales": 70131,
+        "revenue": 4551502
       },
       {
         "platform": "京东",
-        "avgPrice": 59.3,
-        "sales": 36149,
-        "revenue": 2143636
+        "avgPrice": 74.6,
+        "sales": 34217,
+        "revenue": 2552588
       },
       {
         "platform": "抖音",
-        "avgPrice": 51.6,
-        "sales": 33761,
-        "revenue": 1742068
+        "avgPrice": 64.9,
+        "sales": 36149,
+        "revenue": 2346070
       },
       {
         "platform": "拼多多",
-        "avgPrice": 36.1,
-        "sales": 13369,
-        "revenue": 482621
+        "avgPrice": 45.4,
+        "sales": 33761,
+        "revenue": 1532749
+      }
+    ]
+  },
+  {
+    "name": "得力 文具福袋 随机",
+    "category": "学习套装/礼盒/盲盒",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 109.2,
+        "sales": 54714,
+        "revenue": 5974769
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 109.2,
+        "sales": 45271,
+        "revenue": 4943593
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 125.6,
+        "sales": 12262,
+        "revenue": 1540107
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 109.2,
+        "sales": 14285,
+        "revenue": 1559922
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 76.4,
+        "sales": 51729,
+        "revenue": 3952096
       }
     ]
   },
@@ -9006,69 +8670,69 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 96.2,
-        "sales": 45271,
-        "revenue": 4355070
+        "avgPrice": 30.5,
+        "sales": 55895,
+        "revenue": 1704798
       },
       {
         "platform": "天猫",
-        "avgPrice": 96.2,
-        "sales": 12262,
-        "revenue": 1179604
+        "avgPrice": 30.5,
+        "sales": 39331,
+        "revenue": 1199596
       },
       {
         "platform": "京东",
-        "avgPrice": 110.6,
-        "sales": 14285,
-        "revenue": 1579921
+        "avgPrice": 35.1,
+        "sales": 18745,
+        "revenue": 657950
       },
       {
         "platform": "抖音",
-        "avgPrice": 96.2,
-        "sales": 51729,
-        "revenue": 4976330
+        "avgPrice": 30.5,
+        "sales": 13858,
+        "revenue": 422669
       },
       {
         "platform": "拼多多",
-        "avgPrice": 67.3,
-        "sales": 64462,
-        "revenue": 4338293
+        "avgPrice": 21.3,
+        "sales": 65790,
+        "revenue": 1401327
       }
     ]
   },
   {
-    "name": "touch 动漫专用马克笔",
+    "name": "慕娜美 动漫专用马克笔",
     "category": "马克笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 150.4,
-        "sales": 81989,
-        "revenue": 12331146
+        "avgPrice": 112.2,
+        "sales": 18764,
+        "revenue": 2105321
       },
       {
         "platform": "天猫",
-        "avgPrice": 150.4,
-        "sales": 44880,
-        "revenue": 6749952
+        "avgPrice": 112.2,
+        "sales": 94329,
+        "revenue": 10583714
       },
       {
         "platform": "京东",
-        "avgPrice": 173,
-        "sales": 80571,
-        "revenue": 13938783
+        "avgPrice": 129,
+        "sales": 26110,
+        "revenue": 3368190
       },
       {
         "platform": "抖音",
-        "avgPrice": 150.4,
-        "sales": 23424,
-        "revenue": 3522970
+        "avgPrice": 112.2,
+        "sales": 28933,
+        "revenue": 3246283
       },
       {
         "platform": "拼多多",
-        "avgPrice": 105.3,
-        "sales": 98172,
-        "revenue": 10337512
+        "avgPrice": 78.5,
+        "sales": 98977,
+        "revenue": 7769695
       }
     ]
   },
@@ -9078,105 +8742,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 46.4,
-        "sales": 94329,
-        "revenue": 4376866
+        "avgPrice": 87.3,
+        "sales": 80225,
+        "revenue": 7003643
       },
       {
         "platform": "天猫",
-        "avgPrice": 46.4,
-        "sales": 26110,
-        "revenue": 1211504
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 53.4,
-        "sales": 28933,
-        "revenue": 1545022
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 46.4,
-        "sales": 98977,
-        "revenue": 4592533
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 32.5,
-        "sales": 63313,
-        "revenue": 2057673
-      }
-    ]
-  },
-  {
-    "name": "斯塔 儿童马克笔 可水洗",
-    "category": "马克笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 138.4,
+        "avgPrice": 87.3,
         "sales": 96860,
-        "revenue": 13405424
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 138.4,
-        "sales": 58568,
-        "revenue": 8105811
+        "revenue": 8455878
       },
       {
         "platform": "京东",
-        "avgPrice": 159.2,
-        "sales": 60964,
-        "revenue": 9705469
+        "avgPrice": 100.4,
+        "sales": 58568,
+        "revenue": 5880227
       },
       {
         "platform": "抖音",
-        "avgPrice": 138.4,
-        "sales": 70797,
-        "revenue": 9798305
+        "avgPrice": 87.3,
+        "sales": 60964,
+        "revenue": 5322157
       },
       {
         "platform": "拼多多",
-        "avgPrice": 96.9,
-        "sales": 16185,
-        "revenue": 1568327
+        "avgPrice": 61.1,
+        "sales": 70797,
+        "revenue": 4325697
       }
     ]
   },
   {
-    "name": "touch 软头马克笔套装",
+    "name": "touch 儿童马克笔 可水洗",
     "category": "马克笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 153.3,
-        "sales": 78117,
-        "revenue": 11975336
+        "avgPrice": 43.7,
+        "sales": 90176,
+        "revenue": 3940691
       },
       {
         "platform": "天猫",
-        "avgPrice": 153.3,
-        "sales": 47121,
-        "revenue": 7223649
+        "avgPrice": 43.7,
+        "sales": 78117,
+        "revenue": 3413713
       },
       {
         "platform": "京东",
-        "avgPrice": 176.3,
-        "sales": 34046,
-        "revenue": 6002310
+        "avgPrice": 50.3,
+        "sales": 47121,
+        "revenue": 2370186
       },
       {
         "platform": "抖音",
-        "avgPrice": 153.3,
-        "sales": 88103,
-        "revenue": 13506190
+        "avgPrice": 43.7,
+        "sales": 34046,
+        "revenue": 1487810
       },
       {
         "platform": "拼多多",
-        "avgPrice": 107.3,
-        "sales": 49615,
-        "revenue": 5323690
+        "avgPrice": 30.6,
+        "sales": 88103,
+        "revenue": 2695952
+      }
+    ]
+  },
+  {
+    "name": "斯塔 软头马克笔套装",
+    "category": "马克笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 26.2,
+        "sales": 28411,
+        "revenue": 744368
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 26.2,
+        "sales": 69916,
+        "revenue": 1831799
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 30.1,
+        "sales": 66136,
+        "revenue": 1990694
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 26.2,
+        "sales": 55852,
+        "revenue": 1463322
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 18.3,
+        "sales": 18166,
+        "revenue": 332438
       }
     ]
   },
@@ -9186,465 +8850,465 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 60.8,
-        "sales": 69916,
-        "revenue": 4250893
+        "avgPrice": 89.8,
+        "sales": 61473,
+        "revenue": 5520275
       },
       {
         "platform": "天猫",
-        "avgPrice": 60.8,
-        "sales": 66136,
-        "revenue": 4021069
+        "avgPrice": 89.8,
+        "sales": 37069,
+        "revenue": 3328796
       },
       {
         "platform": "京东",
-        "avgPrice": 69.9,
-        "sales": 55852,
-        "revenue": 3904055
+        "avgPrice": 103.3,
+        "sales": 53065,
+        "revenue": 5481615
       },
       {
         "platform": "抖音",
-        "avgPrice": 60.8,
-        "sales": 18166,
-        "revenue": 1104493
+        "avgPrice": 89.8,
+        "sales": 43615,
+        "revenue": 3916627
       },
       {
         "platform": "拼多多",
-        "avgPrice": 42.6,
-        "sales": 22190,
-        "revenue": 945294
+        "avgPrice": 62.9,
+        "sales": 75458,
+        "revenue": 4746308
       }
     ]
   },
   {
-    "name": "斯塔 丙烯马克笔",
+    "name": "马利 丙烯马克笔",
     "category": "马克笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 110.3,
-        "sales": 37069,
-        "revenue": 4088711
+        "avgPrice": 47.4,
+        "sales": 74297,
+        "revenue": 3521678
       },
       {
         "platform": "天猫",
-        "avgPrice": 110.3,
-        "sales": 53065,
-        "revenue": 5853070
+        "avgPrice": 47.4,
+        "sales": 34729,
+        "revenue": 1646155
       },
       {
         "platform": "京东",
-        "avgPrice": 126.8,
-        "sales": 43615,
-        "revenue": 5530382
+        "avgPrice": 54.5,
+        "sales": 16213,
+        "revenue": 883609
       },
       {
         "platform": "抖音",
-        "avgPrice": 110.3,
-        "sales": 75458,
-        "revenue": 8323017
+        "avgPrice": 47.4,
+        "sales": 89382,
+        "revenue": 4236707
       },
       {
         "platform": "拼多多",
-        "avgPrice": 77.2,
-        "sales": 80403,
-        "revenue": 6207112
+        "avgPrice": 33.2,
+        "sales": 48150,
+        "revenue": 1598580
       }
     ]
   },
   {
-    "name": "KOKUYO 痛包笔袋 可展示",
+    "name": "迪士尼 痛包笔袋 可展示",
     "category": "文具盒/笔袋/痛包笔袋",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 63.5,
-        "sales": 84922,
-        "revenue": 5392547
+        "avgPrice": 23.9,
+        "sales": 19292,
+        "revenue": 461079
       },
       {
         "platform": "天猫",
-        "avgPrice": 63.5,
-        "sales": 80259,
-        "revenue": 5096447
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 73,
-        "sales": 10496,
-        "revenue": 766208
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 63.5,
-        "sales": 61589,
-        "revenue": 3910902
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 44.4,
-        "sales": 60979,
-        "revenue": 2707468
-      }
-    ]
-  },
-  {
-    "name": "晨光 多层文具盒",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 20,
+        "avgPrice": 23.9,
         "sales": 72836,
-        "revenue": 1456720
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 20,
-        "sales": 79604,
-        "revenue": 1592080
+        "revenue": 1740780
       },
       {
         "platform": "京东",
-        "avgPrice": 23,
-        "sales": 49671,
-        "revenue": 1142433
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 20,
-        "sales": 65696,
-        "revenue": 1313920
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 14,
-        "sales": 77614,
-        "revenue": 1086596
-      }
-    ]
-  },
-  {
-    "name": "得力 硅胶笔袋 创意",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 28,
-        "sales": 71807,
-        "revenue": 2010596
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 28,
-        "sales": 62515,
-        "revenue": 1750420
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 32.2,
-        "sales": 88931,
-        "revenue": 2863578
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 28,
-        "sales": 56022,
-        "revenue": 1568616
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 19.6,
-        "sales": 30639,
-        "revenue": 600524
-      }
-    ]
-  },
-  {
-    "name": "晨光 帆布笔袋 简约",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 32.8,
-        "sales": 30286,
-        "revenue": 993381
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 32.8,
-        "sales": 12772,
-        "revenue": 418922
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 37.7,
-        "sales": 77262,
-        "revenue": 2912777
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 32.8,
-        "sales": 61095,
-        "revenue": 2003916
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 23,
-        "sales": 42867,
-        "revenue": 985941
-      }
-    ]
-  },
-  {
-    "name": "迪士尼 铁皮文具盒",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 23.6,
-        "sales": 43844,
-        "revenue": 1034718
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 23.6,
-        "sales": 80255,
-        "revenue": 1894018
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 27.1,
-        "sales": 60174,
-        "revenue": 1630715
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 23.6,
-        "sales": 80418,
-        "revenue": 1897865
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 16.5,
-        "sales": 29252,
-        "revenue": 482658
-      }
-    ]
-  },
-  {
-    "name": "得力 密码锁文具盒",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 39.3,
-        "sales": 16817,
-        "revenue": 660908
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 39.3,
-        "sales": 83920,
-        "revenue": 3298056
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 45.2,
-        "sales": 65175,
-        "revenue": 2945910
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 39.3,
-        "sales": 75421,
-        "revenue": 2964045
-      },
-      {
-        "platform": "拼多多",
         "avgPrice": 27.5,
-        "sales": 68740,
-        "revenue": 1890350
-      }
-    ]
-  },
-  {
-    "name": "中华 素描铅笔套装",
-    "category": "铅笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 53.2,
-        "sales": 24312,
-        "revenue": 1293398
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 53.2,
-        "sales": 76113,
-        "revenue": 4049212
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 61.2,
-        "sales": 63903,
-        "revenue": 3910864
+        "sales": 79604,
+        "revenue": 2189110
       },
       {
         "platform": "抖音",
-        "avgPrice": 53.2,
-        "sales": 33263,
-        "revenue": 1769592
+        "avgPrice": 23.9,
+        "sales": 49671,
+        "revenue": 1187137
       },
       {
         "platform": "拼多多",
-        "avgPrice": 37.2,
-        "sales": 71334,
-        "revenue": 2653625
+        "avgPrice": 16.7,
+        "sales": 65696,
+        "revenue": 1097123
       }
     ]
   },
   {
-    "name": "辉柏嘉 彩色铅笔 水溶性",
+    "name": "三年二班 多层文具盒",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 22.2,
+        "sales": 31032,
+        "revenue": 688910
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 22.2,
+        "sales": 71807,
+        "revenue": 1594115
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 25.5,
+        "sales": 62515,
+        "revenue": 1594133
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 22.2,
+        "sales": 88931,
+        "revenue": 1974268
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 15.5,
+        "sales": 56022,
+        "revenue": 868341
+      }
+    ]
+  },
+  {
+    "name": "晨光 硅胶笔袋 创意",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 33.6,
+        "sales": 38138,
+        "revenue": 1281437
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 33.6,
+        "sales": 30286,
+        "revenue": 1017610
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 38.6,
+        "sales": 12772,
+        "revenue": 492999
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 33.6,
+        "sales": 77262,
+        "revenue": 2596003
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 23.5,
+        "sales": 61095,
+        "revenue": 1435733
+      }
+    ]
+  },
+  {
+    "name": "KOKUYO 帆布笔袋 简约",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 45.6,
+        "sales": 24596,
+        "revenue": 1121578
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 45.6,
+        "sales": 43844,
+        "revenue": 1999286
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 52.4,
+        "sales": 80255,
+        "revenue": 4205362
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 45.6,
+        "sales": 60174,
+        "revenue": 2743934
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 31.9,
+        "sales": 80418,
+        "revenue": 2565334
+      }
+    ]
+  },
+  {
+    "name": "晨光 铁皮文具盒",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 16.5,
+        "sales": 47690,
+        "revenue": 786885
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 16.5,
+        "sales": 16817,
+        "revenue": 277481
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 19,
+        "sales": 83920,
+        "revenue": 1594480
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 16.5,
+        "sales": 65175,
+        "revenue": 1075388
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 11.5,
+        "sales": 75421,
+        "revenue": 867342
+      }
+    ]
+  },
+  {
+    "name": "迪士尼 密码锁文具盒",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 24.1,
+        "sales": 68435,
+        "revenue": 1649284
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 24.1,
+        "sales": 19876,
+        "revenue": 479012
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 27.7,
+        "sales": 12499,
+        "revenue": 346222
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 24.1,
+        "sales": 62258,
+        "revenue": 1500418
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 16.9,
+        "sales": 11428,
+        "revenue": 193133
+      }
+    ]
+  },
+  {
+    "name": "晨光 素描铅笔套装",
     "category": "铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 11.8,
+        "avgPrice": 45.8,
+        "sales": 37663,
+        "revenue": 1724965
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 45.8,
         "sales": 132939,
-        "revenue": 1568680
+        "revenue": 6088606
       },
       {
-        "platform": "天猫",
-        "avgPrice": 11.8,
+        "platform": "京东",
+        "avgPrice": 52.7,
         "sales": 110077,
-        "revenue": 1298909
+        "revenue": 5801058
       },
       {
-        "platform": "京东",
-        "avgPrice": 13.6,
+        "platform": "抖音",
+        "avgPrice": 45.8,
         "sales": 156099,
-        "revenue": 2122946
+        "revenue": 7149334
       },
       {
-        "platform": "抖音",
-        "avgPrice": 11.8,
+        "platform": "拼多多",
+        "avgPrice": 32.1,
         "sales": 91244,
-        "revenue": 1076679
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 8.3,
-        "sales": 27773,
-        "revenue": 230516
+        "revenue": 2928932
       }
     ]
   },
   {
-    "name": "辉柏嘉 洞洞铅笔 矫姿",
+    "name": "中华 彩色铅笔 水溶性",
     "category": "铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 43.9,
+        "avgPrice": 51.4,
+        "sales": 158177,
+        "revenue": 8130298
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 51.4,
         "sales": 123266,
-        "revenue": 5411377
+        "revenue": 6335872
       },
       {
-        "platform": "天猫",
-        "avgPrice": 43.9,
+        "platform": "京东",
+        "avgPrice": 59.1,
         "sales": 156297,
-        "revenue": 6861438
+        "revenue": 9237153
       },
       {
-        "platform": "京东",
-        "avgPrice": 50.5,
+        "platform": "抖音",
+        "avgPrice": 51.4,
         "sales": 83973,
-        "revenue": 4240637
+        "revenue": 4316212
       },
       {
-        "platform": "抖音",
-        "avgPrice": 43.9,
+        "platform": "拼多多",
+        "avgPrice": 36,
         "sales": 102629,
-        "revenue": 4505413
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 30.7,
-        "sales": 94457,
-        "revenue": 2899830
+        "revenue": 3694644
       }
     ]
   },
   {
-    "name": "马可 活动铅笔 金属杆",
+    "name": "三菱 洞洞铅笔 矫姿",
     "category": "铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 47.3,
+        "avgPrice": 37,
+        "sales": 170975,
+        "revenue": 6326075
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 37,
         "sales": 158929,
-        "revenue": 7517342
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 47.3,
-        "sales": 140123,
-        "revenue": 6627818
+        "revenue": 5880373
       },
       {
         "platform": "京东",
-        "avgPrice": 54.4,
-        "sales": 83783,
-        "revenue": 4557795
+        "avgPrice": 42.5,
+        "sales": 140123,
+        "revenue": 5955228
       },
       {
         "platform": "抖音",
-        "avgPrice": 47.3,
-        "sales": 91684,
-        "revenue": 4336653
+        "avgPrice": 37,
+        "sales": 83783,
+        "revenue": 3099971
       },
       {
         "platform": "拼多多",
-        "avgPrice": 33.1,
-        "sales": 84374,
-        "revenue": 2792779
+        "avgPrice": 25.9,
+        "sales": 91684,
+        "revenue": 2374616
       }
     ]
   },
   {
-    "name": "中华 考试涂卡铅笔 20支",
+    "name": "晨光 活动铅笔 金属杆",
     "category": "铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 13.2,
-        "sales": 48865,
-        "revenue": 645018
+        "avgPrice": 14.7,
+        "sales": 42845,
+        "revenue": 629822
       },
       {
         "platform": "天猫",
-        "avgPrice": 13.2,
-        "sales": 34250,
-        "revenue": 452100
+        "avgPrice": 14.7,
+        "sales": 48865,
+        "revenue": 718316
       },
       {
         "platform": "京东",
-        "avgPrice": 15.2,
-        "sales": 150978,
-        "revenue": 2294866
+        "avgPrice": 16.9,
+        "sales": 34250,
+        "revenue": 578825
       },
       {
         "platform": "抖音",
-        "avgPrice": 13.2,
-        "sales": 129426,
-        "revenue": 1708423
+        "avgPrice": 14.7,
+        "sales": 150978,
+        "revenue": 2219377
       },
       {
         "platform": "拼多多",
-        "avgPrice": 9.2,
-        "sales": 76313,
-        "revenue": 702080
+        "avgPrice": 10.3,
+        "sales": 129426,
+        "revenue": 1333088
+      }
+    ]
+  },
+  {
+    "name": "晨光 考试涂卡铅笔 20支",
+    "category": "铅笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 40.4,
+        "sales": 83014,
+        "revenue": 3353766
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 40.4,
+        "sales": 178348,
+        "revenue": 7205259
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 46.5,
+        "sales": 76686,
+        "revenue": 3565899
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 40.4,
+        "sales": 197857,
+        "revenue": 7993423
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 28.3,
+        "sales": 181867,
+        "revenue": 5146836
       }
     ]
   },
@@ -9654,501 +9318,501 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 23.9,
-        "sales": 178348,
-        "revenue": 4262517
+        "avgPrice": 18.7,
+        "sales": 152314,
+        "revenue": 2848272
       },
       {
         "platform": "天猫",
-        "avgPrice": 23.9,
-        "sales": 76686,
-        "revenue": 1832795
+        "avgPrice": 18.7,
+        "sales": 196898,
+        "revenue": 3681993
       },
       {
         "platform": "京东",
-        "avgPrice": 27.5,
-        "sales": 197857,
-        "revenue": 5441068
+        "avgPrice": 21.5,
+        "sales": 199727,
+        "revenue": 4294131
       },
       {
         "platform": "抖音",
-        "avgPrice": 23.9,
-        "sales": 181867,
-        "revenue": 4346621
+        "avgPrice": 18.7,
+        "sales": 94469,
+        "revenue": 1766570
       },
       {
         "platform": "拼多多",
-        "avgPrice": 16.7,
-        "sales": 141687,
-        "revenue": 2366173
+        "avgPrice": 13.1,
+        "sales": 131972,
+        "revenue": 1728833
       }
     ]
   },
   {
-    "name": "辉柏嘉 可爱卡通橡皮",
+    "name": "蜻蜓 可爱卡通橡皮",
     "category": "橡皮擦",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 2.2,
-        "sales": 62669,
-        "revenue": 137872
+        "avgPrice": 15.8,
+        "sales": 48177,
+        "revenue": 761197
       },
       {
         "platform": "天猫",
-        "avgPrice": 2.2,
-        "sales": 203629,
-        "revenue": 447984
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 2.5,
-        "sales": 137677,
-        "revenue": 344193
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 2.2,
-        "sales": 150374,
-        "revenue": 330823
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 1.5,
-        "sales": 246051,
-        "revenue": 369077
-      }
-    ]
-  },
-  {
-    "name": "晨光 素描橡皮 软",
-    "category": "橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 6.3,
+        "avgPrice": 15.8,
         "sales": 132755,
-        "revenue": 836357
+        "revenue": 2097529
       },
       {
-        "platform": "天猫",
-        "avgPrice": 6.3,
+        "platform": "京东",
+        "avgPrice": 18.2,
         "sales": 57298,
-        "revenue": 360977
+        "revenue": 1042824
       },
       {
-        "platform": "京东",
-        "avgPrice": 7.2,
+        "platform": "抖音",
+        "avgPrice": 15.8,
         "sales": 23059,
-        "revenue": 166025
+        "revenue": 364332
       },
       {
-        "platform": "抖音",
-        "avgPrice": 6.3,
+        "platform": "拼多多",
+        "avgPrice": 11.1,
         "sales": 49928,
-        "revenue": 314546
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 4.4,
-        "sales": 91758,
-        "revenue": 403735
+        "revenue": 554201
       }
     ]
   },
   {
-    "name": "辉柏嘉 橡皮擦 不留痕",
+    "name": "樱花 素描橡皮 软",
     "category": "橡皮擦",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 10.9,
+        "avgPrice": 24.3,
+        "sales": 80602,
+        "revenue": 1958629
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 24.3,
         "sales": 111774,
-        "revenue": 1218337
+        "revenue": 2716108
       },
       {
-        "platform": "天猫",
-        "avgPrice": 10.9,
+        "platform": "京东",
+        "avgPrice": 27.9,
         "sales": 219428,
-        "revenue": 2391765
+        "revenue": 6122041
       },
       {
-        "platform": "京东",
-        "avgPrice": 12.5,
+        "platform": "抖音",
+        "avgPrice": 24.3,
         "sales": 198641,
-        "revenue": 2483013
+        "revenue": 4826976
       },
       {
-        "platform": "抖音",
-        "avgPrice": 10.9,
+        "platform": "拼多多",
+        "avgPrice": 17,
         "sales": 105231,
-        "revenue": 1147018
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 7.6,
-        "sales": 156440,
-        "revenue": 1188944
+        "revenue": 1788927
       }
     ]
   },
   {
-    "name": "蜻蜓 高光橡皮",
+    "name": "晨光 橡皮擦 不留痕",
     "category": "橡皮擦",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 12.6,
+        "avgPrice": 31.5,
+        "sales": 92206,
+        "revenue": 2904489
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 31.5,
         "sales": 84556,
-        "revenue": 1065406
+        "revenue": 2663514
       },
       {
-        "platform": "天猫",
-        "avgPrice": 12.6,
+        "platform": "京东",
+        "avgPrice": 36.2,
         "sales": 87393,
-        "revenue": 1101152
+        "revenue": 3163627
       },
       {
-        "platform": "京东",
-        "avgPrice": 14.5,
+        "platform": "抖音",
+        "avgPrice": 31.5,
         "sales": 230986,
-        "revenue": 3349297
+        "revenue": 7276059
       },
       {
-        "platform": "抖音",
-        "avgPrice": 12.6,
+        "platform": "拼多多",
+        "avgPrice": 22,
         "sales": 63951,
-        "revenue": 805783
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 8.8,
-        "sales": 97170,
-        "revenue": 855096
+        "revenue": 1406922
       }
     ]
   },
   {
-    "name": "辉柏嘉 樱花橡皮",
+    "name": "樱花 高光橡皮",
     "category": "橡皮擦",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 6,
+        "avgPrice": 27.9,
+        "sales": 46053,
+        "revenue": 1284879
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 27.9,
         "sales": 238782,
-        "revenue": 1432692
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 6,
-        "sales": 100318,
-        "revenue": 601908
+        "revenue": 6662018
       },
       {
         "platform": "京东",
-        "avgPrice": 6.9,
-        "sales": 212882,
-        "revenue": 1468886
+        "avgPrice": 32.1,
+        "sales": 100318,
+        "revenue": 3220208
       },
       {
         "platform": "抖音",
-        "avgPrice": 6,
-        "sales": 102765,
-        "revenue": 616590
+        "avgPrice": 27.9,
+        "sales": 212882,
+        "revenue": 5939408
       },
       {
         "platform": "拼多多",
-        "avgPrice": 4.2,
-        "sales": 115560,
-        "revenue": 485352
+        "avgPrice": 19.5,
+        "sales": 102765,
+        "revenue": 2003918
       }
     ]
   },
   {
-    "name": "樱花 超净橡皮",
+    "name": "晨光 樱花橡皮",
     "category": "橡皮擦",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 10.9,
+        "avgPrice": 13.1,
+        "sales": 80248,
+        "revenue": 1051249
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 13.1,
         "sales": 170359,
-        "revenue": 1856913
+        "revenue": 2231703
       },
       {
-        "platform": "天猫",
-        "avgPrice": 10.9,
+        "platform": "京东",
+        "avgPrice": 15.1,
         "sales": 194749,
-        "revenue": 2122764
+        "revenue": 2940710
       },
       {
-        "platform": "京东",
-        "avgPrice": 12.5,
+        "platform": "抖音",
+        "avgPrice": 13.1,
         "sales": 82521,
-        "revenue": 1031513
+        "revenue": 1081025
       },
       {
-        "platform": "抖音",
-        "avgPrice": 10.9,
+        "platform": "拼多多",
+        "avgPrice": 9.2,
         "sales": 246245,
-        "revenue": 2684071
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 7.6,
-        "sales": 165862,
-        "revenue": 1260551
+        "revenue": 2265454
       }
     ]
   },
   {
-    "name": "斑马 迷你荧光笔",
-    "category": "荧光笔",
+    "name": "辉柏嘉 超净橡皮",
+    "category": "橡皮擦",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 9.3,
-        "sales": 38082,
-        "revenue": 354163
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 9.3,
-        "sales": 32589,
-        "revenue": 303078
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 10.7,
-        "sales": 77761,
-        "revenue": 832043
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 9.3,
-        "sales": 11553,
-        "revenue": 107443
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 6.5,
-        "sales": 68182,
-        "revenue": 443183
-      }
-    ]
-  },
-  {
-    "name": "斑马 直液式荧光笔",
-    "category": "荧光笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 11.3,
-        "sales": 40484,
-        "revenue": 457469
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 11.3,
-        "sales": 83355,
-        "revenue": 941912
-      },
-      {
-        "platform": "京东",
         "avgPrice": 13,
-        "sales": 34218,
-        "revenue": 444834
+        "sales": 192951,
+        "revenue": 2508363
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 13,
+        "sales": 207539,
+        "revenue": 2698007
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 14.9,
+        "sales": 235266,
+        "revenue": 3505463
       },
       {
         "platform": "抖音",
-        "avgPrice": 11.3,
-        "sales": 86690,
-        "revenue": 979597
+        "avgPrice": 13,
+        "sales": 67553,
+        "revenue": 878189
       },
       {
         "platform": "拼多多",
-        "avgPrice": 7.9,
-        "sales": 59227,
-        "revenue": 467893
+        "avgPrice": 9.1,
+        "sales": 71056,
+        "revenue": 646610
       }
     ]
   },
   {
-    "name": "百乐 彩色荧光笔 学生用",
+    "name": "慕娜美 迷你荧光笔",
     "category": "荧光笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 28.6,
-        "sales": 28707,
-        "revenue": 821020
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 28.6,
-        "sales": 97171,
-        "revenue": 2779091
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 32.9,
-        "sales": 24872,
-        "revenue": 818289
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 28.6,
-        "sales": 33563,
-        "revenue": 959902
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 20,
-        "sales": 77691,
-        "revenue": 1553820
-      }
-    ]
-  },
-  {
-    "name": "斑马 护眼荧光笔 莫兰迪",
-    "category": "荧光笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 29.4,
-        "sales": 81092,
-        "revenue": 2384105
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 29.4,
-        "sales": 92421,
-        "revenue": 2717177
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 33.8,
-        "sales": 50338,
-        "revenue": 1701424
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 29.4,
-        "sales": 97477,
-        "revenue": 2865824
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 20.6,
-        "sales": 36076,
-        "revenue": 743166
-      }
-    ]
-  },
-  {
-    "name": "晨光 窗口荧光笔",
-    "category": "荧光笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 10.1,
-        "sales": 73355,
-        "revenue": 740886
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 10.1,
-        "sales": 62807,
-        "revenue": 634351
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 11.6,
-        "sales": 94611,
-        "revenue": 1097488
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 10.1,
-        "sales": 18657,
-        "revenue": 188436
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 7.1,
-        "sales": 54404,
-        "revenue": 386268
-      }
-    ]
-  },
-  {
-    "name": "东洋 荧光笔 粗细双头",
-    "category": "荧光笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 12.3,
-        "sales": 48004,
-        "revenue": 590449
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 12.3,
-        "sales": 25346,
-        "revenue": 311756
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 14.1,
-        "sales": 60653,
-        "revenue": 855207
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 12.3,
-        "sales": 14831,
-        "revenue": 182421
-      },
-      {
-        "platform": "拼多多",
         "avgPrice": 8.6,
-        "sales": 62222,
-        "revenue": 535109
+        "sales": 20252,
+        "revenue": 174167
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 8.6,
+        "sales": 40484,
+        "revenue": 348162
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 9.9,
+        "sales": 83355,
+        "revenue": 825215
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 8.6,
+        "sales": 34218,
+        "revenue": 294275
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 6,
+        "sales": 86690,
+        "revenue": 520140
       }
     ]
   },
   {
-    "name": "三年二班 手账大礼盒套装",
+    "name": "百乐 直液式荧光笔",
+    "category": "荧光笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 19.4,
+        "sales": 78355,
+        "revenue": 1520087
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 19.4,
+        "sales": 28707,
+        "revenue": 556916
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 22.3,
+        "sales": 97171,
+        "revenue": 2166913
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 19.4,
+        "sales": 24872,
+        "revenue": 482517
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 13.6,
+        "sales": 33563,
+        "revenue": 456457
+      }
+    ]
+  },
+  {
+    "name": "慕娜美 彩色荧光笔 学生用",
+    "category": "荧光笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 12,
+        "sales": 81263,
+        "revenue": 975156
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 12,
+        "sales": 81092,
+        "revenue": 973104
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 13.8,
+        "sales": 92421,
+        "revenue": 1275410
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 12,
+        "sales": 50338,
+        "revenue": 604056
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 8.4,
+        "sales": 97477,
+        "revenue": 818807
+      }
+    ]
+  },
+  {
+    "name": "晨光 护眼荧光笔 莫兰迪",
+    "category": "荧光笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 18.2,
+        "sales": 16077,
+        "revenue": 292601
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 18.2,
+        "sales": 73355,
+        "revenue": 1335061
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 20.9,
+        "sales": 62807,
+        "revenue": 1312666
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 18.2,
+        "sales": 94611,
+        "revenue": 1721920
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 12.7,
+        "sales": 18657,
+        "revenue": 236944
+      }
+    ]
+  },
+  {
+    "name": "百乐 窗口荧光笔",
+    "category": "荧光笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 34,
+        "sales": 23459,
+        "revenue": 797606
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 34,
+        "sales": 48004,
+        "revenue": 1632136
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 39.1,
+        "sales": 25346,
+        "revenue": 991029
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 34,
+        "sales": 60653,
+        "revenue": 2062202
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 23.8,
+        "sales": 14831,
+        "revenue": 352978
+      }
+    ]
+  },
+  {
+    "name": "百乐 荧光笔 粗细双头",
+    "category": "荧光笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 18.6,
+        "sales": 78328,
+        "revenue": 1456901
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 18.6,
+        "sales": 68192,
+        "revenue": 1268371
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 21.4,
+        "sales": 88574,
+        "revenue": 1895484
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 18.6,
+        "sales": 98955,
+        "revenue": 1840563
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 13,
+        "sales": 83550,
+        "revenue": 1086150
+      }
+    ]
+  },
+  {
+    "name": "Hobonichi 手账大礼盒套装",
     "category": "手帐",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 22.7,
-        "sales": 35987,
-        "revenue": 816905
+        "avgPrice": 67,
+        "sales": 12764,
+        "revenue": 855188
       },
       {
         "platform": "天猫",
-        "avgPrice": 22.7,
-        "sales": 55142,
-        "revenue": 1251723
+        "avgPrice": 67,
+        "sales": 18411,
+        "revenue": 1233537
       },
       {
         "platform": "京东",
-        "avgPrice": 26.1,
-        "sales": 74674,
-        "revenue": 1948991
+        "avgPrice": 77,
+        "sales": 37268,
+        "revenue": 2869636
       },
       {
         "platform": "抖音",
-        "avgPrice": 22.7,
-        "sales": 38730,
-        "revenue": 879171
+        "avgPrice": 67,
+        "sales": 42037,
+        "revenue": 2816479
       },
       {
         "platform": "拼多多",
-        "avgPrice": 15.9,
-        "sales": 26900,
-        "revenue": 427710
+        "avgPrice": 46.9,
+        "sales": 44674,
+        "revenue": 2095211
       }
     ]
   },
@@ -10158,141 +9822,141 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 24.7,
-        "sales": 18411,
-        "revenue": 454752
+        "avgPrice": 28.8,
+        "sales": 22438,
+        "revenue": 646214
       },
       {
         "platform": "天猫",
-        "avgPrice": 24.7,
-        "sales": 37268,
-        "revenue": 920520
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 28.4,
-        "sales": 42037,
-        "revenue": 1193851
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 24.7,
-        "sales": 44674,
-        "revenue": 1103448
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.3,
-        "sales": 59911,
-        "revenue": 1036460
-      }
-    ]
-  },
-  {
-    "name": "kinbor 手账印章套装",
-    "category": "手帐",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 36.1,
+        "avgPrice": 28.8,
         "sales": 6539,
-        "revenue": 236058
+        "revenue": 188323
       },
       {
-        "platform": "天猫",
-        "avgPrice": 36.1,
+        "platform": "京东",
+        "avgPrice": 33.1,
         "sales": 9407,
-        "revenue": 339593
+        "revenue": 311372
       },
       {
-        "platform": "京东",
-        "avgPrice": 41.5,
+        "platform": "抖音",
+        "avgPrice": 28.8,
         "sales": 44700,
-        "revenue": 1855050
+        "revenue": 1287360
       },
       {
-        "platform": "抖音",
-        "avgPrice": 36.1,
+        "platform": "拼多多",
+        "avgPrice": 20.2,
         "sales": 16052,
-        "revenue": 579477
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 25.3,
-        "sales": 68865,
-        "revenue": 1742285
+        "revenue": 324250
       }
     ]
   },
   {
-    "name": "国誉 手账素材本",
+    "name": "文谷 手账印章套装",
     "category": "手帐",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 37.3,
+        "avgPrice": 48.6,
+        "sales": 23418,
+        "revenue": 1138115
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 48.6,
         "sales": 25478,
-        "revenue": 950329
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 37.3,
-        "sales": 42169,
-        "revenue": 1572904
+        "revenue": 1238231
       },
       {
         "platform": "京东",
-        "avgPrice": 42.9,
-        "sales": 74329,
-        "revenue": 3188714
+        "avgPrice": 55.9,
+        "sales": 42169,
+        "revenue": 2357247
       },
       {
         "platform": "抖音",
-        "avgPrice": 37.3,
-        "sales": 57128,
-        "revenue": 2130874
+        "avgPrice": 48.6,
+        "sales": 74329,
+        "revenue": 3612389
       },
       {
         "platform": "拼多多",
-        "avgPrice": 26.1,
-        "sales": 22394,
-        "revenue": 584483
+        "avgPrice": 34,
+        "sales": 57128,
+        "revenue": 1942352
       }
     ]
   },
   {
-    "name": "文谷 手账周计划本",
+    "name": "Hobonichi 手账素材本",
     "category": "手帐",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 17.9,
-        "sales": 37124,
-        "revenue": 664520
+        "avgPrice": 95.5,
+        "sales": 6940,
+        "revenue": 662770
       },
       {
         "platform": "天猫",
-        "avgPrice": 17.9,
-        "sales": 62857,
-        "revenue": 1125140
+        "avgPrice": 95.5,
+        "sales": 37124,
+        "revenue": 3545342
       },
       {
         "platform": "京东",
-        "avgPrice": 20.6,
-        "sales": 7429,
-        "revenue": 153037
+        "avgPrice": 109.8,
+        "sales": 62857,
+        "revenue": 6901699
       },
       {
         "platform": "抖音",
-        "avgPrice": 17.9,
-        "sales": 64205,
-        "revenue": 1149270
+        "avgPrice": 95.5,
+        "sales": 7429,
+        "revenue": 709470
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.5,
-        "sales": 45205,
-        "revenue": 565063
+        "avgPrice": 66.8,
+        "sales": 64205,
+        "revenue": 4288894
+      }
+    ]
+  },
+  {
+    "name": "国誉 手账周计划本",
+    "category": "手帐",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 63.9,
+        "sales": 7987,
+        "revenue": 510369
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 63.9,
+        "sales": 18636,
+        "revenue": 1190840
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 73.5,
+        "sales": 46616,
+        "revenue": 3426276
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 63.9,
+        "sales": 64927,
+        "revenue": 4148835
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 44.7,
+        "sales": 14677,
+        "revenue": 656062
       }
     ]
   },
@@ -10302,249 +9966,249 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 19.1,
-        "sales": 18636,
-        "revenue": 355948
+        "avgPrice": 52.5,
+        "sales": 58756,
+        "revenue": 3084690
       },
       {
         "platform": "天猫",
-        "avgPrice": 19.1,
-        "sales": 46616,
-        "revenue": 890366
+        "avgPrice": 52.5,
+        "sales": 38618,
+        "revenue": 2027445
       },
       {
         "platform": "京东",
-        "avgPrice": 22,
-        "sales": 64927,
-        "revenue": 1428394
+        "avgPrice": 60.4,
+        "sales": 61773,
+        "revenue": 3731089
       },
       {
         "platform": "抖音",
-        "avgPrice": 19.1,
-        "sales": 14677,
-        "revenue": 280331
+        "avgPrice": 52.5,
+        "sales": 58323,
+        "revenue": 3061958
       },
       {
         "platform": "拼多多",
-        "avgPrice": 13.4,
-        "sales": 42032,
-        "revenue": 563229
+        "avgPrice": 36.8,
+        "sales": 33389,
+        "revenue": 1228715
       }
     ]
   },
   {
-    "name": "印迹 火漆封蜡枪",
+    "name": "森活记 火漆封蜡枪",
     "category": "火漆印章",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.5,
-        "sales": 24226,
-        "revenue": 666215
+        "avgPrice": 34.1,
+        "sales": 7099,
+        "revenue": 242076
       },
       {
         "platform": "天猫",
-        "avgPrice": 27.5,
-        "sales": 9564,
-        "revenue": 263010
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 31.6,
-        "sales": 11700,
-        "revenue": 369720
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 27.5,
-        "sales": 37891,
-        "revenue": 1042003
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 19.3,
-        "sales": 39449,
-        "revenue": 761366
-      }
-    ]
-  },
-  {
-    "name": "印迹 火漆信封套装",
-    "category": "火漆印章",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 25.8,
+        "avgPrice": 34.1,
         "sales": 4800,
-        "revenue": 123840
+        "revenue": 163680
       },
       {
-        "platform": "天猫",
-        "avgPrice": 25.8,
+        "platform": "京东",
+        "avgPrice": 39.2,
         "sales": 7162,
-        "revenue": 184780
+        "revenue": 280750
       },
       {
-        "platform": "京东",
-        "avgPrice": 29.7,
+        "platform": "抖音",
+        "avgPrice": 34.1,
         "sales": 32147,
-        "revenue": 954766
+        "revenue": 1096213
       },
       {
-        "platform": "抖音",
-        "avgPrice": 25.8,
+        "platform": "拼多多",
+        "avgPrice": 23.9,
         "sales": 13580,
-        "revenue": 350364
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 18.1,
-        "sales": 3740,
-        "revenue": 67694
+        "revenue": 324562
       }
     ]
   },
   {
-    "name": "森活记 火漆印章 花朵款",
+    "name": "慢作 火漆信封套装",
     "category": "火漆印章",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 70.3,
+        "avgPrice": 81.9,
+        "sales": 30629,
+        "revenue": 2508515
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 81.9,
         "sales": 34127,
-        "revenue": 2399128
+        "revenue": 2795001
       },
       {
-        "platform": "天猫",
-        "avgPrice": 70.3,
+        "platform": "京东",
+        "avgPrice": 94.2,
         "sales": 9301,
-        "revenue": 653860
+        "revenue": 876154
       },
       {
-        "platform": "京东",
-        "avgPrice": 80.8,
+        "platform": "抖音",
+        "avgPrice": 81.9,
         "sales": 38742,
-        "revenue": 3130354
+        "revenue": 3172970
       },
       {
-        "platform": "抖音",
-        "avgPrice": 70.3,
+        "platform": "拼多多",
+        "avgPrice": 57.3,
         "sales": 5138,
-        "revenue": 361201
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 49.2,
-        "sales": 5631,
-        "revenue": 277045
+        "revenue": 294407
       }
     ]
   },
   {
-    "name": "暮光之印 火漆蜡条 彩色",
+    "name": "慢作 火漆印章 花朵款",
     "category": "火漆印章",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 70,
+        "avgPrice": 64.1,
+        "sales": 30475,
+        "revenue": 1953447
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 64.1,
         "sales": 32708,
-        "revenue": 2289560
+        "revenue": 2096583
       },
       {
-        "platform": "天猫",
-        "avgPrice": 70,
+        "platform": "京东",
+        "avgPrice": 73.7,
         "sales": 8621,
-        "revenue": 603470
+        "revenue": 635368
       },
       {
-        "platform": "京东",
-        "avgPrice": 80.5,
+        "platform": "抖音",
+        "avgPrice": 64.1,
         "sales": 22488,
-        "revenue": 1810284
+        "revenue": 1441481
       },
       {
-        "platform": "抖音",
-        "avgPrice": 70,
+        "platform": "拼多多",
+        "avgPrice": 44.9,
         "sales": 22266,
-        "revenue": 1558620
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 49,
-        "sales": 10774,
-        "revenue": 527926
+        "revenue": 999743
       }
     ]
   },
   {
-    "name": "手帐星球 火漆勺 木柄",
+    "name": "印迹 火漆蜡条 彩色",
     "category": "火漆印章",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 87.4,
+        "avgPrice": 57.3,
+        "sales": 39684,
+        "revenue": 2273893
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 57.3,
         "sales": 11077,
-        "revenue": 968130
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 87.4,
-        "sales": 5377,
-        "revenue": 469950
+        "revenue": 634712
       },
       {
         "platform": "京东",
-        "avgPrice": 100.5,
-        "sales": 8265,
-        "revenue": 830633
+        "avgPrice": 65.9,
+        "sales": 5377,
+        "revenue": 354344
       },
       {
         "platform": "抖音",
-        "avgPrice": 87.4,
-        "sales": 24742,
-        "revenue": 2162451
+        "avgPrice": 57.3,
+        "sales": 8265,
+        "revenue": 473585
       },
       {
         "platform": "拼多多",
-        "avgPrice": 61.2,
-        "sales": 27265,
-        "revenue": 1668618
+        "avgPrice": 40.1,
+        "sales": 24742,
+        "revenue": 992154
       }
     ]
   },
   {
-    "name": "印迹 火漆印章礼盒",
+    "name": "暮光之印 火漆勺 木柄",
     "category": "火漆印章",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 83.8,
-        "sales": 38979,
-        "revenue": 3266440
+        "avgPrice": 33.2,
+        "sales": 37781,
+        "revenue": 1254329
       },
       {
         "platform": "天猫",
-        "avgPrice": 83.8,
-        "sales": 3561,
-        "revenue": 298412
+        "avgPrice": 33.2,
+        "sales": 38979,
+        "revenue": 1294103
       },
       {
         "platform": "京东",
-        "avgPrice": 96.4,
-        "sales": 8426,
-        "revenue": 812266
+        "avgPrice": 38.2,
+        "sales": 3561,
+        "revenue": 136030
       },
       {
         "platform": "抖音",
-        "avgPrice": 83.8,
-        "sales": 11311,
-        "revenue": 947862
+        "avgPrice": 33.2,
+        "sales": 8426,
+        "revenue": 279743
       },
       {
         "platform": "拼多多",
-        "avgPrice": 58.7,
-        "sales": 20756,
-        "revenue": 1218377
+        "avgPrice": 23.2,
+        "sales": 11311,
+        "revenue": 262415
+      }
+    ]
+  },
+  {
+    "name": "手帐星球 火漆印章礼盒",
+    "category": "火漆印章",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 53.8,
+        "sales": 31762,
+        "revenue": 1708796
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 53.8,
+        "sales": 14745,
+        "revenue": 793281
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 61.9,
+        "sales": 30762,
+        "revenue": 1904168
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 53.8,
+        "sales": 22920,
+        "revenue": 1233096
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 37.7,
+        "sales": 3012,
+        "revenue": 113552
       }
     ]
   },
@@ -10554,213 +10218,213 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 22,
-        "sales": 90283,
-        "revenue": 1986226
+        "avgPrice": 58.6,
+        "sales": 21105,
+        "revenue": 1236753
       },
       {
         "platform": "天猫",
-        "avgPrice": 22,
-        "sales": 82836,
-        "revenue": 1822392
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 25.3,
-        "sales": 64090,
-        "revenue": 1621477
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 22,
-        "sales": 55456,
-        "revenue": 1220032
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 15.4,
-        "sales": 84687,
-        "revenue": 1304180
-      }
-    ]
-  },
-  {
-    "name": "真彩 水彩笔 补充装",
-    "category": "水彩笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 17.8,
+        "avgPrice": 58.6,
         "sales": 113399,
-        "revenue": 2018502
+        "revenue": 6645181
       },
       {
-        "platform": "天猫",
-        "avgPrice": 17.8,
+        "platform": "京东",
+        "avgPrice": 67.4,
         "sales": 97183,
-        "revenue": 1729857
+        "revenue": 6550134
       },
       {
-        "platform": "京东",
-        "avgPrice": 20.5,
+        "platform": "抖音",
+        "avgPrice": 58.6,
         "sales": 13998,
-        "revenue": 286959
+        "revenue": 820283
       },
       {
-        "platform": "抖音",
-        "avgPrice": 17.8,
+        "platform": "拼多多",
+        "avgPrice": 41,
         "sales": 9239,
-        "revenue": 164454
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 12.5,
-        "sales": 38467,
-        "revenue": 480838
+        "revenue": 378799
       }
     ]
   },
   {
-    "name": "马利 水彩笔 桶装 24色",
+    "name": "晨光 水彩笔 补充装",
     "category": "水彩笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 25.4,
+        "avgPrice": 48.9,
+        "sales": 36729,
+        "revenue": 1796048
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 48.9,
         "sales": 84823,
-        "revenue": 2154504
+        "revenue": 4147845
       },
       {
-        "platform": "天猫",
-        "avgPrice": 25.4,
+        "platform": "京东",
+        "avgPrice": 56.2,
         "sales": 40434,
-        "revenue": 1027024
+        "revenue": 2272391
       },
       {
-        "platform": "京东",
-        "avgPrice": 29.2,
+        "platform": "抖音",
+        "avgPrice": 48.9,
         "sales": 50969,
-        "revenue": 1488295
+        "revenue": 2492384
       },
       {
-        "platform": "抖音",
-        "avgPrice": 25.4,
+        "platform": "拼多多",
+        "avgPrice": 34.2,
         "sales": 119398,
-        "revenue": 3032709
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.8,
-        "sales": 35589,
-        "revenue": 633484
+        "revenue": 4083412
       }
     ]
   },
   {
-    "name": "真彩 细头水彩笔 勾线",
+    "name": "晨光 水彩笔 桶装 24色",
     "category": "水彩笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 24.1,
+        "avgPrice": 63.2,
+        "sales": 34151,
+        "revenue": 2158343
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 63.2,
         "sales": 44757,
-        "revenue": 1078644
+        "revenue": 2828642
       },
       {
-        "platform": "天猫",
-        "avgPrice": 24.1,
+        "platform": "京东",
+        "avgPrice": 72.7,
         "sales": 98265,
-        "revenue": 2368187
+        "revenue": 7143866
       },
       {
-        "platform": "京东",
-        "avgPrice": 27.7,
+        "platform": "抖音",
+        "avgPrice": 63.2,
         "sales": 16299,
-        "revenue": 451482
+        "revenue": 1030097
       },
       {
-        "platform": "抖音",
-        "avgPrice": 24.1,
+        "platform": "拼多多",
+        "avgPrice": 44.2,
         "sales": 43210,
-        "revenue": 1041361
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 16.9,
-        "sales": 28300,
-        "revenue": 478270
+        "revenue": 1909882
       }
     ]
   },
   {
-    "name": "得力 双头水彩笔",
+    "name": "得力 细头水彩笔 勾线",
     "category": "水彩笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 65.1,
+        "avgPrice": 20.6,
+        "sales": 119004,
+        "revenue": 2451482
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 20.6,
         "sales": 121968,
-        "revenue": 7940117
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 65.1,
-        "sales": 43882,
-        "revenue": 2856718
+        "revenue": 2512541
       },
       {
         "platform": "京东",
-        "avgPrice": 74.9,
-        "sales": 37196,
-        "revenue": 2785980
+        "avgPrice": 23.7,
+        "sales": 43882,
+        "revenue": 1040003
       },
       {
         "platform": "抖音",
-        "avgPrice": 65.1,
-        "sales": 47093,
-        "revenue": 3065754
+        "avgPrice": 20.6,
+        "sales": 37196,
+        "revenue": 766238
       },
       {
         "platform": "拼多多",
-        "avgPrice": 45.6,
-        "sales": 94171,
-        "revenue": 4294198
+        "avgPrice": 14.4,
+        "sales": 47093,
+        "revenue": 678139
       }
     ]
   },
   {
-    "name": "真彩 可擦水彩笔",
+    "name": "马利 双头水彩笔",
     "category": "水彩笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 58.5,
-        "sales": 95338,
-        "revenue": 5577273
+        "avgPrice": 59.3,
+        "sales": 105351,
+        "revenue": 6247314
       },
       {
         "platform": "天猫",
-        "avgPrice": 58.5,
-        "sales": 59221,
-        "revenue": 3464429
+        "avgPrice": 59.3,
+        "sales": 95338,
+        "revenue": 5653543
       },
       {
         "platform": "京东",
-        "avgPrice": 67.3,
-        "sales": 59593,
-        "revenue": 4010609
+        "avgPrice": 68.2,
+        "sales": 59221,
+        "revenue": 4038872
       },
       {
         "platform": "抖音",
-        "avgPrice": 58.5,
-        "sales": 44366,
-        "revenue": 2595411
+        "avgPrice": 59.3,
+        "sales": 59593,
+        "revenue": 3533865
       },
       {
         "platform": "拼多多",
-        "avgPrice": 40.9,
-        "sales": 58578,
-        "revenue": 2395840
+        "avgPrice": 41.5,
+        "sales": 44366,
+        "revenue": 1841189
+      }
+    ]
+  },
+  {
+    "name": "辉柏嘉 可擦水彩笔",
+    "category": "水彩笔",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 43.9,
+        "sales": 100070,
+        "revenue": 4393073
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 43.9,
+        "sales": 26505,
+        "revenue": 1163570
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 50.5,
+        "sales": 88841,
+        "revenue": 4486471
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 43.9,
+        "sales": 45342,
+        "revenue": 1990514
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 30.7,
+        "sales": 77540,
+        "revenue": 2380478
       }
     ]
   },
@@ -10770,33 +10434,33 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 37.2,
-        "sales": 63116,
-        "revenue": 2347915
+        "avgPrice": 65.1,
+        "sales": 12757,
+        "revenue": 830481
       },
       {
         "platform": "天猫",
-        "avgPrice": 37.2,
-        "sales": 12597,
-        "revenue": 468608
+        "avgPrice": 65.1,
+        "sales": 57842,
+        "revenue": 3765514
       },
       {
         "platform": "京东",
-        "avgPrice": 42.8,
-        "sales": 55313,
-        "revenue": 2367396
+        "avgPrice": 74.9,
+        "sales": 34145,
+        "revenue": 2557461
       },
       {
         "platform": "抖音",
-        "avgPrice": 37.2,
-        "sales": 65199,
-        "revenue": 2425403
+        "avgPrice": 65.1,
+        "sales": 26590,
+        "revenue": 1731009
       },
       {
         "platform": "拼多多",
-        "avgPrice": 26,
-        "sales": 28070,
-        "revenue": 729820
+        "avgPrice": 45.6,
+        "sales": 55554,
+        "revenue": 2533262
       }
     ]
   },
@@ -10806,69 +10470,69 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 20.8,
-        "sales": 57842,
-        "revenue": 1203114
+        "avgPrice": 61.1,
+        "sales": 56463,
+        "revenue": 3449889
       },
       {
         "platform": "天猫",
-        "avgPrice": 20.8,
-        "sales": 34145,
-        "revenue": 710216
+        "avgPrice": 61.1,
+        "sales": 38154,
+        "revenue": 2331209
       },
       {
         "platform": "京东",
-        "avgPrice": 23.9,
-        "sales": 26590,
-        "revenue": 635501
+        "avgPrice": 70.3,
+        "sales": 31645,
+        "revenue": 2224644
       },
       {
         "platform": "抖音",
-        "avgPrice": 20.8,
-        "sales": 55554,
-        "revenue": 1155523
+        "avgPrice": 61.1,
+        "sales": 58274,
+        "revenue": 3560541
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.6,
-        "sales": 39676,
-        "revenue": 579270
+        "avgPrice": 42.8,
+        "sales": 64349,
+        "revenue": 2754137
       }
     ]
   },
   {
-    "name": "兄弟 热敏标签纸 卷装",
+    "name": "得力 热敏标签纸 卷装",
     "category": "标签贴纸",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 103.8,
-        "sales": 38154,
-        "revenue": 3960385
+        "avgPrice": 30.1,
+        "sales": 53683,
+        "revenue": 1615858
       },
       {
         "platform": "天猫",
-        "avgPrice": 103.8,
-        "sales": 31645,
-        "revenue": 3284751
+        "avgPrice": 30.1,
+        "sales": 62138,
+        "revenue": 1870354
       },
       {
         "platform": "京东",
-        "avgPrice": 119.4,
-        "sales": 58274,
-        "revenue": 6957916
+        "avgPrice": 34.6,
+        "sales": 32712,
+        "revenue": 1131835
       },
       {
         "platform": "抖音",
-        "avgPrice": 103.8,
-        "sales": 64349,
-        "revenue": 6679426
+        "avgPrice": 30.1,
+        "sales": 47341,
+        "revenue": 1424964
       },
       {
         "platform": "拼多多",
-        "avgPrice": 72.7,
-        "sales": 32727,
-        "revenue": 2379253
+        "avgPrice": 21.1,
+        "sales": 10770,
+        "revenue": 227247
       }
     ]
   },
@@ -10878,105 +10542,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 98.5,
-        "sales": 62138,
-        "revenue": 6120593
+        "avgPrice": 105.8,
+        "sales": 68456,
+        "revenue": 7242645
       },
       {
         "platform": "天猫",
-        "avgPrice": 98.5,
-        "sales": 32712,
-        "revenue": 3222132
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 113.3,
-        "sales": 47341,
-        "revenue": 5363735
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 98.5,
-        "sales": 10770,
-        "revenue": 1060845
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 68.9,
-        "sales": 14464,
-        "revenue": 996570
-      }
-    ]
-  },
-  {
-    "name": "雅柯莱 书脊标签",
-    "category": "标签贴纸",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 126.6,
+        "avgPrice": 105.8,
         "sales": 56330,
-        "revenue": 7131378
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 126.6,
-        "sales": 43065,
-        "revenue": 5452029
+        "revenue": 5959714
       },
       {
         "platform": "京东",
-        "avgPrice": 145.6,
-        "sales": 29725,
-        "revenue": 4327960
+        "avgPrice": 121.7,
+        "sales": 43065,
+        "revenue": 5241011
       },
       {
         "platform": "抖音",
-        "avgPrice": 126.6,
-        "sales": 10771,
-        "revenue": 1363609
+        "avgPrice": 105.8,
+        "sales": 29725,
+        "revenue": 3144905
       },
       {
         "platform": "拼多多",
-        "avgPrice": 88.6,
-        "sales": 62074,
-        "revenue": 5499756
+        "avgPrice": 74.1,
+        "sales": 10771,
+        "revenue": 798131
       }
     ]
   },
   {
-    "name": "兄弟 收纳标签贴",
+    "name": "晨光 书脊标签",
     "category": "标签贴纸",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 102.5,
-        "sales": 41617,
-        "revenue": 4265743
+        "avgPrice": 69.7,
+        "sales": 55762,
+        "revenue": 3886611
       },
       {
         "platform": "天猫",
-        "avgPrice": 102.5,
-        "sales": 64699,
-        "revenue": 6631648
+        "avgPrice": 69.7,
+        "sales": 41617,
+        "revenue": 2900705
       },
       {
         "platform": "京东",
-        "avgPrice": 117.9,
-        "sales": 56070,
-        "revenue": 6610653
+        "avgPrice": 80.2,
+        "sales": 64699,
+        "revenue": 5188860
       },
       {
         "platform": "抖音",
-        "avgPrice": 102.5,
-        "sales": 32575,
-        "revenue": 3338938
+        "avgPrice": 69.7,
+        "sales": 56070,
+        "revenue": 3908079
       },
       {
         "platform": "拼多多",
-        "avgPrice": 71.8,
-        "sales": 31869,
-        "revenue": 2288194
+        "avgPrice": 48.8,
+        "sales": 32575,
+        "revenue": 1589660
+      }
+    ]
+  },
+  {
+    "name": "得力 收纳标签贴",
+    "category": "标签贴纸",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 90.4,
+        "sales": 60706,
+        "revenue": 5487822
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 90.4,
+        "sales": 73922,
+        "revenue": 6682549
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 104,
+        "sales": 49210,
+        "revenue": 5117840
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 90.4,
+        "sales": 12087,
+        "revenue": 1092665
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 63.3,
+        "sales": 18517,
+        "revenue": 1172126
       }
     ]
   },
@@ -10986,357 +10650,357 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.2,
-        "sales": 119690,
-        "revenue": 3255568
+        "avgPrice": 14.2,
+        "sales": 18251,
+        "revenue": 259164
       },
       {
         "platform": "天猫",
-        "avgPrice": 27.2,
-        "sales": 72678,
-        "revenue": 1976842
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 31.3,
-        "sales": 119647,
-        "revenue": 3744951
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 27.2,
-        "sales": 44563,
-        "revenue": 1212114
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 19,
-        "sales": 123499,
-        "revenue": 2346481
-      }
-    ]
-  },
-  {
-    "name": "儿童乐园 毛毡手工包",
-    "category": "手工DIY套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 17.2,
+        "avgPrice": 14.2,
         "sales": 78314,
-        "revenue": 1347001
+        "revenue": 1112059
       },
       {
-        "platform": "天猫",
-        "avgPrice": 17.2,
+        "platform": "京东",
+        "avgPrice": 16.3,
         "sales": 14033,
-        "revenue": 241368
+        "revenue": 228738
       },
       {
-        "platform": "京东",
-        "avgPrice": 19.8,
+        "platform": "抖音",
+        "avgPrice": 14.2,
         "sales": 72562,
-        "revenue": 1436728
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 17.2,
-        "sales": 58528,
-        "revenue": 1006682
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 12,
-        "sales": 92344,
-        "revenue": 1108128
-      }
-    ]
-  },
-  {
-    "name": "儿童乐园 编织手链材料包",
-    "category": "手工DIY套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 24.7,
-        "sales": 40208,
-        "revenue": 993138
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 24.7,
-        "sales": 63002,
-        "revenue": 1556149
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 28.4,
-        "sales": 25523,
-        "revenue": 724853
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 24.7,
-        "sales": 94399,
-        "revenue": 2331655
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.3,
-        "sales": 71592,
-        "revenue": 1238542
-      }
-    ]
-  },
-  {
-    "name": "得力 衍纸套装",
-    "category": "手工DIY套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 21.4,
-        "sales": 44975,
-        "revenue": 962465
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 21.4,
-        "sales": 8056,
-        "revenue": 172398
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 24.6,
-        "sales": 23404,
-        "revenue": 575738
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 21.4,
-        "sales": 106592,
-        "revenue": 2281069
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 15,
-        "sales": 16776,
-        "revenue": 251640
-      }
-    ]
-  },
-  {
-    "name": "美乐 创意美劳材料包",
-    "category": "手工DIY套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 61.1,
-        "sales": 64484,
-        "revenue": 3939972
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 61.1,
-        "sales": 98403,
-        "revenue": 6012423
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 70.3,
-        "sales": 59741,
-        "revenue": 4199792
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 61.1,
-        "sales": 102663,
-        "revenue": 6272709
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 42.8,
-        "sales": 112204,
-        "revenue": 4802331
-      }
-    ]
-  },
-  {
-    "name": "儿童乐园 拼豆套装",
-    "category": "手工DIY套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 46.9,
-        "sales": 41350,
-        "revenue": 1939315
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 46.9,
-        "sales": 39048,
-        "revenue": 1831351
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 53.9,
-        "sales": 9282,
-        "revenue": 500300
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 46.9,
-        "sales": 62187,
-        "revenue": 2916570
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 32.8,
-        "sales": 45386,
-        "revenue": 1488661
-      }
-    ]
-  },
-  {
-    "name": "天文 自动进铅卷笔器",
-    "category": "卷笔刀/卷笔器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 25.1,
-        "sales": 13694,
-        "revenue": 343719
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 25.1,
-        "sales": 7298,
-        "revenue": 183180
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 28.9,
-        "sales": 24256,
-        "revenue": 700998
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 25.1,
-        "sales": 78653,
-        "revenue": 1974190
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.6,
-        "sales": 67532,
-        "revenue": 1188563
-      }
-    ]
-  },
-  {
-    "name": "猫太子 双孔卷笔刀",
-    "category": "卷笔刀/卷笔器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 14.1,
-        "sales": 48677,
-        "revenue": 686346
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 14.1,
-        "sales": 72111,
-        "revenue": 1016765
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 16.2,
-        "sales": 82050,
-        "revenue": 1329210
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 14.1,
-        "sales": 20137,
-        "revenue": 283932
+        "revenue": 1030380
       },
       {
         "platform": "拼多多",
         "avgPrice": 9.9,
-        "sales": 95874,
-        "revenue": 949153
+        "sales": 58528,
+        "revenue": 579427
       }
     ]
   },
   {
-    "name": "迪士尼 静音电动削笔器",
+    "name": "晨光 毛毡手工包",
+    "category": "手工DIY套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 20.6,
+        "sales": 33778,
+        "revenue": 695827
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 20.6,
+        "sales": 40208,
+        "revenue": 828285
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 23.7,
+        "sales": 63002,
+        "revenue": 1493147
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 20.6,
+        "sales": 25523,
+        "revenue": 525774
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 14.4,
+        "sales": 94399,
+        "revenue": 1359346
+      }
+    ]
+  },
+  {
+    "name": "得力 编织手链材料包",
+    "category": "手工DIY套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 36.1,
+        "sales": 26923,
+        "revenue": 971920
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 36.1,
+        "sales": 44975,
+        "revenue": 1623598
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 41.5,
+        "sales": 8056,
+        "revenue": 334324
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 36.1,
+        "sales": 23404,
+        "revenue": 844884
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 25.3,
+        "sales": 106592,
+        "revenue": 2696778
+      }
+    ]
+  },
+  {
+    "name": "儿童乐园 衍纸套装",
+    "category": "手工DIY套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 31.3,
+        "sales": 108785,
+        "revenue": 3404971
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 31.3,
+        "sales": 64484,
+        "revenue": 2018349
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 36,
+        "sales": 98403,
+        "revenue": 3542508
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 31.3,
+        "sales": 59741,
+        "revenue": 1869893
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 21.9,
+        "sales": 102663,
+        "revenue": 2248320
+      }
+    ]
+  },
+  {
+    "name": "幻彩 创意美劳材料包",
+    "category": "手工DIY套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 17.6,
+        "sales": 79383,
+        "revenue": 1397141
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 17.6,
+        "sales": 41350,
+        "revenue": 727760
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 20.2,
+        "sales": 39048,
+        "revenue": 788770
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 17.6,
+        "sales": 9282,
+        "revenue": 163363
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 12.3,
+        "sales": 62187,
+        "revenue": 764900
+      }
+    ]
+  },
+  {
+    "name": "美乐 拼豆套装",
+    "category": "手工DIY套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 51.2,
+        "sales": 101568,
+        "revenue": 5200282
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 51.2,
+        "sales": 103599,
+        "revenue": 5304269
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 58.9,
+        "sales": 73791,
+        "revenue": 4346290
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 51.2,
+        "sales": 108920,
+        "revenue": 5576704
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 35.8,
+        "sales": 98204,
+        "revenue": 3515703
+      }
+    ]
+  },
+  {
+    "name": "猫太子 自动进铅卷笔器",
     "category": "卷笔刀/卷笔器",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 45.1,
+        "avgPrice": 41.4,
+        "sales": 13996,
+        "revenue": 579434
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 41.4,
+        "sales": 48677,
+        "revenue": 2015228
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 47.6,
+        "sales": 72111,
+        "revenue": 3432484
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 41.4,
+        "sales": 82050,
+        "revenue": 3396870
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 29,
+        "sales": 20137,
+        "revenue": 583973
+      }
+    ]
+  },
+  {
+    "name": "迪士尼 双孔卷笔刀",
+    "category": "卷笔刀/卷笔器",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 54,
+        "sales": 73299,
+        "revenue": 3958146
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 54,
         "sales": 14528,
-        "revenue": 655213
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 45.1,
-        "sales": 59866,
-        "revenue": 2699957
+        "revenue": 784512
       },
       {
         "platform": "京东",
-        "avgPrice": 51.9,
-        "sales": 57623,
-        "revenue": 2990634
+        "avgPrice": 62.1,
+        "sales": 59866,
+        "revenue": 3717679
       },
       {
         "platform": "抖音",
-        "avgPrice": 45.1,
-        "sales": 65548,
-        "revenue": 2956215
+        "avgPrice": 54,
+        "sales": 57623,
+        "revenue": 3111642
       },
       {
         "platform": "拼多多",
-        "avgPrice": 31.6,
-        "sales": 72138,
-        "revenue": 2279561
+        "avgPrice": 37.8,
+        "sales": 65548,
+        "revenue": 2477714
       }
     ]
   },
   {
-    "name": "猫太子 透明卷笔刀",
+    "name": "猫太子 静音电动削笔器",
     "category": "卷笔刀/卷笔器",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 41.3,
-        "sales": 83482,
-        "revenue": 3447807
+        "avgPrice": 43.2,
+        "sales": 66117,
+        "revenue": 2856254
       },
       {
         "platform": "天猫",
-        "avgPrice": 41.3,
-        "sales": 64499,
-        "revenue": 2663809
+        "avgPrice": 43.2,
+        "sales": 83482,
+        "revenue": 3606422
       },
       {
         "platform": "京东",
-        "avgPrice": 47.5,
-        "sales": 69128,
-        "revenue": 3283580
+        "avgPrice": 49.7,
+        "sales": 64499,
+        "revenue": 3205600
       },
       {
         "platform": "抖音",
-        "avgPrice": 41.3,
-        "sales": 64050,
-        "revenue": 2645265
+        "avgPrice": 43.2,
+        "sales": 69128,
+        "revenue": 2986330
       },
       {
         "platform": "拼多多",
-        "avgPrice": 28.9,
-        "sales": 9311,
-        "revenue": 269088
+        "avgPrice": 30.2,
+        "sales": 64050,
+        "revenue": 1934310
+      }
+    ]
+  },
+  {
+    "name": "得力 透明卷笔刀",
+    "category": "卷笔刀/卷笔器",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 55.6,
+        "sales": 82972,
+        "revenue": 4613243
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 55.6,
+        "sales": 28609,
+        "revenue": 1590660
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 63.9,
+        "sales": 6951,
+        "revenue": 444169
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 55.6,
+        "sales": 57265,
+        "revenue": 3183934
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 38.9,
+        "sales": 57762,
+        "revenue": 2246942
       }
     ]
   },
@@ -11346,177 +11010,177 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 50.1,
-        "sales": 28609,
-        "revenue": 1433311
+        "avgPrice": 45.5,
+        "sales": 53220,
+        "revenue": 2421510
       },
       {
         "platform": "天猫",
-        "avgPrice": 50.1,
-        "sales": 6951,
-        "revenue": 348245
+        "avgPrice": 45.5,
+        "sales": 11638,
+        "revenue": 529529
       },
       {
         "platform": "京东",
-        "avgPrice": 57.6,
-        "sales": 57265,
-        "revenue": 3298464
+        "avgPrice": 52.3,
+        "sales": 70509,
+        "revenue": 3687621
       },
       {
         "platform": "抖音",
-        "avgPrice": 50.1,
-        "sales": 57762,
-        "revenue": 2893876
+        "avgPrice": 45.5,
+        "sales": 34639,
+        "revenue": 1576075
       },
       {
         "platform": "拼多多",
-        "avgPrice": 35.1,
-        "sales": 97135,
-        "revenue": 3409439
+        "avgPrice": 31.8,
+        "sales": 57294,
+        "revenue": 1821949
       }
     ]
   },
   {
-    "name": "猫太子 便携卷笔刀",
+    "name": "天文 便携卷笔刀",
     "category": "卷笔刀/卷笔器",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 34.6,
-        "sales": 11638,
-        "revenue": 402675
+        "avgPrice": 46.6,
+        "sales": 81983,
+        "revenue": 3820408
       },
       {
         "platform": "天猫",
-        "avgPrice": 34.6,
-        "sales": 70509,
-        "revenue": 2439611
+        "avgPrice": 46.6,
+        "sales": 67226,
+        "revenue": 3132732
       },
       {
         "platform": "京东",
-        "avgPrice": 39.8,
-        "sales": 34639,
-        "revenue": 1378632
+        "avgPrice": 53.6,
+        "sales": 53200,
+        "revenue": 2851520
       },
       {
         "platform": "抖音",
-        "avgPrice": 34.6,
-        "sales": 57294,
-        "revenue": 1982372
+        "avgPrice": 46.6,
+        "sales": 65979,
+        "revenue": 3074621
       },
       {
         "platform": "拼多多",
-        "avgPrice": 24.2,
-        "sales": 31375,
-        "revenue": 759275
+        "avgPrice": 32.6,
+        "sales": 40074,
+        "revenue": 1306412
       }
     ]
   },
   {
-    "name": "广博 索引标签贴",
+    "name": "得力 索引标签贴",
     "category": "便签本/便条纸/N次贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 10.8,
-        "sales": 46051,
-        "revenue": 497351
+        "avgPrice": 8.4,
+        "sales": 24818,
+        "revenue": 208471
       },
       {
         "platform": "天猫",
-        "avgPrice": 10.8,
-        "sales": 89083,
-        "revenue": 962096
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 12.4,
-        "sales": 82738,
-        "revenue": 1025951
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 10.8,
-        "sales": 49553,
-        "revenue": 535172
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 7.6,
-        "sales": 64482,
-        "revenue": 490063
-      }
-    ]
-  },
-  {
-    "name": "得力 创意便签 造型",
-    "category": "便签本/便条纸/N次贴",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 4.7,
+        "avgPrice": 8.4,
         "sales": 61773,
-        "revenue": 290333
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 4.7,
-        "sales": 69215,
-        "revenue": 325311
+        "revenue": 518893
       },
       {
         "platform": "京东",
-        "avgPrice": 5.4,
-        "sales": 22491,
-        "revenue": 121451
+        "avgPrice": 9.7,
+        "sales": 69215,
+        "revenue": 671386
       },
       {
         "platform": "抖音",
-        "avgPrice": 4.7,
-        "sales": 153240,
-        "revenue": 720228
+        "avgPrice": 8.4,
+        "sales": 22491,
+        "revenue": 188924
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3.3,
-        "sales": 42991,
-        "revenue": 141870
+        "avgPrice": 5.9,
+        "sales": 153240,
+        "revenue": 904116
       }
     ]
   },
   {
-    "name": "齐心 便签本 横线",
+    "name": "3M 创意便签 造型",
     "category": "便签本/便条纸/N次贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 7.6,
-        "sales": 159203,
-        "revenue": 1209943
+        "avgPrice": 17.2,
+        "sales": 45944,
+        "revenue": 790237
       },
       {
         "platform": "天猫",
-        "avgPrice": 7.6,
-        "sales": 121819,
-        "revenue": 925824
+        "avgPrice": 17.2,
+        "sales": 159203,
+        "revenue": 2738292
       },
       {
         "platform": "京东",
-        "avgPrice": 8.7,
-        "sales": 166031,
-        "revenue": 1444470
+        "avgPrice": 19.8,
+        "sales": 121819,
+        "revenue": 2412016
       },
       {
         "platform": "抖音",
-        "avgPrice": 7.6,
-        "sales": 97969,
-        "revenue": 744564
+        "avgPrice": 17.2,
+        "sales": 166031,
+        "revenue": 2855733
       },
       {
         "platform": "拼多多",
-        "avgPrice": 5.3,
-        "sales": 152460,
-        "revenue": 808038
+        "avgPrice": 12,
+        "sales": 97969,
+        "revenue": 1175628
+      }
+    ]
+  },
+  {
+    "name": "广博 便签本 横线",
+    "category": "便签本/便条纸/N次贴",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 23.5,
+        "sales": 30547,
+        "revenue": 717855
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 23.5,
+        "sales": 65728,
+        "revenue": 1544608
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 27,
+        "sales": 51110,
+        "revenue": 1379970
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 23.5,
+        "sales": 45871,
+        "revenue": 1077969
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 16.4,
+        "sales": 75858,
+        "revenue": 1244071
       }
     ]
   },
@@ -11526,69 +11190,69 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 5.5,
-        "sales": 65728,
-        "revenue": 361504
+        "avgPrice": 14.5,
+        "sales": 138439,
+        "revenue": 2007366
       },
       {
         "platform": "天猫",
-        "avgPrice": 5.5,
-        "sales": 51110,
-        "revenue": 281105
+        "avgPrice": 14.5,
+        "sales": 174360,
+        "revenue": 2528220
       },
       {
         "platform": "京东",
-        "avgPrice": 6.3,
-        "sales": 45871,
-        "revenue": 288987
+        "avgPrice": 16.7,
+        "sales": 52194,
+        "revenue": 871640
       },
       {
         "platform": "抖音",
-        "avgPrice": 5.5,
-        "sales": 75858,
-        "revenue": 417219
+        "avgPrice": 14.5,
+        "sales": 117320,
+        "revenue": 1701140
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3.8,
-        "sales": 173616,
-        "revenue": 659741
+        "avgPrice": 10.1,
+        "sales": 59500,
+        "revenue": 600950
       }
     ]
   },
   {
-    "name": "晨光 指示标签 箭头",
+    "name": "3M 指示标签 箭头",
     "category": "便签本/便条纸/N次贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 20.1,
-        "sales": 174360,
-        "revenue": 3504636
+        "avgPrice": 10.8,
+        "sales": 76046,
+        "revenue": 821297
       },
       {
         "platform": "天猫",
-        "avgPrice": 20.1,
-        "sales": 52194,
-        "revenue": 1049099
+        "avgPrice": 10.8,
+        "sales": 147595,
+        "revenue": 1594026
       },
       {
         "platform": "京东",
-        "avgPrice": 23.1,
-        "sales": 117320,
-        "revenue": 2710092
+        "avgPrice": 12.4,
+        "sales": 28958,
+        "revenue": 359079
       },
       {
         "platform": "抖音",
-        "avgPrice": 20.1,
-        "sales": 59500,
-        "revenue": 1195950
+        "avgPrice": 10.8,
+        "sales": 108852,
+        "revenue": 1175602
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.1,
-        "sales": 19816,
-        "revenue": 279406
+        "avgPrice": 7.6,
+        "sales": 114030,
+        "revenue": 866628
       }
     ]
   },
@@ -11598,177 +11262,177 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 11.6,
-        "sales": 147595,
-        "revenue": 1712102
+        "avgPrice": 20.7,
+        "sales": 145020,
+        "revenue": 3001914
       },
       {
         "platform": "天猫",
-        "avgPrice": 11.6,
-        "sales": 28958,
-        "revenue": 335913
+        "avgPrice": 20.7,
+        "sales": 91027,
+        "revenue": 1884259
       },
       {
         "platform": "京东",
-        "avgPrice": 13.3,
-        "sales": 108852,
-        "revenue": 1447732
+        "avgPrice": 23.8,
+        "sales": 83732,
+        "revenue": 1992822
       },
       {
         "platform": "抖音",
-        "avgPrice": 11.6,
-        "sales": 114030,
-        "revenue": 1322748
+        "avgPrice": 20.7,
+        "sales": 79318,
+        "revenue": 1641883
       },
       {
         "platform": "拼多多",
-        "avgPrice": 8.1,
-        "sales": 47446,
-        "revenue": 384313
+        "avgPrice": 14.5,
+        "sales": 167344,
+        "revenue": 2426488
       }
     ]
   },
   {
-    "name": "纽赛 创意笔筒 收纳",
+    "name": "无印良品 创意笔筒 收纳",
     "category": "笔筒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 25.4,
-        "sales": 29180,
-        "revenue": 741172
+        "avgPrice": 43.1,
+        "sales": 10982,
+        "revenue": 473324
       },
       {
         "platform": "天猫",
-        "avgPrice": 25.4,
-        "sales": 70308,
-        "revenue": 1785823
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 29.2,
-        "sales": 52488,
-        "revenue": 1532650
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 25.4,
-        "sales": 53462,
-        "revenue": 1357935
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.8,
-        "sales": 74265,
-        "revenue": 1321917
-      }
-    ]
-  },
-  {
-    "name": "无印良品 木质笔筒",
-    "category": "笔筒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 12.7,
+        "avgPrice": 43.1,
         "sales": 16812,
-        "revenue": 213512
+        "revenue": 724597
       },
       {
-        "platform": "天猫",
-        "avgPrice": 12.7,
+        "platform": "京东",
+        "avgPrice": 49.6,
         "sales": 74911,
-        "revenue": 951370
+        "revenue": 3715586
       },
       {
-        "platform": "京东",
-        "avgPrice": 14.6,
+        "platform": "抖音",
+        "avgPrice": 43.1,
         "sales": 28058,
-        "revenue": 409647
+        "revenue": 1209300
       },
       {
-        "platform": "抖音",
-        "avgPrice": 12.7,
+        "platform": "拼多多",
+        "avgPrice": 30.2,
         "sales": 46200,
-        "revenue": 586740
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 8.9,
-        "sales": 35267,
-        "revenue": 313876
+        "revenue": 1395240
       }
     ]
   },
   {
-    "name": "晨光 斜插式笔筒",
+    "name": "纽赛 木质笔筒",
     "category": "笔筒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 37.3,
+        "avgPrice": 25.1,
+        "sales": 54338,
+        "revenue": 1363884
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 25.1,
         "sales": 55366,
-        "revenue": 2065152
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 37.3,
-        "sales": 59435,
-        "revenue": 2216926
+        "revenue": 1389687
       },
       {
         "platform": "京东",
-        "avgPrice": 42.9,
-        "sales": 29513,
-        "revenue": 1266108
+        "avgPrice": 28.9,
+        "sales": 59435,
+        "revenue": 1717672
       },
       {
         "platform": "抖音",
-        "avgPrice": 37.3,
-        "sales": 35073,
-        "revenue": 1308223
+        "avgPrice": 25.1,
+        "sales": 29513,
+        "revenue": 740776
       },
       {
         "platform": "拼多多",
-        "avgPrice": 26.1,
-        "sales": 7369,
-        "revenue": 192331
+        "avgPrice": 17.6,
+        "sales": 35073,
+        "revenue": 617285
       }
     ]
   },
   {
-    "name": "得力 透明笔筒",
+    "name": "得力 斜插式笔筒",
     "category": "笔筒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 32.9,
-        "sales": 63612,
-        "revenue": 2092835
+        "avgPrice": 17.2,
+        "sales": 46574,
+        "revenue": 801073
       },
       {
         "platform": "天猫",
-        "avgPrice": 32.9,
-        "sales": 65170,
-        "revenue": 2144093
+        "avgPrice": 17.2,
+        "sales": 63612,
+        "revenue": 1094126
       },
       {
         "platform": "京东",
-        "avgPrice": 37.8,
-        "sales": 57337,
-        "revenue": 2167339
+        "avgPrice": 19.8,
+        "sales": 65170,
+        "revenue": 1290366
       },
       {
         "platform": "抖音",
-        "avgPrice": 32.9,
-        "sales": 17452,
-        "revenue": 574171
+        "avgPrice": 17.2,
+        "sales": 57337,
+        "revenue": 986196
       },
       {
         "platform": "拼多多",
-        "avgPrice": 23,
-        "sales": 71398,
-        "revenue": 1642154
+        "avgPrice": 12,
+        "sales": 17452,
+        "revenue": 209424
+      }
+    ]
+  },
+  {
+    "name": "无印良品 透明笔筒",
+    "category": "笔筒",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 14.4,
+        "sales": 56546,
+        "revenue": 814262
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 14.4,
+        "sales": 57862,
+        "revenue": 833213
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 16.6,
+        "sales": 39331,
+        "revenue": 652895
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 14.4,
+        "sales": 57536,
+        "revenue": 828518
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 10.1,
+        "sales": 8220,
+        "revenue": 83022
       }
     ]
   },
@@ -11778,141 +11442,141 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 38.5,
-        "sales": 57862,
-        "revenue": 2227687
+        "avgPrice": 48.2,
+        "sales": 25561,
+        "revenue": 1232040
       },
       {
         "platform": "天猫",
-        "avgPrice": 38.5,
-        "sales": 39331,
-        "revenue": 1514244
+        "avgPrice": 48.2,
+        "sales": 47660,
+        "revenue": 2297212
       },
       {
         "platform": "京东",
-        "avgPrice": 44.3,
-        "sales": 57536,
-        "revenue": 2548845
+        "avgPrice": 55.4,
+        "sales": 42005,
+        "revenue": 2327077
       },
       {
         "platform": "抖音",
-        "avgPrice": 38.5,
-        "sales": 8220,
-        "revenue": 316470
+        "avgPrice": 48.2,
+        "sales": 66975,
+        "revenue": 3228195
       },
       {
         "platform": "拼多多",
-        "avgPrice": 26.9,
-        "sales": 14720,
-        "revenue": 395968
+        "avgPrice": 33.7,
+        "sales": 54729,
+        "revenue": 1844367
       }
     ]
   },
   {
-    "name": "无印良品 儿童卡通笔筒",
+    "name": "得力 儿童卡通笔筒",
     "category": "笔筒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 21,
-        "sales": 47660,
-        "revenue": 1000860
+        "avgPrice": 43.7,
+        "sales": 62844,
+        "revenue": 2746283
       },
       {
         "platform": "天猫",
-        "avgPrice": 21,
-        "sales": 42005,
-        "revenue": 882105
+        "avgPrice": 43.7,
+        "sales": 27963,
+        "revenue": 1221983
       },
       {
         "platform": "京东",
-        "avgPrice": 24.1,
-        "sales": 66975,
-        "revenue": 1614098
+        "avgPrice": 50.3,
+        "sales": 32083,
+        "revenue": 1613775
       },
       {
         "platform": "抖音",
-        "avgPrice": 21,
-        "sales": 54729,
-        "revenue": 1149309
+        "avgPrice": 43.7,
+        "sales": 18967,
+        "revenue": 828858
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.7,
-        "sales": 17383,
-        "revenue": 255530
+        "avgPrice": 30.6,
+        "sales": 43507,
+        "revenue": 1331314
       }
     ]
   },
   {
-    "name": "晨光 磁吸收纳盒 模块化",
+    "name": "宜家 磁吸收纳盒 模块化",
     "category": "文具收纳盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 47.5,
-        "sales": 37141,
-        "revenue": 1764198
+        "avgPrice": 48.5,
+        "sales": 9137,
+        "revenue": 443145
       },
       {
         "platform": "天猫",
-        "avgPrice": 47.5,
-        "sales": 32073,
-        "revenue": 1523468
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 54.6,
-        "sales": 68902,
-        "revenue": 3762049
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 47.5,
-        "sales": 14746,
-        "revenue": 700435
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 33.3,
-        "sales": 50799,
-        "revenue": 1691607
-      }
-    ]
-  },
-  {
-    "name": "无印良品 亚克力收纳架",
-    "category": "文具收纳盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 19.9,
+        "avgPrice": 48.5,
         "sales": 5066,
-        "revenue": 100813
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 19.9,
-        "sales": 50072,
-        "revenue": 996433
+        "revenue": 245701
       },
       {
         "platform": "京东",
-        "avgPrice": 22.9,
-        "sales": 45038,
-        "revenue": 1031370
+        "avgPrice": 55.8,
+        "sales": 50072,
+        "revenue": 2794018
       },
       {
         "platform": "抖音",
-        "avgPrice": 19.9,
-        "sales": 25560,
-        "revenue": 508644
+        "avgPrice": 48.5,
+        "sales": 45038,
+        "revenue": 2184343
       },
       {
         "platform": "拼多多",
-        "avgPrice": 13.9,
-        "sales": 50902,
-        "revenue": 707538
+        "avgPrice": 33.9,
+        "sales": 25560,
+        "revenue": 866484
+      }
+    ]
+  },
+  {
+    "name": "宜家 亚克力收纳架",
+    "category": "文具收纳盒",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 25,
+        "sales": 18096,
+        "revenue": 452400
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 25,
+        "sales": 41711,
+        "revenue": 1042775
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 28.7,
+        "sales": 66195,
+        "revenue": 1899797
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 25,
+        "sales": 56428,
+        "revenue": 1410700
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 17.5,
+        "sales": 26727,
+        "revenue": 467723
       }
     ]
   },
@@ -11922,285 +11586,285 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 29.3,
-        "sales": 41711,
-        "revenue": 1222132
+        "avgPrice": 47.7,
+        "sales": 8890,
+        "revenue": 424053
       },
       {
         "platform": "天猫",
-        "avgPrice": 29.3,
-        "sales": 66195,
-        "revenue": 1939514
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 33.7,
-        "sales": 56428,
-        "revenue": 1901624
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 29.3,
-        "sales": 26727,
-        "revenue": 783101
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 20.5,
-        "sales": 17046,
-        "revenue": 349443
-      }
-    ]
-  },
-  {
-    "name": "无印良品 可叠加收纳盒",
-    "category": "文具收纳盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 19.6,
+        "avgPrice": 47.7,
         "sales": 28491,
-        "revenue": 558424
+        "revenue": 1359021
       },
       {
-        "platform": "天猫",
-        "avgPrice": 19.6,
+        "platform": "京东",
+        "avgPrice": 54.9,
         "sales": 37998,
-        "revenue": 744761
+        "revenue": 2086090
       },
       {
-        "platform": "京东",
-        "avgPrice": 22.5,
+        "platform": "抖音",
+        "avgPrice": 47.7,
         "sales": 24256,
-        "revenue": 545760
+        "revenue": 1157011
       },
       {
-        "platform": "抖音",
-        "avgPrice": 19.6,
+        "platform": "拼多多",
+        "avgPrice": 33.4,
         "sales": 70783,
-        "revenue": 1387347
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 13.7,
-        "sales": 68237,
-        "revenue": 934847
+        "revenue": 2364152
       }
     ]
   },
   {
-    "name": "宜家 笔筒收纳架",
+    "name": "晨光 可叠加收纳盒",
     "category": "文具收纳盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 66,
+        "avgPrice": 67.4,
+        "sales": 53102,
+        "revenue": 3579075
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 67.4,
         "sales": 40256,
-        "revenue": 2656896
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 66,
-        "sales": 55227,
-        "revenue": 3644982
+        "revenue": 2713254
       },
       {
         "platform": "京东",
-        "avgPrice": 75.9,
-        "sales": 64260,
-        "revenue": 4877334
+        "avgPrice": 77.5,
+        "sales": 55227,
+        "revenue": 4280093
       },
       {
         "platform": "抖音",
-        "avgPrice": 66,
-        "sales": 58991,
-        "revenue": 3893406
+        "avgPrice": 67.4,
+        "sales": 64260,
+        "revenue": 4331124
       },
       {
         "platform": "拼多多",
-        "avgPrice": 46.2,
-        "sales": 18939,
-        "revenue": 874982
+        "avgPrice": 47.2,
+        "sales": 58991,
+        "revenue": 2784375
       }
     ]
   },
   {
-    "name": "宜家 资料收纳盒",
+    "name": "得力 笔筒收纳架",
     "category": "文具收纳盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.9,
+        "avgPrice": 60,
+        "sales": 16772,
+        "revenue": 1006320
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 60,
         "sales": 30984,
-        "revenue": 864454
+        "revenue": 1859040
       },
       {
-        "platform": "天猫",
-        "avgPrice": 27.9,
+        "platform": "京东",
+        "avgPrice": 69,
         "sales": 70741,
-        "revenue": 1973674
+        "revenue": 4881129
       },
       {
-        "platform": "京东",
-        "avgPrice": 32.1,
+        "platform": "抖音",
+        "avgPrice": 60,
         "sales": 16711,
-        "revenue": 536423
+        "revenue": 1002660
       },
       {
-        "platform": "抖音",
-        "avgPrice": 27.9,
+        "platform": "拼多多",
+        "avgPrice": 42,
         "sales": 59947,
-        "revenue": 1672521
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 19.5,
-        "sales": 12431,
-        "revenue": 242405
+        "revenue": 2517774
       }
     ]
   },
   {
-    "name": "纳川 铁艺收纳架",
-    "category": "桌面收纳架",
+    "name": "纳川 资料收纳盒",
+    "category": "文具收纳盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 58,
-        "sales": 54948,
-        "revenue": 3186984
+        "avgPrice": 83.4,
+        "sales": 63126,
+        "revenue": 5264708
       },
       {
         "platform": "天猫",
-        "avgPrice": 58,
-        "sales": 77192,
-        "revenue": 4477136
+        "avgPrice": 83.4,
+        "sales": 15201,
+        "revenue": 1267763
       },
       {
         "platform": "京东",
-        "avgPrice": 66.7,
-        "sales": 17605,
-        "revenue": 1174254
+        "avgPrice": 95.9,
+        "sales": 26776,
+        "revenue": 2567818
       },
       {
         "platform": "抖音",
-        "avgPrice": 58,
-        "sales": 56040,
-        "revenue": 3250320
+        "avgPrice": 83.4,
+        "sales": 72381,
+        "revenue": 6036575
       },
       {
         "platform": "拼多多",
-        "avgPrice": 40.6,
-        "sales": 32210,
-        "revenue": 1307726
+        "avgPrice": 58.4,
+        "sales": 13955,
+        "revenue": 814972
       }
     ]
   },
   {
-    "name": "得力 可调节桌面架",
+    "name": "纽赛 铁艺收纳架",
     "category": "桌面收纳架",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 24.6,
+        "avgPrice": 24.3,
+        "sales": 9574,
+        "revenue": 232648
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 24.3,
         "sales": 77977,
-        "revenue": 1918234
+        "revenue": 1894841
       },
       {
-        "platform": "天猫",
-        "avgPrice": 24.6,
+        "platform": "京东",
+        "avgPrice": 27.9,
         "sales": 29647,
-        "revenue": 729316
+        "revenue": 827151
       },
       {
-        "platform": "京东",
-        "avgPrice": 28.3,
+        "platform": "抖音",
+        "avgPrice": 24.3,
         "sales": 75492,
-        "revenue": 2136424
+        "revenue": 1834456
       },
       {
-        "platform": "抖音",
-        "avgPrice": 24.6,
+        "platform": "拼多多",
+        "avgPrice": 17,
         "sales": 5768,
-        "revenue": 141893
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.2,
-        "sales": 80784,
-        "revenue": 1389485
+        "revenue": 98056
       }
     ]
   },
   {
-    "name": "晨光 桌上小书架",
+    "name": "晨光 可调节桌面架",
     "category": "桌面收纳架",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 74.1,
+        "avgPrice": 89.7,
+        "sales": 63080,
+        "revenue": 5658276
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 89.7,
         "sales": 33585,
-        "revenue": 2488649
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 74.1,
-        "sales": 87931,
-        "revenue": 6515687
+        "revenue": 3012575
       },
       {
         "platform": "京东",
-        "avgPrice": 85.2,
-        "sales": 15817,
-        "revenue": 1347608
+        "avgPrice": 103.2,
+        "sales": 87931,
+        "revenue": 9074479
       },
       {
         "platform": "抖音",
-        "avgPrice": 74.1,
-        "sales": 22387,
-        "revenue": 1658877
+        "avgPrice": 89.7,
+        "sales": 15817,
+        "revenue": 1418785
       },
       {
         "platform": "拼多多",
-        "avgPrice": 51.9,
-        "sales": 33235,
-        "revenue": 1724897
+        "avgPrice": 62.8,
+        "sales": 22387,
+        "revenue": 1405904
       }
     ]
   },
   {
-    "name": "宜家 杂志收纳架",
+    "name": "纽赛 桌上小书架",
     "category": "桌面收纳架",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 62.3,
-        "sales": 76803,
-        "revenue": 4784827
+        "avgPrice": 75,
+        "sales": 50371,
+        "revenue": 3777825
       },
       {
         "platform": "天猫",
-        "avgPrice": 62.3,
-        "sales": 12430,
-        "revenue": 774389
+        "avgPrice": 75,
+        "sales": 76803,
+        "revenue": 5760225
       },
       {
         "platform": "京东",
-        "avgPrice": 71.6,
-        "sales": 74307,
-        "revenue": 5320381
+        "avgPrice": 86.3,
+        "sales": 12430,
+        "revenue": 1072709
       },
       {
         "platform": "抖音",
-        "avgPrice": 62.3,
-        "sales": 65581,
-        "revenue": 4085696
+        "avgPrice": 75,
+        "sales": 74307,
+        "revenue": 5573025
       },
       {
         "platform": "拼多多",
+        "avgPrice": 52.5,
+        "sales": 65581,
+        "revenue": 3443003
+      }
+    ]
+  },
+  {
+    "name": "晨光 杂志收纳架",
+    "category": "桌面收纳架",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
         "avgPrice": 43.6,
-        "sales": 78060,
-        "revenue": 3403416
+        "sales": 59754,
+        "revenue": 2605274
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 43.6,
+        "sales": 26964,
+        "revenue": 1175630
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 50.1,
+        "sales": 86238,
+        "revenue": 4320524
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 43.6,
+        "sales": 85591,
+        "revenue": 3731768
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 30.5,
+        "sales": 48420,
+        "revenue": 1476810
       }
     ]
   },
@@ -12210,681 +11874,249 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 71,
-        "sales": 26964,
-        "revenue": 1914444
+        "avgPrice": 38.5,
+        "sales": 10028,
+        "revenue": 386078
       },
       {
         "platform": "天猫",
-        "avgPrice": 71,
-        "sales": 86238,
-        "revenue": 6122898
+        "avgPrice": 38.5,
+        "sales": 17116,
+        "revenue": 658966
       },
       {
         "platform": "京东",
-        "avgPrice": 81.6,
-        "sales": 85591,
-        "revenue": 6984226
+        "avgPrice": 44.3,
+        "sales": 35054,
+        "revenue": 1552892
       },
       {
         "platform": "抖音",
-        "avgPrice": 71,
-        "sales": 48420,
-        "revenue": 3437820
+        "avgPrice": 38.5,
+        "sales": 44062,
+        "revenue": 1696387
       },
       {
         "platform": "拼多多",
-        "avgPrice": 49.7,
-        "sales": 28717,
-        "revenue": 1427235
+        "avgPrice": 26.9,
+        "sales": 78608,
+        "revenue": 2114555
       }
     ]
   },
   {
-    "name": "纽赛 多功能桌面架",
+    "name": "得力 多功能桌面架",
     "category": "桌面收纳架",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 25,
-        "sales": 17116,
-        "revenue": 427900
+        "avgPrice": 97.6,
+        "sales": 76261,
+        "revenue": 7443074
       },
       {
         "platform": "天猫",
-        "avgPrice": 25,
-        "sales": 35054,
-        "revenue": 876350
+        "avgPrice": 97.6,
+        "sales": 88741,
+        "revenue": 8661122
       },
       {
         "platform": "京东",
-        "avgPrice": 28.7,
-        "sales": 44062,
-        "revenue": 1264579
+        "avgPrice": 112.2,
+        "sales": 26210,
+        "revenue": 2940762
       },
       {
         "platform": "抖音",
-        "avgPrice": 25,
-        "sales": 78608,
-        "revenue": 1965200
+        "avgPrice": 97.6,
+        "sales": 67580,
+        "revenue": 6595808
       },
       {
         "platform": "拼多多",
-        "avgPrice": 17.5,
-        "sales": 9631,
-        "revenue": 168543
+        "avgPrice": 68.3,
+        "sales": 66458,
+        "revenue": 4539081
       }
     ]
   },
   {
-    "name": "得力 热敏打印机 学生",
-    "category": "错题打印机",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 199.3,
-        "sales": 36703,
-        "revenue": 7314908
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 199.3,
-        "sales": 17537,
-        "revenue": 3495124
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 229.2,
-        "sales": 21473,
-        "revenue": 4921612
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 199.3,
-        "sales": 5833,
-        "revenue": 1162517
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 139.5,
-        "sales": 49599,
-        "revenue": 6919061
-      }
-    ]
-  },
-  {
-    "name": "小猿 错题打印机 高清",
-    "category": "错题打印机",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 100.1,
-        "sales": 36404,
-        "revenue": 3644040
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 100.1,
-        "sales": 47266,
-        "revenue": 4731327
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 115.1,
-        "sales": 7025,
-        "revenue": 808578
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 100.1,
-        "sales": 37354,
-        "revenue": 3739135
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 70.1,
-        "sales": 8933,
-        "revenue": 626203
-      }
-    ]
-  },
-  {
-    "name": "小猿 拍照打印机 作业",
-    "category": "错题打印机",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 126.3,
-        "sales": 10169,
-        "revenue": 1284345
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 126.3,
-        "sales": 6595,
-        "revenue": 832949
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 145.2,
-        "sales": 27823,
-        "revenue": 4039900
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 126.3,
-        "sales": 7847,
-        "revenue": 991076
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 88.4,
-        "sales": 26228,
-        "revenue": 2318555
-      }
-    ]
-  },
-  {
-    "name": "作业帮 标签打印一体机",
-    "category": "错题打印机",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 91.3,
-        "sales": 19496,
-        "revenue": 1779985
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 91.3,
-        "sales": 36387,
-        "revenue": 3322133
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 105,
-        "sales": 19575,
-        "revenue": 2055375
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 91.3,
-        "sales": 25965,
-        "revenue": 2370605
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 63.9,
-        "sales": 41382,
-        "revenue": 2644310
-      }
-    ]
-  },
-  {
-    "name": "作业帮 错题本打印机 A4",
-    "category": "错题打印机",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 215.6,
-        "sales": 3860,
-        "revenue": 832216
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 215.6,
-        "sales": 12046,
-        "revenue": 2597118
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 247.9,
-        "sales": 5312,
-        "revenue": 1316845
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 215.6,
-        "sales": 14959,
-        "revenue": 3225160
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 150.9,
-        "sales": 19999,
-        "revenue": 3017849
-      }
-    ]
-  },
-  {
-    "name": "作业帮 便携打印机 墨盒",
-    "category": "错题打印机",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 289.6,
-        "sales": 46214,
-        "revenue": 13383574
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 289.6,
-        "sales": 39431,
-        "revenue": 11419218
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 333,
-        "sales": 38354,
-        "revenue": 12771882
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 289.6,
-        "sales": 47510,
-        "revenue": 13758896
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 202.7,
-        "sales": 3354,
-        "revenue": 679856
-      }
-    ]
-  },
-  {
-    "name": "欧普 智能调光台灯",
-    "category": "护眼台灯",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 252.3,
-        "sales": 34233,
-        "revenue": 8636986
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 252.3,
-        "sales": 31430,
-        "revenue": 7929789
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 290.1,
-        "sales": 26414,
-        "revenue": 7662701
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 252.3,
-        "sales": 22157,
-        "revenue": 5590211
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 176.6,
-        "sales": 27377,
-        "revenue": 4834778
-      }
-    ]
-  },
-  {
-    "name": "飞利浦 无频闪护眼灯",
-    "category": "护眼台灯",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 74.8,
-        "sales": 23796,
-        "revenue": 1779941
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 74.8,
-        "sales": 24812,
-        "revenue": 1855938
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 86,
-        "sales": 15616,
-        "revenue": 1342976
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 74.8,
-        "sales": 19541,
-        "revenue": 1461667
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 52.4,
-        "sales": 16330,
-        "revenue": 855692
-      }
-    ]
-  },
-  {
-    "name": "飞利浦 全光谱台灯",
-    "category": "护眼台灯",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 286.7,
-        "sales": 38701,
-        "revenue": 11095577
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 286.7,
-        "sales": 9555,
-        "revenue": 2739419
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 329.7,
-        "sales": 37186,
-        "revenue": 12260224
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 286.7,
-        "sales": 39891,
-        "revenue": 11436750
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 200.7,
-        "sales": 27136,
-        "revenue": 5446195
-      }
-    ]
-  },
-  {
-    "name": "飞利浦 折叠台灯 便携",
-    "category": "护眼台灯",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 223.9,
-        "sales": 34684,
-        "revenue": 7765748
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 223.9,
-        "sales": 15134,
-        "revenue": 3388503
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 257.5,
-        "sales": 35889,
-        "revenue": 9241418
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 223.9,
-        "sales": 12725,
-        "revenue": 2849128
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 156.7,
-        "sales": 31598,
-        "revenue": 4951407
-      }
-    ]
-  },
-  {
-    "name": "欧普 触控台灯",
-    "category": "护眼台灯",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 249.4,
-        "sales": 31632,
-        "revenue": 7889021
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 249.4,
-        "sales": 18871,
-        "revenue": 4706427
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 286.8,
-        "sales": 8549,
-        "revenue": 2451853
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 249.4,
-        "sales": 39822,
-        "revenue": 9931607
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 174.6,
-        "sales": 19284,
-        "revenue": 3366986
-      }
-    ]
-  },
-  {
-    "name": "欧普 阅读台灯 防蓝光",
-    "category": "护眼台灯",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 346.6,
-        "sales": 28580,
-        "revenue": 9905828
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 346.6,
-        "sales": 10137,
-        "revenue": 3513484
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 398.6,
-        "sales": 4544,
-        "revenue": 1811238
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 346.6,
-        "sales": 4010,
-        "revenue": 1389866
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 242.6,
-        "sales": 38336,
-        "revenue": 9300314
-      }
-    ]
-  },
-  {
-    "name": "得力 磨砂包书膜",
+    "name": "广博 磨砂包书膜",
     "category": "书皮/书套",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 17.2,
-        "sales": 243226,
-        "revenue": 4183487
+        "avgPrice": 18.2,
+        "sales": 27436,
+        "revenue": 499335
       },
       {
         "platform": "天猫",
-        "avgPrice": 17.2,
-        "sales": 68460,
-        "revenue": 1177512
+        "avgPrice": 18.2,
+        "sales": 182018,
+        "revenue": 3312728
       },
       {
         "platform": "京东",
-        "avgPrice": 19.8,
-        "sales": 220054,
-        "revenue": 4357069
+        "avgPrice": 20.9,
+        "sales": 236328,
+        "revenue": 4939255
       },
       {
         "platform": "抖音",
-        "avgPrice": 17.2,
-        "sales": 244181,
-        "revenue": 4199913
+        "avgPrice": 18.2,
+        "sales": 35125,
+        "revenue": 639275
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12,
-        "sales": 91662,
-        "revenue": 1099944
+        "avgPrice": 12.7,
+        "sales": 186772,
+        "revenue": 2372004
       }
     ]
   },
   {
-    "name": "广博 16K书皮 小学生",
+    "name": "得力 16K书皮 小学生",
     "category": "书皮/书套",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 5.8,
-        "sales": 112148,
-        "revenue": 650458
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 5.8,
-        "sales": 70748,
-        "revenue": 410338
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 6.7,
-        "sales": 155126,
-        "revenue": 1039344
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 5.8,
-        "sales": 53344,
-        "revenue": 309395
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 4.1,
-        "sales": 154657,
-        "revenue": 634094
-      }
-    ]
-  },
-  {
-    "name": "得力 包书纸 花色",
-    "category": "书皮/书套",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 8.2,
-        "sales": 197654,
-        "revenue": 1620763
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 8.2,
-        "sales": 80298,
-        "revenue": 658444
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 9.4,
-        "sales": 90139,
-        "revenue": 847307
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 8.2,
-        "sales": 224382,
-        "revenue": 1839932
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 5.7,
-        "sales": 205458,
-        "revenue": 1171111
-      }
-    ]
-  },
-  {
-    "name": "齐心 自粘书套 免裁剪",
-    "category": "书皮/书套",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 24.2,
-        "sales": 99992,
-        "revenue": 2419806
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 24.2,
-        "sales": 237206,
-        "revenue": 5740385
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 27.8,
-        "sales": 114900,
-        "revenue": 3194220
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 24.2,
-        "sales": 23704,
-        "revenue": 573637
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 16.9,
-        "sales": 186362,
-        "revenue": 3149518
-      }
-    ]
-  },
-  {
-    "name": "得力 透明书皮 加厚",
-    "category": "书皮/书套",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 15.3,
-        "sales": 139409,
-        "revenue": 2132958
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 15.3,
-        "sales": 171373,
-        "revenue": 2622007
-      },
-      {
-        "platform": "京东",
         "avgPrice": 17.6,
-        "sales": 73921,
-        "revenue": 1301010
+        "sales": 56701,
+        "revenue": 997938
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 17.6,
+        "sales": 50845,
+        "revenue": 894872
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 20.2,
+        "sales": 32974,
+        "revenue": 666075
       },
       {
         "platform": "抖音",
-        "avgPrice": 15.3,
-        "sales": 187948,
-        "revenue": 2875604
+        "avgPrice": 17.6,
+        "sales": 139116,
+        "revenue": 2448442
       },
       {
         "platform": "拼多多",
-        "avgPrice": 10.7,
-        "sales": 136855,
-        "revenue": 1464349
+        "avgPrice": 12.3,
+        "sales": 39236,
+        "revenue": 482603
+      }
+    ]
+  },
+  {
+    "name": "齐心 包书纸 花色",
+    "category": "书皮/书套",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 24,
+        "sales": 17526,
+        "revenue": 420624
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 24,
+        "sales": 97482,
+        "revenue": 2339568
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 27.6,
+        "sales": 181933,
+        "revenue": 5021351
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 24,
+        "sales": 97877,
+        "revenue": 2349048
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 16.8,
+        "sales": 129824,
+        "revenue": 2181043
+      }
+    ]
+  },
+  {
+    "name": "广博 自粘书套 免裁剪",
+    "category": "书皮/书套",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 22.8,
+        "sales": 156726,
+        "revenue": 3573353
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 22.8,
+        "sales": 19298,
+        "revenue": 439994
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 26.2,
+        "sales": 60231,
+        "revenue": 1578052
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 22.8,
+        "sales": 26561,
+        "revenue": 605591
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 16,
+        "sales": 74793,
+        "revenue": 1196688
+      }
+    ]
+  },
+  {
+    "name": "晨光 透明书皮 加厚",
+    "category": "书皮/书套",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 22.2,
+        "sales": 239478,
+        "revenue": 5316412
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 22.2,
+        "sales": 231070,
+        "revenue": 5129754
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 25.5,
+        "sales": 197156,
+        "revenue": 5027478
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 22.2,
+        "sales": 191771,
+        "revenue": 4257316
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 15.5,
+        "sales": 237550,
+        "revenue": 3682025
       }
     ]
   },
@@ -12894,33 +12126,33 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 19.7,
-        "sales": 123860,
-        "revenue": 2440042
+        "avgPrice": 5.8,
+        "sales": 214060,
+        "revenue": 1241548
       },
       {
         "platform": "天猫",
-        "avgPrice": 19.7,
-        "sales": 158509,
-        "revenue": 3122627
+        "avgPrice": 5.8,
+        "sales": 207406,
+        "revenue": 1202955
       },
       {
         "platform": "京东",
-        "avgPrice": 22.7,
-        "sales": 92840,
-        "revenue": 2107468
+        "avgPrice": 6.7,
+        "sales": 60087,
+        "revenue": 402583
       },
       {
         "platform": "抖音",
-        "avgPrice": 19.7,
-        "sales": 40276,
-        "revenue": 793437
+        "avgPrice": 5.8,
+        "sales": 135485,
+        "revenue": 785813
       },
       {
         "platform": "拼多多",
-        "avgPrice": 13.8,
-        "sales": 227100,
-        "revenue": 3133980
+        "avgPrice": 4.1,
+        "sales": 89072,
+        "revenue": 365195
       }
     ]
   },
@@ -12930,105 +12162,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 89,
-        "sales": 7616,
-        "revenue": 677824
+        "avgPrice": 44.6,
+        "sales": 5185,
+        "revenue": 231251
       },
       {
         "platform": "天猫",
-        "avgPrice": 89,
-        "sales": 35270,
-        "revenue": 3139030
+        "avgPrice": 44.6,
+        "sales": 29417,
+        "revenue": 1311998
       },
       {
         "platform": "京东",
-        "avgPrice": 102.3,
-        "sales": 8280,
-        "revenue": 847044
+        "avgPrice": 51.3,
+        "sales": 30708,
+        "revenue": 1575320
       },
       {
         "platform": "抖音",
-        "avgPrice": 89,
-        "sales": 23338,
-        "revenue": 2077082
+        "avgPrice": 44.6,
+        "sales": 19025,
+        "revenue": 848515
       },
       {
         "platform": "拼多多",
-        "avgPrice": 62.3,
-        "sales": 49699,
-        "revenue": 3096248
+        "avgPrice": 31.2,
+        "sales": 24012,
+        "revenue": 749174
       }
     ]
   },
   {
-    "name": "樱花 水粉颜料 果冻",
+    "name": "温莎牛顿 水粉颜料 果冻",
     "category": "美术颜料",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.8,
-        "sales": 15443,
-        "revenue": 290328
+        "avgPrice": 57.3,
+        "sales": 34478,
+        "revenue": 1975589
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.8,
-        "sales": 44592,
-        "revenue": 838330
+        "avgPrice": 57.3,
+        "sales": 48350,
+        "revenue": 2770455
       },
       {
         "platform": "京东",
-        "avgPrice": 21.6,
-        "sales": 43025,
-        "revenue": 929340
+        "avgPrice": 65.9,
+        "sales": 11327,
+        "revenue": 746449
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.8,
-        "sales": 44326,
-        "revenue": 833329
+        "avgPrice": 57.3,
+        "sales": 46426,
+        "revenue": 2660210
       },
       {
         "platform": "拼多多",
-        "avgPrice": 13.2,
-        "sales": 41931,
-        "revenue": 553489
+        "avgPrice": 40.1,
+        "sales": 49862,
+        "revenue": 1999466
       }
     ]
   },
   {
-    "name": "青竹 手指画颜料 儿童",
+    "name": "鲁本斯 手指画颜料 儿童",
     "category": "美术颜料",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 88.9,
-        "sales": 30712,
-        "revenue": 2730297
+        "avgPrice": 38.3,
+        "sales": 25794,
+        "revenue": 987910
       },
       {
         "platform": "天猫",
-        "avgPrice": 88.9,
-        "sales": 20792,
-        "revenue": 1848409
+        "avgPrice": 38.3,
+        "sales": 43247,
+        "revenue": 1656360
       },
       {
         "platform": "京东",
-        "avgPrice": 102.2,
-        "sales": 36630,
-        "revenue": 3743586
+        "avgPrice": 44,
+        "sales": 18414,
+        "revenue": 810216
       },
       {
         "platform": "抖音",
-        "avgPrice": 88.9,
-        "sales": 39891,
-        "revenue": 3546310
+        "avgPrice": 38.3,
+        "sales": 44778,
+        "revenue": 1714997
       },
       {
         "platform": "拼多多",
-        "avgPrice": 62.2,
-        "sales": 48523,
-        "revenue": 3018131
+        "avgPrice": 26.8,
+        "sales": 15353,
+        "revenue": 411460
       }
     ]
   },
@@ -13038,501 +12270,501 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 64,
+        "avgPrice": 69.7,
+        "sales": 29317,
+        "revenue": 2043395
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 69.7,
+        "sales": 39371,
+        "revenue": 2744159
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 80.2,
+        "sales": 23160,
+        "revenue": 1857432
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 69.7,
+        "sales": 10048,
+        "revenue": 700346
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 48.8,
+        "sales": 49774,
+        "revenue": 2428971
+      }
+    ]
+  },
+  {
+    "name": "樱花 颜料画笔套装",
+    "category": "美术颜料",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 70.3,
+        "sales": 42753,
+        "revenue": 3005536
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 70.3,
+        "sales": 35493,
+        "revenue": 2495158
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 80.8,
+        "sales": 12066,
+        "revenue": 974933
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 70.3,
+        "sales": 4961,
+        "revenue": 348758
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 49.2,
+        "sales": 4283,
+        "revenue": 210724
+      }
+    ]
+  },
+  {
+    "name": "青竹 固体水彩 便携",
+    "category": "美术颜料",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 26.4,
+        "sales": 43176,
+        "revenue": 1139846
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 26.4,
+        "sales": 33655,
+        "revenue": 888492
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 30.4,
+        "sales": 9101,
+        "revenue": 276670
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 26.4,
+        "sales": 16518,
+        "revenue": 436075
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 18.5,
+        "sales": 45570,
+        "revenue": 843045
+      }
+    ]
+  },
+  {
+    "name": "晨光 文件夹 A4双夹",
+    "category": "办公文具",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 51.5,
+        "sales": 14648,
+        "revenue": 754372
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 51.5,
+        "sales": 67289,
+        "revenue": 3465384
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 59.2,
+        "sales": 42449,
+        "revenue": 2512981
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 51.5,
+        "sales": 93075,
+        "revenue": 4793363
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 36,
+        "sales": 32006,
+        "revenue": 1152216
+      }
+    ]
+  },
+  {
+    "name": "齐心 剪刀 安全圆头",
+    "category": "办公文具",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 9.7,
+        "sales": 31850,
+        "revenue": 308945
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 9.7,
+        "sales": 118593,
+        "revenue": 1150352
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 11.2,
+        "sales": 48179,
+        "revenue": 539605
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 9.7,
+        "sales": 54084,
+        "revenue": 524615
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 6.8,
+        "sales": 134629,
+        "revenue": 915477
+      }
+    ]
+  },
+  {
+    "name": "可得优 胶棒 固体胶",
+    "category": "办公文具",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 28.8,
+        "sales": 144251,
+        "revenue": 4154429
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 28.8,
+        "sales": 59995,
+        "revenue": 1727856
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 33.1,
+        "sales": 142324,
+        "revenue": 4710924
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 28.8,
+        "sales": 68940,
+        "revenue": 1985472
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 20.2,
+        "sales": 14223,
+        "revenue": 287305
+      }
+    ]
+  },
+  {
+    "name": "广博 双面胶 强力",
+    "category": "办公文具",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 7.3,
+        "sales": 81867,
+        "revenue": 597629
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 7.3,
+        "sales": 83645,
+        "revenue": 610609
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 8.4,
+        "sales": 102824,
+        "revenue": 863722
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 7.3,
+        "sales": 44353,
+        "revenue": 323777
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 5.1,
+        "sales": 112769,
+        "revenue": 575122
+      }
+    ]
+  },
+  {
+    "name": "齐心 透明胶带 封箱",
+    "category": "办公文具",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 9.5,
+        "sales": 112830,
+        "revenue": 1071885
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 9.5,
+        "sales": 74316,
+        "revenue": 706002
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 10.9,
+        "sales": 95106,
+        "revenue": 1036655
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 9.5,
+        "sales": 55704,
+        "revenue": 529188
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 6.6,
+        "sales": 24165,
+        "revenue": 159489
+      }
+    ]
+  },
+  {
+    "name": "可得优 美工刀 自动锁",
+    "category": "办公文具",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 11.9,
+        "sales": 130620,
+        "revenue": 1554378
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 11.9,
+        "sales": 77485,
+        "revenue": 922072
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 13.7,
+        "sales": 18554,
+        "revenue": 254190
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 11.9,
+        "sales": 17820,
+        "revenue": 212058
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 8.3,
+        "sales": 78976,
+        "revenue": 655501
+      }
+    ]
+  },
+  {
+    "name": "毕加索 彩笔套装 150件",
+    "category": "笔类套装/礼盒",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 108.7,
+        "sales": 4581,
+        "revenue": 497955
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 108.7,
+        "sales": 15443,
+        "revenue": 1678654
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 125,
+        "sales": 44592,
+        "revenue": 5574000
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 108.7,
+        "sales": 43025,
+        "revenue": 4676818
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 76.1,
+        "sales": 44326,
+        "revenue": 3373209
+      }
+    ]
+  },
+  {
+    "name": "毕加索 文具笔礼盒",
+    "category": "笔类套装/礼盒",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 176.3,
+        "sales": 33755,
+        "revenue": 5951007
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 176.3,
+        "sales": 30712,
+        "revenue": 5414526
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 202.7,
+        "sales": 20792,
+        "revenue": 4214538
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 176.3,
+        "sales": 36630,
+        "revenue": 6457869
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 123.4,
+        "sales": 39891,
+        "revenue": 4922549
+      }
+    ]
+  },
+  {
+    "name": "毕加索 画笔套装 水彩",
+    "category": "笔类套装/礼盒",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 150.7,
+        "sales": 23373,
+        "revenue": 3522311
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 150.7,
         "sales": 43750,
-        "revenue": 2800000
+        "revenue": 6593125
       },
       {
-        "platform": "天猫",
-        "avgPrice": 64,
+        "platform": "京东",
+        "avgPrice": 173.3,
         "sales": 29469,
-        "revenue": 1886016
+        "revenue": 5106978
       },
       {
-        "platform": "京东",
-        "avgPrice": 73.6,
+        "platform": "抖音",
+        "avgPrice": 150.7,
         "sales": 48182,
-        "revenue": 3546195
+        "revenue": 7261027
       },
       {
-        "platform": "抖音",
-        "avgPrice": 64,
+        "platform": "拼多多",
+        "avgPrice": 105.5,
         "sales": 41129,
-        "revenue": 2632256
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 44.8,
-        "sales": 35218,
-        "revenue": 1577766
+        "revenue": 4339110
       }
     ]
   },
   {
-    "name": "鲁本斯 颜料画笔套装",
-    "category": "美术颜料",
+    "name": "英雄 毛笔套装 书法",
+    "category": "笔类套装/礼盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 68.5,
+        "avgPrice": 142.7,
+        "sales": 25261,
+        "revenue": 3604745
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 142.7,
         "sales": 16393,
-        "revenue": 1122921
+        "revenue": 2339281
       },
       {
-        "platform": "天猫",
-        "avgPrice": 68.5,
+        "platform": "京东",
+        "avgPrice": 164.1,
         "sales": 45389,
-        "revenue": 3109147
+        "revenue": 7448335
       },
       {
-        "platform": "京东",
-        "avgPrice": 78.8,
+        "platform": "抖音",
+        "avgPrice": 142.7,
         "sales": 19520,
-        "revenue": 1538176
+        "revenue": 2785504
       },
       {
-        "platform": "抖音",
-        "avgPrice": 68.5,
+        "platform": "拼多多",
+        "avgPrice": 99.9,
         "sales": 25405,
-        "revenue": 1740243
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 47.9,
-        "sales": 31057,
-        "revenue": 1487630
+        "revenue": 2537960
       }
     ]
   },
   {
-    "name": "鲁本斯 固体水彩 便携",
-    "category": "美术颜料",
+    "name": "百乐 签字笔礼盒",
+    "category": "笔类套装/礼盒",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 85.8,
+        "avgPrice": 155.4,
+        "sales": 32467,
+        "revenue": 5045372
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 155.4,
         "sales": 14051,
-        "revenue": 1205576
+        "revenue": 2183525
       },
       {
-        "platform": "天猫",
-        "avgPrice": 85.8,
+        "platform": "京东",
+        "avgPrice": 178.7,
         "sales": 4337,
-        "revenue": 372115
+        "revenue": 775022
       },
       {
-        "platform": "京东",
-        "avgPrice": 98.7,
+        "platform": "抖音",
+        "avgPrice": 155.4,
         "sales": 32175,
-        "revenue": 3175673
+        "revenue": 4999995
       },
       {
-        "platform": "抖音",
-        "avgPrice": 85.8,
+        "platform": "拼多多",
+        "avgPrice": 108.8,
         "sales": 11828,
-        "revenue": 1014842
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 60.1,
-        "sales": 42953,
-        "revenue": 2581475
-      }
-    ]
-  },
-  {
-    "name": "得力 文件夹 A4双夹",
-    "category": "办公文具",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 42.1,
-        "sales": 40763,
-        "revenue": 1716122
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 42.1,
-        "sales": 29541,
-        "revenue": 1243676
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 48.4,
-        "sales": 58647,
-        "revenue": 2838515
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 42.1,
-        "sales": 134517,
-        "revenue": 5663166
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 29.5,
-        "sales": 102197,
-        "revenue": 3014812
-      }
-    ]
-  },
-  {
-    "name": "得力 剪刀 安全圆头",
-    "category": "办公文具",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 4.5,
-        "sales": 25366,
-        "revenue": 114147
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 4.5,
-        "sales": 84101,
-        "revenue": 378455
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 5.2,
-        "sales": 24075,
-        "revenue": 125190
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 4.5,
-        "sales": 92949,
-        "revenue": 418271
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 3.1,
-        "sales": 17789,
-        "revenue": 55146
-      }
-    ]
-  },
-  {
-    "name": "广博 胶棒 固体胶",
-    "category": "办公文具",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 11.2,
-        "sales": 65678,
-        "revenue": 735594
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 11.2,
-        "sales": 76573,
-        "revenue": 857618
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 12.9,
-        "sales": 24697,
-        "revenue": 318591
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 11.2,
-        "sales": 104717,
-        "revenue": 1172830
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 7.8,
-        "sales": 26866,
-        "revenue": 209555
-      }
-    ]
-  },
-  {
-    "name": "可得优 双面胶 强力",
-    "category": "办公文具",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 53.8,
-        "sales": 61502,
-        "revenue": 3308808
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 53.8,
-        "sales": 34488,
-        "revenue": 1855454
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 61.9,
-        "sales": 79154,
-        "revenue": 4899633
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 53.8,
-        "sales": 91550,
-        "revenue": 4925390
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 37.7,
-        "sales": 99489,
-        "revenue": 3750735
-      }
-    ]
-  },
-  {
-    "name": "晨光 透明胶带 封箱",
-    "category": "办公文具",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 27.1,
-        "sales": 14711,
-        "revenue": 398668
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 27.1,
-        "sales": 28508,
-        "revenue": 772567
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 31.2,
-        "sales": 72768,
-        "revenue": 2270362
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 27.1,
-        "sales": 39662,
-        "revenue": 1074840
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 19,
-        "sales": 104230,
-        "revenue": 1980370
-      }
-    ]
-  },
-  {
-    "name": "晨光 美工刀 自动锁",
-    "category": "办公文具",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 32,
-        "sales": 9990,
-        "revenue": 319680
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 32,
-        "sales": 71918,
-        "revenue": 2301376
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 36.8,
-        "sales": 137346,
-        "revenue": 5054333
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 32,
-        "sales": 46801,
-        "revenue": 1497632
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 22.4,
-        "sales": 121459,
-        "revenue": 2720682
-      }
-    ]
-  },
-  {
-    "name": "英雄 彩笔套装 150件",
-    "category": "笔类套装/礼盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 155.1,
-        "sales": 19559,
-        "revenue": 3033601
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 155.1,
-        "sales": 31425,
-        "revenue": 4874018
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 178.4,
-        "sales": 30818,
-        "revenue": 5497931
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 155.1,
-        "sales": 19340,
-        "revenue": 2999634
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 108.6,
-        "sales": 18432,
-        "revenue": 2001715
-      }
-    ]
-  },
-  {
-    "name": "英雄 文具笔礼盒",
-    "category": "笔类套装/礼盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 32.5,
-        "sales": 48468,
-        "revenue": 1575210
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 32.5,
-        "sales": 11476,
-        "revenue": 372970
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 37.4,
-        "sales": 20025,
-        "revenue": 748935
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 32.5,
-        "sales": 17640,
-        "revenue": 573300
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 22.8,
-        "sales": 16929,
-        "revenue": 385981
-      }
-    ]
-  },
-  {
-    "name": "得力 画笔套装 水彩",
-    "category": "笔类套装/礼盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 137.6,
-        "sales": 13074,
-        "revenue": 1798982
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 137.6,
-        "sales": 30257,
-        "revenue": 4163363
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 158.2,
-        "sales": 26835,
-        "revenue": 4245297
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 137.6,
-        "sales": 29920,
-        "revenue": 4116992
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 96.3,
-        "sales": 16387,
-        "revenue": 1578068
-      }
-    ]
-  },
-  {
-    "name": "得力 毛笔套装 书法",
-    "category": "笔类套装/礼盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 93.9,
-        "sales": 44252,
-        "revenue": 4155263
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 93.9,
-        "sales": 40523,
-        "revenue": 3805110
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 108,
-        "sales": 4587,
-        "revenue": 495396
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 93.9,
-        "sales": 19905,
-        "revenue": 1869080
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 65.7,
-        "sales": 31108,
-        "revenue": 2043796
-      }
-    ]
-  },
-  {
-    "name": "毕加索 签字笔礼盒",
-    "category": "笔类套装/礼盒",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 94.8,
-        "sales": 40415,
-        "revenue": 3831342
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 94.8,
-        "sales": 20617,
-        "revenue": 1954492
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 109,
-        "sales": 28992,
-        "revenue": 3160128
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 94.8,
-        "sales": 48036,
-        "revenue": 4553813
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 66.4,
-        "sales": 38429,
-        "revenue": 2551686
+        "revenue": 1286886
       }
     ]
   },
@@ -13542,105 +12774,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 98.4,
-        "sales": 39609,
-        "revenue": 3897526
+        "avgPrice": 66.2,
+        "sales": 43904,
+        "revenue": 2906445
       },
       {
         "platform": "天猫",
-        "avgPrice": 98.4,
-        "sales": 43608,
-        "revenue": 4291027
+        "avgPrice": 66.2,
+        "sales": 18002,
+        "revenue": 1191732
       },
       {
         "platform": "京东",
-        "avgPrice": 113.2,
-        "sales": 12389,
-        "revenue": 1402435
+        "avgPrice": 76.1,
+        "sales": 3268,
+        "revenue": 248695
       },
       {
         "platform": "抖音",
-        "avgPrice": 98.4,
-        "sales": 19373,
-        "revenue": 1906303
+        "avgPrice": 66.2,
+        "sales": 42361,
+        "revenue": 2804298
       },
       {
         "platform": "拼多多",
-        "avgPrice": 68.9,
-        "sales": 38020,
-        "revenue": 2619578
+        "avgPrice": 46.3,
+        "sales": 7081,
+        "revenue": 327850
       }
     ]
   },
   {
-    "name": "晨光生活馆 设计感便签",
+    "name": "kinbor 设计感便签",
     "category": "文创用品",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 64.6,
-        "sales": 25530,
-        "revenue": 1649238
+        "avgPrice": 16.8,
+        "sales": 4278,
+        "revenue": 71870
       },
       {
         "platform": "天猫",
-        "avgPrice": 64.6,
-        "sales": 6002,
-        "revenue": 387729
+        "avgPrice": 16.8,
+        "sales": 8455,
+        "revenue": 142044
       },
       {
         "platform": "京东",
-        "avgPrice": 74.3,
-        "sales": 42087,
-        "revenue": 3127064
+        "avgPrice": 19.3,
+        "sales": 28034,
+        "revenue": 541056
       },
       {
         "platform": "抖音",
-        "avgPrice": 64.6,
-        "sales": 40842,
-        "revenue": 2638393
+        "avgPrice": 16.8,
+        "sales": 8025,
+        "revenue": 134820
       },
       {
         "platform": "拼多多",
-        "avgPrice": 45.2,
-        "sales": 49799,
-        "revenue": 2250915
+        "avgPrice": 11.8,
+        "sales": 30983,
+        "revenue": 365599
       }
     ]
   },
   {
-    "name": "晨光生活馆 创意笔筒 北欧",
+    "name": "九木杂物社 创意笔筒 北欧",
     "category": "文创用品",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 13,
-        "sales": 41481,
-        "revenue": 539253
+        "avgPrice": 53,
+        "sales": 9893,
+        "revenue": 524329
       },
       {
         "platform": "天猫",
-        "avgPrice": 13,
-        "sales": 41918,
-        "revenue": 544934
+        "avgPrice": 53,
+        "sales": 21893,
+        "revenue": 1160329
       },
       {
         "platform": "京东",
-        "avgPrice": 14.9,
-        "sales": 32025,
-        "revenue": 477173
+        "avgPrice": 60.9,
+        "sales": 25524,
+        "revenue": 1554412
       },
       {
         "platform": "抖音",
-        "avgPrice": 13,
-        "sales": 4297,
-        "revenue": 55861
+        "avgPrice": 53,
+        "sales": 8232,
+        "revenue": 436296
       },
       {
         "platform": "拼多多",
-        "avgPrice": 9.1,
-        "sales": 27928,
-        "revenue": 254145
+        "avgPrice": 37.1,
+        "sales": 34906,
+        "revenue": 1295013
       }
     ]
   },
@@ -13650,105 +12882,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 20.8,
-        "sales": 4255,
-        "revenue": 88504
+        "avgPrice": 77,
+        "sales": 45663,
+        "revenue": 3516051
       },
       {
         "platform": "天猫",
-        "avgPrice": 20.8,
-        "sales": 34989,
-        "revenue": 727771
+        "avgPrice": 77,
+        "sales": 20501,
+        "revenue": 1578577
       },
       {
         "platform": "京东",
-        "avgPrice": 23.9,
-        "sales": 45437,
-        "revenue": 1085944
+        "avgPrice": 88.5,
+        "sales": 11496,
+        "revenue": 1017396
       },
       {
         "platform": "抖音",
-        "avgPrice": 20.8,
-        "sales": 24935,
-        "revenue": 518648
+        "avgPrice": 77,
+        "sales": 26385,
+        "revenue": 2031645
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.6,
-        "sales": 23819,
-        "revenue": 347757
+        "avgPrice": 53.9,
+        "sales": 30517,
+        "revenue": 1644866
       }
     ]
   },
   {
-    "name": "MUJI 复古文具",
+    "name": "kinbor 复古文具",
     "category": "文创用品",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 69.4,
-        "sales": 21003,
-        "revenue": 1457608
+        "avgPrice": 29.5,
+        "sales": 23233,
+        "revenue": 685374
       },
       {
         "platform": "天猫",
-        "avgPrice": 69.4,
-        "sales": 22551,
-        "revenue": 1565039
+        "avgPrice": 29.5,
+        "sales": 4904,
+        "revenue": 144668
       },
       {
         "platform": "京东",
-        "avgPrice": 79.8,
-        "sales": 29789,
-        "revenue": 2377162
+        "avgPrice": 33.9,
+        "sales": 9503,
+        "revenue": 322152
       },
       {
         "platform": "抖音",
-        "avgPrice": 69.4,
-        "sales": 9293,
-        "revenue": 644934
+        "avgPrice": 29.5,
+        "sales": 24256,
+        "revenue": 715552
       },
       {
         "platform": "拼多多",
-        "avgPrice": 48.6,
-        "sales": 29054,
-        "revenue": 1412024
+        "avgPrice": 20.6,
+        "sales": 13221,
+        "revenue": 272353
       }
     ]
   },
   {
-    "name": "MUJI 国潮文具套装",
+    "name": "kinbor 国潮文具套装",
     "category": "文创用品",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 35.1,
-        "sales": 28926,
-        "revenue": 1015303
+        "avgPrice": 36.9,
+        "sales": 27324,
+        "revenue": 1008256
       },
       {
         "platform": "天猫",
-        "avgPrice": 35.1,
-        "sales": 31731,
-        "revenue": 1113758
+        "avgPrice": 36.9,
+        "sales": 3330,
+        "revenue": 122877
       },
       {
         "platform": "京东",
-        "avgPrice": 40.4,
-        "sales": 33728,
-        "revenue": 1362611
+        "avgPrice": 42.4,
+        "sales": 23973,
+        "revenue": 1016455
       },
       {
         "platform": "抖音",
-        "avgPrice": 35.1,
-        "sales": 35852,
-        "revenue": 1258405
+        "avgPrice": 36.9,
+        "sales": 45782,
+        "revenue": 1689356
       },
       {
         "platform": "拼多多",
-        "avgPrice": 24.6,
-        "sales": 42116,
-        "revenue": 1036054
+        "avgPrice": 25.8,
+        "sales": 15600,
+        "revenue": 402480
       }
     ]
   },
@@ -13758,465 +12990,249 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 32,
-        "sales": 28888,
-        "revenue": 924416
+        "avgPrice": 30.6,
+        "sales": 44268,
+        "revenue": 1354601
       },
       {
         "platform": "天猫",
-        "avgPrice": 32,
-        "sales": 16243,
-        "revenue": 519776
+        "avgPrice": 30.6,
+        "sales": 10176,
+        "revenue": 311386
       },
       {
         "platform": "京东",
-        "avgPrice": 36.8,
-        "sales": 25996,
-        "revenue": 956653
+        "avgPrice": 35.2,
+        "sales": 47352,
+        "revenue": 1666790
       },
       {
         "platform": "抖音",
-        "avgPrice": 32,
-        "sales": 23145,
-        "revenue": 740640
+        "avgPrice": 30.6,
+        "sales": 31783,
+        "revenue": 972560
       },
       {
         "platform": "拼多多",
-        "avgPrice": 22.4,
-        "sales": 35553,
-        "revenue": 796387
+        "avgPrice": 21.4,
+        "sales": 34836,
+        "revenue": 745490
       }
     ]
   },
   {
-    "name": "兄弟 幼儿园名字贴",
+    "name": "得力 幼儿园名字贴",
     "category": "姓名贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 83.4,
-        "sales": 38155,
-        "revenue": 3182127
+        "avgPrice": 69.5,
+        "sales": 5653,
+        "revenue": 392884
       },
       {
         "platform": "天猫",
-        "avgPrice": 83.4,
-        "sales": 33525,
-        "revenue": 2795985
+        "avgPrice": 69.5,
+        "sales": 58191,
+        "revenue": 4044275
       },
       {
         "platform": "京东",
-        "avgPrice": 95.9,
-        "sales": 8463,
-        "revenue": 811602
+        "avgPrice": 79.9,
+        "sales": 14508,
+        "revenue": 1159189
       },
       {
         "platform": "抖音",
-        "avgPrice": 83.4,
-        "sales": 19075,
-        "revenue": 1590855
+        "avgPrice": 69.5,
+        "sales": 24604,
+        "revenue": 1709978
       },
       {
         "platform": "拼多多",
-        "avgPrice": 58.4,
-        "sales": 41302,
-        "revenue": 2412037
+        "avgPrice": 48.6,
+        "sales": 21788,
+        "revenue": 1058897
       }
     ]
   },
   {
-    "name": "晨光 衣物姓名标",
+    "name": "得力 衣物姓名标",
     "category": "姓名贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 8.7,
-        "sales": 41690,
-        "revenue": 362703
+        "avgPrice": 40.6,
+        "sales": 39962,
+        "revenue": 1622457
       },
       {
         "platform": "天猫",
-        "avgPrice": 8.7,
-        "sales": 30903,
-        "revenue": 268856
+        "avgPrice": 40.6,
+        "sales": 16396,
+        "revenue": 665678
       },
       {
         "platform": "京东",
-        "avgPrice": 10,
-        "sales": 52945,
-        "revenue": 529450
+        "avgPrice": 46.7,
+        "sales": 36686,
+        "revenue": 1713236
       },
       {
         "platform": "抖音",
-        "avgPrice": 8.7,
-        "sales": 45776,
-        "revenue": 398251
+        "avgPrice": 40.6,
+        "sales": 32645,
+        "revenue": 1325387
       },
       {
         "platform": "拼多多",
-        "avgPrice": 6.1,
-        "sales": 46925,
-        "revenue": 286243
+        "avgPrice": 28.4,
+        "sales": 36289,
+        "revenue": 1030608
       }
     ]
   },
   {
-    "name": "晨光 开学姓名贴 定制",
+    "name": "得力 开学姓名贴 定制",
     "category": "姓名贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 64.7,
-        "sales": 51068,
-        "revenue": 3304100
+        "avgPrice": 28.5,
+        "sales": 25698,
+        "revenue": 732393
       },
       {
         "platform": "天猫",
-        "avgPrice": 64.7,
-        "sales": 47862,
-        "revenue": 3096671
+        "avgPrice": 28.5,
+        "sales": 53212,
+        "revenue": 1516542
       },
       {
         "platform": "京东",
-        "avgPrice": 74.4,
-        "sales": 21078,
-        "revenue": 1568203
+        "avgPrice": 32.8,
+        "sales": 48809,
+        "revenue": 1600935
       },
       {
         "platform": "抖音",
-        "avgPrice": 64.7,
-        "sales": 24515,
-        "revenue": 1586121
+        "avgPrice": 28.5,
+        "sales": 6374,
+        "revenue": 181659
       },
       {
         "platform": "拼多多",
-        "avgPrice": 45.3,
-        "sales": 37860,
-        "revenue": 1715058
+        "avgPrice": 19.9,
+        "sales": 24462,
+        "revenue": 486794
       }
     ]
   },
   {
-    "name": "兄弟 烫印姓名贴",
+    "name": "雅柯莱 烫印姓名贴",
     "category": "姓名贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 38.1,
-        "sales": 53805,
-        "revenue": 2049971
+        "avgPrice": 85.6,
+        "sales": 25997,
+        "revenue": 2225343
       },
       {
         "platform": "天猫",
-        "avgPrice": 38.1,
-        "sales": 6363,
-        "revenue": 242430
+        "avgPrice": 85.6,
+        "sales": 48681,
+        "revenue": 4167094
       },
       {
         "platform": "京东",
-        "avgPrice": 43.8,
-        "sales": 10394,
-        "revenue": 455257
+        "avgPrice": 98.4,
+        "sales": 25303,
+        "revenue": 2489815
       },
       {
         "platform": "抖音",
-        "avgPrice": 38.1,
-        "sales": 54900,
-        "revenue": 2091690
+        "avgPrice": 85.6,
+        "sales": 35193,
+        "revenue": 3012521
       },
       {
         "platform": "拼多多",
-        "avgPrice": 26.7,
-        "sales": 32839,
-        "revenue": 876801
+        "avgPrice": 59.9,
+        "sales": 57681,
+        "revenue": 3455092
       }
     ]
   },
   {
-    "name": "精臣 硅胶姓名扣",
+    "name": "兄弟 硅胶姓名扣",
     "category": "姓名贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 35.4,
-        "sales": 21548,
-        "revenue": 762799
+        "avgPrice": 98.8,
+        "sales": 27150,
+        "revenue": 2682420
       },
       {
         "platform": "天猫",
-        "avgPrice": 35.4,
-        "sales": 51551,
-        "revenue": 1824905
+        "avgPrice": 98.8,
+        "sales": 47730,
+        "revenue": 4715724
       },
       {
         "platform": "京东",
-        "avgPrice": 40.7,
-        "sales": 46378,
-        "revenue": 1887585
+        "avgPrice": 113.6,
+        "sales": 52452,
+        "revenue": 5958547
       },
       {
         "platform": "抖音",
-        "avgPrice": 35.4,
-        "sales": 28905,
-        "revenue": 1023237
+        "avgPrice": 98.8,
+        "sales": 15587,
+        "revenue": 1539996
       },
       {
         "platform": "拼多多",
-        "avgPrice": 24.8,
-        "sales": 55043,
-        "revenue": 1365066
+        "avgPrice": 69.2,
+        "sales": 23834,
+        "revenue": 1649313
       }
     ]
   },
   {
-    "name": "得力 校服姓名标签",
+    "name": "兄弟 校服姓名标签",
     "category": "姓名贴",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 25.2,
-        "sales": 22410,
-        "revenue": 564732
+        "avgPrice": 38.6,
+        "sales": 53662,
+        "revenue": 2071353
       },
       {
         "platform": "天猫",
-        "avgPrice": 25.2,
-        "sales": 43325,
-        "revenue": 1091790
+        "avgPrice": 38.6,
+        "sales": 59232,
+        "revenue": 2286355
       },
       {
         "platform": "京东",
-        "avgPrice": 29,
-        "sales": 47722,
-        "revenue": 1383938
+        "avgPrice": 44.4,
+        "sales": 53429,
+        "revenue": 2372248
       },
       {
         "platform": "抖音",
-        "avgPrice": 25.2,
-        "sales": 32744,
-        "revenue": 825149
+        "avgPrice": 38.6,
+        "sales": 25997,
+        "revenue": 1003484
       },
       {
         "platform": "拼多多",
-        "avgPrice": 17.6,
-        "sales": 40027,
-        "revenue": 704475
-      }
-    ]
-  },
-  {
-    "name": "得力 电动橡皮 替芯装",
-    "category": "电动橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 44.6,
-        "sales": 45206,
-        "revenue": 2016188
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 44.6,
-        "sales": 59005,
-        "revenue": 2631623
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 51.3,
-        "sales": 21770,
-        "revenue": 1116801
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 44.6,
-        "sales": 44465,
-        "revenue": 1983139
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 31.2,
-        "sales": 22841,
-        "revenue": 712639
-      }
-    ]
-  },
-  {
-    "name": "樱花 USB充电橡皮擦",
-    "category": "电动橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 15.1,
-        "sales": 33440,
-        "revenue": 504944
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 15.1,
-        "sales": 11351,
-        "revenue": 171400
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 17.4,
-        "sales": 11615,
-        "revenue": 202101
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 15.1,
-        "sales": 30020,
-        "revenue": 453302
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 10.6,
-        "sales": 59913,
-        "revenue": 635078
-      }
-    ]
-  },
-  {
-    "name": "樱花 高光电动橡皮",
-    "category": "电动橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 18.9,
-        "sales": 40654,
-        "revenue": 768361
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 18.9,
-        "sales": 53451,
-        "revenue": 1010224
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 21.7,
-        "sales": 43045,
-        "revenue": 934077
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 18.9,
-        "sales": 18628,
-        "revenue": 352069
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 13.2,
-        "sales": 46636,
-        "revenue": 615595
-      }
-    ]
-  },
-  {
-    "name": "辉柏嘉 自动橡皮擦 笔形",
-    "category": "电动橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 42.4,
-        "sales": 26352,
-        "revenue": 1117325
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 42.4,
-        "sales": 40640,
-        "revenue": 1723136
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 48.8,
-        "sales": 40154,
-        "revenue": 1959515
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 42.4,
-        "sales": 42368,
-        "revenue": 1796403
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 29.7,
-        "sales": 30413,
-        "revenue": 903266
-      }
-    ]
-  },
-  {
-    "name": "晨光 电动橡皮 细节擦除",
-    "category": "电动橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 23.8,
-        "sales": 7981,
-        "revenue": 189948
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 23.8,
-        "sales": 9175,
-        "revenue": 218365
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 27.4,
-        "sales": 51970,
-        "revenue": 1423978
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 23.8,
-        "sales": 14517,
-        "revenue": 345505
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 16.7,
-        "sales": 59395,
-        "revenue": 991897
-      }
-    ]
-  },
-  {
-    "name": "辉柏嘉 素描电动橡皮套装",
-    "category": "电动橡皮擦",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 17.7,
-        "sales": 9750,
-        "revenue": 172575
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 17.7,
-        "sales": 11011,
-        "revenue": 194895
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 20.4,
-        "sales": 8290,
-        "revenue": 169116
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 17.7,
-        "sales": 37198,
-        "revenue": 658405
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 12.4,
-        "sales": 37114,
-        "revenue": 460214
+        "avgPrice": 27,
+        "sales": 19369,
+        "revenue": 522963
       }
     ]
   },
@@ -14226,249 +13242,249 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 54.8,
-        "sales": 65165,
-        "revenue": 3571042
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 54.8,
-        "sales": 35603,
-        "revenue": 1951044
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 63,
-        "sales": 43341,
-        "revenue": 2730483
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 54.8,
-        "sales": 17019,
-        "revenue": 932641
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 38.4,
-        "sales": 74848,
-        "revenue": 2874163
-      }
-    ]
-  },
-  {
-    "name": "咕卡星球 拼豆豆 补充装",
-    "category": "拼豆/咕卡套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 58.8,
-        "sales": 30781,
-        "revenue": 1809923
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 58.8,
-        "sales": 58866,
-        "revenue": 3461321
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 67.6,
-        "sales": 31538,
-        "revenue": 2131969
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 58.8,
-        "sales": 16903,
-        "revenue": 993896
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 41.2,
-        "sales": 20889,
-        "revenue": 860627
-      }
-    ]
-  },
-  {
-    "name": "创意工坊 迷你咕卡材料包",
-    "category": "拼豆/咕卡套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 39.8,
-        "sales": 37196,
-        "revenue": 1480401
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 39.8,
-        "sales": 73779,
-        "revenue": 2936404
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 45.8,
-        "sales": 10866,
-        "revenue": 497663
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 39.8,
-        "sales": 14968,
-        "revenue": 595726
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 27.9,
-        "sales": 69172,
-        "revenue": 1929899
-      }
-    ]
-  },
-  {
-    "name": "创意工坊 拼豆镊子工具",
-    "category": "拼豆/咕卡套装",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
         "avgPrice": 23.6,
-        "sales": 67884,
-        "revenue": 1602062
+        "sales": 5511,
+        "revenue": 130060
       },
       {
         "platform": "天猫",
         "avgPrice": 23.6,
-        "sales": 23449,
-        "revenue": 553396
+        "sales": 62222,
+        "revenue": 1468439
       },
       {
         "platform": "京东",
         "avgPrice": 27.1,
-        "sales": 17094,
-        "revenue": 463247
+        "sales": 62877,
+        "revenue": 1703967
       },
       {
         "platform": "抖音",
         "avgPrice": 23.6,
-        "sales": 36685,
-        "revenue": 865766
+        "sales": 48038,
+        "revenue": 1133697
       },
       {
         "platform": "拼多多",
         "avgPrice": 16.5,
-        "sales": 34334,
-        "revenue": 566511
+        "sales": 6446,
+        "revenue": 106359
       }
     ]
   },
   {
-    "name": "创意工坊 咕卡底卡 透明",
+    "name": "拼豆世界 拼豆豆 补充装",
     "category": "拼豆/咕卡套装",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 20.4,
-        "sales": 62188,
-        "revenue": 1268635
+        "avgPrice": 15.1,
+        "sales": 13754,
+        "revenue": 207685
       },
       {
         "platform": "天猫",
-        "avgPrice": 20.4,
-        "sales": 27110,
-        "revenue": 553044
+        "avgPrice": 15.1,
+        "sales": 6382,
+        "revenue": 96368
       },
       {
         "platform": "京东",
-        "avgPrice": 23.5,
-        "sales": 71904,
-        "revenue": 1689744
+        "avgPrice": 17.4,
+        "sales": 52484,
+        "revenue": 913222
       },
       {
         "platform": "抖音",
-        "avgPrice": 20.4,
-        "sales": 69448,
-        "revenue": 1416739
+        "avgPrice": 15.1,
+        "sales": 68156,
+        "revenue": 1029156
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.3,
-        "sales": 9261,
-        "revenue": 132432
+        "avgPrice": 10.6,
+        "sales": 37402,
+        "revenue": 396461
       }
     ]
   },
   {
-    "name": "拼豆世界 拼豆挂件材料",
+    "name": "拼豆世界 迷你咕卡材料包",
     "category": "拼豆/咕卡套装",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 57.5,
-        "sales": 65588,
-        "revenue": 3771310
+        "avgPrice": 33.5,
+        "sales": 64862,
+        "revenue": 2172877
       },
       {
         "platform": "天猫",
-        "avgPrice": 57.5,
-        "sales": 42224,
-        "revenue": 2427880
+        "avgPrice": 33.5,
+        "sales": 31504,
+        "revenue": 1055384
       },
       {
         "platform": "京东",
-        "avgPrice": 66.1,
-        "sales": 29725,
-        "revenue": 1964822
+        "avgPrice": 38.5,
+        "sales": 33826,
+        "revenue": 1302301
       },
       {
         "platform": "抖音",
-        "avgPrice": 57.5,
-        "sales": 51695,
-        "revenue": 2972463
+        "avgPrice": 33.5,
+        "sales": 44684,
+        "revenue": 1496914
       },
       {
         "platform": "拼多多",
-        "avgPrice": 40.3,
-        "sales": 42229,
-        "revenue": 1701829
+        "avgPrice": 23.4,
+        "sales": 13939,
+        "revenue": 326173
       }
     ]
   },
   {
-    "name": "马可 儿童彩色铅笔 24色",
+    "name": "拼豆世界 拼豆镊子工具",
+    "category": "拼豆/咕卡套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 31.8,
+        "sales": 28764,
+        "revenue": 914695
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 31.8,
+        "sales": 43389,
+        "revenue": 1379770
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 36.6,
+        "sales": 47597,
+        "revenue": 1742050
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 31.8,
+        "sales": 50592,
+        "revenue": 1608826
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 22.3,
+        "sales": 53778,
+        "revenue": 1199249
+      }
+    ]
+  },
+  {
+    "name": "DIY乐园 咕卡底卡 透明",
+    "category": "拼豆/咕卡套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 40.6,
+        "sales": 25557,
+        "revenue": 1037614
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 40.6,
+        "sales": 43332,
+        "revenue": 1759279
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 46.7,
+        "sales": 24365,
+        "revenue": 1137846
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 40.6,
+        "sales": 38994,
+        "revenue": 1583156
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 28.4,
+        "sales": 34718,
+        "revenue": 985991
+      }
+    ]
+  },
+  {
+    "name": "手工达人 拼豆挂件材料",
+    "category": "拼豆/咕卡套装",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 29.3,
+        "sales": 67495,
+        "revenue": 1977604
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 29.3,
+        "sales": 62284,
+        "revenue": 1824921
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 33.7,
+        "sales": 62278,
+        "revenue": 2098769
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 29.3,
+        "sales": 15939,
+        "revenue": 467013
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 20.5,
+        "sales": 65021,
+        "revenue": 1332931
+      }
+    ]
+  },
+  {
+    "name": "晨光 儿童彩色铅笔 24色",
     "category": "彩色铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 123.2,
-        "sales": 59308,
-        "revenue": 7306746
+        "avgPrice": 114.7,
+        "sales": 4939,
+        "revenue": 566503
       },
       {
         "platform": "天猫",
-        "avgPrice": 123.2,
-        "sales": 54465,
-        "revenue": 6710088
+        "avgPrice": 114.7,
+        "sales": 41690,
+        "revenue": 4781843
       },
       {
         "platform": "京东",
-        "avgPrice": 141.7,
-        "sales": 48384,
-        "revenue": 6856013
+        "avgPrice": 131.9,
+        "sales": 30903,
+        "revenue": 4076106
       },
       {
         "platform": "抖音",
-        "avgPrice": 123.2,
-        "sales": 39745,
-        "revenue": 4896584
+        "avgPrice": 114.7,
+        "sales": 52945,
+        "revenue": 6072792
       },
       {
         "platform": "拼多多",
-        "avgPrice": 86.2,
-        "sales": 41420,
-        "revenue": 3570404
+        "avgPrice": 80.3,
+        "sales": 45776,
+        "revenue": 3675813
       }
     ]
   },
@@ -14478,69 +13494,69 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 126.7,
-        "sales": 16938,
-        "revenue": 2146045
+        "avgPrice": 111.2,
+        "sales": 39108,
+        "revenue": 4348810
       },
       {
         "platform": "天猫",
-        "avgPrice": 126.7,
-        "sales": 27746,
-        "revenue": 3515418
+        "avgPrice": 111.2,
+        "sales": 51068,
+        "revenue": 5678762
       },
       {
         "platform": "京东",
-        "avgPrice": 145.7,
-        "sales": 39955,
-        "revenue": 5821444
+        "avgPrice": 127.9,
+        "sales": 47862,
+        "revenue": 6121550
       },
       {
         "platform": "抖音",
-        "avgPrice": 126.7,
-        "sales": 54009,
-        "revenue": 6842940
+        "avgPrice": 111.2,
+        "sales": 21078,
+        "revenue": 2343874
       },
       {
         "platform": "拼多多",
-        "avgPrice": 88.7,
-        "sales": 30390,
-        "revenue": 2695593
+        "avgPrice": 77.8,
+        "sales": 24515,
+        "revenue": 1907267
       }
     ]
   },
   {
-    "name": "辉柏嘉 金属色彩铅",
+    "name": "晨光 金属色彩铅",
     "category": "彩色铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 26.4,
-        "sales": 19826,
-        "revenue": 523406
+        "avgPrice": 98,
+        "sales": 22839,
+        "revenue": 2238222
       },
       {
         "platform": "天猫",
-        "avgPrice": 26.4,
-        "sales": 9127,
-        "revenue": 240953
+        "avgPrice": 98,
+        "sales": 53805,
+        "revenue": 5272890
       },
       {
         "platform": "京东",
-        "avgPrice": 30.4,
-        "sales": 31478,
-        "revenue": 956931
+        "avgPrice": 112.7,
+        "sales": 6363,
+        "revenue": 717110
       },
       {
         "platform": "抖音",
-        "avgPrice": 26.4,
-        "sales": 6854,
-        "revenue": 180946
+        "avgPrice": 98,
+        "sales": 10394,
+        "revenue": 1018612
       },
       {
         "platform": "拼多多",
-        "avgPrice": 18.5,
-        "sales": 8688,
-        "revenue": 160728
+        "avgPrice": 68.6,
+        "sales": 54900,
+        "revenue": 3766140
       }
     ]
   },
@@ -14550,33 +13566,33 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 100.1,
-        "sales": 26945,
-        "revenue": 2697195
+        "avgPrice": 19.3,
+        "sales": 21207,
+        "revenue": 409295
       },
       {
         "platform": "天猫",
-        "avgPrice": 100.1,
-        "sales": 53694,
-        "revenue": 5374769
+        "avgPrice": 19.3,
+        "sales": 21548,
+        "revenue": 415876
       },
       {
         "platform": "京东",
-        "avgPrice": 115.1,
-        "sales": 44175,
-        "revenue": 5084543
+        "avgPrice": 22.2,
+        "sales": 51551,
+        "revenue": 1144432
       },
       {
         "platform": "抖音",
-        "avgPrice": 100.1,
-        "sales": 17306,
-        "revenue": 1732331
+        "avgPrice": 19.3,
+        "sales": 46378,
+        "revenue": 895095
       },
       {
         "platform": "拼多多",
-        "avgPrice": 70.1,
-        "sales": 25560,
-        "revenue": 1791756
+        "avgPrice": 13.5,
+        "sales": 28905,
+        "revenue": 390218
       }
     ]
   },
@@ -14586,537 +13602,537 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 34.4,
-        "sales": 36347,
-        "revenue": 1250337
+        "avgPrice": 43.6,
+        "sales": 15004,
+        "revenue": 654174
       },
       {
         "platform": "天猫",
-        "avgPrice": 34.4,
-        "sales": 35424,
-        "revenue": 1218586
+        "avgPrice": 43.6,
+        "sales": 22410,
+        "revenue": 977076
       },
       {
         "platform": "京东",
-        "avgPrice": 39.6,
-        "sales": 7655,
-        "revenue": 303138
+        "avgPrice": 50.1,
+        "sales": 43325,
+        "revenue": 2170583
       },
       {
         "platform": "抖音",
-        "avgPrice": 34.4,
-        "sales": 41241,
-        "revenue": 1418690
+        "avgPrice": 43.6,
+        "sales": 47722,
+        "revenue": 2080679
       },
       {
         "platform": "拼多多",
-        "avgPrice": 24.1,
-        "sales": 12601,
-        "revenue": 303684
+        "avgPrice": 30.5,
+        "sales": 32744,
+        "revenue": 998692
       }
     ]
   },
   {
-    "name": "辉柏嘉 彩铅收纳笔帘",
+    "name": "晨光 彩铅收纳笔帘",
     "category": "彩色铅笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 112.3,
-        "sales": 39930,
-        "revenue": 4484139
+        "avgPrice": 66.4,
+        "sales": 54522,
+        "revenue": 3620261
       },
       {
         "platform": "天猫",
-        "avgPrice": 112.3,
-        "sales": 57384,
-        "revenue": 6444223
+        "avgPrice": 66.4,
+        "sales": 40748,
+        "revenue": 2705667
       },
       {
         "platform": "京东",
-        "avgPrice": 129.1,
-        "sales": 40426,
-        "revenue": 5218997
+        "avgPrice": 76.4,
+        "sales": 46541,
+        "revenue": 3555732
       },
       {
         "platform": "抖音",
-        "avgPrice": 112.3,
-        "sales": 46108,
-        "revenue": 5177928
+        "avgPrice": 66.4,
+        "sales": 56514,
+        "revenue": 3752530
       },
       {
         "platform": "拼多多",
-        "avgPrice": 78.6,
-        "sales": 31289,
-        "revenue": 2459315
+        "avgPrice": 46.5,
+        "sales": 29419,
+        "revenue": 1367984
       }
     ]
   },
   {
-    "name": "齐心 液体粉笔 无尘",
+    "name": "晨光 液体粉笔 无尘",
     "category": "白板笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 5,
-        "sales": 15625,
-        "revenue": 78125
+        "avgPrice": 19.6,
+        "sales": 6125,
+        "revenue": 120050
       },
       {
         "platform": "天猫",
-        "avgPrice": 5,
-        "sales": 36187,
-        "revenue": 180935
+        "avgPrice": 19.6,
+        "sales": 49800,
+        "revenue": 976080
       },
       {
         "platform": "京东",
-        "avgPrice": 5.8,
-        "sales": 8559,
-        "revenue": 49642
+        "avgPrice": 22.5,
+        "sales": 16369,
+        "revenue": 368303
       },
       {
         "platform": "抖音",
-        "avgPrice": 5,
-        "sales": 13772,
-        "revenue": 68860
+        "avgPrice": 19.6,
+        "sales": 16769,
+        "revenue": 328672
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3.5,
-        "sales": 33938,
-        "revenue": 118783
+        "avgPrice": 13.7,
+        "sales": 44625,
+        "revenue": 611363
       }
     ]
   },
   {
-    "name": "晨光 白板笔 大容量",
+    "name": "齐心 白板笔 大容量",
     "category": "白板笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 34.5,
-        "sales": 12338,
-        "revenue": 425661
+        "avgPrice": 22.9,
+        "sales": 15732,
+        "revenue": 360263
       },
       {
         "platform": "天猫",
-        "avgPrice": 34.5,
-        "sales": 11590,
-        "revenue": 399855
+        "avgPrice": 22.9,
+        "sales": 60719,
+        "revenue": 1390465
       },
       {
         "platform": "京东",
-        "avgPrice": 39.7,
-        "sales": 81109,
-        "revenue": 3220027
+        "avgPrice": 26.3,
+        "sales": 80088,
+        "revenue": 2106314
       },
       {
         "platform": "抖音",
-        "avgPrice": 34.5,
-        "sales": 57085,
-        "revenue": 1969433
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 24.1,
-        "sales": 64843,
-        "revenue": 1562716
-      }
-    ]
-  },
-  {
-    "name": "齐心 白板擦+笔套装",
-    "category": "白板笔",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 22.8,
-        "sales": 13434,
-        "revenue": 306295
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 22.8,
-        "sales": 21461,
-        "revenue": 489311
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 26.2,
-        "sales": 80078,
-        "revenue": 2098044
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 22.8,
-        "sales": 84652,
-        "revenue": 1930066
+        "avgPrice": 22.9,
+        "sales": 64338,
+        "revenue": 1473340
       },
       {
         "platform": "拼多多",
         "avgPrice": 16,
-        "sales": 25620,
-        "revenue": 409920
+        "sales": 27382,
+        "revenue": 438112
       }
     ]
   },
   {
-    "name": "真彩 磁吸白板笔",
+    "name": "真彩 白板擦+笔套装",
     "category": "白板笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 11.8,
-        "sales": 82419,
-        "revenue": 972544
+        "avgPrice": 34.7,
+        "sales": 73593,
+        "revenue": 2553677
       },
       {
         "platform": "天猫",
-        "avgPrice": 11.8,
-        "sales": 48335,
-        "revenue": 570353
+        "avgPrice": 34.7,
+        "sales": 39073,
+        "revenue": 1355833
       },
       {
         "platform": "京东",
-        "avgPrice": 13.6,
-        "sales": 27091,
-        "revenue": 368438
+        "avgPrice": 39.9,
+        "sales": 60699,
+        "revenue": 2421890
       },
       {
         "platform": "抖音",
-        "avgPrice": 11.8,
-        "sales": 6416,
-        "revenue": 75709
+        "avgPrice": 34.7,
+        "sales": 59963,
+        "revenue": 2080716
       },
       {
         "platform": "拼多多",
-        "avgPrice": 8.3,
-        "sales": 34202,
-        "revenue": 283877
+        "avgPrice": 24.3,
+        "sales": 63314,
+        "revenue": 1538530
       }
     ]
   },
   {
-    "name": "白雪 环保白板笔",
+    "name": "白雪 磁吸白板笔",
     "category": "白板笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 8.9,
-        "sales": 33668,
-        "revenue": 299645
+        "avgPrice": 23.9,
+        "sales": 27661,
+        "revenue": 661098
       },
       {
         "platform": "天猫",
-        "avgPrice": 8.9,
-        "sales": 72667,
-        "revenue": 646736
+        "avgPrice": 23.9,
+        "sales": 11269,
+        "revenue": 269329
       },
       {
         "platform": "京东",
-        "avgPrice": 10.2,
-        "sales": 19240,
-        "revenue": 196248
+        "avgPrice": 27.5,
+        "sales": 13076,
+        "revenue": 359590
       },
       {
         "platform": "抖音",
-        "avgPrice": 8.9,
-        "sales": 39831,
-        "revenue": 354496
+        "avgPrice": 23.9,
+        "sales": 77847,
+        "revenue": 1860543
       },
       {
         "platform": "拼多多",
-        "avgPrice": 6.2,
-        "sales": 24849,
-        "revenue": 154064
+        "avgPrice": 16.7,
+        "sales": 21161,
+        "revenue": 353389
       }
     ]
   },
   {
-    "name": "真彩 速干白板笔",
+    "name": "齐心 环保白板笔",
     "category": "白板笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.5,
-        "sales": 40463,
-        "revenue": 1112733
+        "avgPrice": 31.4,
+        "sales": 12706,
+        "revenue": 398968
       },
       {
         "platform": "天猫",
-        "avgPrice": 27.5,
-        "sales": 37134,
-        "revenue": 1021185
+        "avgPrice": 31.4,
+        "sales": 13946,
+        "revenue": 437904
       },
       {
         "platform": "京东",
-        "avgPrice": 31.6,
-        "sales": 84693,
-        "revenue": 2676299
+        "avgPrice": 36.1,
+        "sales": 15855,
+        "revenue": 572366
       },
       {
         "platform": "抖音",
-        "avgPrice": 27.5,
-        "sales": 75717,
-        "revenue": 2082218
+        "avgPrice": 31.4,
+        "sales": 11736,
+        "revenue": 368510
       },
       {
         "platform": "拼多多",
-        "avgPrice": 19.3,
-        "sales": 42136,
-        "revenue": 813225
+        "avgPrice": 22,
+        "sales": 55489,
+        "revenue": 1220758
       }
     ]
   },
   {
-    "name": "晨光 考试专用透明袋",
-    "category": "按扣/拉链文件资料袋/收纳袋",
+    "name": "白雪 速干白板笔",
+    "category": "白板笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 4,
-        "sales": 71783,
-        "revenue": 287132
+        "avgPrice": 20.4,
+        "sales": 82359,
+        "revenue": 1680124
       },
       {
         "platform": "天猫",
-        "avgPrice": 4,
-        "sales": 207339,
-        "revenue": 829356
+        "avgPrice": 20.4,
+        "sales": 46874,
+        "revenue": 956230
       },
       {
         "platform": "京东",
-        "avgPrice": 4.6,
-        "sales": 78504,
-        "revenue": 361118
+        "avgPrice": 23.5,
+        "sales": 64417,
+        "revenue": 1513800
       },
       {
         "platform": "抖音",
-        "avgPrice": 4,
-        "sales": 144249,
-        "revenue": 576996
+        "avgPrice": 20.4,
+        "sales": 65817,
+        "revenue": 1342667
       },
       {
         "platform": "拼多多",
-        "avgPrice": 2.8,
-        "sales": 249992,
-        "revenue": 699978
+        "avgPrice": 14.3,
+        "sales": 9321,
+        "revenue": 133290
       }
     ]
   },
   {
-    "name": "三木 双层拉链袋",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 24.5,
-        "sales": 232797,
-        "revenue": 5703527
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 24.5,
-        "sales": 182849,
-        "revenue": 4479801
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 28.2,
-        "sales": 50127,
-        "revenue": 1413581
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 24.5,
-        "sales": 91202,
-        "revenue": 2234449
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 17.1,
-        "sales": 234617,
-        "revenue": 4011951
-      }
-    ]
-  },
-  {
-    "name": "晨光 防水资料袋",
+    "name": "三木 考试专用透明袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": [
       {
         "platform": "淘宝/天猫",
         "avgPrice": 4.9,
-        "sales": 226703,
-        "revenue": 1110845
+        "sales": 248838,
+        "revenue": 1219306
       },
       {
         "platform": "天猫",
         "avgPrice": 4.9,
-        "sales": 81916,
-        "revenue": 401388
+        "sales": 102602,
+        "revenue": 502750
       },
       {
         "platform": "京东",
         "avgPrice": 5.6,
-        "sales": 80255,
-        "revenue": 449428
+        "sales": 196219,
+        "revenue": 1098826
       },
       {
         "platform": "抖音",
         "avgPrice": 4.9,
-        "sales": 210112,
-        "revenue": 1029549
+        "sales": 105126,
+        "revenue": 515117
       },
       {
         "platform": "拼多多",
         "avgPrice": 3.4,
-        "sales": 107049,
-        "revenue": 363967
+        "sales": 56345,
+        "revenue": 191573
       }
     ]
   },
   {
-    "name": "得力 A5文件袋",
+    "name": "齐心 双层拉链袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.4,
-        "sales": 112546,
-        "revenue": 2070846
+        "avgPrice": 10.6,
+        "sales": 157918,
+        "revenue": 1673931
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.4,
-        "sales": 43574,
-        "revenue": 801762
+        "avgPrice": 10.6,
+        "sales": 123988,
+        "revenue": 1314273
       },
       {
         "platform": "京东",
-        "avgPrice": 21.2,
-        "sales": 200015,
-        "revenue": 4240318
+        "avgPrice": 12.2,
+        "sales": 245930,
+        "revenue": 3000346
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.4,
-        "sales": 198103,
-        "revenue": 3645095
+        "avgPrice": 10.6,
+        "sales": 36220,
+        "revenue": 383932
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.9,
-        "sales": 83625,
-        "revenue": 1078763
+        "avgPrice": 7.4,
+        "sales": 49893,
+        "revenue": 369208
       }
     ]
   },
   {
-    "name": "三木 彩色分类文件袋",
+    "name": "三木 防水资料袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 4.9,
-        "sales": 34960,
-        "revenue": 171304
+        "avgPrice": 8.4,
+        "sales": 80546,
+        "revenue": 676586
       },
       {
         "platform": "天猫",
-        "avgPrice": 4.9,
-        "sales": 22080,
-        "revenue": 108192
+        "avgPrice": 8.4,
+        "sales": 226280,
+        "revenue": 1900752
       },
       {
         "platform": "京东",
-        "avgPrice": 5.6,
-        "sales": 75720,
-        "revenue": 424032
+        "avgPrice": 9.7,
+        "sales": 78164,
+        "revenue": 758191
       },
       {
         "platform": "抖音",
-        "avgPrice": 4.9,
-        "sales": 48725,
-        "revenue": 238753
+        "avgPrice": 8.4,
+        "sales": 56980,
+        "revenue": 478632
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3.4,
-        "sales": 86164,
-        "revenue": 292958
+        "avgPrice": 5.9,
+        "sales": 122284,
+        "revenue": 721476
       }
     ]
   },
   {
-    "name": "齐心 牛津布资料袋",
+    "name": "晨光 A5文件袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 17.1,
-        "sales": 57810,
-        "revenue": 988551
+        "avgPrice": 7.9,
+        "sales": 65459,
+        "revenue": 517126
       },
       {
         "platform": "天猫",
-        "avgPrice": 17.1,
-        "sales": 200277,
-        "revenue": 3424737
+        "avgPrice": 7.9,
+        "sales": 207295,
+        "revenue": 1637631
       },
       {
         "platform": "京东",
-        "avgPrice": 19.7,
-        "sales": 68187,
-        "revenue": 1343284
+        "avgPrice": 9.1,
+        "sales": 90368,
+        "revenue": 822349
       },
       {
         "platform": "抖音",
-        "avgPrice": 17.1,
-        "sales": 228904,
-        "revenue": 3914258
+        "avgPrice": 7.9,
+        "sales": 239680,
+        "revenue": 1893472
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12,
-        "sales": 103761,
-        "revenue": 1245132
+        "avgPrice": 5.5,
+        "sales": 231492,
+        "revenue": 1273206
       }
     ]
   },
   {
-    "name": "真彩 双行修正带",
+    "name": "得力 彩色分类文件袋",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 14.2,
+        "sales": 243047,
+        "revenue": 3451267
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 14.2,
+        "sales": 218625,
+        "revenue": 3104475
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 16.3,
+        "sales": 140746,
+        "revenue": 2294160
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 14.2,
+        "sales": 99083,
+        "revenue": 1406979
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 9.9,
+        "sales": 172316,
+        "revenue": 1705928
+      }
+    ]
+  },
+  {
+    "name": "晨光 牛津布资料袋",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 15.6,
+        "sales": 230444,
+        "revenue": 3594926
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 15.6,
+        "sales": 90219,
+        "revenue": 1407416
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 17.9,
+        "sales": 163846,
+        "revenue": 2932843
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 15.6,
+        "sales": 129453,
+        "revenue": 2019467
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 10.9,
+        "sales": 163069,
+        "revenue": 1777452
+      }
+    ]
+  },
+  {
+    "name": "国誉 双行修正带",
     "category": "修正带",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 4.3,
-        "sales": 72094,
-        "revenue": 310004
+        "avgPrice": 13.4,
+        "sales": 173146,
+        "revenue": 2320156
       },
       {
         "platform": "天猫",
-        "avgPrice": 4.3,
-        "sales": 57243,
-        "revenue": 246145
+        "avgPrice": 13.4,
+        "sales": 48531,
+        "revenue": 650315
       },
       {
         "platform": "京东",
-        "avgPrice": 4.9,
-        "sales": 95130,
-        "revenue": 466137
+        "avgPrice": 15.4,
+        "sales": 80272,
+        "revenue": 1236189
       },
       {
         "platform": "抖音",
-        "avgPrice": 4.3,
-        "sales": 13218,
-        "revenue": 56837
+        "avgPrice": 13.4,
+        "sales": 116130,
+        "revenue": 1556142
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3,
-        "sales": 120777,
-        "revenue": 362331
+        "avgPrice": 9.4,
+        "sales": 157403,
+        "revenue": 1479588
       }
     ]
   },
@@ -15126,69 +14142,69 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 17.5,
-        "sales": 138836,
-        "revenue": 2429630
+        "avgPrice": 4.3,
+        "sales": 28376,
+        "revenue": 122017
       },
       {
         "platform": "天猫",
-        "avgPrice": 17.5,
-        "sales": 70999,
-        "revenue": 1242483
+        "avgPrice": 4.3,
+        "sales": 57011,
+        "revenue": 245147
       },
       {
         "platform": "京东",
-        "avgPrice": 20.1,
-        "sales": 77981,
-        "revenue": 1567418
+        "avgPrice": 4.9,
+        "sales": 25589,
+        "revenue": 125386
       },
       {
         "platform": "抖音",
-        "avgPrice": 17.5,
-        "sales": 18581,
-        "revenue": 325168
+        "avgPrice": 4.3,
+        "sales": 91233,
+        "revenue": 392302
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.3,
-        "sales": 39476,
-        "revenue": 485555
+        "avgPrice": 3,
+        "sales": 18912,
+        "revenue": 56736
       }
     ]
   },
   {
-    "name": "得力 学生修正带套装",
+    "name": "晨光 学生修正带套装",
     "category": "修正带",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 11.7,
-        "sales": 128255,
-        "revenue": 1500584
+        "avgPrice": 10.5,
+        "sales": 134765,
+        "revenue": 1415033
       },
       {
         "platform": "天猫",
-        "avgPrice": 11.7,
-        "sales": 74826,
-        "revenue": 875464
+        "avgPrice": 10.5,
+        "sales": 77918,
+        "revenue": 818139
       },
       {
         "platform": "京东",
-        "avgPrice": 13.5,
-        "sales": 121776,
-        "revenue": 1643976
+        "avgPrice": 12.1,
+        "sales": 156481,
+        "revenue": 1893420
       },
       {
         "platform": "抖音",
-        "avgPrice": 11.7,
-        "sales": 130043,
-        "revenue": 1521503
+        "avgPrice": 10.5,
+        "sales": 128522,
+        "revenue": 1349481
       },
       {
         "platform": "拼多多",
-        "avgPrice": 8.2,
-        "sales": 101621,
-        "revenue": 833292
+        "avgPrice": 7.3,
+        "sales": 49610,
+        "revenue": 362153
       }
     ]
   },
@@ -15198,501 +14214,501 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 5.6,
-        "sales": 162031,
-        "revenue": 907374
+        "avgPrice": 15.2,
+        "sales": 39965,
+        "revenue": 607468
       },
       {
         "platform": "天猫",
-        "avgPrice": 5.6,
-        "sales": 132489,
-        "revenue": 741938
+        "avgPrice": 15.2,
+        "sales": 105534,
+        "revenue": 1604117
       },
       {
         "platform": "京东",
-        "avgPrice": 6.4,
-        "sales": 64733,
-        "revenue": 414291
+        "avgPrice": 17.5,
+        "sales": 102821,
+        "revenue": 1799368
       },
       {
         "platform": "抖音",
-        "avgPrice": 5.6,
-        "sales": 102200,
-        "revenue": 572320
+        "avgPrice": 15.2,
+        "sales": 21267,
+        "revenue": 323258
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3.9,
-        "sales": 52474,
-        "revenue": 204649
+        "avgPrice": 10.6,
+        "sales": 119906,
+        "revenue": 1271004
       }
     ]
   },
   {
-    "name": "PLUS 修正带替芯 3个",
+    "name": "晨光 修正带替芯 3个",
     "category": "修正带",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 3.6,
-        "sales": 149000,
-        "revenue": 536400
+        "avgPrice": 5,
+        "sales": 152342,
+        "revenue": 761710
       },
       {
         "platform": "天猫",
-        "avgPrice": 3.6,
-        "sales": 55455,
-        "revenue": 199638
+        "avgPrice": 5,
+        "sales": 116056,
+        "revenue": 580280
       },
       {
         "platform": "京东",
-        "avgPrice": 4.1,
-        "sales": 70541,
-        "revenue": 289218
+        "avgPrice": 5.8,
+        "sales": 167317,
+        "revenue": 970439
       },
       {
         "platform": "抖音",
-        "avgPrice": 3.6,
-        "sales": 156136,
-        "revenue": 562090
+        "avgPrice": 5,
+        "sales": 117511,
+        "revenue": 587555
       },
       {
         "platform": "拼多多",
-        "avgPrice": 2.5,
-        "sales": 74144,
-        "revenue": 185360
+        "avgPrice": 3.5,
+        "sales": 134200,
+        "revenue": 469700
       }
     ]
   },
   {
-    "name": "晨光 宽幅修正带",
+    "name": "PLUS 宽幅修正带",
     "category": "修正带",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 11,
-        "sales": 167512,
-        "revenue": 1842632
+        "avgPrice": 12.5,
+        "sales": 162698,
+        "revenue": 2033725
       },
       {
         "platform": "天猫",
-        "avgPrice": 11,
-        "sales": 45608,
-        "revenue": 501688
+        "avgPrice": 12.5,
+        "sales": 37030,
+        "revenue": 462875
       },
       {
         "platform": "京东",
-        "avgPrice": 12.6,
-        "sales": 96081,
-        "revenue": 1210621
+        "avgPrice": 14.4,
+        "sales": 105127,
+        "revenue": 1513829
       },
       {
         "platform": "抖音",
-        "avgPrice": 11,
-        "sales": 173451,
-        "revenue": 1907961
+        "avgPrice": 12.5,
+        "sales": 54699,
+        "revenue": 683738
       },
       {
         "platform": "拼多多",
-        "avgPrice": 7.7,
-        "sales": 65011,
-        "revenue": 500585
+        "avgPrice": 8.8,
+        "sales": 47962,
+        "revenue": 422066
       }
     ]
   },
   {
-    "name": "凌美 明尖钢笔",
+    "name": "百乐 明尖钢笔",
     "category": "钢笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 39,
-        "sales": 21342,
-        "revenue": 832338
+        "avgPrice": 69.3,
+        "sales": 39341,
+        "revenue": 2726331
       },
       {
         "platform": "天猫",
-        "avgPrice": 39,
-        "sales": 30256,
-        "revenue": 1179984
+        "avgPrice": 69.3,
+        "sales": 5792,
+        "revenue": 401386
       },
       {
         "platform": "京东",
-        "avgPrice": 44.8,
-        "sales": 30741,
-        "revenue": 1377197
+        "avgPrice": 79.7,
+        "sales": 5462,
+        "revenue": 435321
       },
       {
         "platform": "抖音",
-        "avgPrice": 39,
-        "sales": 20203,
-        "revenue": 787917
+        "avgPrice": 69.3,
+        "sales": 36084,
+        "revenue": 2500621
       },
       {
         "platform": "拼多多",
-        "avgPrice": 27.3,
-        "sales": 15385,
-        "revenue": 420011
+        "avgPrice": 48.5,
+        "sales": 25502,
+        "revenue": 1236847
       }
     ]
   },
   {
-    "name": "英雄 EF尖钢笔",
+    "name": "派克 EF尖钢笔",
     "category": "钢笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 192.2,
-        "sales": 26291,
-        "revenue": 5053130
+        "avgPrice": 168.7,
+        "sales": 24932,
+        "revenue": 4206028
       },
       {
         "platform": "天猫",
-        "avgPrice": 192.2,
-        "sales": 3357,
-        "revenue": 645215
+        "avgPrice": 168.7,
+        "sales": 6275,
+        "revenue": 1058593
       },
       {
         "platform": "京东",
-        "avgPrice": 221,
-        "sales": 27424,
-        "revenue": 6060704
+        "avgPrice": 194,
+        "sales": 9810,
+        "revenue": 1903140
       },
       {
         "platform": "抖音",
-        "avgPrice": 192.2,
-        "sales": 30990,
-        "revenue": 5956278
+        "avgPrice": 168.7,
+        "sales": 35630,
+        "revenue": 6010781
       },
       {
         "platform": "拼多多",
-        "avgPrice": 134.5,
-        "sales": 17896,
-        "revenue": 2407012
+        "avgPrice": 118.1,
+        "sales": 37644,
+        "revenue": 4445756
       }
     ]
   },
   {
-    "name": "英雄 透明示范钢笔",
+    "name": "百乐 透明示范钢笔",
     "category": "钢笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.8,
-        "sales": 22447,
-        "revenue": 624027
+        "avgPrice": 153.6,
+        "sales": 11414,
+        "revenue": 1753190
       },
       {
         "platform": "天猫",
-        "avgPrice": 27.8,
-        "sales": 20987,
-        "revenue": 583439
+        "avgPrice": 153.6,
+        "sales": 36661,
+        "revenue": 5631130
       },
       {
         "platform": "京东",
-        "avgPrice": 32,
-        "sales": 5563,
-        "revenue": 178016
+        "avgPrice": 176.6,
+        "sales": 21648,
+        "revenue": 3823037
       },
       {
         "platform": "抖音",
-        "avgPrice": 27.8,
-        "sales": 25870,
-        "revenue": 719186
+        "avgPrice": 153.6,
+        "sales": 12290,
+        "revenue": 1887744
       },
       {
         "platform": "拼多多",
-        "avgPrice": 19.5,
-        "sales": 29194,
-        "revenue": 569283
+        "avgPrice": 107.5,
+        "sales": 3183,
+        "revenue": 342173
       }
     ]
   },
   {
-    "name": "凌美 旋转吸墨钢笔",
+    "name": "百乐 旋转吸墨钢笔",
     "category": "钢笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 134.6,
-        "sales": 18754,
-        "revenue": 2524288
+        "avgPrice": 89.8,
+        "sales": 7751,
+        "revenue": 696040
       },
       {
         "platform": "天猫",
-        "avgPrice": 134.6,
-        "sales": 16202,
-        "revenue": 2180789
+        "avgPrice": 89.8,
+        "sales": 15187,
+        "revenue": 1363793
       },
       {
         "platform": "京东",
-        "avgPrice": 154.8,
-        "sales": 34810,
-        "revenue": 5388588
+        "avgPrice": 103.3,
+        "sales": 32365,
+        "revenue": 3343305
       },
       {
         "platform": "抖音",
-        "avgPrice": 134.6,
-        "sales": 15121,
-        "revenue": 2035287
+        "avgPrice": 89.8,
+        "sales": 8832,
+        "revenue": 793114
       },
       {
         "platform": "拼多多",
-        "avgPrice": 94.2,
-        "sales": 10570,
-        "revenue": 995694
+        "avgPrice": 62.9,
+        "sales": 17902,
+        "revenue": 1126036
       }
     ]
   },
   {
-    "name": "英雄 速写钢笔",
+    "name": "百乐 速写钢笔",
     "category": "钢笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 198.8,
-        "sales": 25054,
-        "revenue": 4980735
+        "avgPrice": 155.2,
+        "sales": 30808,
+        "revenue": 4781402
       },
       {
         "platform": "天猫",
-        "avgPrice": 198.8,
-        "sales": 21614,
-        "revenue": 4296863
+        "avgPrice": 155.2,
+        "sales": 18180,
+        "revenue": 2821536
       },
       {
         "platform": "京东",
-        "avgPrice": 228.6,
-        "sales": 20017,
-        "revenue": 4575886
+        "avgPrice": 178.5,
+        "sales": 16714,
+        "revenue": 2983449
       },
       {
         "platform": "抖音",
-        "avgPrice": 198.8,
-        "sales": 26126,
-        "revenue": 5193849
+        "avgPrice": 155.2,
+        "sales": 37662,
+        "revenue": 5845142
       },
       {
         "platform": "拼多多",
-        "avgPrice": 139.2,
-        "sales": 20008,
-        "revenue": 2785114
+        "avgPrice": 108.6,
+        "sales": 33709,
+        "revenue": 3660797
       }
     ]
   },
   {
-    "name": "派克 钢笔套装 含墨囊",
+    "name": "凌美 钢笔套装 含墨囊",
     "category": "钢笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 92.9,
-        "sales": 29860,
-        "revenue": 2773994
+        "avgPrice": 142.1,
+        "sales": 37494,
+        "revenue": 5327897
       },
       {
         "platform": "天猫",
-        "avgPrice": 92.9,
-        "sales": 26086,
-        "revenue": 2423389
+        "avgPrice": 142.1,
+        "sales": 39521,
+        "revenue": 5615934
       },
       {
         "platform": "京东",
-        "avgPrice": 106.8,
-        "sales": 32798,
-        "revenue": 3502826
+        "avgPrice": 163.4,
+        "sales": 21843,
+        "revenue": 3569146
       },
       {
         "platform": "抖音",
-        "avgPrice": 92.9,
-        "sales": 5618,
-        "revenue": 521912
+        "avgPrice": 142.1,
+        "sales": 4365,
+        "revenue": 620267
       },
       {
         "platform": "拼多多",
-        "avgPrice": 65,
-        "sales": 13091,
-        "revenue": 850915
+        "avgPrice": 99.5,
+        "sales": 33013,
+        "revenue": 3284794
       }
     ]
   },
   {
-    "name": "老人头 油画纸 亚麻",
+    "name": "获多福 油画纸 亚麻",
     "category": "画纸/画本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.4,
-        "sales": 48405,
-        "revenue": 890652
+        "avgPrice": 61.9,
+        "sales": 73291,
+        "revenue": 4536713
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.4,
-        "sales": 18301,
-        "revenue": 336738
+        "avgPrice": 61.9,
+        "sales": 69839,
+        "revenue": 4323034
       },
       {
         "platform": "京东",
-        "avgPrice": 21.2,
-        "sales": 74262,
-        "revenue": 1574354
+        "avgPrice": 71.2,
+        "sales": 54855,
+        "revenue": 3905676
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.4,
-        "sales": 69531,
-        "revenue": 1279370
+        "avgPrice": 61.9,
+        "sales": 15038,
+        "revenue": 930852
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.9,
-        "sales": 4647,
-        "revenue": 59946
+        "avgPrice": 43.3,
+        "sales": 27361,
+        "revenue": 1184731
       }
     ]
   },
   {
-    "name": "宝虹 马克笔专用纸",
+    "name": "获多福 马克笔专用纸",
     "category": "画纸/画本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 65.4,
-        "sales": 38397,
-        "revenue": 2511164
+        "avgPrice": 42.9,
+        "sales": 10497,
+        "revenue": 450321
       },
       {
         "platform": "天猫",
-        "avgPrice": 65.4,
-        "sales": 50844,
-        "revenue": 3325198
+        "avgPrice": 42.9,
+        "sales": 68011,
+        "revenue": 2917672
       },
       {
         "platform": "京东",
-        "avgPrice": 75.2,
-        "sales": 69038,
-        "revenue": 5191658
+        "avgPrice": 49.3,
+        "sales": 24575,
+        "revenue": 1211548
       },
       {
         "platform": "抖音",
-        "avgPrice": 65.4,
-        "sales": 37818,
-        "revenue": 2473297
+        "avgPrice": 42.9,
+        "sales": 24076,
+        "revenue": 1032860
       },
       {
         "platform": "拼多多",
-        "avgPrice": 45.8,
-        "sales": 49382,
-        "revenue": 2261696
+        "avgPrice": 30,
+        "sales": 63034,
+        "revenue": 1891020
       }
     ]
   },
   {
-    "name": "获多福 彩铅纸 细纹",
+    "name": "康颂 彩铅纸 细纹",
     "category": "画纸/画本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 41.7,
-        "sales": 28325,
-        "revenue": 1181153
+        "avgPrice": 8.5,
+        "sales": 53966,
+        "revenue": 458711
       },
       {
         "platform": "天猫",
-        "avgPrice": 41.7,
-        "sales": 45870,
-        "revenue": 1912779
+        "avgPrice": 8.5,
+        "sales": 33764,
+        "revenue": 286994
       },
       {
         "platform": "京东",
-        "avgPrice": 48,
-        "sales": 37287,
-        "revenue": 1789776
+        "avgPrice": 9.8,
+        "sales": 13072,
+        "revenue": 128106
       },
       {
         "platform": "抖音",
-        "avgPrice": 41.7,
-        "sales": 40599,
-        "revenue": 1692978
+        "avgPrice": 8.5,
+        "sales": 60004,
+        "revenue": 510034
       },
       {
         "platform": "拼多多",
-        "avgPrice": 29.2,
-        "sales": 65558,
-        "revenue": 1914294
+        "avgPrice": 5.9,
+        "sales": 59431,
+        "revenue": 350643
       }
     ]
   },
   {
-    "name": "宝虹 儿童画本 空白",
+    "name": "康颂 儿童画本 空白",
     "category": "画纸/画本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 15.5,
-        "sales": 70144,
-        "revenue": 1087232
+        "avgPrice": 67.9,
+        "sales": 10511,
+        "revenue": 713697
       },
       {
         "platform": "天猫",
-        "avgPrice": 15.5,
-        "sales": 73195,
-        "revenue": 1134523
+        "avgPrice": 67.9,
+        "sales": 10488,
+        "revenue": 712135
       },
       {
         "platform": "京东",
-        "avgPrice": 17.8,
-        "sales": 32415,
-        "revenue": 576987
+        "avgPrice": 78.1,
+        "sales": 6624,
+        "revenue": 517334
       },
       {
         "platform": "抖音",
-        "avgPrice": 15.5,
-        "sales": 11677,
-        "revenue": 180994
+        "avgPrice": 67.9,
+        "sales": 22716,
+        "revenue": 1542416
       },
       {
         "platform": "拼多多",
-        "avgPrice": 10.8,
-        "sales": 15841,
-        "revenue": 171083
+        "avgPrice": 47.5,
+        "sales": 14618,
+        "revenue": 694355
       }
     ]
   },
   {
-    "name": "宝虹 绘画本 A3",
+    "name": "康颂 绘画本 A3",
     "category": "画纸/画本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 65.3,
-        "sales": 29288,
-        "revenue": 1912506
+        "avgPrice": 31.3,
+        "sales": 49771,
+        "revenue": 1557832
       },
       {
         "platform": "天猫",
-        "avgPrice": 65.3,
-        "sales": 56638,
-        "revenue": 3698461
+        "avgPrice": 31.3,
+        "sales": 17343,
+        "revenue": 542836
       },
       {
         "platform": "京东",
-        "avgPrice": 75.1,
-        "sales": 44028,
-        "revenue": 3306503
+        "avgPrice": 36,
+        "sales": 60083,
+        "revenue": 2162988
       },
       {
         "platform": "抖音",
-        "avgPrice": 65.3,
-        "sales": 30287,
-        "revenue": 1977741
+        "avgPrice": 31.3,
+        "sales": 20456,
+        "revenue": 640273
       },
       {
         "platform": "拼多多",
-        "avgPrice": 45.7,
-        "sales": 42437,
-        "revenue": 1939371
+        "avgPrice": 21.9,
+        "sales": 68671,
+        "revenue": 1503895
       }
     ]
   },
@@ -15702,105 +14718,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 26.8,
-        "sales": 39599,
-        "revenue": 1061253
+        "avgPrice": 53,
+        "sales": 70772,
+        "revenue": 3750916
       },
       {
         "platform": "天猫",
-        "avgPrice": 26.8,
-        "sales": 7442,
-        "revenue": 199446
+        "avgPrice": 53,
+        "sales": 62347,
+        "revenue": 3304391
       },
       {
         "platform": "京东",
-        "avgPrice": 30.8,
-        "sales": 11187,
-        "revenue": 344560
+        "avgPrice": 60.9,
+        "sales": 36030,
+        "revenue": 2194227
       },
       {
         "platform": "抖音",
-        "avgPrice": 26.8,
-        "sales": 15148,
-        "revenue": 405966
+        "avgPrice": 53,
+        "sales": 61733,
+        "revenue": 3271849
       },
       {
         "platform": "拼多多",
-        "avgPrice": 18.8,
-        "sales": 20028,
-        "revenue": 376526
+        "avgPrice": 37.1,
+        "sales": 32820,
+        "revenue": 1217622
       }
     ]
   },
   {
-    "name": "UHU 502胶水",
+    "name": "齐心 502胶水",
     "category": "胶水",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 7.9,
-        "sales": 114724,
-        "revenue": 906320
+        "avgPrice": 15.5,
+        "sales": 145676,
+        "revenue": 2257978
       },
       {
         "platform": "天猫",
-        "avgPrice": 7.9,
-        "sales": 101334,
-        "revenue": 800539
+        "avgPrice": 15.5,
+        "sales": 118717,
+        "revenue": 1840114
       },
       {
         "platform": "京东",
-        "avgPrice": 9.1,
-        "sales": 41331,
-        "revenue": 376112
+        "avgPrice": 17.8,
+        "sales": 60036,
+        "revenue": 1068641
       },
       {
         "platform": "抖音",
-        "avgPrice": 7.9,
-        "sales": 62566,
-        "revenue": 494271
+        "avgPrice": 15.5,
+        "sales": 66076,
+        "revenue": 1024178
       },
       {
         "platform": "拼多多",
-        "avgPrice": 5.5,
-        "sales": 103395,
-        "revenue": 568673
+        "avgPrice": 10.8,
+        "sales": 14693,
+        "revenue": 158684
       }
     ]
   },
   {
-    "name": "晨光 学生胶水 安全",
+    "name": "得力 学生胶水 安全",
     "category": "胶水",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.7,
-        "sales": 55834,
-        "revenue": 1546602
+        "avgPrice": 10.9,
+        "sales": 90409,
+        "revenue": 985458
       },
       {
         "platform": "天猫",
-        "avgPrice": 27.7,
-        "sales": 52014,
-        "revenue": 1440788
+        "avgPrice": 10.9,
+        "sales": 109564,
+        "revenue": 1194248
       },
       {
         "platform": "京东",
-        "avgPrice": 31.9,
-        "sales": 33076,
-        "revenue": 1055124
+        "avgPrice": 12.5,
+        "sales": 63347,
+        "revenue": 791838
       },
       {
         "platform": "抖音",
-        "avgPrice": 27.7,
-        "sales": 35608,
-        "revenue": 986342
+        "avgPrice": 10.9,
+        "sales": 103960,
+        "revenue": 1133164
       },
       {
         "platform": "拼多多",
-        "avgPrice": 19.4,
-        "sales": 131761,
-        "revenue": 2556163
+        "avgPrice": 7.6,
+        "sales": 111111,
+        "revenue": 844444
       }
     ]
   },
@@ -15810,69 +14826,69 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 3.5,
-        "sales": 30193,
-        "revenue": 105676
+        "avgPrice": 9.1,
+        "sales": 33800,
+        "revenue": 307580
       },
       {
         "platform": "天猫",
-        "avgPrice": 3.5,
-        "sales": 105938,
-        "revenue": 370783
+        "avgPrice": 9.1,
+        "sales": 138781,
+        "revenue": 1262907
       },
       {
         "platform": "京东",
-        "avgPrice": 4,
-        "sales": 130381,
-        "revenue": 521524
+        "avgPrice": 10.5,
+        "sales": 113227,
+        "revenue": 1188884
       },
       {
         "platform": "抖音",
-        "avgPrice": 3.5,
-        "sales": 66242,
-        "revenue": 231847
+        "avgPrice": 9.1,
+        "sales": 54616,
+        "revenue": 497006
       },
       {
         "platform": "拼多多",
-        "avgPrice": 2.4,
-        "sales": 12411,
-        "revenue": 29786
+        "avgPrice": 6.4,
+        "sales": 87026,
+        "revenue": 556966
       }
     ]
   },
   {
-    "name": "得力 万能胶",
+    "name": "晨光 万能胶",
     "category": "胶水",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.2,
-        "sales": 70541,
-        "revenue": 1283846
+        "avgPrice": 18,
+        "sales": 14937,
+        "revenue": 268866
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.2,
-        "sales": 92473,
-        "revenue": 1683009
+        "avgPrice": 18,
+        "sales": 127509,
+        "revenue": 2295162
       },
       {
         "platform": "京东",
-        "avgPrice": 20.9,
-        "sales": 140436,
-        "revenue": 2935112
+        "avgPrice": 20.7,
+        "sales": 46590,
+        "revenue": 964413
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.2,
-        "sales": 132518,
-        "revenue": 2411828
+        "avgPrice": 18,
+        "sales": 59640,
+        "revenue": 1073520
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.7,
-        "sales": 25518,
-        "revenue": 324079
+        "avgPrice": 12.6,
+        "sales": 133682,
+        "revenue": 1684393
       }
     ]
   },
@@ -15882,177 +14898,177 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 26.6,
-        "sales": 24108,
-        "revenue": 641273
+        "avgPrice": 2.4,
+        "sales": 84114,
+        "revenue": 201874
       },
       {
         "platform": "天猫",
-        "avgPrice": 26.6,
-        "sales": 146618,
-        "revenue": 3900039
+        "avgPrice": 2.4,
+        "sales": 143523,
+        "revenue": 344455
       },
       {
         "platform": "京东",
-        "avgPrice": 30.6,
-        "sales": 102264,
-        "revenue": 3129278
+        "avgPrice": 2.8,
+        "sales": 38072,
+        "revenue": 106602
       },
       {
         "platform": "抖音",
-        "avgPrice": 26.6,
-        "sales": 24022,
-        "revenue": 638985
+        "avgPrice": 2.4,
+        "sales": 81733,
+        "revenue": 196159
       },
       {
         "platform": "拼多多",
-        "avgPrice": 18.6,
-        "sales": 95932,
-        "revenue": 1784335
+        "avgPrice": 1.7,
+        "sales": 148660,
+        "revenue": 252722
       }
     ]
   },
   {
-    "name": "3M 双面胶点 替芯",
+    "name": "晨光 双面胶点 替芯",
     "category": "胶水",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 7.5,
-        "sales": 47034,
-        "revenue": 352755
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 7.5,
-        "sales": 73790,
-        "revenue": 553425
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 8.6,
-        "sales": 63195,
-        "revenue": 543477
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 7.5,
-        "sales": 41613,
-        "revenue": 312098
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 5.3,
-        "sales": 32655,
-        "revenue": 173072
-      }
-    ]
-  },
-  {
-    "name": "晨光 红色笔芯",
-    "category": "笔芯/替芯/笔壳",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 8.7,
-        "sales": 177219,
-        "revenue": 1541805
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 8.7,
-        "sales": 36081,
-        "revenue": 313905
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 10,
-        "sales": 101776,
-        "revenue": 1017760
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 8.7,
-        "sales": 169914,
-        "revenue": 1478252
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 6.1,
-        "sales": 77315,
-        "revenue": 471622
-      }
-    ]
-  },
-  {
-    "name": "得力 蓝色笔芯 子弹头",
-    "category": "笔芯/替芯/笔壳",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
         "avgPrice": 23.8,
-        "sales": 48946,
-        "revenue": 1164915
+        "sales": 142636,
+        "revenue": 3394737
       },
       {
         "platform": "天猫",
         "avgPrice": 23.8,
-        "sales": 191262,
-        "revenue": 4552036
+        "sales": 101214,
+        "revenue": 2408893
       },
       {
         "platform": "京东",
         "avgPrice": 27.4,
-        "sales": 93823,
-        "revenue": 2570750
+        "sales": 63310,
+        "revenue": 1734694
       },
       {
         "platform": "抖音",
         "avgPrice": 23.8,
-        "sales": 182391,
-        "revenue": 4340906
+        "sales": 91730,
+        "revenue": 2183174
       },
       {
         "platform": "拼多多",
         "avgPrice": 16.7,
-        "sales": 34364,
-        "revenue": 573879
+        "sales": 148907,
+        "revenue": 2486747
       }
     ]
   },
   {
-    "name": "百乐 笔芯0.38mm 细",
+    "name": "百乐 红色笔芯",
     "category": "笔芯/替芯/笔壳",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 15,
-        "sales": 193093,
-        "revenue": 2896395
+        "avgPrice": 5.3,
+        "sales": 193138,
+        "revenue": 1023631
       },
       {
         "platform": "天猫",
-        "avgPrice": 15,
-        "sales": 160815,
-        "revenue": 2412225
+        "avgPrice": 5.3,
+        "sales": 131453,
+        "revenue": 696701
       },
       {
         "platform": "京东",
-        "avgPrice": 17.3,
-        "sales": 62480,
-        "revenue": 1080904
+        "avgPrice": 6.1,
+        "sales": 16787,
+        "revenue": 102401
       },
       {
         "platform": "抖音",
-        "avgPrice": 15,
-        "sales": 70482,
-        "revenue": 1057230
+        "avgPrice": 5.3,
+        "sales": 137121,
+        "revenue": 726741
       },
       {
         "platform": "拼多多",
-        "avgPrice": 10.5,
-        "sales": 48729,
-        "revenue": 511655
+        "avgPrice": 3.7,
+        "sales": 154950,
+        "revenue": 573315
+      }
+    ]
+  },
+  {
+    "name": "斑马 蓝色笔芯 子弹头",
+    "category": "笔芯/替芯/笔壳",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 4.6,
+        "sales": 27889,
+        "revenue": 128289
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 4.6,
+        "sales": 112233,
+        "revenue": 516272
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 5.3,
+        "sales": 104933,
+        "revenue": 556145
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 4.6,
+        "sales": 27815,
+        "revenue": 127949
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 3.2,
+        "sales": 129352,
+        "revenue": 413926
+      }
+    ]
+  },
+  {
+    "name": "真彩 笔芯0.38mm 细",
+    "category": "笔芯/替芯/笔壳",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 14.4,
+        "sales": 135273,
+        "revenue": 1947931
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 14.4,
+        "sales": 93768,
+        "revenue": 1350259
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 16.6,
+        "sales": 81008,
+        "revenue": 1344733
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 14.4,
+        "sales": 174051,
+        "revenue": 2506334
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 10.1,
+        "sales": 75604,
+        "revenue": 763600
       }
     ]
   },
@@ -16062,249 +15078,249 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 4.6,
-        "sales": 189233,
-        "revenue": 870472
+        "avgPrice": 7,
+        "sales": 199807,
+        "revenue": 1398649
       },
       {
         "platform": "天猫",
-        "avgPrice": 4.6,
-        "sales": 53778,
-        "revenue": 247379
+        "avgPrice": 7,
+        "sales": 125268,
+        "revenue": 876876
       },
       {
         "platform": "京东",
-        "avgPrice": 5.3,
-        "sales": 101652,
-        "revenue": 538756
+        "avgPrice": 8,
+        "sales": 108068,
+        "revenue": 864544
       },
       {
         "platform": "抖音",
-        "avgPrice": 4.6,
-        "sales": 135292,
-        "revenue": 622343
+        "avgPrice": 7,
+        "sales": 100084,
+        "revenue": 700588
       },
       {
         "platform": "拼多多",
-        "avgPrice": 3.2,
-        "sales": 28585,
-        "revenue": 91472
+        "avgPrice": 4.9,
+        "sales": 130629,
+        "revenue": 640082
       }
     ]
   },
   {
-    "name": "得力 子弹头笔芯 100支",
+    "name": "斑马 子弹头笔芯 100支",
+    "category": "笔芯/替芯/笔壳",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 17.2,
+        "sales": 93310,
+        "revenue": 1604932
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 17.2,
+        "sales": 149302,
+        "revenue": 2567994
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 19.8,
+        "sales": 130432,
+        "revenue": 2582554
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 17.2,
+        "sales": 163989,
+        "revenue": 2820611
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 12,
+        "sales": 28091,
+        "revenue": 337092
+      }
+    ]
+  },
+  {
+    "name": "百乐 针管笔芯",
     "category": "笔芯/替芯/笔壳",
     "platforms": [
       {
         "platform": "淘宝/天猫",
         "avgPrice": 22.1,
-        "sales": 174601,
-        "revenue": 3858682
+        "sales": 191771,
+        "revenue": 4238139
       },
       {
         "platform": "天猫",
         "avgPrice": 22.1,
-        "sales": 54309,
-        "revenue": 1200229
+        "sales": 105185,
+        "revenue": 2324589
       },
       {
         "platform": "京东",
         "avgPrice": 25.4,
-        "sales": 156009,
-        "revenue": 3962629
+        "sales": 74778,
+        "revenue": 1899361
       },
       {
         "platform": "抖音",
         "avgPrice": 22.1,
-        "sales": 171749,
-        "revenue": 3795653
+        "sales": 81908,
+        "revenue": 1810167
       },
       {
         "platform": "拼多多",
         "avgPrice": 15.5,
-        "sales": 143569,
-        "revenue": 2225320
+        "sales": 122817,
+        "revenue": 1903664
       }
     ]
   },
   {
-    "name": "斑马 针管笔芯",
-    "category": "笔芯/替芯/笔壳",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 5.1,
-        "sales": 22703,
-        "revenue": 115785
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 5.1,
-        "sales": 177297,
-        "revenue": 904215
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 5.9,
-        "sales": 139666,
-        "revenue": 824029
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 5.1,
-        "sales": 72640,
-        "revenue": 370464
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 3.6,
-        "sales": 36328,
-        "revenue": 130781
-      }
-    ]
-  },
-  {
-    "name": "宝克 白色记号笔",
+    "name": "晨光 白色记号笔",
     "category": "记号笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 9.7,
-        "sales": 9453,
-        "revenue": 91694
+        "avgPrice": 18.6,
+        "sales": 119951,
+        "revenue": 2231089
       },
       {
         "platform": "天猫",
-        "avgPrice": 9.7,
-        "sales": 75474,
-        "revenue": 732098
+        "avgPrice": 18.6,
+        "sales": 64774,
+        "revenue": 1204796
       },
       {
         "platform": "京东",
-        "avgPrice": 11.2,
-        "sales": 91224,
-        "revenue": 1021709
+        "avgPrice": 21.4,
+        "sales": 85254,
+        "revenue": 1824436
       },
       {
         "platform": "抖音",
-        "avgPrice": 9.7,
-        "sales": 43202,
-        "revenue": 419059
+        "avgPrice": 18.6,
+        "sales": 115190,
+        "revenue": 2142534
       },
       {
         "platform": "拼多多",
-        "avgPrice": 6.8,
-        "sales": 9489,
-        "revenue": 64525
+        "avgPrice": 13,
+        "sales": 63821,
+        "revenue": 829673
       }
     ]
   },
   {
-    "name": "斑马 防水记号笔",
+    "name": "宝克 防水记号笔",
     "category": "记号笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 23.6,
-        "sales": 13041,
-        "revenue": 307768
+        "avgPrice": 21,
+        "sales": 74189,
+        "revenue": 1557969
       },
       {
         "platform": "天猫",
-        "avgPrice": 23.6,
-        "sales": 78654,
-        "revenue": 1856234
+        "avgPrice": 21,
+        "sales": 48202,
+        "revenue": 1012242
       },
       {
         "platform": "京东",
-        "avgPrice": 27.1,
-        "sales": 88041,
-        "revenue": 2385911
+        "avgPrice": 24.1,
+        "sales": 77070,
+        "revenue": 1857387
       },
       {
         "platform": "抖音",
-        "avgPrice": 23.6,
-        "sales": 81028,
-        "revenue": 1912261
+        "avgPrice": 21,
+        "sales": 62947,
+        "revenue": 1321887
       },
       {
         "platform": "拼多多",
-        "avgPrice": 16.5,
-        "sales": 48289,
-        "revenue": 796769
+        "avgPrice": 14.7,
+        "sales": 68397,
+        "revenue": 1005436
       }
     ]
   },
   {
-    "name": "晨光 金色记号笔",
+    "name": "雪人 金色记号笔",
     "category": "记号笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 3.9,
-        "sales": 98903,
-        "revenue": 385722
+        "avgPrice": 20,
+        "sales": 23427,
+        "revenue": 468540
       },
       {
         "platform": "天猫",
-        "avgPrice": 3.9,
-        "sales": 112110,
-        "revenue": 437229
+        "avgPrice": 20,
+        "sales": 117010,
+        "revenue": 2340200
       },
       {
         "platform": "京东",
-        "avgPrice": 4.5,
-        "sales": 84684,
-        "revenue": 381078
+        "avgPrice": 23,
+        "sales": 122031,
+        "revenue": 2806713
       },
       {
         "platform": "抖音",
-        "avgPrice": 3.9,
-        "sales": 31484,
-        "revenue": 122788
+        "avgPrice": 20,
+        "sales": 54931,
+        "revenue": 1098620
       },
       {
         "platform": "拼多多",
-        "avgPrice": 2.7,
-        "sales": 48491,
-        "revenue": 130926
+        "avgPrice": 14,
+        "sales": 20809,
+        "revenue": 291326
       }
     ]
   },
   {
-    "name": "斑马 细头记号笔",
+    "name": "晨光 细头记号笔",
     "category": "记号笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 15,
-        "sales": 60869,
-        "revenue": 913035
+        "avgPrice": 20.1,
+        "sales": 119873,
+        "revenue": 2409447
       },
       {
         "platform": "天猫",
-        "avgPrice": 15,
-        "sales": 104957,
-        "revenue": 1574355
+        "avgPrice": 20.1,
+        "sales": 49785,
+        "revenue": 1000679
       },
       {
         "platform": "京东",
-        "avgPrice": 17.3,
-        "sales": 9535,
-        "revenue": 164956
+        "avgPrice": 23.1,
+        "sales": 94787,
+        "revenue": 2189580
       },
       {
         "platform": "抖音",
-        "avgPrice": 15,
-        "sales": 58235,
-        "revenue": 873525
+        "avgPrice": 20.1,
+        "sales": 74039,
+        "revenue": 1488184
       },
       {
         "platform": "拼多多",
-        "avgPrice": 10.5,
-        "sales": 12447,
-        "revenue": 130694
+        "avgPrice": 14.1,
+        "sales": 51430,
+        "revenue": 725163
       }
     ]
   },
@@ -16314,393 +15330,393 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 21.2,
-        "sales": 80718,
-        "revenue": 1711222
+        "avgPrice": 9,
+        "sales": 45409,
+        "revenue": 408681
       },
       {
         "platform": "天猫",
-        "avgPrice": 21.2,
-        "sales": 61079,
-        "revenue": 1294875
+        "avgPrice": 9,
+        "sales": 66751,
+        "revenue": 600759
       },
       {
         "platform": "京东",
-        "avgPrice": 24.4,
-        "sales": 109105,
-        "revenue": 2662162
+        "avgPrice": 10.3,
+        "sales": 13841,
+        "revenue": 142562
       },
       {
         "platform": "抖音",
-        "avgPrice": 21.2,
-        "sales": 77214,
-        "revenue": 1636937
+        "avgPrice": 9,
+        "sales": 20003,
+        "revenue": 180027
       },
       {
         "platform": "拼多多",
-        "avgPrice": 14.8,
-        "sales": 98714,
-        "revenue": 1460967
+        "avgPrice": 6.3,
+        "sales": 26520,
+        "revenue": 167076
       }
     ]
   },
   {
-    "name": "晨光 大头笔 物流用",
+    "name": "得力 大头笔 物流用",
     "category": "记号笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 24.7,
-        "sales": 103370,
-        "revenue": 2553239
+        "avgPrice": 23.4,
+        "sales": 120739,
+        "revenue": 2825293
       },
       {
         "platform": "天猫",
-        "avgPrice": 24.7,
-        "sales": 43226,
-        "revenue": 1067682
+        "avgPrice": 23.4,
+        "sales": 46232,
+        "revenue": 1081829
       },
       {
         "platform": "京东",
-        "avgPrice": 28.4,
-        "sales": 120752,
-        "revenue": 3429357
+        "avgPrice": 26.9,
+        "sales": 39284,
+        "revenue": 1056740
       },
       {
         "platform": "抖音",
-        "avgPrice": 24.7,
-        "sales": 54453,
-        "revenue": 1344989
+        "avgPrice": 23.4,
+        "sales": 24844,
+        "revenue": 581350
       },
       {
         "platform": "拼多多",
-        "avgPrice": 17.3,
-        "sales": 16285,
-        "revenue": 281731
+        "avgPrice": 16.4,
+        "sales": 29107,
+        "revenue": 477355
       }
     ]
   },
   {
-    "name": "六品堂 控笔训练字帖",
+    "name": "司马彦 控笔训练字帖",
     "category": "练字帖/描红本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.8,
-        "sales": 18309,
-        "revenue": 344209
+        "avgPrice": 17.7,
+        "sales": 95304,
+        "revenue": 1686881
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.8,
-        "sales": 9022,
-        "revenue": 169614
+        "avgPrice": 17.7,
+        "sales": 37222,
+        "revenue": 658829
       },
       {
         "platform": "京东",
-        "avgPrice": 21.6,
-        "sales": 95168,
-        "revenue": 2055629
+        "avgPrice": 20.4,
+        "sales": 34676,
+        "revenue": 707390
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.8,
-        "sales": 76718,
-        "revenue": 1442298
+        "avgPrice": 17.7,
+        "sales": 22051,
+        "revenue": 390303
       },
       {
         "platform": "拼多多",
-        "avgPrice": 13.2,
-        "sales": 69129,
-        "revenue": 912503
+        "avgPrice": 12.4,
+        "sales": 23738,
+        "revenue": 294351
       }
     ]
   },
   {
-    "name": "六品堂 硬笔书法字帖",
+    "name": "华夏万卷 硬笔书法字帖",
     "category": "练字帖/描红本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 36.9,
-        "sales": 89300,
-        "revenue": 3295170
+        "avgPrice": 25.6,
+        "sales": 11102,
+        "revenue": 284211
       },
       {
         "platform": "天猫",
-        "avgPrice": 36.9,
-        "sales": 29328,
-        "revenue": 1082203
+        "avgPrice": 25.6,
+        "sales": 20129,
+        "revenue": 515302
       },
       {
         "platform": "京东",
-        "avgPrice": 42.4,
-        "sales": 94051,
-        "revenue": 3987762
+        "avgPrice": 29.4,
+        "sales": 70625,
+        "revenue": 2076375
       },
       {
         "platform": "抖音",
-        "avgPrice": 36.9,
-        "sales": 37681,
-        "revenue": 1390429
+        "avgPrice": 25.6,
+        "sales": 86921,
+        "revenue": 2225178
       },
       {
         "platform": "拼多多",
-        "avgPrice": 25.8,
-        "sales": 59836,
-        "revenue": 1543769
+        "avgPrice": 17.9,
+        "sales": 44162,
+        "revenue": 790500
       }
     ]
   },
   {
-    "name": "华夏万卷 英文练字帖",
+    "name": "六品堂 英文练字帖",
     "category": "练字帖/描红本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 24.5,
-        "sales": 61215,
-        "revenue": 1499768
+        "avgPrice": 8.8,
+        "sales": 62269,
+        "revenue": 547967
       },
       {
         "platform": "天猫",
-        "avgPrice": 24.5,
-        "sales": 99019,
-        "revenue": 2425966
+        "avgPrice": 8.8,
+        "sales": 47027,
+        "revenue": 413838
       },
       {
         "platform": "京东",
-        "avgPrice": 28.2,
-        "sales": 10534,
-        "revenue": 297059
+        "avgPrice": 10.1,
+        "sales": 61649,
+        "revenue": 622655
       },
       {
         "platform": "抖音",
-        "avgPrice": 24.5,
-        "sales": 14249,
-        "revenue": 349101
+        "avgPrice": 8.8,
+        "sales": 93624,
+        "revenue": 823891
       },
       {
         "platform": "拼多多",
-        "avgPrice": 17.1,
-        "sales": 52865,
-        "revenue": 903992
+        "avgPrice": 6.2,
+        "sales": 88345,
+        "revenue": 547739
       }
     ]
   },
   {
-    "name": "司马彦 数字描红本",
+    "name": "六品堂 数字描红本",
     "category": "练字帖/描红本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 8.7,
-        "sales": 95534,
-        "revenue": 831146
+        "avgPrice": 19.4,
+        "sales": 91789,
+        "revenue": 1780707
       },
       {
         "platform": "天猫",
-        "avgPrice": 8.7,
-        "sales": 47813,
-        "revenue": 415973
+        "avgPrice": 19.4,
+        "sales": 16072,
+        "revenue": 311797
       },
       {
         "platform": "京东",
-        "avgPrice": 10,
-        "sales": 56838,
-        "revenue": 568380
+        "avgPrice": 22.3,
+        "sales": 97745,
+        "revenue": 2179714
       },
       {
         "platform": "抖音",
-        "avgPrice": 8.7,
-        "sales": 24673,
-        "revenue": 214655
+        "avgPrice": 19.4,
+        "sales": 68176,
+        "revenue": 1322614
       },
       {
         "platform": "拼多多",
-        "avgPrice": 6.1,
-        "sales": 98684,
-        "revenue": 601972
+        "avgPrice": 13.6,
+        "sales": 16014,
+        "revenue": 217790
       }
     ]
   },
   {
-    "name": "六品堂 笔画练字",
+    "name": "司马彦 笔画练字",
     "category": "练字帖/描红本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 32.3,
-        "sales": 41138,
-        "revenue": 1328757
+        "avgPrice": 35.8,
+        "sales": 25218,
+        "revenue": 902804
       },
       {
         "platform": "天猫",
-        "avgPrice": 32.3,
-        "sales": 70430,
-        "revenue": 2274889
+        "avgPrice": 35.8,
+        "sales": 31356,
+        "revenue": 1122545
       },
       {
         "platform": "京东",
-        "avgPrice": 37.1,
-        "sales": 96592,
-        "revenue": 3583563
+        "avgPrice": 41.2,
+        "sales": 49194,
+        "revenue": 2026793
       },
       {
         "platform": "抖音",
-        "avgPrice": 32.3,
-        "sales": 36908,
-        "revenue": 1192128
+        "avgPrice": 35.8,
+        "sales": 42130,
+        "revenue": 1508254
       },
       {
         "platform": "拼多多",
-        "avgPrice": 22.6,
-        "sales": 86072,
-        "revenue": 1945227
+        "avgPrice": 25.1,
+        "sales": 27742,
+        "revenue": 696324
       }
     ]
   },
   {
-    "name": "司马彦 古诗词字帖",
+    "name": "六品堂 古诗词字帖",
     "category": "练字帖/描红本",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 35.2,
-        "sales": 61030,
-        "revenue": 2148256
+        "avgPrice": 38.6,
+        "sales": 97275,
+        "revenue": 3754815
       },
       {
         "platform": "天猫",
-        "avgPrice": 35.2,
-        "sales": 73006,
-        "revenue": 2569811
+        "avgPrice": 38.6,
+        "sales": 20518,
+        "revenue": 791995
       },
       {
         "platform": "京东",
-        "avgPrice": 40.5,
-        "sales": 29772,
-        "revenue": 1205766
+        "avgPrice": 44.4,
+        "sales": 24708,
+        "revenue": 1097035
       },
       {
         "platform": "抖音",
-        "avgPrice": 35.2,
-        "sales": 50377,
-        "revenue": 1773270
+        "avgPrice": 38.6,
+        "sales": 91682,
+        "revenue": 3538925
       },
       {
         "platform": "拼多多",
-        "avgPrice": 24.6,
-        "sales": 6970,
-        "revenue": 171462
+        "avgPrice": 27,
+        "sales": 77805,
+        "revenue": 2100735
       }
     ]
   },
   {
-    "name": "斑马 圆珠笔 速干 蓝色",
+    "name": "得力 圆珠笔 速干 蓝色",
     "category": "圆珠笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 14.9,
-        "sales": 31364,
-        "revenue": 467324
+        "avgPrice": 32.2,
+        "sales": 94785,
+        "revenue": 3052077
       },
       {
         "platform": "天猫",
-        "avgPrice": 14.9,
-        "sales": 52940,
-        "revenue": 788806
+        "avgPrice": 32.2,
+        "sales": 24473,
+        "revenue": 788031
       },
       {
         "platform": "京东",
-        "avgPrice": 17.1,
-        "sales": 24923,
-        "revenue": 426183
+        "avgPrice": 37,
+        "sales": 95631,
+        "revenue": 3538347
       },
       {
         "platform": "抖音",
-        "avgPrice": 14.9,
-        "sales": 26906,
-        "revenue": 400899
+        "avgPrice": 32.2,
+        "sales": 46912,
+        "revenue": 1510566
       },
       {
         "platform": "拼多多",
-        "avgPrice": 10.4,
-        "sales": 38854,
-        "revenue": 404082
+        "avgPrice": 22.5,
+        "sales": 91196,
+        "revenue": 2051910
       }
     ]
   },
   {
-    "name": "斑马 商务圆珠笔",
+    "name": "晨光 商务圆珠笔",
     "category": "圆珠笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 32.5,
-        "sales": 75720,
-        "revenue": 2460900
+        "avgPrice": 12.3,
+        "sales": 58058,
+        "revenue": 714113
       },
       {
         "platform": "天猫",
-        "avgPrice": 32.5,
-        "sales": 90368,
-        "revenue": 2936960
+        "avgPrice": 12.3,
+        "sales": 96547,
+        "revenue": 1187528
       },
       {
         "platform": "京东",
-        "avgPrice": 37.4,
-        "sales": 25263,
-        "revenue": 944836
+        "avgPrice": 14.1,
+        "sales": 80408,
+        "revenue": 1133753
       },
       {
         "platform": "抖音",
-        "avgPrice": 32.5,
-        "sales": 12416,
-        "revenue": 403520
+        "avgPrice": 12.3,
+        "sales": 31240,
+        "revenue": 384252
       },
       {
         "platform": "拼多多",
-        "avgPrice": 22.8,
-        "sales": 82124,
-        "revenue": 1872427
+        "avgPrice": 8.6,
+        "sales": 35241,
+        "revenue": 303073
       }
     ]
   },
   {
-    "name": "百乐 学生圆珠笔 套装",
+    "name": "晨光 学生圆珠笔 套装",
     "category": "圆珠笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 2.8,
-        "sales": 44477,
-        "revenue": 124536
+        "avgPrice": 11.3,
+        "sales": 14239,
+        "revenue": 160901
       },
       {
         "platform": "天猫",
-        "avgPrice": 2.8,
-        "sales": 15849,
-        "revenue": 44377
+        "avgPrice": 11.3,
+        "sales": 94617,
+        "revenue": 1069172
       },
       {
         "platform": "京东",
-        "avgPrice": 3.2,
-        "sales": 48573,
-        "revenue": 155434
+        "avgPrice": 13,
+        "sales": 26889,
+        "revenue": 349557
       },
       {
         "platform": "抖音",
-        "avgPrice": 2.8,
-        "sales": 98306,
-        "revenue": 275257
+        "avgPrice": 11.3,
+        "sales": 50826,
+        "revenue": 574334
       },
       {
         "platform": "拼多多",
-        "avgPrice": 2,
-        "sales": 68244,
-        "revenue": 136488
+        "avgPrice": 7.9,
+        "sales": 67646,
+        "revenue": 534403
       }
     ]
   },
@@ -16710,33 +15726,33 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.4,
-        "sales": 49849,
-        "revenue": 917222
+        "avgPrice": 33.7,
+        "sales": 87929,
+        "revenue": 2963207
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.4,
-        "sales": 13274,
-        "revenue": 244242
+        "avgPrice": 33.7,
+        "sales": 87300,
+        "revenue": 2942010
       },
       {
         "platform": "京东",
-        "avgPrice": 21.2,
-        "sales": 14627,
-        "revenue": 310092
+        "avgPrice": 38.8,
+        "sales": 27155,
+        "revenue": 1053614
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.4,
-        "sales": 97490,
-        "revenue": 1793816
+        "avgPrice": 33.7,
+        "sales": 78004,
+        "revenue": 2628735
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.9,
-        "sales": 94661,
-        "revenue": 1221127
+        "avgPrice": 23.6,
+        "sales": 85874,
+        "revenue": 2026626
       }
     ]
   },
@@ -16746,105 +15762,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 26.4,
-        "sales": 19466,
-        "revenue": 513902
+        "avgPrice": 19.3,
+        "sales": 16290,
+        "revenue": 314397
       },
       {
         "platform": "天猫",
-        "avgPrice": 26.4,
-        "sales": 92775,
-        "revenue": 2449260
+        "avgPrice": 19.3,
+        "sales": 11352,
+        "revenue": 219094
       },
       {
         "platform": "京东",
-        "avgPrice": 30.4,
-        "sales": 13467,
-        "revenue": 409397
+        "avgPrice": 22.2,
+        "sales": 88648,
+        "revenue": 1967986
       },
       {
         "platform": "抖音",
-        "avgPrice": 26.4,
-        "sales": 13934,
-        "revenue": 367858
+        "avgPrice": 19.3,
+        "sales": 69833,
+        "revenue": 1347777
       },
       {
         "platform": "拼多多",
-        "avgPrice": 18.5,
-        "sales": 93549,
-        "revenue": 1730657
+        "avgPrice": 13.5,
+        "sales": 36320,
+        "revenue": 490320
       }
     ]
   },
   {
-    "name": "百乐 多功能圆珠笔",
+    "name": "晨光 多功能圆珠笔",
     "category": "圆珠笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 27.3,
-        "sales": 40552,
-        "revenue": 1107070
+        "avgPrice": 3.5,
+        "sales": 98035,
+        "revenue": 343123
       },
       {
         "platform": "天猫",
-        "avgPrice": 27.3,
-        "sales": 19580,
-        "revenue": 534534
+        "avgPrice": 3.5,
+        "sales": 98883,
+        "revenue": 346091
       },
       {
         "platform": "京东",
-        "avgPrice": 31.4,
-        "sales": 57672,
-        "revenue": 1810901
+        "avgPrice": 4,
+        "sales": 20169,
+        "revenue": 80676
       },
       {
         "platform": "抖音",
-        "avgPrice": 27.3,
-        "sales": 58594,
-        "revenue": 1599616
+        "avgPrice": 3.5,
+        "sales": 70996,
+        "revenue": 248486
       },
       {
         "platform": "拼多多",
-        "avgPrice": 19.1,
-        "sales": 96099,
-        "revenue": 1835491
+        "avgPrice": 2.4,
+        "sales": 40284,
+        "revenue": 96682
       }
     ]
   },
   {
-    "name": "绘儿乐 丝滑蜡笔 24色",
+    "name": "得力 丝滑蜡笔 24色",
     "category": "蜡笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 26.3,
-        "sales": 38343,
-        "revenue": 1008421
+        "avgPrice": 29.7,
+        "sales": 84724,
+        "revenue": 2516303
       },
       {
         "platform": "天猫",
-        "avgPrice": 26.3,
-        "sales": 85829,
-        "revenue": 2257303
+        "avgPrice": 29.7,
+        "sales": 8926,
+        "revenue": 265102
       },
       {
         "platform": "京东",
-        "avgPrice": 30.2,
-        "sales": 41963,
-        "revenue": 1267283
+        "avgPrice": 34.2,
+        "sales": 56439,
+        "revenue": 1930214
       },
       {
         "platform": "抖音",
-        "avgPrice": 26.3,
-        "sales": 62051,
-        "revenue": 1631941
+        "avgPrice": 29.7,
+        "sales": 63237,
+        "revenue": 1878139
       },
       {
         "platform": "拼多多",
-        "avgPrice": 18.4,
-        "sales": 6532,
-        "revenue": 120189
+        "avgPrice": 20.8,
+        "sales": 58158,
+        "revenue": 1209686
       }
     ]
   },
@@ -16854,33 +15870,33 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 45.7,
-        "sales": 55464,
-        "revenue": 2534705
+        "avgPrice": 11.3,
+        "sales": 9266,
+        "revenue": 104706
       },
       {
         "platform": "天猫",
-        "avgPrice": 45.7,
-        "sales": 51660,
-        "revenue": 2360862
+        "avgPrice": 11.3,
+        "sales": 71102,
+        "revenue": 803453
       },
       {
         "platform": "京东",
-        "avgPrice": 52.6,
-        "sales": 43577,
-        "revenue": 2292150
+        "avgPrice": 13,
+        "sales": 80666,
+        "revenue": 1048658
       },
       {
         "platform": "抖音",
-        "avgPrice": 45.7,
-        "sales": 70618,
-        "revenue": 3227243
+        "avgPrice": 11.3,
+        "sales": 60805,
+        "revenue": 687097
       },
       {
         "platform": "拼多多",
-        "avgPrice": 32,
-        "sales": 9425,
-        "revenue": 301600
+        "avgPrice": 7.9,
+        "sales": 22282,
+        "revenue": 176028
       }
     ]
   },
@@ -16890,105 +15906,105 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 29.6,
-        "sales": 23817,
-        "revenue": 704983
+        "avgPrice": 30.5,
+        "sales": 51956,
+        "revenue": 1584658
       },
       {
         "platform": "天猫",
-        "avgPrice": 29.6,
-        "sales": 22039,
-        "revenue": 652354
+        "avgPrice": 30.5,
+        "sales": 43560,
+        "revenue": 1328580
       },
       {
         "platform": "京东",
-        "avgPrice": 34,
-        "sales": 76545,
-        "revenue": 2602530
+        "avgPrice": 35.1,
+        "sales": 75486,
+        "revenue": 2649559
       },
       {
         "platform": "抖音",
-        "avgPrice": 29.6,
-        "sales": 79552,
-        "revenue": 2354739
+        "avgPrice": 30.5,
+        "sales": 6387,
+        "revenue": 194804
       },
       {
         "platform": "拼多多",
-        "avgPrice": 20.7,
-        "sales": 74444,
-        "revenue": 1540991
+        "avgPrice": 21.3,
+        "sales": 41653,
+        "revenue": 887209
       }
     ]
   },
   {
-    "name": "绘儿乐 水溶性蜡笔",
+    "name": "得力 水溶性蜡笔",
     "category": "蜡笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 47.8,
-        "sales": 86906,
-        "revenue": 4154107
+        "avgPrice": 31.1,
+        "sales": 75413,
+        "revenue": 2345344
       },
       {
         "platform": "天猫",
-        "avgPrice": 47.8,
-        "sales": 63122,
-        "revenue": 3017232
+        "avgPrice": 31.1,
+        "sales": 57934,
+        "revenue": 1801747
       },
       {
         "platform": "京东",
-        "avgPrice": 55,
-        "sales": 57514,
-        "revenue": 3163270
+        "avgPrice": 35.8,
+        "sales": 43712,
+        "revenue": 1564890
       },
       {
         "platform": "抖音",
-        "avgPrice": 47.8,
-        "sales": 68754,
-        "revenue": 3286441
+        "avgPrice": 31.1,
+        "sales": 78490,
+        "revenue": 2441039
       },
       {
         "platform": "拼多多",
-        "avgPrice": 33.5,
-        "sales": 81479,
-        "revenue": 2729547
+        "avgPrice": 21.8,
+        "sales": 55396,
+        "revenue": 1207633
       }
     ]
   },
   {
-    "name": "绘儿乐 荧光蜡笔",
+    "name": "真彩 荧光蜡笔",
     "category": "蜡笔",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 36.9,
-        "sales": 80333,
-        "revenue": 2964288
+        "avgPrice": 15.1,
+        "sales": 88791,
+        "revenue": 1340744
       },
       {
         "platform": "天猫",
-        "avgPrice": 36.9,
-        "sales": 19303,
-        "revenue": 712281
+        "avgPrice": 15.1,
+        "sales": 74337,
+        "revenue": 1122489
       },
       {
         "platform": "京东",
-        "avgPrice": 42.4,
-        "sales": 19883,
-        "revenue": 843039
+        "avgPrice": 17.4,
+        "sales": 30784,
+        "revenue": 535642
       },
       {
         "platform": "抖音",
-        "avgPrice": 36.9,
-        "sales": 74067,
-        "revenue": 2733072
+        "avgPrice": 15.1,
+        "sales": 86924,
+        "revenue": 1312552
       },
       {
         "platform": "拼多多",
-        "avgPrice": 25.8,
-        "sales": 6730,
-        "revenue": 173634
+        "avgPrice": 10.6,
+        "sales": 38914,
+        "revenue": 412488
       }
     ]
   },
@@ -16998,33 +16014,33 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 35.3,
-        "sales": 16854,
-        "revenue": 594946
+        "avgPrice": 13.1,
+        "sales": 88866,
+        "revenue": 1164145
       },
       {
         "platform": "天猫",
-        "avgPrice": 35.3,
-        "sales": 52063,
-        "revenue": 1837824
+        "avgPrice": 13.1,
+        "sales": 74998,
+        "revenue": 982474
       },
       {
         "platform": "京东",
-        "avgPrice": 40.6,
-        "sales": 75880,
-        "revenue": 3080728
+        "avgPrice": 15.1,
+        "sales": 12293,
+        "revenue": 185624
       },
       {
         "platform": "抖音",
-        "avgPrice": 35.3,
-        "sales": 59141,
-        "revenue": 2087677
+        "avgPrice": 13.1,
+        "sales": 44755,
+        "revenue": 586291
       },
       {
         "platform": "拼多多",
-        "avgPrice": 24.7,
-        "sales": 82049,
-        "revenue": 2026610
+        "avgPrice": 9.2,
+        "sales": 85377,
+        "revenue": 785468
       }
     ]
   },
@@ -17034,141 +16050,141 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 19.3,
-        "sales": 27068,
-        "revenue": 522412
+        "avgPrice": 8.6,
+        "sales": 46746,
+        "revenue": 402016
       },
       {
         "platform": "天猫",
-        "avgPrice": 19.3,
-        "sales": 22244,
-        "revenue": 429309
+        "avgPrice": 8.6,
+        "sales": 44650,
+        "revenue": 383990
       },
       {
         "platform": "京东",
-        "avgPrice": 22.2,
-        "sales": 34391,
-        "revenue": 763480
+        "avgPrice": 9.9,
+        "sales": 14664,
+        "revenue": 145174
       },
       {
         "platform": "抖音",
-        "avgPrice": 19.3,
-        "sales": 8863,
-        "revenue": 171056
+        "avgPrice": 8.6,
+        "sales": 47025,
+        "revenue": 404415
       },
       {
         "platform": "拼多多",
-        "avgPrice": 13.5,
-        "sales": 34664,
-        "revenue": 467964
-      }
-    ]
-  },
-  {
-    "name": "手工 木质书签",
-    "category": "书签",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 32.3,
-        "sales": 23689,
-        "revenue": 765155
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 32.3,
-        "sales": 11990,
-        "revenue": 387277
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 37.1,
-        "sales": 36025,
-        "revenue": 1336528
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 32.3,
-        "sales": 25812,
-        "revenue": 833728
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 22.6,
-        "sales": 15916,
-        "revenue": 359702
-      }
-    ]
-  },
-  {
-    "name": "晨光 压花书签",
-    "category": "书签",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 5.2,
-        "sales": 4150,
-        "revenue": 21580
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 5.2,
-        "sales": 16707,
-        "revenue": 86876
-      },
-      {
-        "platform": "京东",
         "avgPrice": 6,
-        "sales": 14074,
-        "revenue": 84444
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 5.2,
-        "sales": 39168,
-        "revenue": 203674
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 3.6,
-        "sales": 48728,
-        "revenue": 175421
+        "sales": 18841,
+        "revenue": 113046
       }
     ]
   },
   {
-    "name": "敦煌 夜光书签",
+    "name": "敦煌 木质书签",
     "category": "书签",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 18.3,
-        "sales": 25020,
-        "revenue": 457866
+        "avgPrice": 29.1,
+        "sales": 27965,
+        "revenue": 813782
       },
       {
         "platform": "天猫",
-        "avgPrice": 18.3,
-        "sales": 16989,
-        "revenue": 310899
+        "avgPrice": 29.1,
+        "sales": 30607,
+        "revenue": 890664
       },
       {
         "platform": "京东",
-        "avgPrice": 21,
-        "sales": 10026,
-        "revenue": 210546
+        "avgPrice": 33.5,
+        "sales": 49510,
+        "revenue": 1658585
       },
       {
         "platform": "抖音",
-        "avgPrice": 18.3,
-        "sales": 27501,
-        "revenue": 503268
+        "avgPrice": 29.1,
+        "sales": 5267,
+        "revenue": 153270
       },
       {
         "platform": "拼多多",
-        "avgPrice": 12.8,
-        "sales": 43178,
-        "revenue": 552678
+        "avgPrice": 20.4,
+        "sales": 7125,
+        "revenue": 145350
+      }
+    ]
+  },
+  {
+    "name": "敦煌 压花书签",
+    "category": "书签",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 28.7,
+        "sales": 4003,
+        "revenue": 114886
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 28.7,
+        "sales": 47767,
+        "revenue": 1370913
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 33,
+        "sales": 23906,
+        "revenue": 788898
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 28.7,
+        "sales": 28419,
+        "revenue": 815625
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 20.1,
+        "sales": 12337,
+        "revenue": 247974
+      }
+    ]
+  },
+  {
+    "name": "手工 夜光书签",
+    "category": "书签",
+    "platforms": [
+      {
+        "platform": "淘宝/天猫",
+        "avgPrice": 9.3,
+        "sales": 39810,
+        "revenue": 370233
+      },
+      {
+        "platform": "天猫",
+        "avgPrice": 9.3,
+        "sales": 20569,
+        "revenue": 191292
+      },
+      {
+        "platform": "京东",
+        "avgPrice": 10.7,
+        "sales": 35215,
+        "revenue": 376801
+      },
+      {
+        "platform": "抖音",
+        "avgPrice": 9.3,
+        "sales": 48296,
+        "revenue": 449153
+      },
+      {
+        "platform": "拼多多",
+        "avgPrice": 6.5,
+        "sales": 18454,
+        "revenue": 119951
       }
     ]
   },
@@ -17178,6084 +16194,5316 @@ const DASHBOARD_DATA = {
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 24.6,
-        "sales": 33102,
-        "revenue": 814309
+        "avgPrice": 28.4,
+        "sales": 44180,
+        "revenue": 1254712
       },
       {
         "platform": "天猫",
-        "avgPrice": 24.6,
-        "sales": 21557,
-        "revenue": 530302
+        "avgPrice": 28.4,
+        "sales": 30515,
+        "revenue": 866626
       },
       {
         "platform": "京东",
-        "avgPrice": 28.3,
-        "sales": 15504,
-        "revenue": 438763
+        "avgPrice": 32.7,
+        "sales": 36503,
+        "revenue": 1193648
       },
       {
         "platform": "抖音",
-        "avgPrice": 24.6,
-        "sales": 28900,
-        "revenue": 710940
+        "avgPrice": 28.4,
+        "sales": 14886,
+        "revenue": 422762
       },
       {
         "platform": "拼多多",
-        "avgPrice": 17.2,
-        "sales": 7094,
-        "revenue": 122017
+        "avgPrice": 19.9,
+        "sales": 25189,
+        "revenue": 501261
       }
     ]
   },
   {
-    "name": "九木 刺绣书签",
+    "name": "晨光 刺绣书签",
     "category": "书签",
     "platforms": [
       {
         "platform": "淘宝/天猫",
-        "avgPrice": 21.4,
-        "sales": 45352,
-        "revenue": 970533
+        "avgPrice": 9.9,
+        "sales": 49730,
+        "revenue": 492327
       },
       {
         "platform": "天猫",
-        "avgPrice": 21.4,
-        "sales": 48409,
-        "revenue": 1035953
+        "avgPrice": 9.9,
+        "sales": 33780,
+        "revenue": 334422
       },
       {
         "platform": "京东",
-        "avgPrice": 24.6,
-        "sales": 8707,
-        "revenue": 214192
+        "avgPrice": 11.4,
+        "sales": 3604,
+        "revenue": 41086
       },
       {
         "platform": "抖音",
-        "avgPrice": 21.4,
-        "sales": 36506,
-        "revenue": 781228
+        "avgPrice": 9.9,
+        "sales": 14106,
+        "revenue": 139649
       },
       {
         "platform": "拼多多",
-        "avgPrice": 15,
-        "sales": 43084,
-        "revenue": 646260
-      }
-    ]
-  },
-  {
-    "name": "小米 橡皮屑吸尘器",
-    "category": "桌面吸尘器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 55,
-        "sales": 26648,
-        "revenue": 1465640
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 55,
-        "sales": 35136,
-        "revenue": 1932480
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 63.2,
-        "sales": 36583,
-        "revenue": 2312046
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 55,
-        "sales": 24542,
-        "revenue": 1349810
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 38.5,
-        "sales": 15620,
-        "revenue": 601370
-      }
-    ]
-  },
-  {
-    "name": "纽赛 学生桌面清洁器",
-    "category": "桌面吸尘器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 74.3,
-        "sales": 13787,
-        "revenue": 1024374
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 74.3,
-        "sales": 34042,
-        "revenue": 2529321
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 85.4,
-        "sales": 38446,
-        "revenue": 3283288
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 74.3,
-        "sales": 10455,
-        "revenue": 776807
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 52,
-        "sales": 21827,
-        "revenue": 1135004
-      }
-    ]
-  },
-  {
-    "name": "晨光 无线吸尘器 小型",
-    "category": "桌面吸尘器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 54,
-        "sales": 33963,
-        "revenue": 1834002
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 54,
-        "sales": 17516,
-        "revenue": 945864
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 62.1,
-        "sales": 26362,
-        "revenue": 1637080
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 54,
-        "sales": 27548,
-        "revenue": 1487592
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 37.8,
-        "sales": 7849,
-        "revenue": 296692
-      }
-    ]
-  },
-  {
-    "name": "美的 手持吸尘器 桌面",
-    "category": "桌面吸尘器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 74.9,
-        "sales": 39033,
-        "revenue": 2923572
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 74.9,
-        "sales": 36864,
-        "revenue": 2761114
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 86.1,
-        "sales": 28371,
-        "revenue": 2442743
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 74.9,
-        "sales": 13934,
-        "revenue": 1043657
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 52.4,
-        "sales": 33012,
-        "revenue": 1729829
-      }
-    ]
-  },
-  {
-    "name": "纽赛 可爱卡通吸尘器",
-    "category": "桌面吸尘器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 59.5,
-        "sales": 17653,
-        "revenue": 1050354
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 59.5,
-        "sales": 26358,
-        "revenue": 1568301
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 68.4,
-        "sales": 16572,
-        "revenue": 1133525
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 59.5,
-        "sales": 13798,
-        "revenue": 820981
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 41.6,
-        "sales": 9125,
-        "revenue": 379600
-      }
-    ]
-  },
-  {
-    "name": "小米 大吸力桌面吸尘",
-    "category": "桌面吸尘器",
-    "platforms": [
-      {
-        "platform": "淘宝/天猫",
-        "avgPrice": 50.9,
-        "sales": 27901,
-        "revenue": 1420161
-      },
-      {
-        "platform": "天猫",
-        "avgPrice": 50.9,
-        "sales": 17205,
-        "revenue": 875735
-      },
-      {
-        "platform": "京东",
-        "avgPrice": 58.5,
-        "sales": 18204,
-        "revenue": 1064934
-      },
-      {
-        "platform": "抖音",
-        "avgPrice": 50.9,
-        "sales": 32347,
-        "revenue": 1646462
-      },
-      {
-        "platform": "拼多多",
-        "avgPrice": 35.6,
-        "sales": 32614,
-        "revenue": 1161058
+        "avgPrice": 6.9,
+        "sales": 28169,
+        "revenue": 194366
       }
     ]
   }
 ],
   emergingProducts: [
   {
-    "name": "斑马 子弹头中性笔 0.38mm",
+    "name": "三菱 子弹头中性笔 0.38mm",
     "category": "中性笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 59533,
-    "growth7d": 394,
-    "predictScore": 80,
+    "currentSales": 33748,
+    "growth7d": 96,
+    "predictScore": 89,
     "trendData": [
-      16014,
-      20875,
-      27477,
-      36334,
-      46891,
-      61195,
-      80230,
-      106417,
-      142247,
-      183497,
-      241640,
-      314915,
-      59533
+      18627,
+      20437,
+      22633,
+      24008,
+      26112,
+      28044,
+      30599,
+      33422,
+      36170,
+      38759,
+      42437,
+      46008,
+      33748
     ]
   },
   {
-    "name": "斑马 中性笔套装 12支",
+    "name": "得力 中性笔套装 12支",
     "category": "中性笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 60478,
-    "growth7d": 162,
-    "predictScore": 73,
-    "trendData": [
-      26197,
-      29113,
-      33533,
-      38435,
-      44386,
-      50891,
-      57836,
-      67057,
-      77703,
-      88633,
-      101827,
-      113267,
-      60478
-    ]
-  },
-  {
-    "name": "百乐 商务签字笔",
-    "category": "中性笔",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 11685,
-    "growth7d": 319,
-    "predictScore": 79,
-    "trendData": [
-      3563,
-      4464,
-      5571,
-      7015,
-      8831,
-      10879,
-      13607,
-      17143,
-      21152,
-      26174,
-      32345,
-      40211,
-      11685
-    ]
-  },
-  {
-    "name": "晨光 彩色中性笔套装",
-    "category": "中性笔",
-    "reason": "直播间持续爆单",
-    "currentSales": 56801,
-    "growth7d": 392,
-    "predictScore": 76,
-    "trendData": [
-      15199,
-      19829,
-      26205,
-      34080,
-      45405,
-      60418,
-      79407,
-      104762,
-      138701,
-      182533,
-      237368,
-      307130,
-      56801
-    ]
-  },
-  {
-    "name": "斑马 刷题专用中性笔",
-    "category": "中性笔",
-    "reason": "社交平台口碑传播",
-    "currentSales": 64486,
-    "growth7d": 221,
-    "predictScore": 94,
-    "trendData": [
-      23850,
-      28533,
-      33372,
-      39700,
-      46700,
-      54766,
-      65255,
-      77077,
-      91928,
-      109323,
-      127762,
-      152693,
-      64486
-    ]
-  },
-  {
-    "name": "百乐 ST笔头中性笔",
-    "category": "中性笔",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 51180,
-    "growth7d": 132,
-    "predictScore": 96,
-    "trendData": [
-      24539,
-      27519,
-      29912,
-      33155,
-      36111,
-      40731,
-      44719,
-      49453,
-      56141,
-      62882,
-      70226,
-      76720,
-      51180
-    ]
-  },
-  {
-    "name": "国誉 错题本 活页",
-    "category": "笔记本/记事本",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 60076,
-    "growth7d": 92,
-    "predictScore": 71,
-    "trendData": [
-      34051,
-      36370,
-      39015,
-      41729,
-      45337,
-      48300,
-      53272,
-      56758,
-      60333,
-      64755,
-      70845,
-      74809,
-      60076
-    ]
-  },
-  {
-    "name": "无印良品 考研专用笔记本",
-    "category": "笔记本/记事本",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 38801,
-    "growth7d": 83,
-    "predictScore": 80,
-    "trendData": [
-      22970,
-      24863,
-      27285,
-      28794,
-      31116,
-      34101,
-      36201,
-      38449,
-      40458,
-      44224,
-      47321,
-      50409,
-      38801
-    ]
-  },
-  {
-    "name": "晨光 道林纸笔记本",
-    "category": "笔记本/记事本",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 54148,
-    "growth7d": 301,
-    "predictScore": 76,
-    "trendData": [
-      17031,
-      20739,
-      25418,
-      31754,
-      39706,
-      49516,
-      61191,
-      76877,
-      97226,
-      119751,
-      146077,
-      179537,
-      54148
-    ]
-  },
-  {
-    "name": "晨光 空白素描本",
-    "category": "笔记本/记事本",
-    "reason": "直播间持续爆单",
-    "currentSales": 65496,
-    "growth7d": 80,
-    "predictScore": 82,
-    "trendData": [
-      38844,
-      41580,
-      44980,
-      48486,
-      52357,
-      56127,
-      59450,
-      64507,
-      68258,
-      74776,
-      78532,
-      82740,
-      65496
-    ]
-  },
-  {
-    "name": "晨光 横线笔记本套装",
-    "category": "笔记本/记事本",
-    "reason": "社交平台口碑传播",
-    "currentSales": 57812,
-    "growth7d": 324,
-    "predictScore": 78,
-    "trendData": [
-      16961,
-      21652,
-      27431,
-      34288,
-      43184,
-      55119,
-      69342,
-      87304,
-      111580,
-      142086,
-      182214,
-      228637,
-      57812
-    ]
-  },
-  {
-    "name": "kinbor 牛皮封面记事本",
-    "category": "笔记本/记事本",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 12612,
-    "growth7d": 140,
-    "predictScore": 80,
-    "trendData": [
-      5890,
-      6601,
-      7297,
-      8031,
-      8962,
-      9887,
-      10993,
-      12084,
-      13355,
-      15016,
-      16863,
-      18664,
-      12612
-    ]
-  },
-  {
-    "name": "迪士尼 高考加油礼盒",
-    "category": "学习套装/礼盒/盲盒",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 60618,
-    "growth7d": 111,
-    "predictScore": 94,
-    "trendData": [
-      31445,
-      33949,
-      36532,
-      40686,
-      43911,
-      47099,
-      51421,
-      56636,
-      61518,
-      67887,
-      75908,
-      83923,
-      60618
-    ]
-  },
-  {
-    "name": "奥特曼 文具福袋 随机",
-    "category": "学习套装/礼盒/盲盒",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 17125,
-    "growth7d": 325,
-    "predictScore": 87,
-    "trendData": [
-      5152,
-      6442,
-      7988,
-      10076,
-      12629,
-      15688,
-      20138,
-      25408,
-      31574,
-      39228,
-      48570,
-      61445,
-      17125
-    ]
-  },
-  {
-    "name": "迪士尼 IP联名文具盲盒",
-    "category": "学习套装/礼盒/盲盒",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 26612,
-    "growth7d": 284,
-    "predictScore": 73,
-    "trendData": [
-      8635,
-      10651,
-      12824,
-      15904,
-      19764,
-      23974,
-      29286,
-      35249,
-      43931,
-      53891,
-      64920,
-      78922,
-      26612
-    ]
-  },
-  {
-    "name": "奥特曼 新学期必备套装",
-    "category": "学习套装/礼盒/盲盒",
-    "reason": "直播间持续爆单",
-    "currentSales": 74192,
-    "growth7d": 88,
-    "predictScore": 87,
-    "trendData": [
-      42018,
-      45482,
-      49490,
-      54513,
-      58522,
-      62006,
-      68224,
-      74840,
-      81462,
-      87256,
-      95650,
-      101334,
-      74192
-    ]
-  },
-  {
-    "name": "得力 幼儿园文具礼盒",
-    "category": "学习套装/礼盒/盲盒",
-    "reason": "社交平台口碑传播",
-    "currentSales": 51139,
-    "growth7d": 107,
-    "predictScore": 94,
-    "trendData": [
-      27286,
-      30305,
-      32367,
-      36063,
-      39541,
-      42857,
-      46216,
-      50410,
-      56322,
-      62598,
-      68859,
-      73559,
-      51139
-    ]
-  },
-  {
-    "name": "晨光 升学礼物套装",
-    "category": "学习套装/礼盒/盲盒",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 44044,
-    "growth7d": 148,
-    "predictScore": 98,
-    "trendData": [
-      20057,
-      22462,
-      25242,
-      28847,
-      32962,
-      37198,
-      41877,
-      47851,
-      53837,
-      60762,
-      68615,
-      76925,
-      44044
-    ]
-  },
-  {
-    "name": "慕娜美 软头马克笔套装",
-    "category": "马克笔",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 61160,
-    "growth7d": 130,
+    "currentSales": 61703,
+    "growth7d": 369,
     "predictScore": 84,
     "trendData": [
-      29272,
-      31940,
-      36074,
-      39965,
-      44844,
-      50667,
-      57283,
-      62289,
-      69104,
-      78347,
-      85576,
-      94581,
-      61160
+      17046,
+      22478,
+      29626,
+      38511,
+      50376,
+      64057,
+      83020,
+      107896,
+      138250,
+      180583,
+      229349,
+      301794,
+      61703
     ]
   },
   {
-    "name": "touch 马克笔补充液",
-    "category": "马克笔",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 65448,
-    "growth7d": 247,
-    "predictScore": 93,
-    "trendData": [
-      22216,
-      27153,
-      32212,
-      39339,
-      46418,
-      55347,
-      66944,
-      81343,
-      96548,
-      115433,
-      139684,
-      170239,
-      65448
-    ]
-  },
-  {
-    "name": "斯塔 丙烯马克笔",
-    "category": "马克笔",
+    "name": "斑马 商务签字笔",
+    "category": "中性笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 69075,
-    "growth7d": 266,
+    "currentSales": 12144,
+    "growth7d": 263,
+    "predictScore": 74,
+    "trendData": [
+      4040,
+      4916,
+      5854,
+      6992,
+      8339,
+      10008,
+      12024,
+      14613,
+      17664,
+      21834,
+      26654,
+      32444,
+      12144
+    ]
+  },
+  {
+    "name": "得力 彩色中性笔套装",
+    "category": "中性笔",
+    "reason": "直播间持续爆单",
+    "currentSales": 71750,
+    "growth7d": 373,
+    "predictScore": 88,
+    "trendData": [
+      19715,
+      25722,
+      33679,
+      43830,
+      56357,
+      72096,
+      92542,
+      118184,
+      152344,
+      197132,
+      258409,
+      336998,
+      71750
+    ]
+  },
+  {
+    "name": "晨光 刷题专用中性笔",
+    "category": "中性笔",
+    "reason": "社交平台口碑传播",
+    "currentSales": 34794,
+    "growth7d": 216,
+    "predictScore": 79,
+    "trendData": [
+      13078,
+      15397,
+      18305,
+      21698,
+      25274,
+      30109,
+      36106,
+      43000,
+      51394,
+      59579,
+      70337,
+      82785,
+      34794
+    ]
+  },
+  {
+    "name": "斑马 ST笔头中性笔",
+    "category": "中性笔",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 67965,
+    "growth7d": 97,
+    "predictScore": 69,
+    "trendData": [
+      36949,
+      39866,
+      44184,
+      48300,
+      52641,
+      56092,
+      60837,
+      66202,
+      73223,
+      78119,
+      83376,
+      91750,
+      67965
+    ]
+  },
+  {
+    "name": "kinbor 错题本 活页",
+    "category": "笔记本/记事本",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 23430,
+    "growth7d": 276,
+    "predictScore": 69,
+    "trendData": [
+      7754,
+      9359,
+      11273,
+      13695,
+      16921,
+      20263,
+      24724,
+      29720,
+      35836,
+      42926,
+      52279,
+      64397,
+      23430
+    ]
+  },
+  {
+    "name": "国誉 考研专用笔记本",
+    "category": "笔记本/记事本",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 75909,
+    "growth7d": 283,
+    "predictScore": 87,
+    "trendData": [
+      24090,
+      29292,
+      35329,
+      44053,
+      53916,
+      65729,
+      79934,
+      99331,
+      121713,
+      150593,
+      185866,
+      231860,
+      75909
+    ]
+  },
+  {
+    "name": "无印良品 道林纸笔记本",
+    "category": "笔记本/记事本",
+    "reason": "618期间搜索量飙升",
+    "currentSales": 52755,
+    "growth7d": 297,
+    "predictScore": 86,
+    "trendData": [
+      16380,
+      20529,
+      25900,
+      31821,
+      38719,
+      47469,
+      58904,
+      73153,
+      90009,
+      109224,
+      136869,
+      168957,
+      52755
+    ]
+  },
+  {
+    "name": "无印良品 空白素描本",
+    "category": "笔记本/记事本",
+    "reason": "直播间持续爆单",
+    "currentSales": 45665,
+    "growth7d": 293,
+    "predictScore": 75,
+    "trendData": [
+      14212,
+      17750,
+      21690,
+      27315,
+      33162,
+      40372,
+      50318,
+      62241,
+      76917,
+      96031,
+      119514,
+      145816,
+      45665
+    ]
+  },
+  {
+    "name": "得力 横线笔记本套装",
+    "category": "笔记本/记事本",
+    "reason": "社交平台口碑传播",
+    "currentSales": 68994,
+    "growth7d": 241,
     "predictScore": 70,
     "trendData": [
-      23211,
-      27815,
-      34258,
-      42148,
-      52018,
-      63887,
-      77086,
-      92510,
-      113521,
-      138607,
-      171695,
-      206298,
-      69075
+      24162,
+      28878,
+      35064,
+      42412,
+      51682,
+      61549,
+      74615,
+      89022,
+      105899,
+      124930,
+      146449,
+      175525,
+      68994
+    ]
+  },
+  {
+    "name": "得力 牛皮封面记事本",
+    "category": "笔记本/记事本",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 24742,
+    "growth7d": 229,
+    "predictScore": 76,
+    "trendData": [
+      8876,
+      10365,
+      12165,
+      14511,
+      17290,
+      20320,
+      24144,
+      29218,
+      34604,
+      40720,
+      48433,
+      57843,
+      24742
+    ]
+  },
+  {
+    "name": "得力 高考加油礼盒",
+    "category": "学习套装/礼盒/盲盒",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 13113,
+    "growth7d": 137,
+    "predictScore": 82,
+    "trendData": [
+      6151,
+      6898,
+      7631,
+      8574,
+      9759,
+      10985,
+      12125,
+      13538,
+      15351,
+      17327,
+      18981,
+      21526,
+      13113
+    ]
+  },
+  {
+    "name": "得力 文具福袋 随机",
+    "category": "学习套装/礼盒/盲盒",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 20114,
+    "growth7d": 198,
+    "predictScore": 89,
+    "trendData": [
+      8005,
+      9318,
+      10669,
+      12213,
+      13928,
+      16259,
+      19299,
+      22897,
+      26792,
+      31323,
+      35996,
+      42469,
+      20114
+    ]
+  },
+  {
+    "name": "三丽鸥 IP联名文具盲盒",
+    "category": "学习套装/礼盒/盲盒",
+    "reason": "618期间搜索量飙升",
+    "currentSales": 23367,
+    "growth7d": 331,
+    "predictScore": 97,
+    "trendData": [
+      6819,
+      8454,
+      10842,
+      13692,
+      16989,
+      21267,
+      27230,
+      34541,
+      43246,
+      53665,
+      68985,
+      86345,
+      23367
+    ]
+  },
+  {
+    "name": "得力 新学期必备套装",
+    "category": "学习套装/礼盒/盲盒",
+    "reason": "直播间持续爆单",
+    "currentSales": 19579,
+    "growth7d": 213,
+    "predictScore": 96,
+    "trendData": [
+      7484,
+      8929,
+      10578,
+      12347,
+      14722,
+      17012,
+      19719,
+      23600,
+      27908,
+      32179,
+      37914,
+      44967,
+      19579
+    ]
+  },
+  {
+    "name": "迪士尼 幼儿园文具礼盒",
+    "category": "学习套装/礼盒/盲盒",
+    "reason": "社交平台口碑传播",
+    "currentSales": 33193,
+    "growth7d": 266,
+    "predictScore": 94,
+    "trendData": [
+      10889,
+      13209,
+      16374,
+      20201,
+      24692,
+      29397,
+      36022,
+      43055,
+      53129,
+      63764,
+      77405,
+      94442,
+      33193
+    ]
+  },
+  {
+    "name": "三丽鸥 升学礼物套装",
+    "category": "学习套装/礼盒/盲盒",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 51520,
+    "growth7d": 360,
+    "predictScore": 83,
+    "trendData": [
+      14435,
+      18848,
+      24279,
+      31361,
+      40528,
+      52046,
+      67194,
+      86101,
+      112950,
+      145235,
+      190367,
+      245070,
+      51520
+    ]
+  },
+  {
+    "name": "法卡勒 软头马克笔套装",
+    "category": "马克笔",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 72795,
+    "growth7d": 317,
+    "predictScore": 96,
+    "trendData": [
+      22248,
+      27393,
+      34331,
+      43861,
+      54217,
+      67721,
+      83491,
+      106565,
+      134005,
+      168172,
+      213318,
+      262744,
+      72795
+    ]
+  },
+  {
+    "name": "慕娜美 马克笔补充液",
+    "category": "马克笔",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 34320,
+    "growth7d": 112,
+    "predictScore": 92,
+    "trendData": [
+      17900,
+      19891,
+      21544,
+      23521,
+      26020,
+      29010,
+      32115,
+      34667,
+      38623,
+      42493,
+      47310,
+      52581,
+      34320
+    ]
+  },
+  {
+    "name": "马利 丙烯马克笔",
+    "category": "马克笔",
+    "reason": "618期间搜索量飙升",
+    "currentSales": 63978,
+    "growth7d": 365,
+    "predictScore": 76,
+    "trendData": [
+      17649,
+      22524,
+      29355,
+      38077,
+      50066,
+      63969,
+      81230,
+      105197,
+      133983,
+      169938,
+      215453,
+      273376,
+      63978
     ]
   },
   {
     "name": "法卡勒 金属色马克笔",
     "category": "马克笔",
     "reason": "直播间持续爆单",
-    "currentSales": 12888,
-    "growth7d": 97,
-    "predictScore": 93,
+    "currentSales": 63493,
+    "growth7d": 134,
+    "predictScore": 83,
     "trendData": [
-      6952,
-      7614,
-      8339,
-      8971,
-      9581,
-      10518,
-      11487,
-      12172,
-      13019,
-      14289,
-      15617,
-      16648,
-      12888
+      30406,
+      33085,
+      36329,
+      40906,
+      45872,
+      50207,
+      56366,
+      62423,
+      70542,
+      78182,
+      86993,
+      95931,
+      63493
     ]
   },
   {
     "name": "马利 荧光马克笔套装",
     "category": "马克笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 44466,
-    "growth7d": 209,
-    "predictScore": 78,
+    "currentSales": 67393,
+    "growth7d": 292,
+    "predictScore": 85,
     "trendData": [
-      16699,
-      19873,
-      23144,
-      27166,
-      32024,
-      38005,
-      45382,
-      53000,
-      61050,
-      72945,
-      84836,
-      99862,
-      44466
+      21627,
+      26638,
+      32385,
+      40763,
+      50010,
+      62061,
+      76909,
+      95995,
+      117990,
+      144113,
+      181061,
+      224956,
+      67393
     ]
   },
   {
-    "name": "马利 马克笔收纳盒",
+    "name": "法卡勒 马克笔收纳盒",
     "category": "马克笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 75476,
-    "growth7d": 155,
-    "predictScore": 83,
+    "currentSales": 78297,
+    "growth7d": 172,
+    "predictScore": 90,
     "trendData": [
-      33654,
-      37639,
-      42961,
-      48729,
-      54510,
-      62851,
-      71585,
-      81269,
-      92992,
-      105279,
-      119458,
-      135544,
-      75476
+      33163,
+      38083,
+      44075,
+      50475,
+      57933,
+      66492,
+      76366,
+      88372,
+      101093,
+      116212,
+      132099,
+      149938,
+      78297
     ]
   },
   {
     "name": "晨光 帆布笔袋 简约",
     "category": "文具盒/笔袋/痛包笔袋",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 61702,
-    "growth7d": 149,
-    "predictScore": 74,
+    "currentSales": 62477,
+    "growth7d": 178,
+    "predictScore": 76,
     "trendData": [
-      27434,
-      30250,
-      34267,
-      37762,
-      42101,
-      47873,
-      53589,
-      60200,
-      68184,
-      75956,
-      84795,
-      93687,
-      61702
+      25659,
+      29397,
+      33952,
+      38579,
+      43929,
+      49515,
+      57760,
+      65894,
+      74833,
+      84999,
+      97413,
+      110463,
+      62477
     ]
   },
   {
-    "name": "晨光 铁皮文具盒",
+    "name": "迪士尼 铁皮文具盒",
     "category": "文具盒/笔袋/痛包笔袋",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 43772,
-    "growth7d": 169,
-    "predictScore": 67,
-    "trendData": [
-      18339,
-      20981,
-      23765,
-      26881,
-      31089,
-      35520,
-      40331,
-      45111,
-      51029,
-      58621,
-      66361,
-      74485,
-      43772
-    ]
-  },
-  {
-    "name": "KOKUYO 密码锁文具盒",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 41539,
-    "growth7d": 248,
-    "predictScore": 67,
-    "trendData": [
-      14488,
-      17578,
-      21256,
-      25942,
-      31796,
-      37943,
-      45214,
-      54102,
-      65353,
-      79420,
-      97113,
-      115311,
-      41539
-    ]
-  },
-  {
-    "name": "三年二班 折叠文具盒",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "reason": "直播间持续爆单",
-    "currentSales": 21584,
-    "growth7d": 105,
-    "predictScore": 65,
-    "trendData": [
-      11686,
-      12939,
-      14254,
-      15671,
-      17421,
-      18908,
-      20481,
-      21947,
-      24140,
-      25906,
-      28209,
-      30236,
-      21584
-    ]
-  },
-  {
-    "name": "KOKUYO 卡通笔袋",
-    "category": "文具盒/笔袋/痛包笔袋",
-    "reason": "社交平台口碑传播",
-    "currentSales": 37793,
-    "growth7d": 312,
+    "currentSales": 48526,
+    "growth7d": 346,
     "predictScore": 94,
     "trendData": [
-      11624,
-      14766,
-      18633,
-      22995,
-      29019,
-      35996,
-      45377,
-      56528,
-      69940,
-      85958,
-      105450,
-      130415,
-      37793
+      13835,
+      17358,
+      21999,
+      28267,
+      35848,
+      45117,
+      57447,
+      72879,
+      91410,
+      116769,
+      148727,
+      191732,
+      48526
     ]
   },
   {
-    "name": "晨光 弹射文具盒",
+    "name": "迪士尼 密码锁文具盒",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "reason": "618期间搜索量飙升",
+    "currentSales": 34590,
+    "growth7d": 399,
+    "predictScore": 87,
+    "trendData": [
+      9065,
+      11900,
+      15757,
+      20979,
+      28089,
+      36615,
+      47940,
+      63358,
+      82064,
+      106338,
+      138260,
+      184722,
+      34590
+    ]
+  },
+  {
+    "name": "迪士尼 折叠文具盒",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "reason": "直播间持续爆单",
+    "currentSales": 37408,
+    "growth7d": 374,
+    "predictScore": 71,
+    "trendData": [
+      10182,
+      13018,
+      17013,
+      21778,
+      28221,
+      36089,
+      46252,
+      60752,
+      77336,
+      101231,
+      130846,
+      172042,
+      37408
+    ]
+  },
+  {
+    "name": "三年二班 卡通笔袋",
+    "category": "文具盒/笔袋/痛包笔袋",
+    "reason": "社交平台口碑传播",
+    "currentSales": 31593,
+    "growth7d": 317,
+    "predictScore": 76,
+    "trendData": [
+      9580,
+      11971,
+      14857,
+      18317,
+      22541,
+      27964,
+      35020,
+      43786,
+      55762,
+      69248,
+      86426,
+      109242,
+      31593
+    ]
+  },
+  {
+    "name": "迪士尼 弹射文具盒",
     "category": "文具盒/笔袋/痛包笔袋",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 36908,
-    "growth7d": 163,
-    "predictScore": 67,
+    "currentSales": 35074,
+    "growth7d": 304,
+    "predictScore": 96,
     "trendData": [
-      16075,
-      17966,
-      20837,
-      23472,
-      26884,
-      30333,
-      34971,
-      39471,
-      43978,
-      49977,
-      57019,
-      65514,
-      36908
+      10951,
+      13548,
+      16564,
+      20620,
+      25762,
+      32394,
+      40561,
+      49857,
+      60936,
+      76744,
+      96607,
+      118719,
+      35074
     ]
   },
   {
-    "name": "辉柏嘉 活动铅笔 金属杆",
+    "name": "三菱 活动铅笔 金属杆",
     "category": "铅笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 62245,
-    "growth7d": 168,
-    "predictScore": 97,
+    "currentSales": 52159,
+    "growth7d": 358,
+    "predictScore": 89,
     "trendData": [
-      27021,
-      31457,
-      35740,
-      40963,
-      47423,
-      54268,
-      62854,
-      72869,
-      84225,
-      96371,
-      109909,
-      126890,
-      62245
+      14854,
+      19392,
+      25248,
+      32579,
+      41917,
+      54519,
+      70633,
+      91870,
+      120277,
+      151802,
+      192640,
+      246889,
+      52159
     ]
   },
   {
     "name": "三菱 考试涂卡铅笔 20支",
     "category": "铅笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 22095,
-    "growth7d": 91,
-    "predictScore": 74,
+    "currentSales": 62732,
+    "growth7d": 260,
+    "predictScore": 97,
     "trendData": [
-      12450,
-      13271,
-      14320,
-      15623,
-      16922,
-      18490,
-      19624,
-      21036,
-      22623,
-      24930,
-      27522,
-      29616,
-      22095
+      20760,
+      24952,
+      30078,
+      37055,
+      45725,
+      55148,
+      65812,
+      79741,
+      95552,
+      115474,
+      137167,
+      167445,
+      62732
     ]
   },
   {
     "name": "马可 绘图铅笔 2H-8B",
     "category": "铅笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 14002,
-    "growth7d": 230,
-    "predictScore": 97,
+    "currentSales": 75201,
+    "growth7d": 113,
+    "predictScore": 66,
     "trendData": [
-      5082,
-      5988,
-      7107,
-      8604,
-      10042,
-      12136,
-      14280,
-      17037,
-      20253,
-      24496,
-      29563,
-      34685,
-      14002
+      38365,
+      42319,
+      46500,
+      52057,
+      58139,
+      62979,
+      69442,
+      76527,
+      85764,
+      92374,
+      100356,
+      111103,
+      75201
     ]
   },
   {
-    "name": "晨光 木质铅笔 HB 50支",
+    "name": "中华 木质铅笔 HB 50支",
     "category": "铅笔",
     "reason": "直播间持续爆单",
-    "currentSales": 30280,
-    "growth7d": 113,
-    "predictScore": 71,
+    "currentSales": 11322,
+    "growth7d": 294,
+    "predictScore": 92,
     "trendData": [
-      15738,
-      17614,
-      19516,
-      20940,
-      23146,
-      24833,
-      26677,
-      28904,
-      31224,
-      34308,
-      37220,
-      40112,
-      30280
+      3488,
+      4265,
+      5201,
+      6439,
+      7882,
+      9592,
+      11936,
+      14602,
+      17810,
+      21612,
+      26501,
+      32617,
+      11322
     ]
   },
   {
-    "name": "中华 粗杆铅笔 幼儿用",
+    "name": "晨光 粗杆铅笔 幼儿用",
     "category": "铅笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 31120,
-    "growth7d": 95,
-    "predictScore": 78,
+    "currentSales": 65793,
+    "growth7d": 342,
+    "predictScore": 66,
     "trendData": [
-      17199,
-      18994,
-      20191,
-      22176,
-      24370,
-      26757,
-      28924,
-      31164,
-      33548,
-      35797,
-      39175,
-      43101,
-      31120
+      18918,
+      23978,
+      30368,
+      38174,
+      49029,
+      63259,
+      80050,
+      100261,
+      127120,
+      160465,
+      206959,
+      266057,
+      65793
     ]
   },
   {
-    "name": "马可 铅笔帽 保护套",
+    "name": "中华 铅笔帽 保护套",
     "category": "铅笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 68340,
-    "growth7d": 171,
-    "predictScore": 85,
+    "currentSales": 61851,
+    "growth7d": 116,
+    "predictScore": 70,
     "trendData": [
-      29102,
-      32504,
-      36671,
-      41023,
-      46033,
-      53103,
-      59308,
-      66548,
-      75473,
-      86091,
-      98757,
-      114884,
-      68340
+      30769,
+      33223,
+      36273,
+      39842,
+      44018,
+      49344,
+      54750,
+      60500,
+      66812,
+      75040,
+      81402,
+      87636,
+      61851
     ]
   },
   {
-    "name": "樱花 高光橡皮",
+    "name": "辉柏嘉 高光橡皮",
     "category": "橡皮擦",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 62787,
-    "growth7d": 187,
-    "predictScore": 87,
+    "currentSales": 41841,
+    "growth7d": 219,
+    "predictScore": 69,
     "trendData": [
-      25589,
-      30084,
-      34281,
-      39090,
-      44974,
-      51792,
-      59407,
-      68039,
-      76820,
-      90220,
-      105069,
-      121264,
-      62787
+      15367,
+      17978,
+      20741,
+      24869,
+      29574,
+      34860,
+      41108,
+      47895,
+      56869,
+      67843,
+      81182,
+      96109,
+      41841
     ]
   },
   {
-    "name": "辉柏嘉 樱花橡皮",
+    "name": "樱花 樱花橡皮",
     "category": "橡皮擦",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 70419,
-    "growth7d": 333,
-    "predictScore": 80,
+    "currentSales": 76937,
+    "growth7d": 174,
+    "predictScore": 67,
     "trendData": [
-      20679,
-      26550,
-      33760,
-      42101,
-      52873,
-      68152,
-      87465,
-      111213,
-      140781,
-      176160,
-      224091,
-      285921,
-      70419
+      32602,
+      37467,
+      42846,
+      48373,
+      55618,
+      64161,
+      74648,
+      86194,
+      98458,
+      112200,
+      129258,
+      148948,
+      76937
     ]
   },
   {
     "name": "辉柏嘉 超净橡皮",
     "category": "橡皮擦",
     "reason": "618期间搜索量飙升",
-    "currentSales": 56466,
-    "growth7d": 213,
-    "predictScore": 94,
+    "currentSales": 45813,
+    "growth7d": 148,
+    "predictScore": 77,
     "trendData": [
-      21329,
-      25466,
-      29675,
-      34170,
-      39617,
-      46527,
-      54085,
-      64378,
-      75347,
-      86992,
-      103665,
-      120238,
-      56466
+      20550,
+      23433,
+      26254,
+      28999,
+      33107,
+      36744,
+      41993,
+      47426,
+      54211,
+      59918,
+      67081,
+      75470,
+      45813
     ]
   },
   {
-    "name": "辉柏嘉 创意橡皮 食物造型",
+    "name": "晨光 创意橡皮 食物造型",
     "category": "橡皮擦",
     "reason": "直播间持续爆单",
-    "currentSales": 38975,
-    "growth7d": 121,
-    "predictScore": 76,
+    "currentSales": 55236,
+    "growth7d": 214,
+    "predictScore": 79,
     "trendData": [
-      19475,
-      21056,
-      23464,
-      25729,
-      28277,
-      31398,
-      35019,
-      38360,
-      42603,
-      47903,
-      51776,
-      56102,
-      38975
+      20878,
+      24363,
+      28801,
+      34444,
+      39693,
+      45849,
+      53054,
+      62775,
+      73226,
+      85529,
+      99208,
+      118726,
+      55236
     ]
   },
   {
-    "name": "辉柏嘉 自动橡皮擦 替芯",
+    "name": "晨光 自动橡皮擦 替芯",
     "category": "橡皮擦",
     "reason": "社交平台口碑传播",
-    "currentSales": 24447,
-    "growth7d": 198,
-    "predictScore": 95,
+    "currentSales": 29993,
+    "growth7d": 367,
+    "predictScore": 90,
     "trendData": [
-      9717,
-      11511,
-      13357,
-      15477,
-      18295,
-      21068,
-      24175,
-      27930,
-      32451,
-      37359,
-      43266,
-      50183,
-      24447
+      8204,
+      10545,
+      13623,
+      17454,
+      22483,
+      29000,
+      37078,
+      48373,
+      63479,
+      81429,
+      104346,
+      136392,
+      29993
     ]
   },
   {
-    "name": "得力 橡皮擦套装",
+    "name": "辉柏嘉 橡皮擦套装",
     "category": "橡皮擦",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 29772,
-    "growth7d": 179,
-    "predictScore": 70,
+    "currentSales": 18629,
+    "growth7d": 248,
+    "predictScore": 77,
     "trendData": [
-      12405,
-      14466,
-      16587,
-      19256,
-      22123,
-      24974,
-      28240,
-      32913,
-      37983,
-      43489,
-      50158,
-      56559,
-      29772
+      6337,
+      7722,
+      9321,
+      11167,
+      13472,
+      15906,
+      19297,
+      22713,
+      26860,
+      31776,
+      38350,
+      46803,
+      18629
     ]
   },
   {
     "name": "慕娜美 护眼荧光笔 莫兰迪",
     "category": "荧光笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 63329,
-    "growth7d": 206,
-    "predictScore": 78,
+    "currentSales": 31523,
+    "growth7d": 399,
+    "predictScore": 82,
     "trendData": [
-      24338,
-      28894,
-      34467,
-      40824,
-      48717,
-      56455,
-      66947,
-      79083,
-      91125,
-      105219,
-      125074,
-      144307,
-      63329
+      8429,
+      11208,
+      14579,
+      18998,
+      25403,
+      33081,
+      43279,
+      57343,
+      75172,
+      99169,
+      130863,
+      174246,
+      31523
     ]
   },
   {
-    "name": "东洋 窗口荧光笔",
+    "name": "斑马 窗口荧光笔",
     "category": "荧光笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 48742,
-    "growth7d": 255,
-    "predictScore": 87,
+    "currentSales": 21143,
+    "growth7d": 88,
+    "predictScore": 69,
     "trendData": [
-      16761,
-      20209,
-      24613,
-      29707,
-      35127,
-      41770,
-      50512,
-      61874,
-      74876,
-      90187,
-      107686,
-      132409,
-      48742
+      12155,
+      13328,
+      14416,
+      15512,
+      16529,
+      18201,
+      19721,
+      21648,
+      23516,
+      25177,
+      26844,
+      29097,
+      21143
     ]
   },
   {
     "name": "慕娜美 荧光笔 粗细双头",
     "category": "荧光笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 28929,
-    "growth7d": 195,
-    "predictScore": 91,
+    "currentSales": 16424,
+    "growth7d": 182,
+    "predictScore": 89,
     "trendData": [
-      11436,
-      13253,
-      15147,
-      17292,
-      19901,
-      22679,
-      26023,
-      29583,
-      34057,
-      39125,
-      46000,
-      52703,
-      28929
+      6625,
+      7465,
+      8519,
+      9702,
+      11310,
+      12845,
+      14545,
+      16813,
+      19582,
+      22181,
+      25550,
+      29185,
+      16424
     ]
   },
   {
-    "name": "斑马 果冻色荧光笔",
+    "name": "东洋 果冻色荧光笔",
     "category": "荧光笔",
     "reason": "直播间持续爆单",
-    "currentSales": 47671,
-    "growth7d": 129,
-    "predictScore": 82,
+    "currentSales": 29151,
+    "growth7d": 134,
+    "predictScore": 67,
     "trendData": [
-      22930,
-      25066,
-      28092,
-      31466,
-      34384,
-      37751,
-      41767,
-      46249,
-      50455,
-      55502,
-      62541,
-      68132,
-      47671
+      13831,
+      15368,
+      16825,
+      18573,
+      21000,
+      22958,
+      25711,
+      28105,
+      31287,
+      35121,
+      38409,
+      42737,
+      29151
     ]
   },
   {
-    "name": "百乐 荧光笔 大容量",
+    "name": "慕娜美 荧光笔 大容量",
     "category": "荧光笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 17774,
-    "growth7d": 301,
-    "predictScore": 78,
+    "currentSales": 64192,
+    "growth7d": 392,
+    "predictScore": 81,
     "trendData": [
-      5501,
-      6958,
-      8751,
-      10668,
-      13497,
-      16942,
-      21414,
-      26408,
-      32937,
-      40691,
-      49719,
-      60632,
-      17774
+      17404,
+      22681,
+      29877,
+      39002,
+      50386,
+      64972,
+      83920,
+      109666,
+      143296,
+      186748,
+      247089,
+      328302,
+      64192
     ]
   },
   {
-    "name": "百乐 速干荧光笔",
+    "name": "斑马 速干荧光笔",
     "category": "荧光笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 61204,
-    "growth7d": 187,
-    "predictScore": 87,
+    "currentSales": 45406,
+    "growth7d": 379,
+    "predictScore": 84,
     "trendData": [
-      24971,
-      29102,
-      33904,
-      39095,
-      45961,
-      53045,
-      60722,
-      70369,
-      82611,
-      94940,
-      110089,
-      125715,
-      61204
+      12251,
+      16007,
+      21156,
+      27438,
+      35868,
+      46257,
+      60874,
+      79027,
+      103533,
+      133777,
+      170999,
+      224607,
+      45406
     ]
   },
   {
-    "name": "kinbor 手账素材本",
+    "name": "文谷 手账素材本",
     "category": "手帐",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 63872,
-    "growth7d": 225,
-    "predictScore": 68,
+    "currentSales": 21206,
+    "growth7d": 260,
+    "predictScore": 95,
     "trendData": [
-      23235,
-      27852,
-      33318,
-      39267,
-      46577,
-      54313,
-      63800,
-      74471,
-      87540,
-      103725,
-      120612,
-      145145,
-      63872
+      7079,
+      8454,
+      10165,
+      12318,
+      14655,
+      18031,
+      21492,
+      25563,
+      30397,
+      36479,
+      43672,
+      53881,
+      21206
     ]
   },
   {
-    "name": "kinbor 手账周计划本",
+    "name": "文谷 手账周计划本",
     "category": "手帐",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 27065,
-    "growth7d": 177,
-    "predictScore": 94,
+    "currentSales": 35349,
+    "growth7d": 322,
+    "predictScore": 72,
     "trendData": [
-      11431,
-      12889,
-      15006,
-      17510,
-      20294,
-      23120,
-      26245,
-      29614,
-      34186,
-      39576,
-      46145,
-      52294,
-      27065
+      10444,
+      12950,
+      16394,
+      20807,
+      26581,
+      33088,
+      41352,
+      51147,
+      65286,
+      81468,
+      103997,
+      131209,
+      35349
     ]
   },
   {
     "name": "三年二班 手账装饰花边剪刀",
     "category": "手帐",
     "reason": "618期间搜索量飙升",
-    "currentSales": 71393,
-    "growth7d": 177,
-    "predictScore": 88,
+    "currentSales": 57036,
+    "growth7d": 216,
+    "predictScore": 67,
     "trendData": [
-      29643,
-      33313,
-      38993,
-      44129,
-      50412,
-      58213,
-      65925,
-      74711,
-      84577,
-      96679,
-      112125,
-      126878,
-      71393
+      20982,
+      24408,
+      28363,
+      33272,
+      39586,
+      45982,
+      53881,
+      63715,
+      75584,
+      87689,
+      103848,
+      120408,
+      57036
     ]
   },
   {
-    "name": "国誉 TN旅行手账",
+    "name": "kinbor TN旅行手账",
     "category": "手帐",
     "reason": "直播间持续爆单",
-    "currentSales": 56367,
-    "growth7d": 138,
+    "currentSales": 73065,
+    "growth7d": 375,
     "predictScore": 87,
     "trendData": [
-      26040,
-      28798,
-      32480,
-      35547,
-      40424,
-      45930,
-      50442,
-      56495,
-      63390,
-      71404,
-      80227,
-      87929,
-      56367
+      19697,
+      25652,
+      33459,
+      43789,
+      57183,
+      73098,
+      93537,
+      121588,
+      158905,
+      202441,
+      257960,
+      329044,
+      73065
     ]
   },
   {
-    "name": "kinbor 盐系手账本",
+    "name": "文谷 盐系手账本",
     "category": "手帐",
     "reason": "社交平台口碑传播",
-    "currentSales": 11101,
-    "growth7d": 83,
-    "predictScore": 95,
-    "trendData": [
-      6375,
-      7000,
-      7406,
-      8017,
-      8429,
-      8951,
-      9699,
-      10321,
-      11206,
-      12020,
-      13086,
-      14162,
-      11101
-    ]
-  },
-  {
-    "name": "文谷 手账打孔器",
-    "category": "手帐",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 22636,
-    "growth7d": 195,
+    "currentSales": 28392,
+    "growth7d": 97,
     "predictScore": 72,
     "trendData": [
-      9050,
-      10540,
-      12473,
-      14286,
-      16463,
-      19417,
-      22498,
-      25924,
-      29655,
-      34208,
-      39879,
-      46110,
-      22636
+      15772,
+      16954,
+      18590,
+      20141,
+      22144,
+      24203,
+      26831,
+      28516,
+      31507,
+      33950,
+      36280,
+      40056,
+      28392
     ]
   },
   {
-    "name": "手帐星球 火漆蜡条 彩色",
-    "category": "火漆印章",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 64414,
-    "growth7d": 243,
+    "name": "国誉 手账打孔器",
+    "category": "手帐",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 72183,
+    "growth7d": 191,
     "predictScore": 91,
     "trendData": [
-      22307,
-      26979,
-      32344,
-      37905,
-      44660,
-      52366,
-      63505,
-      76362,
-      91477,
-      111085,
-      131763,
-      158415,
-      64414
+      28664,
+      32940,
+      37579,
+      43233,
+      50267,
+      57967,
+      68021,
+      79859,
+      91216,
+      105431,
+      121689,
+      141304,
+      72183
     ]
   },
   {
-    "name": "印迹 火漆勺 木柄",
+    "name": "森活记 火漆蜡条 彩色",
+    "category": "火漆印章",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 10888,
+    "growth7d": 120,
+    "predictScore": 75,
+    "trendData": [
+      5533,
+      6130,
+      6763,
+      7573,
+      8266,
+      9156,
+      10299,
+      11361,
+      12684,
+      13701,
+      15400,
+      16713,
+      10888
+    ]
+  },
+  {
+    "name": "森活记 火漆勺 木柄",
     "category": "火漆印章",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 75389,
-    "growth7d": 99,
-    "predictScore": 68,
+    "currentSales": 49555,
+    "growth7d": 236,
+    "predictScore": 75,
     "trendData": [
-      40502,
-      44529,
-      49456,
-      53251,
-      57809,
-      62978,
-      69973,
-      75696,
-      83164,
-      92383,
-      100506,
-      109243,
-      75389
+      17941,
+      21299,
+      25645,
+      31190,
+      37219,
+      44377,
+      51915,
+      61254,
+      71695,
+      84524,
+      100645,
+      120095,
+      49555
     ]
   },
   {
     "name": "暮光之印 火漆印章礼盒",
     "category": "火漆印章",
     "reason": "618期间搜索量飙升",
-    "currentSales": 43856,
-    "growth7d": 159,
-    "predictScore": 85,
+    "currentSales": 27647,
+    "growth7d": 250,
+    "predictScore": 79,
     "trendData": [
-      19202,
-      21866,
-      25105,
-      28164,
-      31935,
-      35764,
-      39966,
-      45152,
-      50249,
-      57151,
-      65371,
-      73048,
-      43856
+      9380,
+      11254,
+      13312,
+      16072,
+      19509,
+      23166,
+      28060,
+      33927,
+      40980,
+      48667,
+      59210,
+      72631,
+      27647
     ]
   },
   {
-    "name": "森活记 星座火漆印章",
+    "name": "手帐星球 星座火漆印章",
     "category": "火漆印章",
     "reason": "直播间持续爆单",
-    "currentSales": 65063,
-    "growth7d": 146,
-    "predictScore": 93,
+    "currentSales": 46979,
+    "growth7d": 295,
+    "predictScore": 75,
     "trendData": [
-      30327,
-      33903,
-      38453,
-      42991,
-      48618,
-      54633,
-      62243,
-      70454,
-      77668,
-      85595,
-      95826,
-      105585,
-      65063
+      14913,
+      18589,
+      22623,
+      27525,
+      33970,
+      41323,
+      51339,
+      64675,
+      81081,
+      99607,
+      125300,
+      155561,
+      46979
     ]
   },
   {
-    "name": "暮光之印 火漆蜡片 成品",
+    "name": "印迹 火漆蜡片 成品",
     "category": "火漆印章",
     "reason": "社交平台口碑传播",
-    "currentSales": 74428,
-    "growth7d": 186,
-    "predictScore": 78,
+    "currentSales": 62592,
+    "growth7d": 122,
+    "predictScore": 96,
     "trendData": [
-      30127,
-      33993,
-      39274,
-      44883,
-      50924,
-      59359,
-      68267,
-      77963,
-      91301,
-      105621,
-      121724,
-      138989,
-      74428
+      31038,
+      33918,
+      38051,
+      42146,
+      46497,
+      50803,
+      56985,
+      63536,
+      69843,
+      76687,
+      85147,
+      95846,
+      62592
     ]
   },
   {
-    "name": "印迹 毕业纪念火漆套装",
+    "name": "慢作 毕业纪念火漆套装",
     "category": "火漆印章",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 54068,
-    "growth7d": 203,
-    "predictScore": 89,
+    "currentSales": 28960,
+    "growth7d": 323,
+    "predictScore": 98,
     "trendData": [
-      21198,
-      24673,
-      28419,
-      33748,
-      39793,
-      45949,
-      53880,
-      61728,
-      71841,
-      83178,
-      97484,
-      114113,
-      54068
+      8660,
+      10721,
+      13467,
+      16835,
+      21285,
+      26881,
+      34329,
+      42774,
+      54344,
+      68784,
+      87790,
+      110179,
+      28960
     ]
   },
   {
-    "name": "真彩 细头水彩笔 勾线",
+    "name": "得力 细头水彩笔 勾线",
     "category": "水彩笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 64956,
-    "growth7d": 262,
-    "predictScore": 81,
+    "currentSales": 70570,
+    "growth7d": 301,
+    "predictScore": 88,
     "trendData": [
-      21427,
-      26161,
-      31451,
-      38247,
-      46700,
-      57432,
-      69006,
-      82009,
-      100145,
-      119631,
-      144784,
-      174018,
-      64956
+      21674,
+      26408,
+      33040,
+      40460,
+      50181,
+      61819,
+      77562,
+      98015,
+      121617,
+      152901,
+      190784,
+      235366,
+      70570
     ]
   },
   {
-    "name": "辉柏嘉 双头水彩笔",
+    "name": "马利 双头水彩笔",
     "category": "水彩笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 53712,
-    "growth7d": 340,
-    "predictScore": 74,
+    "currentSales": 63760,
+    "growth7d": 151,
+    "predictScore": 77,
     "trendData": [
-      15426,
-      19539,
-      24471,
-      31372,
-      39452,
-      50693,
-      65006,
-      83247,
-      107247,
-      135069,
-      169547,
-      218035,
-      53712
+      28881,
+      32786,
+      37472,
+      41745,
+      46332,
+      52846,
+      60282,
+      67737,
+      75542,
+      83911,
+      92778,
+      104432,
+      63760
     ]
   },
   {
     "name": "马利 可擦水彩笔",
     "category": "水彩笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 16320,
-    "growth7d": 142,
-    "predictScore": 82,
+    "currentSales": 68259,
+    "growth7d": 284,
+    "predictScore": 90,
     "trendData": [
-      7544,
-      8332,
-      9386,
-      10444,
-      11761,
-      13359,
-      14739,
-      16611,
-      18181,
-      20588,
-      23237,
-      25655,
-      16320
+      21554,
+      26646,
+      32074,
+      39824,
+      49297,
+      59811,
+      74807,
+      92435,
+      113649,
+      138086,
+      172470,
+      214530,
+      68259
     ]
   },
   {
-    "name": "晨光 水彩笔画纸套装",
+    "name": "真彩 水彩笔画纸套装",
     "category": "水彩笔",
     "reason": "直播间持续爆单",
-    "currentSales": 73759,
-    "growth7d": 154,
-    "predictScore": 65,
-    "trendData": [
-      33217,
-      37532,
-      42808,
-      48868,
-      54955,
-      61068,
-      69029,
-      78957,
-      89437,
-      100857,
-      112506,
-      124621,
-      73759
-    ]
-  },
-  {
-    "name": "晨光 金属色水彩笔",
-    "category": "水彩笔",
-    "reason": "社交平台口碑传播",
-    "currentSales": 67754,
-    "growth7d": 289,
+    "currentSales": 20894,
+    "growth7d": 215,
     "predictScore": 95,
     "trendData": [
-      21151,
-      25562,
-      32020,
-      40127,
-      48864,
-      59580,
-      72483,
-      88422,
-      111099,
-      137877,
-      167688,
-      209857,
-      67754
+      7809,
+      9299,
+      10970,
+      12885,
+      14978,
+      17294,
+      19977,
+      23366,
+      26881,
+      31801,
+      37895,
+      43862,
+      20894
     ]
   },
   {
-    "name": "马利 白板用水彩笔",
+    "name": "辉柏嘉 金属色水彩笔",
+    "category": "水彩笔",
+    "reason": "社交平台口碑传播",
+    "currentSales": 26792,
+    "growth7d": 147,
+    "predictScore": 86,
+    "trendData": [
+      12011,
+      13340,
+      15304,
+      17321,
+      19174,
+      21901,
+      24853,
+      27764,
+      31752,
+      35513,
+      39136,
+      44897,
+      26792
+    ]
+  },
+  {
+    "name": "辉柏嘉 白板用水彩笔",
     "category": "水彩笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 15500,
-    "growth7d": 210,
-    "predictScore": 74,
+    "currentSales": 55738,
+    "growth7d": 135,
+    "predictScore": 72,
     "trendData": [
-      5978,
-      6949,
-      8126,
-      9580,
-      11066,
-      13049,
-      15473,
-      18386,
-      21751,
-      25260,
-      29742,
-      35218,
-      15500
+      26756,
+      30250,
+      34040,
+      37567,
+      42066,
+      47385,
+      53759,
+      60309,
+      66497,
+      75104,
+      82785,
+      91289,
+      55738
     ]
   },
   {
     "name": "得力 价格标签贴",
     "category": "标签贴纸",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 65498,
-    "growth7d": 281,
-    "predictScore": 71,
+    "currentSales": 60252,
+    "growth7d": 161,
+    "predictScore": 69,
     "trendData": [
-      21495,
-      26492,
-      31938,
-      38652,
-      46917,
-      58039,
-      71989,
-      88144,
-      109683,
-      134340,
-      165824,
-      199246,
-      65498
+      26503,
+      30004,
+      34566,
+      39146,
+      44707,
+      49591,
+      56413,
+      63599,
+      71116,
+      80883,
+      90960,
+      103255,
+      60252
     ]
   },
   {
-    "name": "雅柯莱 书脊标签",
+    "name": "兄弟 书脊标签",
     "category": "标签贴纸",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 32036,
-    "growth7d": 262,
-    "predictScore": 81,
+    "currentSales": 77966,
+    "growth7d": 385,
+    "predictScore": 80,
     "trendData": [
-      10734,
-      12757,
-      15293,
-      18228,
-      22496,
-      27784,
-      33570,
-      41426,
-      51060,
-      61915,
-      75983,
-      90394,
-      32036
+      20944,
+      27827,
+      36931,
+      48277,
+      63814,
+      81955,
+      107111,
+      140620,
+      183564,
+      236432,
+      311144,
+      405531,
+      77966
     ]
   },
   {
     "name": "雅柯莱 收纳标签贴",
     "category": "标签贴纸",
     "reason": "618期间搜索量飙升",
-    "currentSales": 58783,
-    "growth7d": 124,
-    "predictScore": 79,
+    "currentSales": 38870,
+    "growth7d": 318,
+    "predictScore": 69,
     "trendData": [
-      28934,
-      32389,
-      35762,
-      39441,
-      44080,
-      48532,
-      52818,
-      59341,
-      66778,
-      75236,
-      83716,
-      91243,
-      58783
+      11508,
+      14647,
+      18668,
+      23818,
+      30057,
+      37245,
+      46191,
+      58303,
+      72943,
+      90629,
+      111598,
+      140733,
+      38870
     ]
   },
   {
-    "name": "晨光 透明标签贴",
+    "name": "得力 透明标签贴",
     "category": "标签贴纸",
     "reason": "直播间持续爆单",
-    "currentSales": 12454,
-    "growth7d": 162,
-    "predictScore": 70,
+    "currentSales": 64808,
+    "growth7d": 135,
+    "predictScore": 83,
     "trendData": [
-      5424,
-      6194,
-      7104,
-      7922,
-      8859,
-      10177,
-      11413,
-      13190,
-      14681,
-      16932,
-      18819,
-      20955,
-      12454
+      30354,
+      34451,
+      37631,
+      42619,
+      46485,
+      50797,
+      56787,
+      64141,
+      70374,
+      80052,
+      90085,
+      101202,
+      64808
     ]
   },
   {
-    "name": "精臣 姓名贴 刺绣",
+    "name": "雅柯莱 姓名贴 刺绣",
     "category": "标签贴纸",
     "reason": "社交平台口碑传播",
-    "currentSales": 61081,
-    "growth7d": 392,
-    "predictScore": 79,
+    "currentSales": 60992,
+    "growth7d": 172,
+    "predictScore": 77,
     "trendData": [
-      16401,
-      21137,
-      27477,
-      36092,
-      46951,
-      62114,
-      82803,
-      107460,
-      138821,
-      183967,
-      244670,
-      320788,
-      61081
+      26098,
+      29453,
+      33064,
+      38221,
+      44364,
+      50658,
+      58149,
+      65085,
+      74069,
+      84358,
+      96479,
+      107938,
+      60992
     ]
   },
   {
     "name": "精臣 标签纸 打印机用",
     "category": "标签贴纸",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 46932,
-    "growth7d": 218,
-    "predictScore": 92,
+    "currentSales": 12515,
+    "growth7d": 267,
+    "predictScore": 79,
     "trendData": [
-      17033,
-      19786,
-      23503,
-      27526,
-      32531,
-      37557,
-      45058,
-      53244,
-      61386,
-      71551,
-      84692,
-      101499,
-      46932
+      4220,
+      5146,
+      6127,
+      7373,
+      9005,
+      11131,
+      13781,
+      16452,
+      20250,
+      25096,
+      30727,
+      36767,
+      12515
     ]
   },
   {
-    "name": "晨光 衍纸套装",
+    "name": "美乐 衍纸套装",
     "category": "手工DIY套装",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 66041,
-    "growth7d": 300,
-    "predictScore": 94,
+    "currentSales": 49934,
+    "growth7d": 342,
+    "predictScore": 82,
     "trendData": [
-      20747,
-      25809,
-      32492,
-      40757,
-      51217,
-      63729,
-      78333,
-      98729,
-      120210,
-      150867,
-      189862,
-      237552,
-      66041
+      14251,
+      18422,
+      23025,
+      29641,
+      38260,
+      49106,
+      62236,
+      80159,
+      103607,
+      130996,
+      163527,
+      209901,
+      49934
     ]
   },
   {
-    "name": "幻彩 创意美劳材料包",
+    "name": "美乐 创意美劳材料包",
     "category": "手工DIY套装",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 10359,
-    "growth7d": 184,
-    "predictScore": 88,
+    "currentSales": 22172,
+    "growth7d": 299,
+    "predictScore": 82,
     "trendData": [
-      4239,
-      4919,
-      5633,
-      6488,
-      7531,
-      8549,
-      9696,
-      11029,
-      12428,
-      14488,
-      16649,
-      19035,
-      10359
+      6794,
+      8329,
+      10122,
+      12695,
+      15712,
+      19354,
+      23748,
+      29824,
+      37262,
+      45425,
+      55881,
+      69010,
+      22172
     ]
   },
   {
     "name": "晨光 拼豆套装",
     "category": "手工DIY套装",
     "reason": "618期间搜索量飙升",
-    "currentSales": 31246,
-    "growth7d": 106,
-    "predictScore": 76,
+    "currentSales": 79482,
+    "growth7d": 353,
+    "predictScore": 80,
     "trendData": [
-      16480,
-      17870,
-      19331,
-      21129,
-      23435,
-      26157,
-      28075,
-      30040,
-      33229,
-      35586,
-      39029,
-      41986,
-      31246
+      22167,
+      27930,
+      36201,
+      45647,
+      58737,
+      74347,
+      95197,
+      122762,
+      156336,
+      198650,
+      251194,
+      321288,
+      79482
     ]
   },
   {
-    "name": "美乐 木质手工模型",
+    "name": "晨光 木质手工模型",
     "category": "手工DIY套装",
     "reason": "直播间持续爆单",
-    "currentSales": 21150,
-    "growth7d": 170,
-    "predictScore": 76,
+    "currentSales": 38722,
+    "growth7d": 375,
+    "predictScore": 70,
     "trendData": [
-      8916,
-      10288,
-      11865,
-      13511,
-      15699,
-      17839,
-      20738,
-      23178,
-      26502,
-      29919,
-      34630,
-      38764,
-      21150
+      10762,
+      13725,
+      17858,
+      22977,
+      30218,
+      38590,
+      49274,
+      63343,
+      81717,
+      105268,
+      137394,
+      176621,
+      38722
     ]
   },
   {
-    "name": "晨光 剪纸套装",
+    "name": "幻彩 剪纸套装",
     "category": "手工DIY套装",
     "reason": "社交平台口碑传播",
-    "currentSales": 54408,
-    "growth7d": 174,
-    "predictScore": 95,
+    "currentSales": 25191,
+    "growth7d": 197,
+    "predictScore": 68,
     "trendData": [
-      22456,
-      25197,
-      28985,
-      32665,
-      37143,
-      41960,
-      48366,
-      54592,
-      61705,
-      71730,
-      82260,
-      92445,
-      54408
+      9927,
+      11381,
+      13065,
+      15419,
+      17955,
+      20496,
+      23795,
+      27874,
+      32959,
+      38212,
+      45295,
+      51651,
+      25191
     ]
   },
   {
     "name": "得力 儿童剪贴画材料",
     "category": "手工DIY套装",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 78364,
-    "growth7d": 226,
-    "predictScore": 76,
+    "currentSales": 39292,
+    "growth7d": 398,
+    "predictScore": 86,
     "trendData": [
-      27948,
-      32445,
-      39137,
-      45532,
-      55029,
-      64922,
-      75547,
-      88774,
-      104119,
-      121805,
-      144934,
-      168525,
-      78364
+      10225,
+      13368,
+      17447,
+      22719,
+      30039,
+      38903,
+      52167,
+      68601,
+      89755,
+      116539,
+      151003,
+      202289,
+      39292
     ]
   },
   {
-    "name": "天文 透明卷笔刀",
+    "name": "晨光 透明卷笔刀",
     "category": "卷笔刀/卷笔器",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 66583,
-    "growth7d": 319,
-    "predictScore": 84,
+    "currentSales": 39617,
+    "growth7d": 202,
+    "predictScore": 95,
     "trendData": [
-      20070,
-      25198,
-      31807,
-      39711,
-      49617,
-      62098,
-      78739,
-      98137,
-      121768,
-      150415,
-      185399,
-      231901,
-      66583
+      15453,
+      17869,
+      20564,
+      23551,
+      26909,
+      31237,
+      35931,
+      41381,
+      48412,
+      55406,
+      65111,
+      77161,
+      39617
     ]
   },
   {
     "name": "得力 桌面卷笔器 大容量",
     "category": "卷笔刀/卷笔器",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 58682,
-    "growth7d": 106,
-    "predictScore": 94,
+    "currentSales": 36378,
+    "growth7d": 213,
+    "predictScore": 85,
     "trendData": [
-      31654,
-      34255,
-      37389,
-      41565,
-      45194,
-      49053,
-      54451,
-      59399,
-      63621,
-      68009,
-      72845,
-      79911,
-      58682
+      13857,
+      16257,
+      18751,
+      21588,
+      24900,
+      29365,
+      35153,
+      40387,
+      48198,
+      55435,
+      66209,
+      77235,
+      36378
     ]
   },
   {
     "name": "猫太子 便携卷笔刀",
     "category": "卷笔刀/卷笔器",
     "reason": "618期间搜索量飙升",
-    "currentSales": 73710,
-    "growth7d": 88,
-    "predictScore": 73,
+    "currentSales": 50093,
+    "growth7d": 387,
+    "predictScore": 92,
     "trendData": [
-      41966,
-      46132,
-      48871,
-      52934,
-      58260,
-      62998,
-      66675,
-      71107,
-      77292,
-      82330,
-      88984,
-      94467,
-      73710
+      13252,
+      17181,
+      22627,
+      29306,
+      38415,
+      49618,
+      65491,
+      86194,
+      111629,
+      144905,
+      187923,
+      243594,
+      50093
     ]
   },
   {
-    "name": "猫太子 卡通卷笔刀",
+    "name": "迪士尼 卡通卷笔刀",
     "category": "卷笔刀/卷笔器",
     "reason": "直播间持续爆单",
-    "currentSales": 29846,
-    "growth7d": 179,
-    "predictScore": 81,
+    "currentSales": 12637,
+    "growth7d": 296,
+    "predictScore": 91,
     "trendData": [
-      12154,
-      14180,
-      16455,
-      19138,
-      22131,
-      24888,
-      28729,
-      32473,
-      36516,
-      42188,
-      48693,
-      54827,
-      29846
+      3971,
+      4846,
+      5886,
+      7330,
+      9120,
+      11090,
+      13756,
+      17142,
+      21215,
+      26381,
+      32703,
+      40952,
+      12637
     ]
   },
   {
-    "name": "天文 削笔器 替换刀片",
+    "name": "得力 削笔器 替换刀片",
     "category": "卷笔刀/卷笔器",
     "reason": "社交平台口碑传播",
-    "currentSales": 47735,
-    "growth7d": 277,
-    "predictScore": 79,
+    "currentSales": 59391,
+    "growth7d": 222,
+    "predictScore": 92,
     "trendData": [
-      15671,
-      18841,
-      23507,
-      29086,
-      35492,
-      43774,
-      53368,
-      64394,
-      78282,
-      97590,
-      118138,
-      145717,
-      47735
+      21706,
+      25272,
+      29653,
+      35712,
+      41720,
+      49694,
+      58344,
+      68472,
+      80578,
+      95068,
+      111900,
+      130016,
+      59391
     ]
   },
   {
     "name": "迪士尼 粗杆专用削笔器",
     "category": "卷笔刀/卷笔器",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 39796,
-    "growth7d": 234,
-    "predictScore": 94,
+    "currentSales": 66069,
+    "growth7d": 210,
+    "predictScore": 93,
     "trendData": [
-      13954,
-      16887,
-      19836,
-      23914,
-      28346,
-      34158,
-      40224,
-      47001,
-      56062,
-      65825,
-      78733,
-      92676,
-      39796
+      24705,
+      28411,
+      33364,
+      38558,
+      45407,
+      52610,
+      60417,
+      71948,
+      85653,
+      99540,
+      116630,
+      138478,
+      66069
     ]
   },
   {
     "name": "齐心 便利贴套装",
     "category": "便签本/便条纸/N次贴",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 67125,
-    "growth7d": 338,
+    "currentSales": 29299,
+    "growth7d": 383,
     "predictScore": 75,
     "trendData": [
-      19451,
-      24644,
-      31191,
-      40319,
-      52103,
-      65586,
-      82428,
-      105700,
-      133606,
-      169077,
-      212477,
-      265694,
-      67125
+      7834,
+      10317,
+      13398,
+      17419,
+      22493,
+      28905,
+      37001,
+      48555,
+      62841,
+      83044,
+      107866,
+      138445,
+      29299
     ]
   },
   {
-    "name": "3M 指示标签 箭头",
+    "name": "广博 指示标签 箭头",
     "category": "便签本/便条纸/N次贴",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 37006,
-    "growth7d": 348,
-    "predictScore": 68,
+    "currentSales": 50583,
+    "growth7d": 127,
+    "predictScore": 88,
     "trendData": [
-      10379,
-      13494,
-      17326,
-      21965,
-      27677,
-      35473,
-      45480,
-      58689,
-      74036,
-      93900,
-      121057,
-      156990,
-      37006
+      24781,
+      27766,
+      30307,
+      33286,
+      37254,
+      41979,
+      46899,
+      51209,
+      55685,
+      62992,
+      69829,
+      76681,
+      50583
     ]
   },
   {
     "name": "齐心 加厚便签纸",
     "category": "便签本/便条纸/N次贴",
     "reason": "618期间搜索量飙升",
-    "currentSales": 46173,
-    "growth7d": 391,
+    "currentSales": 20704,
+    "growth7d": 101,
     "predictScore": 70,
     "trendData": [
-      12236,
-      16043,
-      21400,
-      28252,
-      36417,
-      47102,
-      60776,
-      79609,
-      104665,
-      136732,
-      179365,
-      232170,
-      46173
+      10993,
+      11947,
+      13042,
+      14128,
+      15381,
+      16478,
+      17520,
+      19211,
+      20566,
+      22199,
+      24043,
+      25661,
+      20704
     ]
   },
   {
-    "name": "3M 告示贴 荧光色",
+    "name": "得力 告示贴 荧光色",
     "category": "便签本/便条纸/N次贴",
     "reason": "直播间持续爆单",
-    "currentSales": 38542,
-    "growth7d": 187,
-    "predictScore": 87,
+    "currentSales": 56551,
+    "growth7d": 216,
+    "predictScore": 78,
     "trendData": [
-      15221,
-      17940,
-      20932,
-      23791,
-      27362,
-      31797,
-      36421,
-      41602,
-      48044,
-      54336,
-      62495,
-      70733,
-      38542
+      20898,
+      24337,
+      28649,
+      33040,
+      38738,
+      44708,
+      51556,
+      59601,
+      70589,
+      84566,
+      99225,
+      115912,
+      56551
     ]
   },
   {
-    "name": "3M 抽取式便签",
+    "name": "晨光 抽取式便签",
     "category": "便签本/便条纸/N次贴",
     "reason": "社交平台口碑传播",
-    "currentSales": 41062,
-    "growth7d": 380,
-    "predictScore": 95,
+    "currentSales": 23591,
+    "growth7d": 247,
+    "predictScore": 83,
     "trendData": [
-      11073,
-      14201,
-      18390,
-      23864,
-      31104,
-      40031,
-      51467,
-      66108,
-      86010,
-      110164,
-      145891,
-      188649,
-      41062
+      8046,
+      9512,
+      11402,
+      13437,
+      16420,
+      19553,
+      23213,
+      27293,
+      33330,
+      40006,
+      48757,
+      57702,
+      23591
     ]
   },
   {
-    "name": "得力 线圈便签本",
+    "name": "晨光 线圈便签本",
     "category": "便签本/便条纸/N次贴",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 71228,
-    "growth7d": 242,
-    "predictScore": 79,
+    "currentSales": 22847,
+    "growth7d": 342,
+    "predictScore": 66,
     "trendData": [
-      24568,
-      29713,
-      35449,
-      42461,
-      51466,
-      60747,
-      72382,
-      87717,
-      106376,
-      125356,
-      150718,
-      179567,
-      71228
+      6557,
+      8451,
+      10899,
+      13682,
+      17503,
+      22200,
+      27795,
+      35101,
+      44535,
+      56649,
+      73293,
+      93901,
+      22847
     ]
   },
   {
-    "name": "得力 透明笔筒",
+    "name": "创意家居 透明笔筒",
     "category": "笔筒",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 67667,
-    "growth7d": 357,
-    "predictScore": 98,
+    "currentSales": 18981,
+    "growth7d": 243,
+    "predictScore": 88,
     "trendData": [
-      18887,
-      24147,
-      30643,
-      39431,
-      50672,
-      64152,
-      83116,
-      105416,
-      135694,
-      175821,
-      225191,
-      292770,
-      67667
+      6685,
+      7892,
+      9467,
+      11436,
+      13644,
+      16542,
+      20065,
+      23596,
+      28826,
+      34637,
+      40724,
+      48257,
+      18981
     ]
   },
   {
-    "name": "晨光 磁吸笔筒",
+    "name": "创意家居 磁吸笔筒",
     "category": "笔筒",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 15329,
-    "growth7d": 270,
-    "predictScore": 75,
+    "currentSales": 64789,
+    "growth7d": 361,
+    "predictScore": 90,
     "trendData": [
-      4995,
-      6104,
-      7510,
-      9219,
-      11400,
-      14043,
-      16964,
-      20253,
-      24420,
-      29829,
-      36128,
-      43372,
-      15329
+      17961,
+      22700,
+      28960,
+      37402,
+      47918,
+      60880,
+      78136,
+      100098,
+      127882,
+      167328,
+      212316,
+      270887,
+      64789
     ]
   },
   {
     "name": "创意家居 儿童卡通笔筒",
     "category": "笔筒",
     "reason": "618期间搜索量飙升",
-    "currentSales": 18637,
-    "growth7d": 373,
-    "predictScore": 67,
+    "currentSales": 61316,
+    "growth7d": 135,
+    "predictScore": 82,
     "trendData": [
-      5063,
-      6461,
-      8474,
-      11104,
-      14219,
-      18607,
-      23730,
-      31000,
-      40163,
-      52238,
-      67693,
-      86664,
-      18637
+      28499,
+      32012,
+      35613,
+      39800,
+      44289,
+      48593,
+      53583,
+      60180,
+      65726,
+      72747,
+      81145,
+      92058,
+      61316
     ]
   },
   {
-    "name": "纽赛 折叠伸缩笔筒",
+    "name": "创意家居 折叠伸缩笔筒",
     "category": "笔筒",
     "reason": "直播间持续爆单",
-    "currentSales": 47238,
-    "growth7d": 195,
-    "predictScore": 92,
+    "currentSales": 30465,
+    "growth7d": 136,
+    "predictScore": 66,
     "trendData": [
-      18906,
-      21565,
-      25299,
-      29351,
-      33571,
-      38594,
-      43862,
-      50624,
-      57468,
-      66467,
-      76179,
-      86665,
-      47238
+      14085,
+      15617,
+      17020,
+      18913,
+      20818,
+      22739,
+      25375,
+      28316,
+      32028,
+      35312,
+      39092,
+      44335,
+      30465
     ]
   },
   {
     "name": "创意家居 办公笔筒套装",
     "category": "笔筒",
     "reason": "社交平台口碑传播",
-    "currentSales": 34389,
-    "growth7d": 163,
-    "predictScore": 79,
+    "currentSales": 57791,
+    "growth7d": 272,
+    "predictScore": 73,
     "trendData": [
-      15101,
-      16861,
-      19325,
-      21487,
-      24503,
-      28044,
-      32419,
-      36186,
-      41262,
-      46166,
-      52717,
-      60970,
-      34389
+      19261,
+      23114,
+      28294,
+      34029,
+      41711,
+      51739,
+      62101,
+      76254,
+      92693,
+      113155,
+      136965,
+      165046,
+      57791
     ]
   },
   {
-    "name": "创意家居 分格笔筒",
+    "name": "无印良品 分格笔筒",
     "category": "笔筒",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 32660,
-    "growth7d": 250,
-    "predictScore": 96,
+    "currentSales": 49624,
+    "growth7d": 154,
+    "predictScore": 73,
     "trendData": [
-      11086,
-      13399,
-      16232,
-      19316,
-      22963,
-      27684,
-      33372,
-      40222,
-      47569,
-      56260,
-      67992,
-      81980,
-      32660
+      22109,
+      25015,
+      27737,
+      30756,
+      34899,
+      39502,
+      43826,
+      49903,
+      57432,
+      65227,
+      73039,
+      82451,
+      49624
     ]
   },
   {
-    "name": "无印良品 可叠加收纳盒",
+    "name": "晨光 可叠加收纳盒",
     "category": "文具收纳盒",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 68210,
-    "growth7d": 376,
-    "predictScore": 88,
+    "currentSales": 78663,
+    "growth7d": 103,
+    "predictScore": 68,
     "trendData": [
-      18368,
-      23695,
-      31334,
-      40137,
-      51291,
-      67872,
-      87177,
-      113703,
-      149001,
-      190117,
-      248085,
-      322444,
-      68210
+      41634,
+      45559,
+      50135,
+      53441,
+      58513,
+      63763,
+      69876,
+      76140,
+      83680,
+      90516,
+      99799,
+      108429,
+      78663
     ]
   },
   {
-    "name": "无印良品 笔筒收纳架",
+    "name": "宜家 笔筒收纳架",
     "category": "文具收纳盒",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 63653,
-    "growth7d": 192,
-    "predictScore": 82,
+    "currentSales": 78995,
+    "growth7d": 275,
+    "predictScore": 93,
     "trendData": [
-      25176,
-      28797,
-      33886,
-      38546,
-      44837,
-      52996,
-      60091,
-      68942,
-      79285,
-      93134,
-      105531,
-      121801,
-      63653
+      25230,
+      30557,
+      37092,
+      45939,
+      54987,
+      66975,
+      80606,
+      98669,
+      120531,
+      149402,
+      184218,
+      222435,
+      78995
     ]
   },
   {
     "name": "宜家 资料收纳盒",
     "category": "文具收纳盒",
     "reason": "618期间搜索量飙升",
-    "currentSales": 61100,
-    "growth7d": 355,
-    "predictScore": 97,
+    "currentSales": 31927,
+    "growth7d": 169,
+    "predictScore": 93,
     "trendData": [
-      17041,
-      22000,
-      28361,
-      36882,
-      46914,
-      59756,
-      75314,
-      98122,
-      125243,
-      162178,
-      207574,
-      262811,
-      61100
+      13261,
+      15380,
+      17431,
+      20078,
+      22825,
+      25633,
+      29277,
+      33659,
+      39171,
+      44430,
+      50997,
+      58733,
+      31927
     ]
   },
   {
-    "name": "晨光 折叠收纳盒",
+    "name": "纳川 折叠收纳盒",
     "category": "文具收纳盒",
     "reason": "直播间持续爆单",
-    "currentSales": 55933,
-    "growth7d": 203,
-    "predictScore": 98,
+    "currentSales": 74380,
+    "growth7d": 376,
+    "predictScore": 87,
     "trendData": [
-      21743,
-      25062,
-      29561,
-      34992,
-      41551,
-      49327,
-      58085,
-      67732,
-      78944,
-      93330,
-      106591,
-      121886,
-      55933
+      20480,
+      26607,
+      34552,
+      45446,
+      57951,
+      73979,
+      94313,
+      124676,
+      165073,
+      215122,
+      276837,
+      358844,
+      74380
     ]
   },
   {
-    "name": "得力 文具整理架",
+    "name": "晨光 文具整理架",
     "category": "文具收纳盒",
     "reason": "社交平台口碑传播",
-    "currentSales": 27716,
-    "growth7d": 265,
-    "predictScore": 96,
+    "currentSales": 21991,
+    "growth7d": 297,
+    "predictScore": 97,
     "trendData": [
-      9194,
-      10996,
-      13114,
-      16018,
-      19586,
-      23452,
-      28653,
-      34192,
-      41881,
-      50352,
-      60669,
-      73739,
-      27716
+      6904,
+      8409,
+      10507,
+      12891,
+      15850,
+      19655,
+      24831,
+      30544,
+      38484,
+      47767,
+      59809,
+      73361,
+      21991
     ]
   },
   {
-    "name": "纳川 桌面杂物收纳",
+    "name": "无印良品 桌面杂物收纳",
     "category": "文具收纳盒",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 64092,
-    "growth7d": 258,
-    "predictScore": 81,
+    "currentSales": 76401,
+    "growth7d": 286,
+    "predictScore": 80,
     "trendData": [
-      21422,
-      25876,
-      31824,
-      39214,
-      47668,
-      58674,
-      71548,
-      85762,
-      103136,
-      122420,
-      148711,
-      181434,
-      64092
+      24562,
+      29971,
+      36688,
+      44338,
+      54815,
+      68058,
+      82559,
+      99950,
+      122852,
+      153024,
+      190038,
+      232361,
+      76401
     ]
   },
   {
-    "name": "晨光 杂志收纳架",
+    "name": "得力 杂志收纳架",
     "category": "桌面收纳架",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 68752,
-    "growth7d": 395,
-    "predictScore": 78,
+    "currentSales": 68345,
+    "growth7d": 284,
+    "predictScore": 81,
     "trendData": [
-      18585,
-      24189,
-      32068,
-      42493,
-      56121,
-      74670,
-      98807,
-      127485,
-      170021,
-      222076,
-      295142,
-      383498,
-      68752
+      22032,
+      26545,
+      33135,
+      40451,
+      50306,
+      61071,
+      74854,
+      93586,
+      114488,
+      138384,
+      169701,
+      209562,
+      68345
     ]
   },
   {
-    "name": "宜家 显示器增高收纳",
+    "name": "纳川 显示器增高收纳",
     "category": "桌面收纳架",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 41976,
-    "growth7d": 114,
-    "predictScore": 88,
+    "currentSales": 23201,
+    "growth7d": 189,
+    "predictScore": 96,
     "trendData": [
-      21657,
-      24162,
-      25928,
-      28453,
-      31008,
-      33554,
-      37238,
-      40988,
-      44853,
-      48345,
-      53424,
-      59186,
-      41976
+      9372,
+      10857,
+      12507,
+      14202,
+      16513,
+      19247,
+      22588,
+      26363,
+      30728,
+      35970,
+      41265,
+      47003,
+      23201
     ]
   },
   {
     "name": "宜家 多功能桌面架",
     "category": "桌面收纳架",
     "reason": "618期间搜索量飙升",
-    "currentSales": 33564,
-    "growth7d": 337,
-    "predictScore": 94,
+    "currentSales": 72539,
+    "growth7d": 203,
+    "predictScore": 72,
     "trendData": [
-      9623,
-      12086,
-      15310,
-      19759,
-      24965,
-      32177,
-      40073,
-      50064,
-      62942,
-      81143,
-      102562,
-      128404,
-      33564
+      27347,
+      31346,
+      36178,
+      42911,
+      49815,
+      57232,
+      67627,
+      79546,
+      94291,
+      109537,
+      129273,
+      151107,
+      72539
     ]
   },
   {
-    "name": "纽赛 竹木收纳架",
+    "name": "纳川 竹木收纳架",
     "category": "桌面收纳架",
     "reason": "直播间持续爆单",
-    "currentSales": 64629,
-    "growth7d": 211,
-    "predictScore": 70,
+    "currentSales": 48294,
+    "growth7d": 297,
+    "predictScore": 74,
     "trendData": [
-      24419,
-      28439,
-      33725,
-      39030,
-      46100,
-      54152,
-      63283,
-      74547,
-      89148,
-      103221,
-      122633,
-      140946,
-      64629
+      15021,
+      18688,
+      23585,
+      28868,
+      36207,
+      44009,
+      54501,
+      67177,
+      82059,
+      103270,
+      126129,
+      159294,
+      48294
     ]
   },
   {
-    "name": "晨光 办公桌面架",
+    "name": "得力 办公桌面架",
     "category": "桌面收纳架",
     "reason": "社交平台口碑传播",
-    "currentSales": 21043,
-    "growth7d": 368,
-    "predictScore": 79,
-    "trendData": [
-      5924,
-      7560,
-      9752,
-      12500,
-      16324,
-      21239,
-      27361,
-      34781,
-      45572,
-      58626,
-      74376,
-      94834,
-      21043
-    ]
-  },
-  {
-    "name": "纳川 透明分层收纳架",
-    "category": "桌面收纳架",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 25524,
-    "growth7d": 265,
-    "predictScore": 66,
-    "trendData": [
-      8422,
-      10160,
-      12166,
-      14887,
-      17739,
-      21383,
-      26356,
-      31398,
-      38360,
-      45667,
-      55723,
-      68740,
-      25524
-    ]
-  },
-  {
-    "name": "喵喵机 标签打印一体机",
-    "category": "错题打印机",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 69294,
-    "growth7d": 93,
-    "predictScore": 68,
-    "trendData": [
-      39404,
-      42010,
-      45462,
-      48749,
-      51996,
-      56720,
-      60415,
-      65206,
-      69115,
-      75299,
-      83296,
-      91799,
-      69294
-    ]
-  },
-  {
-    "name": "作业帮 错题本打印机 A4",
-    "category": "错题打印机",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 20300,
-    "growth7d": 356,
-    "predictScore": 95,
-    "trendData": [
-      5785,
-      7426,
-      9398,
-      12250,
-      15466,
-      19772,
-      25344,
-      32955,
-      42337,
-      54072,
-      68842,
-      90023,
-      20300
-    ]
-  },
-  {
-    "name": "小猿 便携打印机 墨盒",
-    "category": "错题打印机",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 76027,
-    "growth7d": 320,
-    "predictScore": 91,
-    "trendData": [
-      22402,
-      28487,
-      35471,
-      43682,
-      54854,
-      68833,
-      84745,
-      105641,
-      130872,
-      161524,
-      201710,
-      249835,
-      76027
-    ]
-  },
-  {
-    "name": "作业帮 智能打印机 WiFi",
-    "category": "错题打印机",
-    "reason": "直播间持续爆单",
-    "currentSales": 73325,
-    "growth7d": 220,
-    "predictScore": 76,
-    "trendData": [
-      26879,
-      31647,
-      37755,
-      44612,
-      52446,
-      60992,
-      70779,
-      84275,
-      99190,
-      117466,
-      139174,
-      160877,
-      73325
-    ]
-  },
-  {
-    "name": "小猿 错题打印机 彩色",
-    "category": "错题打印机",
-    "reason": "社交平台口碑传播",
-    "currentSales": 14370,
-    "growth7d": 151,
-    "predictScore": 96,
-    "trendData": [
-      6459,
-      7171,
-      8183,
-      9378,
-      10718,
-      11882,
-      13172,
-      14527,
-      16699,
-      18778,
-      21336,
-      24292,
-      14370
-    ]
-  },
-  {
-    "name": "作业帮 学习打印机 护眼",
-    "category": "错题打印机",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 56956,
-    "growth7d": 273,
-    "predictScore": 83,
-    "trendData": [
-      18519,
-      22327,
-      27147,
-      33007,
-      40212,
-      49488,
-      59213,
-      73109,
-      90777,
-      112996,
-      138581,
-      166009,
-      56956
-    ]
-  },
-  {
-    "name": "明基 折叠台灯 便携",
-    "category": "护眼台灯",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 69837,
-    "growth7d": 112,
-    "predictScore": 91,
-    "trendData": [
-      36360,
-      39183,
-      42535,
-      47488,
-      52684,
-      57852,
-      63866,
-      71228,
-      77151,
-      86386,
-      93324,
-      102817,
-      69837
-    ]
-  },
-  {
-    "name": "松下 触控台灯",
-    "category": "护眼台灯",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 68623,
-    "growth7d": 277,
-    "predictScore": 69,
-    "trendData": [
-      22714,
-      27364,
-      33143,
-      40188,
-      49766,
-      61103,
-      73749,
-      88716,
-      108961,
-      133979,
-      166715,
-      201821,
-      68623
-    ]
-  },
-  {
-    "name": "明基 阅读台灯 防蓝光",
-    "category": "护眼台灯",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 48491,
-    "growth7d": 302,
+    "currentSales": 56190,
+    "growth7d": 322,
     "predictScore": 88,
     "trendData": [
-      14733,
-      18219,
-      22278,
-      27215,
-      33944,
-      41411,
-      52435,
-      65180,
-      79498,
-      97662,
-      120403,
-      147426,
-      48491
+      16682,
+      20616,
+      26283,
+      32882,
+      40552,
+      50271,
+      64169,
+      82279,
+      103206,
+      130211,
+      161954,
+      202142,
+      56190
     ]
   },
   {
-    "name": "飞利浦 床头台灯 护眼",
-    "category": "护眼台灯",
-    "reason": "直播间持续爆单",
-    "currentSales": 12021,
-    "growth7d": 228,
-    "predictScore": 81,
-    "trendData": [
-      4289,
-      5101,
-      6118,
-      7373,
-      8621,
-      10349,
-      12435,
-      14954,
-      18054,
-      21843,
-      25792,
-      29965,
-      12021
-    ]
-  },
-  {
-    "name": "飞利浦 USB台灯 宿舍",
-    "category": "护眼台灯",
-    "reason": "社交平台口碑传播",
-    "currentSales": 77696,
-    "growth7d": 254,
-    "predictScore": 79,
-    "trendData": [
-      26005,
-      30959,
-      36792,
-      44385,
-      54416,
-      65965,
-      80815,
-      95425,
-      113066,
-      136657,
-      163989,
-      196487,
-      77696
-    ]
-  },
-  {
-    "name": "飞利浦 长臂台灯 办公",
-    "category": "护眼台灯",
+    "name": "晨光 透明分层收纳架",
+    "category": "桌面收纳架",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 18388,
-    "growth7d": 281,
-    "predictScore": 68,
+    "currentSales": 33178,
+    "growth7d": 97,
+    "predictScore": 87,
     "trendData": [
-      5894,
-      7102,
-      8766,
-      10590,
-      13185,
-      15901,
-      19247,
-      23637,
-      28639,
-      35771,
-      44093,
-      53451,
-      18388
+      18583,
+      19736,
+      21562,
+      22883,
+      24965,
+      27571,
+      29494,
+      32022,
+      33959,
+      37645,
+      40170,
+      42967,
+      33178
     ]
   },
   {
-    "name": "晨光 自粘书套 免裁剪",
+    "name": "得力 自粘书套 免裁剪",
     "category": "书皮/书套",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 70379,
-    "growth7d": 131,
-    "predictScore": 82,
+    "currentSales": 58028,
+    "growth7d": 144,
+    "predictScore": 94,
     "trendData": [
-      33820,
-      36835,
-      40110,
-      44546,
-      49100,
-      54272,
-      59307,
-      65311,
-      72258,
-      79479,
-      87778,
-      96675,
-      70379
+      26264,
+      29377,
+      32290,
+      36446,
+      41746,
+      47645,
+      52819,
+      58837,
+      64764,
+      73755,
+      81361,
+      92457,
+      58028
     ]
   },
   {
     "name": "晨光 透明书皮 加厚",
     "category": "书皮/书套",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 46946,
-    "growth7d": 199,
-    "predictScore": 75,
+    "currentSales": 37406,
+    "growth7d": 104,
+    "predictScore": 65,
     "trendData": [
-      18010,
-      21190,
-      24529,
-      28759,
-      33502,
-      39464,
-      46680,
-      53979,
-      63288,
-      74856,
-      87303,
-      101642,
-      46946
+      19949,
+      22072,
+      24077,
+      26084,
+      28153,
+      31358,
+      34320,
+      38126,
+      42333,
+      46670,
+      51905,
+      55611,
+      37406
     ]
   },
   {
     "name": "真彩 课本书套 防水",
     "category": "书皮/书套",
     "reason": "618期间搜索量飙升",
-    "currentSales": 20954,
-    "growth7d": 284,
-    "predictScore": 85,
+    "currentSales": 43150,
+    "growth7d": 237,
+    "predictScore": 83,
     "trendData": [
-      6578,
-      8232,
-      10293,
-      12473,
-      15451,
-      19084,
-      23878,
-      29598,
-      37012,
-      45256,
-      55072,
-      66653,
-      20954
+      14946,
+      17677,
+      20770,
+      24309,
+      28805,
+      33838,
+      39627,
+      47664,
+      57529,
+      68409,
+      82949,
+      98386,
+      43150
     ]
   },
   {
     "name": "真彩 塑料书皮 卡通",
     "category": "书皮/书套",
     "reason": "直播间持续爆单",
-    "currentSales": 20717,
-    "growth7d": 236,
-    "predictScore": 87,
+    "currentSales": 22208,
+    "growth7d": 217,
+    "predictScore": 95,
     "trendData": [
-      7198,
-      8647,
-      10426,
-      12290,
-      14907,
-      17709,
-      21120,
-      25650,
-      30463,
-      36114,
-      42497,
-      49621,
-      20717
+      8114,
+      9642,
+      11326,
+      13387,
+      15830,
+      18262,
+      21936,
+      26157,
+      30559,
+      35540,
+      41050,
+      48394,
+      22208
     ]
   },
   {
-    "name": "广博 书皮 一年级专用",
+    "name": "齐心 书皮 一年级专用",
     "category": "书皮/书套",
     "reason": "社交平台口碑传播",
-    "currentSales": 71023,
-    "growth7d": 356,
-    "predictScore": 96,
+    "currentSales": 20390,
+    "growth7d": 347,
+    "predictScore": 79,
     "trendData": [
-      20104,
-      25531,
-      32806,
-      41531,
-      54338,
-      68744,
-      88738,
-      116059,
-      147334,
-      190364,
-      240427,
-      314246,
-      71023
+      5745,
+      7202,
+      9364,
+      11941,
+      15368,
+      19814,
+      25551,
+      32817,
+      42620,
+      54644,
+      70243,
+      89188,
+      20390
     ]
   },
   {
-    "name": "真彩 环保包书皮",
+    "name": "晨光 环保包书皮",
     "category": "书皮/书套",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 49820,
-    "growth7d": 289,
-    "predictScore": 86,
+    "currentSales": 59955,
+    "growth7d": 229,
+    "predictScore": 94,
     "trendData": [
-      15749,
-      19752,
-      24743,
-      30936,
-      37797,
-      46537,
-      56980,
-      69600,
-      85715,
-      107429,
-      133090,
-      163242,
-      49820
+      21187,
+      25442,
+      30729,
+      37210,
+      44376,
+      51657,
+      60612,
+      73200,
+      87017,
+      101672,
+      120907,
+      140672,
+      59955
     ]
   },
   {
-    "name": "鲁本斯 纺织颜料 手绘",
+    "name": "温莎牛顿 纺织颜料 手绘",
     "category": "美术颜料",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 70921,
-    "growth7d": 150,
-    "predictScore": 72,
+    "currentSales": 47710,
+    "growth7d": 325,
+    "predictScore": 75,
     "trendData": [
-      31668,
-      34856,
-      39815,
-      43985,
-      50365,
-      56035,
-      63409,
-      72110,
-      81455,
-      92057,
-      103889,
-      114381,
-      70921
+      14232,
+      18204,
+      22700,
+      29137,
+      36251,
+      45878,
+      56816,
+      72414,
+      92332,
+      116878,
+      149238,
+      191740,
+      47710
     ]
   },
   {
-    "name": "樱花 颜料画笔套装",
+    "name": "马利 颜料画笔套装",
     "category": "美术颜料",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 25270,
-    "growth7d": 121,
-    "predictScore": 82,
+    "currentSales": 51612,
+    "growth7d": 338,
+    "predictScore": 68,
     "trendData": [
-      12534,
-      13767,
-      15198,
-      16450,
-      17955,
-      19357,
-      21462,
-      23818,
-      26598,
-      28885,
-      31434,
-      35141,
-      25270
+      14776,
+      18468,
+      23549,
+      30061,
+      38816,
+      48811,
+      61536,
+      76924,
+      96195,
+      123098,
+      156641,
+      195668,
+      51612
     ]
   },
   {
     "name": "鲁本斯 固体水彩 便携",
     "category": "美术颜料",
     "reason": "618期间搜索量飙升",
-    "currentSales": 63418,
-    "growth7d": 266,
-    "predictScore": 82,
+    "currentSales": 13762,
+    "growth7d": 272,
+    "predictScore": 95,
     "trendData": [
-      21472,
-      26120,
-      32076,
-      38551,
-      47426,
-      56926,
-      70374,
-      86984,
-      107106,
-      130349,
-      156545,
-      187251,
-      63418
+      4598,
+      5609,
+      6712,
+      8091,
+      9788,
+      11759,
+      14244,
+      17522,
+      21541,
+      26222,
+      31353,
+      37751,
+      13762
     ]
   },
   {
     "name": "马利 金属色颜料",
     "category": "美术颜料",
     "reason": "直播间持续爆单",
-    "currentSales": 29412,
-    "growth7d": 244,
-    "predictScore": 92,
+    "currentSales": 66123,
+    "growth7d": 137,
+    "predictScore": 82,
     "trendData": [
-      10385,
-      12601,
-      15274,
-      18364,
-      22159,
-      26048,
-      30832,
-      36271,
-      44178,
-      53506,
-      62747,
-      73631,
-      29412
+      31570,
+      35756,
+      40666,
+      46354,
+      51489,
+      56215,
+      62621,
+      69028,
+      76969,
+      86014,
+      97948,
+      107238,
+      66123
     ]
   },
   {
     "name": "鲁本斯 颜料调色盘",
     "category": "美术颜料",
     "reason": "社交平台口碑传播",
-    "currentSales": 64350,
-    "growth7d": 139,
-    "predictScore": 80,
-    "trendData": [
-      29654,
-      32738,
-      37194,
-      42035,
-      46044,
-      51690,
-      57438,
-      65457,
-      72572,
-      82013,
-      92723,
-      103897,
-      64350
-    ]
-  },
-  {
-    "name": "马利 颜料补充装",
-    "category": "美术颜料",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 11253,
-    "growth7d": 297,
+    "currentSales": 54590,
+    "growth7d": 372,
     "predictScore": 70,
     "trendData": [
-      3510,
-      4399,
-      5372,
-      6675,
-      8334,
-      10472,
-      12968,
-      15754,
-      19716,
-      24795,
-      30872,
-      38308,
-      11253
+      15219,
+      19352,
+      24686,
+      32077,
+      41404,
+      53367,
+      69519,
+      89438,
+      115653,
+      150647,
+      192398,
+      248437,
+      54590
     ]
   },
   {
-    "name": "得力 双面胶 强力",
+    "name": "青竹 颜料补充装",
+    "category": "美术颜料",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 16733,
+    "growth7d": 361,
+    "predictScore": 68,
+    "trendData": [
+      4617,
+      5954,
+      7580,
+      9934,
+      12856,
+      16376,
+      20912,
+      26760,
+      33906,
+      43342,
+      56834,
+      74300,
+      16733
+    ]
+  },
+  {
+    "name": "晨光 双面胶 强力",
     "category": "办公文具",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 71463,
-    "growth7d": 169,
-    "predictScore": 95,
+    "currentSales": 37392,
+    "growth7d": 185,
+    "predictScore": 88,
     "trendData": [
-      29824,
-      34661,
-      39708,
-      45619,
-      51908,
-      58128,
-      65127,
-      73150,
-      84327,
-      97852,
-      112788,
-      129777,
-      71463
+      14882,
+      17007,
+      19523,
+      22285,
+      25538,
+      29187,
+      34187,
+      38912,
+      44844,
+      51389,
+      59287,
+      67367,
+      37392
     ]
   },
   {
-    "name": "广博 透明胶带 封箱",
+    "name": "可得优 透明胶带 封箱",
     "category": "办公文具",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 73593,
-    "growth7d": 363,
-    "predictScore": 89,
+    "currentSales": 65818,
+    "growth7d": 252,
+    "predictScore": 70,
     "trendData": [
-      20530,
-      25999,
-      33706,
-      43427,
-      54902,
-      69967,
-      89614,
-      117338,
-      153377,
-      197137,
-      257527,
-      326478,
-      73593
+      22879,
+      27389,
+      33229,
+      40658,
+      49076,
+      59137,
+      69828,
+      83311,
+      99517,
+      120489,
+      142981,
+      168823,
+      65818
     ]
   },
   {
     "name": "广博 美工刀 自动锁",
     "category": "办公文具",
     "reason": "618期间搜索量飙升",
-    "currentSales": 35881,
-    "growth7d": 249,
-    "predictScore": 79,
+    "currentSales": 54373,
+    "growth7d": 306,
+    "predictScore": 73,
     "trendData": [
-      12583,
-      14875,
-      17945,
-      21404,
-      26166,
-      31824,
-      38890,
-      46018,
-      55817,
-      67653,
-      80222,
-      94884,
-      35881
+      16983,
+      21339,
+      27045,
+      33527,
+      41367,
+      50766,
+      63498,
+      79800,
+      99827,
+      124261,
+      152597,
+      186362,
+      54373
     ]
   },
   {
     "name": "齐心 计算器 太阳能",
     "category": "办公文具",
     "reason": "直播间持续爆单",
-    "currentSales": 38108,
-    "growth7d": 252,
-    "predictScore": 98,
+    "currentSales": 40037,
+    "growth7d": 377,
+    "predictScore": 70,
     "trendData": [
-      13119,
-      16075,
-      19587,
-      24012,
-      28823,
-      34963,
-      42821,
-      50885,
-      60977,
-      72366,
-      88191,
-      104004,
-      38108
+      10921,
+      14448,
+      18726,
+      24231,
+      31142,
+      39740,
+      52571,
+      68781,
+      89962,
+      118587,
+      156367,
+      204363,
+      40037
     ]
   },
   {
-    "name": "晨光 白板 磁性",
+    "name": "可得优 白板 磁性",
     "category": "办公文具",
     "reason": "社交平台口碑传播",
-    "currentSales": 57677,
-    "growth7d": 242,
-    "predictScore": 96,
+    "currentSales": 18790,
+    "growth7d": 397,
+    "predictScore": 93,
     "trendData": [
-      20374,
-      24127,
-      28552,
-      33992,
-      40060,
-      47122,
-      55496,
-      67565,
-      80678,
-      97965,
-      117004,
-      138082,
-      57677
+      5000,
+      6697,
+      8713,
+      11533,
+      14930,
+      19985,
+      26295,
+      35201,
+      47081,
+      62290,
+      82150,
+      107849,
+      18790
     ]
   },
   {
-    "name": "齐心 印台 速干",
+    "name": "晨光 印台 速干",
     "category": "办公文具",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 42685,
-    "growth7d": 305,
-    "predictScore": 88,
+    "currentSales": 43510,
+    "growth7d": 173,
+    "predictScore": 75,
     "trendData": [
-      13140,
-      16460,
-      20402,
-      25191,
-      30866,
-      38021,
-      47613,
-      59910,
-      73174,
-      92337,
-      115541,
-      145027,
-      42685
+      18092,
+      20485,
+      23400,
+      27240,
+      31316,
+      35616,
+      40403,
+      46685,
+      53648,
+      61266,
+      69675,
+      80475,
+      43510
     ]
   },
   {
     "name": "百乐 毛笔套装 书法",
     "category": "笔类套装/礼盒",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 72006,
-    "growth7d": 188,
-    "predictScore": 85,
+    "currentSales": 27074,
+    "growth7d": 366,
+    "predictScore": 68,
     "trendData": [
-      29475,
-      34595,
-      39749,
-      45434,
-      51371,
-      60467,
-      70095,
-      81251,
-      95553,
-      108989,
-      128252,
-      147524,
-      72006
+      7540,
+      9827,
+      12733,
+      16506,
+      21370,
+      27079,
+      35233,
+      45762,
+      58428,
+      74378,
+      95014,
+      122064,
+      27074
     ]
   },
   {
-    "name": "毕加索 签字笔礼盒",
+    "name": "英雄 签字笔礼盒",
     "category": "笔类套装/礼盒",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 51917,
-    "growth7d": 285,
-    "predictScore": 95,
+    "currentSales": 10024,
+    "growth7d": 166,
+    "predictScore": 73,
     "trendData": [
-      16732,
-      20718,
-      25749,
-      32142,
-      39882,
-      48837,
-      58932,
-      71472,
-      89440,
-      110771,
-      136058,
-      166183,
-      51917
+      4308,
+      4930,
+      5676,
+      6360,
+      7141,
+      8230,
+      9472,
+      10761,
+      12252,
+      13990,
+      16100,
+      18713,
+      10024
     ]
   },
   {
     "name": "英雄 学生笔类大礼包",
     "category": "笔类套装/礼盒",
     "reason": "618期间搜索量飙升",
-    "currentSales": 78345,
-    "growth7d": 231,
-    "predictScore": 76,
+    "currentSales": 24985,
+    "growth7d": 340,
+    "predictScore": 85,
     "trendData": [
-      28588,
-      34223,
-      40521,
-      47933,
-      55793,
-      65915,
-      79563,
-      93866,
-      112054,
-      135172,
-      158131,
-      184796,
-      78345
+      7343,
+      9494,
+      12231,
+      15582,
+      19600,
+      24560,
+      31689,
+      40666,
+      51750,
+      65836,
+      82980,
+      106917,
+      24985
     ]
   },
   {
     "name": "毕加索 马克笔+彩铅套装",
     "category": "笔类套装/礼盒",
     "reason": "直播间持续爆单",
-    "currentSales": 46804,
-    "growth7d": 261,
-    "predictScore": 70,
+    "currentSales": 13951,
+    "growth7d": 297,
+    "predictScore": 90,
     "trendData": [
-      15685,
-      18636,
-      22840,
-      27413,
-      32753,
-      39347,
-      47869,
-      57491,
-      70681,
-      85748,
-      104220,
-      123596,
-      46804
+      4303,
+      5238,
+      6593,
+      8254,
+      10016,
+      12162,
+      15028,
+      18307,
+      22970,
+      28085,
+      35170,
+      43009,
+      13951
     ]
   },
   {
-    "name": "毕加索 考试笔套装",
+    "name": "晨光 考试笔套装",
     "category": "笔类套装/礼盒",
     "reason": "社交平台口碑传播",
-    "currentSales": 51004,
-    "growth7d": 345,
-    "predictScore": 80,
+    "currentSales": 52990,
+    "growth7d": 102,
+    "predictScore": 84,
     "trendData": [
-      14497,
-      18331,
-      23477,
-      29367,
-      37051,
-      47423,
-      61375,
-      79502,
-      101719,
-      132077,
-      166166,
-      214318,
-      51004
+      28403,
+      31560,
+      34092,
+      37557,
+      41393,
+      45203,
+      48941,
+      53575,
+      58168,
+      63830,
+      67938,
+      73933,
+      52990
     ]
   },
   {
     "name": "毕加索 彩色笔全套",
     "category": "笔类套装/礼盒",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 74117,
-    "growth7d": 313,
-    "predictScore": 72,
+    "currentSales": 70287,
+    "growth7d": 305,
+    "predictScore": 82,
     "trendData": [
-      22526,
-      28200,
-      35473,
-      43523,
-      54492,
-      68501,
-      86737,
-      108565,
-      134764,
-      170632,
-      214573,
-      272404,
-      74117
+      21598,
+      26372,
+      33166,
+      41914,
+      52444,
+      65399,
+      80965,
+      99382,
+      121982,
+      152707,
+      192315,
+      240172,
+      70287
     ]
   },
   {
-    "name": "三年二班 复古文具",
+    "name": "kinbor 复古文具",
     "category": "文创用品",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 72548,
-    "growth7d": 207,
-    "predictScore": 75,
+    "currentSales": 16756,
+    "growth7d": 226,
+    "predictScore": 81,
     "trendData": [
-      28008,
-      33195,
-      38252,
-      45411,
-      53290,
-      63112,
-      72456,
-      82972,
-      95354,
-      111644,
-      128486,
-      147746,
-      72548
+      5984,
+      6984,
+      8357,
+      10064,
+      12041,
+      14383,
+      17030,
+      19798,
+      23840,
+      28681,
+      34540,
+      40971,
+      16756
     ]
   },
   {
-    "name": "九木杂物社 国潮文具套装",
+    "name": "MUJI 国潮文具套装",
     "category": "文创用品",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 30240,
-    "growth7d": 207,
-    "predictScore": 69,
+    "currentSales": 24229,
+    "growth7d": 80,
+    "predictScore": 76,
     "trendData": [
-      11721,
-      13597,
-      16169,
-      18727,
-      21862,
-      25681,
-      30370,
-      35418,
-      40577,
-      48355,
-      55619,
-      65357,
-      30240
+      14311,
+      15623,
+      17020,
+      18171,
+      19782,
+      20772,
+      22246,
+      24006,
+      25987,
+      27881,
+      29694,
+      32483,
+      24229
     ]
   },
   {
     "name": "kinbor 治愈系文具",
     "category": "文创用品",
     "reason": "618期间搜索量飙升",
-    "currentSales": 50808,
-    "growth7d": 213,
-    "predictScore": 73,
+    "currentSales": 65596,
+    "growth7d": 374,
+    "predictScore": 96,
     "trendData": [
-      19345,
-      22480,
-      26114,
-      30633,
-      35395,
-      42353,
-      50488,
-      59387,
-      69756,
-      80260,
-      92612,
-      106919,
-      50808
+      18242,
+      23340,
+      30554,
+      39971,
+      51241,
+      65533,
+      83865,
+      109852,
+      142168,
+      184767,
+      238861,
+      311874,
+      65596
     ]
   },
   {
     "name": "晨光生活馆 极简文具",
     "category": "文创用品",
     "reason": "直播间持续爆单",
-    "currentSales": 55500,
-    "growth7d": 269,
-    "predictScore": 76,
+    "currentSales": 57866,
+    "growth7d": 218,
+    "predictScore": 78,
     "trendData": [
-      18154,
-      21787,
-      26840,
-      32847,
-      40681,
-      50398,
-      60863,
-      73822,
-      89308,
-      110634,
-      134021,
-      166421,
-      55500
+      21811,
+      25348,
+      29712,
+      34484,
+      41123,
+      47421,
+      56867,
+      67038,
+      80595,
+      94940,
+      112670,
+      134033,
+      57866
     ]
   },
   {
-    "name": "kinbor 莫兰迪色文具",
+    "name": "晨光生活馆 莫兰迪色文具",
     "category": "文创用品",
     "reason": "社交平台口碑传播",
-    "currentSales": 44331,
+    "currentSales": 17189,
     "growth7d": 127,
-    "predictScore": 96,
+    "predictScore": 75,
     "trendData": [
-      21962,
-      24108,
-      27269,
-      30386,
-      33360,
-      36252,
-      40377,
-      45477,
-      50839,
-      55196,
-      62092,
-      68456,
-      44331
+      8248,
+      9312,
+      10296,
+      11591,
+      12818,
+      13993,
+      15334,
+      16819,
+      19007,
+      21246,
+      23499,
+      26079,
+      17189
     ]
   },
   {
     "name": "晨光生活馆 原创设计笔",
     "category": "文创用品",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 35549,
-    "growth7d": 320,
-    "predictScore": 90,
+    "currentSales": 27064,
+    "growth7d": 116,
+    "predictScore": 89,
     "trendData": [
-      10689,
-      13365,
-      17047,
-      21622,
-      27633,
-      34033,
-      43541,
-      54178,
-      68291,
-      86707,
-      109508,
-      135031,
-      35549
+      13869,
+      15435,
+      16608,
+      18543,
+      20507,
+      22759,
+      24914,
+      27468,
+      30455,
+      33952,
+      36823,
+      40349,
+      27064
     ]
   },
   {
-    "name": "得力 烫印姓名贴",
+    "name": "兄弟 烫印姓名贴",
     "category": "姓名贴",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 73090,
-    "growth7d": 226,
-    "predictScore": 65,
+    "currentSales": 76438,
+    "growth7d": 87,
+    "predictScore": 94,
     "trendData": [
-      26713,
-      31968,
-      38544,
-      45532,
-      53104,
-      63277,
-      75101,
-      88702,
-      103998,
-      124909,
-      146763,
-      176048,
-      73090
+      44209,
+      47811,
+      52512,
+      55816,
+      61345,
+      65797,
+      70250,
+      75657,
+      81886,
+      88761,
+      96027,
+      104521,
+      76438
     ]
   },
   {
-    "name": "得力 硅胶姓名扣",
+    "name": "雅柯莱 硅胶姓名扣",
     "category": "姓名贴",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 78564,
-    "growth7d": 129,
-    "predictScore": 76,
+    "currentSales": 38435,
+    "growth7d": 314,
+    "predictScore": 78,
     "trendData": [
-      37365,
-      42294,
-      45912,
-      51333,
-      56157,
-      63167,
-      70020,
-      78397,
-      85447,
-      93552,
-      104982,
-      118499,
-      78564
+      11410,
+      14093,
+      17950,
+      22631,
+      28302,
+      35200,
+      43549,
+      55233,
+      70295,
+      87877,
+      112074,
+      142520,
+      38435
     ]
   },
   {
     "name": "兄弟 校服姓名标签",
     "category": "姓名贴",
     "reason": "618期间搜索量飙升",
-    "currentSales": 23272,
-    "growth7d": 195,
-    "predictScore": 70,
+    "currentSales": 36208,
+    "growth7d": 88,
+    "predictScore": 75,
     "trendData": [
-      9274,
-      10915,
-      12435,
-      14464,
-      16590,
-      19273,
-      22686,
-      26605,
-      30740,
-      35193,
-      40048,
-      45668,
-      23272
+      21129,
+      22603,
+      24496,
+      26855,
+      28462,
+      30131,
+      32332,
+      35251,
+      37705,
+      40756,
+      43975,
+      47349,
+      36208
     ]
   },
   {
-    "name": "晨光 文具姓名贴",
+    "name": "兄弟 文具姓名贴",
     "category": "姓名贴",
     "reason": "直播间持续爆单",
-    "currentSales": 64196,
-    "growth7d": 277,
-    "predictScore": 81,
+    "currentSales": 31780,
+    "growth7d": 138,
+    "predictScore": 65,
     "trendData": [
-      20505,
-      24854,
-      30777,
-      38390,
-      47303,
-      58011,
-      69539,
-      85174,
-      105625,
-      128273,
-      154872,
-      193218,
-      64196
+      14982,
+      16576,
+      18811,
+      21041,
+      23583,
+      25736,
+      28617,
+      32587,
+      35812,
+      40557,
+      45442,
+      50239,
+      31780
     ]
   },
   {
-    "name": "得力 书本姓名贴 透明",
+    "name": "兄弟 书本姓名贴 透明",
     "category": "姓名贴",
     "reason": "社交平台口碑传播",
-    "currentSales": 37658,
-    "growth7d": 230,
-    "predictScore": 80,
+    "currentSales": 51389,
+    "growth7d": 152,
+    "predictScore": 66,
     "trendData": [
-      13481,
-      15880,
-      18713,
-      21981,
-      25960,
-      30901,
-      36472,
-      43919,
-      52847,
-      61825,
-      73490,
-      85405,
-      37658
+      23364,
+      26796,
+      30306,
+      34851,
+      38672,
+      44137,
+      48943,
+      56236,
+      63237,
+      71980,
+      82613,
+      93465,
+      51389
     ]
   },
   {
     "name": "兄弟 贴纸式姓名贴",
     "category": "姓名贴",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 66981,
-    "growth7d": 328,
-    "predictScore": 75,
-    "trendData": [
-      19898,
-      24865,
-      30930,
-      38990,
-      48923,
-      61490,
-      76452,
-      94623,
-      121157,
-      154347,
-      195895,
-      244357,
-      66981
-    ]
-  },
-  {
-    "name": "晨光 自动橡皮擦 笔形",
-    "category": "电动橡皮擦",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 73633,
-    "growth7d": 244,
-    "predictScore": 89,
-    "trendData": [
-      25622,
-      30938,
-      37382,
-      43911,
-      53060,
-      63568,
-      74687,
-      90843,
-      108548,
-      128144,
-      153555,
-      184021,
-      73633
-    ]
-  },
-  {
-    "name": "得力 电动橡皮 细节擦除",
-    "category": "电动橡皮擦",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 56887,
-    "growth7d": 371,
-    "predictScore": 83,
-    "trendData": [
-      15514,
-      20167,
-      25775,
-      32840,
-      43241,
-      54965,
-      70385,
-      92853,
-      118884,
-      153859,
-      198521,
-      253826,
-      56887
-    ]
-  },
-  {
-    "name": "晨光 素描电动橡皮套装",
-    "category": "电动橡皮擦",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 65735,
-    "growth7d": 178,
-    "predictScore": 67,
-    "trendData": [
-      27436,
-      31351,
-      36607,
-      42247,
-      48128,
-      54272,
-      63113,
-      73842,
-      83960,
-      95705,
-      107456,
-      121098,
-      65735
-    ]
-  },
-  {
-    "name": "得力 学生电动橡皮",
-    "category": "电动橡皮擦",
-    "reason": "直播间持续爆单",
-    "currentSales": 72891,
-    "growth7d": 285,
-    "predictScore": 87,
-    "trendData": [
-      23693,
-      29002,
-      36098,
-      44073,
-      54027,
-      65583,
-      81309,
-      100559,
-      122727,
-      152188,
-      190742,
-      239083,
-      72891
-    ]
-  },
-  {
-    "name": "辉柏嘉 静音电动橡皮",
-    "category": "电动橡皮擦",
-    "reason": "社交平台口碑传播",
-    "currentSales": 30985,
-    "growth7d": 333,
-    "predictScore": 97,
-    "trendData": [
-      9217,
-      11597,
-      14795,
-      19012,
-      24034,
-      29898,
-      37277,
-      47791,
-      61587,
-      77234,
-      96731,
-      123018,
-      30985
-    ]
-  },
-  {
-    "name": "得力 电动橡皮+替芯组合",
-    "category": "电动橡皮擦",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 28413,
-    "growth7d": 336,
-    "predictScore": 92,
-    "trendData": [
-      8341,
-      10417,
-      13150,
-      16474,
-      21112,
-      27069,
-      34033,
-      43599,
-      54514,
-      69681,
-      88872,
-      112130,
-      28413
-    ]
-  },
-  {
-    "name": "创意工坊 拼豆镊子工具",
-    "category": "拼豆/咕卡套装",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 74175,
-    "growth7d": 263,
-    "predictScore": 79,
-    "trendData": [
-      24588,
-      29972,
-      36316,
-      44262,
-      53166,
-      64080,
-      77776,
-      93509,
-      113904,
-      137910,
-      168583,
-      201969,
-      74175
-    ]
-  },
-  {
-    "name": "拼豆世界 咕卡底卡 透明",
-    "category": "拼豆/咕卡套装",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 35210,
-    "growth7d": 293,
-    "predictScore": 89,
-    "trendData": [
-      11052,
-      13503,
-      16533,
-      20402,
-      25366,
-      30979,
-      38923,
-      47589,
-      58278,
-      72695,
-      88123,
-      108590,
-      35210
-    ]
-  },
-  {
-    "name": "手工达人 拼豆挂件材料",
-    "category": "拼豆/咕卡套装",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 38199,
-    "growth7d": 160,
-    "predictScore": 97,
-    "trendData": [
-      16810,
-      19459,
-      22286,
-      25500,
-      28833,
-      32951,
-      37825,
-      42231,
-      47208,
-      53541,
-      61938,
-      68925,
-      38199
-    ]
-  },
-  {
-    "name": "手工达人 咕卡装饰宝石",
-    "category": "拼豆/咕卡套装",
-    "reason": "直播间持续爆单",
-    "currentSales": 11587,
-    "growth7d": 293,
-    "predictScore": 92,
-    "trendData": [
-      3681,
-      4550,
-      5692,
-      7084,
-      8639,
-      10811,
-      13307,
-      16616,
-      20783,
-      25265,
-      31564,
-      39748,
-      11587
-    ]
-  },
-  {
-    "name": "拼豆世界 拼豆收纳盒",
-    "category": "拼豆/咕卡套装",
-    "reason": "社交平台口碑传播",
-    "currentSales": 24312,
-    "growth7d": 116,
-    "predictScore": 80,
-    "trendData": [
-      12366,
-      13507,
-      14545,
-      15988,
-      17605,
-      19392,
-      21664,
-      24129,
-      26008,
-      28403,
-      31812,
-      34524,
-      24312
-    ]
-  },
-  {
-    "name": "手工达人 咕卡奶油胶",
-    "category": "拼豆/咕卡套装",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 59845,
-    "growth7d": 344,
-    "predictScore": 77,
-    "trendData": [
-      17366,
-      22544,
-      28873,
-      37390,
-      47046,
-      59157,
-      75201,
-      95842,
-      121746,
-      156139,
-      200112,
-      255348,
-      59845
-    ]
-  },
-  {
-    "name": "晨光 马克雷诺彩铅",
-    "category": "彩色铅笔",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 74717,
-    "growth7d": 282,
-    "predictScore": 69,
-    "trendData": [
-      23659,
-      29112,
-      35372,
-      42905,
-      53373,
-      64716,
-      77824,
-      96366,
-      119621,
-      148448,
-      185043,
-      230874,
-      74717
-    ]
-  },
-  {
-    "name": "晨光 素描彩铅",
-    "category": "彩色铅笔",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 13534,
-    "growth7d": 214,
-    "predictScore": 96,
-    "trendData": [
-      5095,
-      6077,
-      7110,
-      8483,
-      9918,
-      11611,
-      13719,
-      16124,
-      18834,
-      21655,
-      25627,
-      30372,
-      13534
-    ]
-  },
-  {
-    "name": "晨光 彩铅收纳笔帘",
-    "category": "彩色铅笔",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 10662,
-    "growth7d": 142,
-    "predictScore": 94,
-    "trendData": [
-      4970,
-      5579,
-      6265,
-      7107,
-      7975,
-      8836,
-      10011,
-      11142,
-      12242,
-      13814,
-      15760,
-      17315,
-      10662
-    ]
-  },
-  {
-    "name": "辉柏嘉 秘密花园彩铅",
-    "category": "彩色铅笔",
-    "reason": "直播间持续爆单",
-    "currentSales": 20283,
-    "growth7d": 302,
-    "predictScore": 98,
-    "trendData": [
-      6290,
-      7855,
-      9883,
-      12046,
-      15226,
-      18876,
-      23080,
-      29112,
-      35863,
-      44545,
-      55505,
-      70263,
-      20283
-    ]
-  },
-  {
-    "name": "马可 软芯彩铅",
-    "category": "彩色铅笔",
-    "reason": "社交平台口碑传播",
-    "currentSales": 17638,
-    "growth7d": 218,
-    "predictScore": 97,
-    "trendData": [
-      6404,
-      7503,
-      8804,
-      10202,
-      12074,
-      13938,
-      16487,
-      19634,
-      22825,
-      26831,
-      31742,
-      37903,
-      17638
-    ]
-  },
-  {
-    "name": "辉柏嘉 彩铅补充装",
-    "category": "彩色铅笔",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 21277,
-    "growth7d": 352,
+    "currentSales": 53842,
+    "growth7d": 248,
     "predictScore": 95,
     "trendData": [
-      6104,
-      7919,
-      10288,
-      13243,
-      17017,
-      21828,
-      28052,
-      35566,
-      45887,
-      59046,
-      76042,
-      98120,
-      21277
+      18817,
+      22612,
+      26938,
+      32761,
+      39560,
+      48244,
+      57811,
+      70790,
+      84030,
+      102912,
+      124182,
+      147728,
+      53842
+    ]
+  },
+  {
+    "name": "DIY乐园 拼豆镊子工具",
+    "category": "拼豆/咕卡套装",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 66121,
+    "growth7d": 267,
+    "predictScore": 74,
+    "trendData": [
+      21516,
+      25632,
+      30640,
+      37289,
+      44635,
+      53386,
+      63888,
+      79017,
+      95285,
+      115315,
+      138936,
+      171738,
+      66121
+    ]
+  },
+  {
+    "name": "创意工坊 咕卡底卡 透明",
+    "category": "拼豆/咕卡套装",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 52641,
+    "growth7d": 228,
+    "predictScore": 81,
+    "trendData": [
+      19239,
+      22748,
+      26429,
+      31922,
+      37233,
+      44354,
+      53547,
+      62185,
+      72551,
+      85696,
+      101938,
+      122657,
+      52641
+    ]
+  },
+  {
+    "name": "DIY乐园 拼豆挂件材料",
+    "category": "拼豆/咕卡套装",
+    "reason": "618期间搜索量飙升",
+    "currentSales": 76819,
+    "growth7d": 122,
+    "predictScore": 86,
+    "trendData": [
+      38827,
+      42952,
+      47444,
+      51267,
+      55568,
+      60262,
+      67042,
+      74876,
+      81707,
+      90560,
+      100643,
+      110096,
+      76819
+    ]
+  },
+  {
+    "name": "DIY乐园 咕卡装饰宝石",
+    "category": "拼豆/咕卡套装",
+    "reason": "直播间持续爆单",
+    "currentSales": 75694,
+    "growth7d": 378,
+    "predictScore": 86,
+    "trendData": [
+      20452,
+      26522,
+      34309,
+      45378,
+      58775,
+      77912,
+      102913,
+      133246,
+      172138,
+      220884,
+      287214,
+      378451,
+      75694
+    ]
+  },
+  {
+    "name": "DIY乐园 拼豆收纳盒",
+    "category": "拼豆/咕卡套装",
+    "reason": "社交平台口碑传播",
+    "currentSales": 15589,
+    "growth7d": 177,
+    "predictScore": 90,
+    "trendData": [
+      6485,
+      7554,
+      8735,
+      9820,
+      11424,
+      13034,
+      14624,
+      16835,
+      19678,
+      22801,
+      25980,
+      29953,
+      15589
+    ]
+  },
+  {
+    "name": "创意工坊 咕卡奶油胶",
+    "category": "拼豆/咕卡套装",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 10619,
+    "growth7d": 380,
+    "predictScore": 69,
+    "trendData": [
+      2932,
+      3784,
+      4944,
+      6505,
+      8516,
+      10894,
+      14183,
+      18388,
+      24186,
+      31069,
+      39731,
+      50993,
+      10619
+    ]
+  },
+  {
+    "name": "辉柏嘉 马克雷诺彩铅",
+    "category": "彩色铅笔",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 55803,
+    "growth7d": 128,
+    "predictScore": 87,
+    "trendData": [
+      27203,
+      30079,
+      32999,
+      37146,
+      40845,
+      45916,
+      51903,
+      57158,
+      61962,
+      67606,
+      76559,
+      83323,
+      55803
+    ]
+  },
+  {
+    "name": "辉柏嘉 素描彩铅",
+    "category": "彩色铅笔",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 66847,
+    "growth7d": 142,
+    "predictScore": 84,
+    "trendData": [
+      30896,
+      34901,
+      38388,
+      42413,
+      48019,
+      54682,
+      61646,
+      68078,
+      75615,
+      84104,
+      92826,
+      105343,
+      66847
+    ]
+  },
+  {
+    "name": "MARCO 彩铅收纳笔帘",
+    "category": "彩色铅笔",
+    "reason": "618期间搜索量飙升",
+    "currentSales": 47430,
+    "growth7d": 156,
+    "predictScore": 98,
+    "trendData": [
+      21252,
+      24285,
+      27331,
+      30470,
+      33760,
+      37485,
+      43182,
+      49375,
+      54947,
+      62408,
+      71377,
+      79309,
+      47430
+    ]
+  },
+  {
+    "name": "马可 秘密花园彩铅",
+    "category": "彩色铅笔",
+    "reason": "直播间持续爆单",
+    "currentSales": 49609,
+    "growth7d": 298,
+    "predictScore": 73,
+    "trendData": [
+      15143,
+      18792,
+      23608,
+      29051,
+      35544,
+      44919,
+      55415,
+      69525,
+      86116,
+      106585,
+      131524,
+      162249,
+      49609
+    ]
+  },
+  {
+    "name": "辉柏嘉 软芯彩铅",
+    "category": "彩色铅笔",
+    "reason": "社交平台口碑传播",
+    "currentSales": 49789,
+    "growth7d": 202,
+    "predictScore": 80,
+    "trendData": [
+      19103,
+      22592,
+      26698,
+      30659,
+      35783,
+      40814,
+      48368,
+      55784,
+      64892,
+      76519,
+      90375,
+      106144,
+      49789
+    ]
+  },
+  {
+    "name": "晨光 彩铅补充装",
+    "category": "彩色铅笔",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 37396,
+    "growth7d": 192,
+    "predictScore": 76,
+    "trendData": [
+      14583,
+      16524,
+      19429,
+      22719,
+      26458,
+      30235,
+      35053,
+      41093,
+      47151,
+      54143,
+      62522,
+      73848,
+      37396
     ]
   },
   {
     "name": "得力 磁吸白板笔",
     "category": "白板笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 75259,
-    "growth7d": 301,
-    "predictScore": 92,
+    "currentSales": 45485,
+    "growth7d": 308,
+    "predictScore": 67,
     "trendData": [
-      23758,
-      29507,
-      35951,
-      45194,
-      55896,
-      68181,
-      84637,
-      103615,
-      131025,
-      160009,
-      195311,
-      243614,
-      75259
+      13647,
+      17271,
+      21487,
+      26424,
+      32965,
+      41128,
+      51798,
+      65322,
+      82148,
+      104109,
+      130700,
+      161545,
+      45485
     ]
   },
   {
     "name": "齐心 环保白板笔",
     "category": "白板笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 61857,
-    "growth7d": 136,
-    "predictScore": 70,
+    "currentSales": 11053,
+    "growth7d": 377,
+    "predictScore": 86,
     "trendData": [
-      29651,
-      33051,
-      36897,
-      40698,
-      44593,
-      49980,
-      55351,
-      62476,
-      69496,
-      76652,
-      84728,
-      96491,
-      61857
+      2978,
+      3942,
+      5065,
+      6578,
+      8518,
+      10930,
+      14147,
+      18310,
+      23833,
+      30751,
+      40432,
+      53101,
+      11053
     ]
   },
   {
     "name": "齐心 速干白板笔",
     "category": "白板笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 53126,
-    "growth7d": 124,
-    "predictScore": 91,
-    "trendData": [
-      26373,
-      28680,
-      31563,
-      35491,
-      39526,
-      44394,
-      49631,
-      55063,
-      62195,
-      69825,
-      78550,
-      85189,
-      53126
-    ]
-  },
-  {
-    "name": "白雪 白板笔 12色套装",
-    "category": "白板笔",
-    "reason": "直播间持续爆单",
-    "currentSales": 28979,
-    "growth7d": 310,
-    "predictScore": 70,
-    "trendData": [
-      8791,
-      11084,
-      14016,
-      17413,
-      21900,
-      26876,
-      33965,
-      43246,
-      54587,
-      69200,
-      85947,
-      109301,
-      28979
-    ]
-  },
-  {
-    "name": "齐心 迷你白板笔",
-    "category": "白板笔",
-    "reason": "社交平台口碑传播",
-    "currentSales": 10965,
-    "growth7d": 321,
-    "predictScore": 81,
-    "trendData": [
-      3286,
-      4114,
-      5228,
-      6635,
-      8404,
-      10573,
-      13210,
-      16760,
-      20914,
-      26345,
-      32846,
-      41180,
-      10965
-    ]
-  },
-  {
-    "name": "白雪 白板笔 替换芯",
-    "category": "白板笔",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 52709,
-    "growth7d": 360,
-    "predictScore": 79,
-    "trendData": [
-      14957,
-      19394,
-      24583,
-      31452,
-      41257,
-      53964,
-      70104,
-      91925,
-      120434,
-      155487,
-      201210,
-      262511,
-      52709
-    ]
-  },
-  {
-    "name": "晨光 A5文件袋",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 75802,
-    "growth7d": 320,
-    "predictScore": 82,
-    "trendData": [
-      22960,
-      28781,
-      36602,
-      45798,
-      58604,
-      74839,
-      95807,
-      120736,
-      149441,
-      187016,
-      232786,
-      290273,
-      75802
-    ]
-  },
-  {
-    "name": "得力 彩色分类文件袋",
-    "category": "按扣/拉链文件资料袋/收纳袋",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 40181,
-    "growth7d": 378,
+    "currentSales": 18042,
+    "growth7d": 191,
     "predictScore": 76,
     "trendData": [
-      10731,
-      13764,
-      18016,
-      23584,
-      31094,
-      40954,
-      52401,
-      66984,
-      87265,
-      113646,
-      150406,
-      193822,
-      40181
+      7272,
+      8581,
+      9843,
+      11318,
+      12821,
+      14577,
+      16650,
+      19493,
+      22129,
+      25758,
+      30313,
+      35742,
+      18042
+    ]
+  },
+  {
+    "name": "真彩 白板笔 12色套装",
+    "category": "白板笔",
+    "reason": "直播间持续爆单",
+    "currentSales": 23523,
+    "growth7d": 218,
+    "predictScore": 94,
+    "trendData": [
+      8789,
+      10417,
+      12177,
+      14473,
+      17394,
+      20906,
+      25013,
+      29127,
+      34527,
+      41164,
+      48066,
+      57658,
+      23523
+    ]
+  },
+  {
+    "name": "晨光 迷你白板笔",
+    "category": "白板笔",
+    "reason": "社交平台口碑传播",
+    "currentSales": 13989,
+    "growth7d": 227,
+    "predictScore": 71,
+    "trendData": [
+      4985,
+      5985,
+      7225,
+      8472,
+      9920,
+      11807,
+      14147,
+      17054,
+      20595,
+      24707,
+      28976,
+      34657,
+      13989
+    ]
+  },
+  {
+    "name": "晨光 白板笔 替换芯",
+    "category": "白板笔",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 64173,
+    "growth7d": 323,
+    "predictScore": 83,
+    "trendData": [
+      18922,
+      24051,
+      29832,
+      37834,
+      47875,
+      59925,
+      75637,
+      94057,
+      119914,
+      150780,
+      192410,
+      245173,
+      64173
+    ]
+  },
+  {
+    "name": "齐心 A5文件袋",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 35167,
+    "growth7d": 169,
+    "predictScore": 81,
+    "trendData": [
+      14922,
+      16862,
+      19320,
+      21995,
+      25296,
+      28477,
+      32552,
+      36639,
+      41613,
+      47780,
+      54135,
+      61620,
+      35167
+    ]
+  },
+  {
+    "name": "广博 彩色分类文件袋",
+    "category": "按扣/拉链文件资料袋/收纳袋",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 25258,
+    "growth7d": 291,
+    "predictScore": 89,
+    "trendData": [
+      8107,
+      9899,
+      12107,
+      15083,
+      18261,
+      22474,
+      27293,
+      33770,
+      42065,
+      51375,
+      63139,
+      78604,
+      25258
     ]
   },
   {
     "name": "三木 牛津布资料袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "reason": "618期间搜索量飙升",
-    "currentSales": 25589,
-    "growth7d": 107,
+    "currentSales": 58653,
+    "growth7d": 225,
     "predictScore": 88,
     "trendData": [
-      13557,
-      14956,
-      16136,
-      17997,
-      19904,
-      21677,
-      23926,
-      26479,
-      29421,
-      31413,
-      34862,
-      37342,
-      25589
+      21619,
+      25218,
+      29451,
+      34874,
+      42087,
+      48939,
+      57831,
+      69243,
+      83564,
+      99561,
+      115412,
+      138067,
+      58653
     ]
   },
   {
-    "name": "三木 加厚透明袋",
+    "name": "得力 加厚透明袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "reason": "直播间持续爆单",
-    "currentSales": 37675,
-    "growth7d": 318,
-    "predictScore": 75,
+    "currentSales": 67437,
+    "growth7d": 139,
+    "predictScore": 81,
     "trendData": [
-      11185,
-      14237,
-      18094,
-      22906,
-      28664,
-      36253,
-      45491,
-      56189,
-      69819,
-      86808,
-      107467,
-      137296,
-      37675
+      31387,
+      35474,
+      40168,
+      44073,
+      49840,
+      56858,
+      63111,
+      71008,
+      80446,
+      88289,
+      97307,
+      108621,
+      67437
     ]
   },
   {
-    "name": "晨光 科目分类袋",
+    "name": "广博 科目分类袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "reason": "社交平台口碑传播",
-    "currentSales": 74292,
-    "growth7d": 104,
-    "predictScore": 97,
+    "currentSales": 48188,
+    "growth7d": 252,
+    "predictScore": 95,
     "trendData": [
-      39033,
-      42388,
-      45435,
-      49222,
-      54324,
-      57886,
-      61923,
-      68145,
-      74081,
-      81319,
-      90620,
-      96711,
-      74292
+      16726,
+      20379,
+      24098,
+      28838,
+      35317,
+      42022,
+      50901,
+      61470,
+      73889,
+      90152,
+      109485,
+      133310,
+      48188
     ]
   },
   {
-    "name": "三木 票据收纳袋",
+    "name": "广博 票据收纳袋",
     "category": "按扣/拉链文件资料袋/收纳袋",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 14141,
-    "growth7d": 368,
-    "predictScore": 97,
+    "currentSales": 20951,
+    "growth7d": 135,
+    "predictScore": 90,
     "trendData": [
-      3970,
-      5145,
-      6616,
-      8413,
-      10840,
-      13911,
-      18265,
-      23830,
-      30504,
-      39513,
-      51378,
-      65198,
-      14141
+      9900,
+      11026,
+      12233,
+      13722,
+      15380,
+      17153,
+      19205,
+      21497,
+      23798,
+      26680,
+      29403,
+      32988,
+      20951
     ]
   },
   {
-    "name": "真彩 创意修正带",
+    "name": "PLUS 创意修正带",
     "category": "修正带",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 76344,
-    "growth7d": 339,
-    "predictScore": 72,
+    "currentSales": 24849,
+    "growth7d": 349,
+    "predictScore": 94,
     "trendData": [
-      22233,
-      28125,
-      35862,
-      46455,
-      59111,
-      75914,
-      96335,
-      120050,
-      151379,
-      194017,
-      246177,
-      306881,
-      76344
+      6940,
+      8951,
+      11572,
+      14957,
+      19415,
+      25224,
+      32089,
+      41247,
+      51943,
+      66200,
+      83146,
+      106918,
+      24849
     ]
   },
   {
-    "name": "得力 修正带替芯 3个",
+    "name": "PLUS 修正带替芯 3个",
     "category": "修正带",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 18504,
-    "growth7d": 300,
-    "predictScore": 83,
+    "currentSales": 39464,
+    "growth7d": 205,
+    "predictScore": 91,
     "trendData": [
-      5670,
-      7113,
-      8929,
-      10884,
-      13551,
-      16495,
-      20708,
-      25506,
-      31807,
-      39934,
-      49734,
-      61786,
-      18504
+      15199,
+      17758,
+      20620,
+      23566,
+      27725,
+      32667,
+      38695,
+      45672,
+      54333,
+      62613,
+      71577,
+      84213,
+      39464
     ]
   },
   {
     "name": "真彩 宽幅修正带",
     "category": "修正带",
     "reason": "618期间搜索量飙升",
-    "currentSales": 68053,
-    "growth7d": 89,
-    "predictScore": 85,
+    "currentSales": 29265,
+    "growth7d": 259,
+    "predictScore": 66,
     "trendData": [
-      38907,
-      41558,
-      43907,
-      46343,
-      50858,
-      53617,
-      58377,
-      64400,
-      70322,
-      74681,
-      81689,
-      86345,
-      68053
+      9969,
+      11992,
+      14255,
+      17369,
+      21379,
+      25413,
+      31033,
+      37981,
+      46657,
+      56869,
+      67764,
+      82231,
+      29265
     ]
   },
   {
-    "name": "得力 按动修正带",
+    "name": "PLUS 按动修正带",
     "category": "修正带",
     "reason": "直播间持续爆单",
-    "currentSales": 46370,
-    "growth7d": 326,
-    "predictScore": 81,
+    "currentSales": 41352,
+    "growth7d": 379,
+    "predictScore": 69,
     "trendData": [
-      13478,
-      17317,
-      22118,
-      27416,
-      34135,
-      42746,
-      53257,
-      66416,
-      84542,
-      107281,
-      137744,
-      176782,
-      46370
+      11067,
+      14615,
+      18870,
+      24556,
+      32052,
+      42473,
+      56017,
+      71766,
+      95149,
+      123520,
+      158352,
+      202434,
+      41352
     ]
   },
   {
-    "name": "得力 涂改带 考试用",
+    "name": "真彩 涂改带 考试用",
     "category": "修正带",
     "reason": "社交平台口碑传播",
-    "currentSales": 67619,
-    "growth7d": 207,
-    "predictScore": 81,
+    "currentSales": 12388,
+    "growth7d": 277,
+    "predictScore": 86,
     "trendData": [
-      25958,
-      30272,
-      35394,
-      42250,
-      50142,
-      58627,
-      69546,
-      81950,
-      96085,
-      113562,
-      133791,
-      157452,
-      67619
+      4036,
+      4990,
+      6027,
+      7358,
+      9039,
+      11204,
+      13718,
+      16596,
+      20686,
+      25662,
+      30952,
+      38355,
+      12388
     ]
   },
   {
-    "name": "得力 修正带 不断带",
+    "name": "晨光 修正带 不断带",
     "category": "修正带",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 45573,
-    "growth7d": 375,
-    "predictScore": 82,
+    "currentSales": 47728,
+    "growth7d": 267,
+    "predictScore": 97,
     "trendData": [
-      12679,
-      16412,
-      21394,
-      28092,
-      36926,
-      48291,
-      61629,
-      79951,
-      103875,
-      134917,
-      176165,
-      225938,
-      45573
+      15863,
+      19075,
+      23363,
+      28535,
+      34883,
+      42730,
+      52270,
+      62271,
+      76923,
+      94691,
+      115918,
+      140928,
+      47728
     ]
   },
   {
-    "name": "百乐 旋转吸墨钢笔",
+    "name": "凌美 旋转吸墨钢笔",
     "category": "钢笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 76886,
-    "growth7d": 358,
-    "predictScore": 95,
+    "currentSales": 14532,
+    "growth7d": 210,
+    "predictScore": 74,
     "trendData": [
-      21567,
-      27531,
-      35197,
-      45387,
-      57426,
-      74166,
-      96995,
-      124362,
-      159703,
-      201528,
-      260566,
-      337752,
-      76886
+      5491,
+      6338,
+      7571,
+      8716,
+      10029,
+      11807,
+      13647,
+      15692,
+      18634,
+      21529,
+      25481,
+      30276,
+      14532
     ]
   },
   {
     "name": "凌美 速写钢笔",
     "category": "钢笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 66828,
-    "growth7d": 222,
-    "predictScore": 90,
+    "currentSales": 53670,
+    "growth7d": 119,
+    "predictScore": 94,
     "trendData": [
-      24385,
-      28685,
-      34469,
-      40633,
-      47605,
-      55574,
-      65650,
-      77805,
-      92689,
-      107397,
-      125370,
-      149943,
-      66828
+      26820,
+      29922,
+      32893,
+      35850,
+      39158,
+      44082,
+      48693,
+      54699,
+      59275,
+      64223,
+      71117,
+      78806,
+      53670
     ]
   },
   {
     "name": "晨光 钢笔套装 含墨囊",
     "category": "钢笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 40516,
-    "growth7d": 391,
-    "predictScore": 82,
+    "currentSales": 69876,
+    "growth7d": 293,
+    "predictScore": 77,
     "trendData": [
-      10815,
-      14376,
-      19124,
-      24704,
-      32982,
-      43390,
-      57273,
-      74215,
-      97885,
-      127486,
-      168797,
-      217581,
-      40516
+      22189,
+      27502,
+      34639,
+      43392,
+      54455,
+      66137,
+      80067,
+      100122,
+      125157,
+      155984,
+      190915,
+      234959,
+      69876
     ]
   },
   {
-    "name": "晨光 金属杆钢笔",
+    "name": "派克 金属杆钢笔",
     "category": "钢笔",
     "reason": "直播间持续爆单",
-    "currentSales": 55066,
-    "growth7d": 334,
-    "predictScore": 86,
+    "currentSales": 15266,
+    "growth7d": 299,
+    "predictScore": 90,
     "trendData": [
-      16309,
-      20334,
-      26101,
-      32968,
-      42488,
-      54800,
-      70526,
-      88792,
-      111278,
-      138496,
-      177265,
-      228538,
-      55066
+      4803,
+      6075,
+      7617,
+      9592,
+      11832,
+      14947,
+      18410,
+      22847,
+      27932,
+      34990,
+      42537,
+      52930,
+      15266
     ]
   },
   {
-    "name": "晨光 复古钢笔",
+    "name": "英雄 复古钢笔",
     "category": "钢笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 60946,
-    "growth7d": 309,
-    "predictScore": 97,
+    "currentSales": 46588,
+    "growth7d": 302,
+    "predictScore": 77,
     "trendData": [
-      18395,
-      22913,
-      29002,
-      36348,
-      46132,
-      58685,
-      73472,
-      92241,
-      115955,
-      146718,
-      182094,
-      225016,
-      60946
+      14310,
+      17947,
+      22133,
+      27557,
+      33955,
+      42074,
+      52066,
+      65705,
+      81527,
+      102807,
+      128284,
+      161732,
+      46588
     ]
   },
   {
     "name": "派克 可替换墨囊钢笔",
     "category": "钢笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 77005,
-    "growth7d": 383,
-    "predictScore": 66,
+    "currentSales": 74505,
+    "growth7d": 399,
+    "predictScore": 71,
     "trendData": [
-      20408,
-      26401,
-      34902,
-      45557,
-      58824,
-      75475,
-      97373,
-      125678,
-      165789,
-      216043,
-      283437,
-      367576,
-      77005
+      19845,
+      26617,
+      35670,
+      47122,
+      62392,
+      83272,
+      110491,
+      145109,
+      190610,
+      255582,
+      331307,
+      433879,
+      74505
     ]
   },
   {
     "name": "宝虹 儿童画本 空白",
     "category": "画纸/画本",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 77429,
-    "growth7d": 377,
-    "predictScore": 86,
+    "currentSales": 74214,
+    "growth7d": 390,
+    "predictScore": 87,
     "trendData": [
-      20956,
-      26992,
-      34599,
-      44414,
-      58096,
-      75453,
-      97835,
-      128959,
-      168600,
-      217852,
-      286925,
-      371815,
-      77429
+      20205,
+      26550,
+      34292,
+      44761,
+      58126,
+      75610,
+      100929,
+      132184,
+      173296,
+      230760,
+      301501,
+      387674,
+      74214
     ]
   },
   {
-    "name": "宝虹 绘画本 A3",
+    "name": "康颂 绘画本 A3",
     "category": "画纸/画本",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 45151,
-    "growth7d": 144,
+    "currentSales": 67876,
+    "growth7d": 353,
     "predictScore": 97,
     "trendData": [
-      20802,
-      22844,
-      25082,
-      28562,
-      31366,
-      35053,
-      38811,
-      44189,
-      50179,
-      55792,
-      63564,
-      69900,
-      45151
+      18884,
+      23776,
+      30518,
+      39157,
+      51070,
+      64830,
+      82389,
+      104017,
+      132498,
+      167041,
+      211753,
+      272286,
+      67876
     ]
   },
   {
     "name": "获多福 牛皮纸画本",
     "category": "画纸/画本",
     "reason": "618期间搜索量飙升",
-    "currentSales": 12979,
-    "growth7d": 373,
-    "predictScore": 79,
+    "currentSales": 40488,
+    "growth7d": 327,
+    "predictScore": 89,
     "trendData": [
-      3552,
-      4597,
-      6012,
-      7707,
-      9838,
-      12600,
-      16443,
-      21249,
-      27619,
-      35813,
-      46847,
-      59723,
-      12979
+      12070,
+      15400,
+      19717,
+      24389,
+      31194,
+      38692,
+      48369,
+      61769,
+      78548,
+      100050,
+      125693,
+      156852,
+      40488
     ]
   },
   {
-    "name": "康颂 手绘本 硬壳",
+    "name": "老人头 手绘本 硬壳",
     "category": "画纸/画本",
     "reason": "直播间持续爆单",
-    "currentSales": 63762,
-    "growth7d": 343,
-    "predictScore": 92,
+    "currentSales": 59180,
+    "growth7d": 219,
+    "predictScore": 77,
     "trendData": [
-      18471,
-      23266,
-      30030,
-      38661,
-      49610,
-      63405,
-      81083,
-      103112,
-      132432,
-      168320,
-      214888,
-      278464,
-      63762
+      21867,
+      25344,
+      29562,
+      34504,
+      40088,
+      48162,
+      57527,
+      69084,
+      80782,
+      93481,
+      112120,
+      130090,
+      59180
     ]
   },
   {
-    "name": "温莎 临摹纸 拷贝纸",
+    "name": "康颂 临摹纸 拷贝纸",
     "category": "画纸/画本",
     "reason": "社交平台口碑传播",
-    "currentSales": 54273,
-    "growth7d": 92,
-    "predictScore": 81,
+    "currentSales": 10788,
+    "growth7d": 327,
+    "predictScore": 67,
     "trendData": [
-      30954,
-      33421,
-      35656,
-      38063,
-      40200,
-      43401,
-      46540,
-      50597,
-      55470,
-      61202,
-      64796,
-      71223,
-      54273
+      3135,
+      3988,
+      5019,
+      6370,
+      8191,
+      10147,
+      12690,
+      16042,
+      20617,
+      26420,
+      32747,
+      41991,
+      10788
     ]
   },
   {
     "name": "老人头 刮画纸 彩色",
     "category": "画纸/画本",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 38437,
-    "growth7d": 391,
-    "predictScore": 84,
+    "currentSales": 31282,
+    "growth7d": 211,
+    "predictScore": 78,
     "trendData": [
-      10087,
-      13041,
-      16828,
-      21834,
-      28777,
-      37650,
-      49098,
-      65501,
-      84437,
-      110393,
-      145516,
-      190797,
-      38437
+      11993,
+      14198,
+      16460,
+      19333,
+      22803,
+      26183,
+      31009,
+      36874,
+      44090,
+      50905,
+      59673,
+      69059,
+      31282
     ]
   },
   {
-    "name": "晨光 万能胶",
+    "name": "齐心 万能胶",
     "category": "胶水",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 77971,
-    "growth7d": 395,
-    "predictScore": 76,
+    "currentSales": 63896,
+    "growth7d": 251,
+    "predictScore": 67,
     "trendData": [
-      20424,
-      26527,
-      35398,
-      46975,
-      61072,
-      79713,
-      106391,
-      138662,
-      184398,
-      243697,
-      314467,
-      407149,
-      77971
+      21869,
+      25772,
+      30753,
+      37333,
+      44843,
+      52865,
+      64417,
+      78854,
+      93772,
+      113696,
+      134633,
+      159954,
+      63896
     ]
   },
   {
-    "name": "3M 热熔胶枪",
+    "name": "得力 热熔胶枪",
     "category": "胶水",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 23474,
-    "growth7d": 386,
-    "predictScore": 70,
+    "currentSales": 12081,
+    "growth7d": 267,
+    "predictScore": 66,
     "trendData": [
-      6373,
-      8388,
-      10825,
-      14016,
-      18514,
-      24325,
-      32334,
-      41651,
-      55228,
-      72415,
-      94676,
-      123031,
-      23474
+      4049,
+      4884,
+      5967,
+      7340,
+      8955,
+      10898,
+      12979,
+      15647,
+      19055,
+      22709,
+      27974,
+      34057,
+      12081
     ]
   },
   {
     "name": "3M 双面胶点 替芯",
     "category": "胶水",
     "reason": "618期间搜索量飙升",
-    "currentSales": 55443,
-    "growth7d": 356,
-    "predictScore": 76,
+    "currentSales": 11099,
+    "growth7d": 361,
+    "predictScore": 67,
     "trendData": [
-      15553,
-      19595,
-      25205,
-      32081,
-      40705,
-      52780,
-      68127,
-      87854,
-      112574,
-      145413,
-      188009,
-      237171,
-      55443
+      3126,
+      4103,
+      5339,
+      6787,
+      8844,
+      11199,
+      14442,
+      18827,
+      24348,
+      31681,
+      40826,
+      51649,
+      11099
     ]
   },
   {
-    "name": "齐心 胶水笔 细头",
+    "name": "UHU 胶水笔 细头",
     "category": "胶水",
     "reason": "直播间持续爆单",
-    "currentSales": 72458,
-    "growth7d": 351,
-    "predictScore": 97,
+    "currentSales": 33095,
+    "growth7d": 139,
+    "predictScore": 98,
     "trendData": [
-      20573,
-      26160,
-      33932,
-      42788,
-      54636,
-      69147,
-      87808,
-      112710,
-      142544,
-      184825,
-      235215,
-      306179,
-      72458
+      15260,
+      16836,
+      19009,
+      21387,
+      24384,
+      27787,
+      30766,
+      34174,
+      38141,
+      42402,
+      48045,
+      54109,
+      33095
     ]
   },
   {
-    "name": "得力 PVA白乳胶",
+    "name": "齐心 PVA白乳胶",
     "category": "胶水",
     "reason": "社交平台口碑传播",
-    "currentSales": 47600,
-    "growth7d": 195,
-    "predictScore": 98,
+    "currentSales": 44988,
+    "growth7d": 352,
+    "predictScore": 91,
     "trendData": [
-      18585,
-      21557,
-      25096,
-      29559,
-      33676,
-      39848,
-      45380,
-      52870,
-      62476,
-      71067,
-      83324,
-      96558,
-      47600
+      12917,
+      16662,
+      21394,
+      27672,
+      35688,
+      45980,
+      58104,
+      73575,
+      94144,
+      122569,
+      157033,
+      204749,
+      44988
     ]
   },
   {
     "name": "UHU 手工胶水套装",
     "category": "胶水",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 69869,
-    "growth7d": 399,
-    "predictScore": 68,
+    "currentSales": 58060,
+    "growth7d": 342,
+    "predictScore": 85,
     "trendData": [
-      18161,
-      23467,
-      30713,
-      41146,
-      53272,
-      71045,
-      93638,
-      124302,
-      162714,
-      213428,
-      282661,
-      374665,
-      69869
+      16431,
+      20899,
+      26622,
+      33902,
+      43406,
+      54568,
+      70237,
+      88523,
+      112706,
+      142425,
+      184239,
+      230365,
+      58060
     ]
   },
   {
-    "name": "真彩 速干笔芯",
+    "name": "得力 速干笔芯",
     "category": "笔芯/替芯/笔壳",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 78513,
-    "growth7d": 94,
-    "predictScore": 66,
+    "currentSales": 53578,
+    "growth7d": 111,
+    "predictScore": 80,
     "trendData": [
-      44789,
-      47662,
-      52029,
-      55933,
-      61345,
-      65414,
-      70473,
-      77037,
-      85272,
-      94281,
-      100726,
-      110618,
-      78513
+      28384,
+      31000,
+      33920,
+      36359,
+      40102,
+      44362,
+      48861,
+      53151,
+      59347,
+      64841,
+      72037,
+      78489,
+      53578
     ]
   },
   {
-    "name": "晨光 子弹头笔芯 100支",
+    "name": "得力 子弹头笔芯 100支",
     "category": "笔芯/替芯/笔壳",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 71798,
-    "growth7d": 308,
-    "predictScore": 77,
+    "currentSales": 26287,
+    "growth7d": 181,
+    "predictScore": 69,
     "trendData": [
-      22326,
-      27639,
-      34186,
-      42892,
-      53508,
-      67634,
-      84891,
-      105398,
-      133881,
-      169277,
-      208101,
-      260786,
-      71798
+      10756,
+      12408,
+      14390,
+      16220,
+      18423,
+      21453,
+      24907,
+      28607,
+      33236,
+      38981,
+      44673,
+      51331,
+      26287
     ]
   },
   {
     "name": "得力 针管笔芯",
     "category": "笔芯/替芯/笔壳",
     "reason": "618期间搜索量飙升",
-    "currentSales": 27906,
-    "growth7d": 338,
-    "predictScore": 73,
+    "currentSales": 51711,
+    "growth7d": 396,
+    "predictScore": 79,
     "trendData": [
-      8047,
-      10258,
-      12965,
-      16374,
-      20636,
-      26039,
-      33220,
-      42722,
-      53924,
-      69345,
-      88553,
-      110456,
-      27906
+      13802,
+      17938,
+      23728,
+      30995,
+      41158,
+      53211,
+      70760,
+      94178,
+      123904,
+      164716,
+      217723,
+      290241,
+      51711
     ]
   },
   {
-    "name": "晨光 全针管笔芯",
+    "name": "得力 全针管笔芯",
     "category": "笔芯/替芯/笔壳",
     "reason": "直播间持续爆单",
-    "currentSales": 11154,
-    "growth7d": 359,
-    "predictScore": 70,
+    "currentSales": 77009,
+    "growth7d": 380,
+    "predictScore": 85,
     "trendData": [
-      3105,
-      3985,
-      5194,
-      6672,
-      8477,
-      11047,
-      14482,
-      18762,
-      24297,
-      30912,
-      39215,
-      51275,
-      11154
+      21216,
+      27462,
+      35388,
+      45296,
+      59578,
+      78919,
+      103929,
+      136932,
+      179347,
+      235512,
+      309392,
+      398836,
+      77009
     ]
   },
   {
     "name": "得力 笔壳 透明",
     "category": "笔芯/替芯/笔壳",
     "reason": "社交平台口碑传播",
-    "currentSales": 40927,
-    "growth7d": 298,
-    "predictScore": 81,
+    "currentSales": 79187,
+    "growth7d": 377,
+    "predictScore": 82,
     "trendData": [
-      12941,
-      16048,
-      20244,
-      25066,
-      30642,
-      37902,
-      47580,
-      59138,
-      71975,
-      87931,
-      108703,
-      132450,
-      40927
+      21652,
+      28316,
+      37077,
+      48853,
+      63188,
+      81387,
+      103913,
+      137001,
+      181383,
+      239859,
+      317300,
+      404691,
+      79187
     ]
   },
   {
-    "name": "得力 笔杆 金属",
+    "name": "晨光 笔杆 金属",
     "category": "笔芯/替芯/笔壳",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 31301,
-    "growth7d": 87,
-    "predictScore": 86,
+    "currentSales": 14837,
+    "growth7d": 154,
+    "predictScore": 92,
     "trendData": [
-      17732,
-      19421,
-      20995,
-      22795,
-      24512,
-      26050,
-      28285,
-      30398,
-      32915,
-      35213,
-      38187,
-      41764,
-      31301
+      6507,
+      7252,
+      8289,
+      9341,
+      10609,
+      11890,
+      13609,
+      15462,
+      17090,
+      19267,
+      21570,
+      24763,
+      14837
     ]
   },
   {
     "name": "晨光 细头记号笔",
     "category": "记号笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 79055,
-    "growth7d": 113,
-    "predictScore": 89,
+    "currentSales": 43260,
+    "growth7d": 292,
+    "predictScore": 93,
     "trendData": [
-      41309,
-      44435,
-      48656,
-      54454,
-      59332,
-      63697,
-      71096,
-      76721,
-      82868,
-      89985,
-      98305,
-      107924,
-      79055
+      13588,
+      17022,
+      21141,
+      25934,
+      32461,
+      39942,
+      49178,
+      61394,
+      76184,
+      92914,
+      114723,
+      142025,
+      43260
     ]
   },
   {
-    "name": "得力 记号笔套装 12色",
+    "name": "宝克 记号笔套装 12色",
     "category": "记号笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 50121,
-    "growth7d": 230,
-    "predictScore": 84,
+    "currentSales": 40493,
+    "growth7d": 95,
+    "predictScore": 72,
     "trendData": [
-      17737,
-      21459,
-      25391,
-      29569,
-      34716,
-      40414,
-      47731,
-      57038,
-      66421,
-      77551,
-      93162,
-      112432,
-      50121
+      22210,
+      24450,
+      26843,
+      28834,
+      31764,
+      33733,
+      36469,
+      39808,
+      44021,
+      48596,
+      51522,
+      55676,
+      40493
     ]
   },
   {
     "name": "雪人 大头笔 物流用",
     "category": "记号笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 70370,
-    "growth7d": 320,
-    "predictScore": 70,
+    "currentSales": 22322,
+    "growth7d": 110,
+    "predictScore": 90,
     "trendData": [
-      20892,
-      25901,
-      32157,
-      40295,
-      50442,
-      64413,
-      81213,
-      100097,
-      124424,
-      159293,
-      200875,
-      247718,
-      70370
+      11721,
+      12776,
+      14021,
+      15344,
+      16967,
+      18198,
+      19529,
+      21704,
+      23681,
+      26302,
+      29143,
+      32177,
+      22322
     ]
   },
   {
-    "name": "斑马 银色记号笔",
+    "name": "得力 银色记号笔",
     "category": "记号笔",
     "reason": "直播间持续爆单",
-    "currentSales": 19849,
-    "growth7d": 367,
-    "predictScore": 75,
+    "currentSales": 50923,
+    "growth7d": 300,
+    "predictScore": 73,
     "trendData": [
-      5419,
-      7021,
-      9196,
-      12029,
-      15809,
-      20404,
-      26566,
-      34733,
-      44297,
-      57492,
-      75578,
-      99262,
-      19849
+      15859,
+      19643,
+      24579,
+      30427,
+      37839,
+      47782,
+      58756,
+      72119,
+      90618,
+      110344,
+      137642,
+      172747,
+      50923
     ]
   },
   {
-    "name": "斑马 快递记号笔",
+    "name": "晨光 快递记号笔",
     "category": "记号笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 34254,
-    "growth7d": 81,
-    "predictScore": 98,
+    "currentSales": 43387,
+    "growth7d": 82,
+    "predictScore": 73,
     "trendData": [
-      20232,
-      21733,
-      23095,
-      24305,
-      25749,
-      28181,
-      30314,
-      32577,
-      34411,
-      36466,
-      38429,
-      41578,
-      34254
+      25380,
+      27397,
+      29825,
+      32677,
+      34344,
+      37486,
+      40999,
+      44050,
+      47230,
+      51797,
+      55339,
+      58152,
+      43387
     ]
   },
   {
-    "name": "得力 CD记号笔",
+    "name": "斑马 CD记号笔",
     "category": "记号笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 62733,
-    "growth7d": 95,
-    "predictScore": 71,
+    "currentSales": 41614,
+    "growth7d": 286,
+    "predictScore": 65,
     "trendData": [
-      34353,
-      37599,
-      41337,
-      44560,
-      49108,
-      53431,
-      58760,
-      62762,
-      69209,
-      74336,
-      81076,
-      89830,
-      62733
+      13188,
+      16529,
+      19972,
+      24498,
+      30314,
+      37298,
+      46556,
+      56247,
+      69384,
+      85847,
+      106593,
+      132377,
+      41614
     ]
   },
   {
-    "name": "田英章 数字描红本",
+    "name": "六品堂 数字描红本",
     "category": "练字帖/描红本",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 79598,
-    "growth7d": 132,
-    "predictScore": 79,
+    "currentSales": 32943,
+    "growth7d": 152,
+    "predictScore": 73,
     "trendData": [
-      38401,
-      41749,
-      45855,
-      51051,
-      57810,
-      65372,
-      72235,
-      80549,
-      88872,
-      99191,
-      110754,
-      121551,
-      79598
+      15005,
+      16752,
+      19146,
+      21724,
+      23972,
+      26556,
+      29587,
+      32904,
+      36796,
+      42304,
+      47023,
+      53581,
+      32943
     ]
   },
   {
     "name": "田英章 笔画练字",
     "category": "练字帖/描红本",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 28445,
-    "growth7d": 151,
-    "predictScore": 90,
+    "currentSales": 54699,
+    "growth7d": 330,
+    "predictScore": 74,
     "trendData": [
-      12650,
-      14306,
-      16149,
-      18146,
-      20866,
-      23235,
-      25702,
-      29497,
-      32683,
-      36604,
-      41087,
-      45596,
-      28445
+      16362,
+      20372,
+      26135,
+      33142,
+      41902,
+      52647,
+      65709,
+      84206,
+      104985,
+      134582,
+      171095,
+      215433,
+      54699
     ]
   },
   {
     "name": "华夏万卷 古诗词字帖",
     "category": "练字帖/描红本",
     "reason": "618期间搜索量飙升",
-    "currentSales": 42833,
-    "growth7d": 302,
-    "predictScore": 67,
-    "trendData": [
-      13115,
-      16455,
-      20061,
-      24940,
-      31008,
-      38516,
-      47985,
-      58974,
-      72176,
-      88380,
-      110042,
-      134147,
-      42833
-    ]
-  },
-  {
-    "name": "华夏万卷 楷书练字帖",
-    "category": "练字帖/描红本",
-    "reason": "直播间持续爆单",
-    "currentSales": 28545,
-    "growth7d": 376,
-    "predictScore": 81,
-    "trendData": [
-      7934,
-      10380,
-      13670,
-      17531,
-      22943,
-      29343,
-      37966,
-      50119,
-      65479,
-      83438,
-      109414,
-      144425,
-      28545
-    ]
-  },
-  {
-    "name": "六品堂 幼儿描红",
-    "category": "练字帖/描红本",
-    "reason": "社交平台口碑传播",
-    "currentSales": 27580,
-    "growth7d": 183,
-    "predictScore": 81,
-    "trendData": [
-      11451,
-      13210,
-      15313,
-      17794,
-      20317,
-      23310,
-      26607,
-      30645,
-      34963,
-      39967,
-      46634,
-      53200,
-      27580
-    ]
-  },
-  {
-    "name": "司马彦 成人行书字帖",
-    "category": "练字帖/描红本",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 24165,
-    "growth7d": 103,
-    "predictScore": 88,
-    "trendData": [
-      12812,
-      14013,
-      14964,
-      16014,
-      17276,
-      19234,
-      21420,
-      23809,
-      25539,
-      27540,
-      30208,
-      32392,
-      24165
-    ]
-  },
-  {
-    "name": "施耐德 圆珠笔芯 替换",
-    "category": "圆珠笔",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 10140,
-    "growth7d": 151,
+    "currentSales": 62934,
+    "growth7d": 144,
     "predictScore": 69,
     "trendData": [
-      4547,
-      5223,
-      5754,
-      6372,
-      7170,
-      8160,
-      9333,
-      10743,
-      12102,
-      13873,
-      15825,
-      18153,
-      10140
+      29087,
+      32766,
+      36642,
+      41355,
+      46725,
+      51323,
+      57101,
+      64977,
+      72299,
+      82283,
+      93834,
+      105218,
+      62934
     ]
   },
   {
-    "name": "百乐 油性圆珠笔",
-    "category": "圆珠笔",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 76768,
-    "growth7d": 393,
+    "name": "田英章 楷书练字帖",
+    "category": "练字帖/描红本",
+    "reason": "直播间持续爆单",
+    "currentSales": 24838,
+    "growth7d": 220,
+    "predictScore": 93,
+    "trendData": [
+      9075,
+      10734,
+      12494,
+      14941,
+      17509,
+      21027,
+      25074,
+      29770,
+      35821,
+      41989,
+      49593,
+      58073,
+      24838
+    ]
+  },
+  {
+    "name": "墨点 幼儿描红",
+    "category": "练字帖/描红本",
+    "reason": "社交平台口碑传播",
+    "currentSales": 77587,
+    "growth7d": 107,
     "predictScore": 97,
     "trendData": [
-      20424,
-      26529,
-      35054,
-      46612,
-      61650,
-      80751,
-      107256,
-      139135,
-      180654,
-      238340,
-      307597,
-      402821,
-      76768
+      40148,
+      44057,
+      49080,
+      52507,
+      58009,
+      63295,
+      70056,
+      75421,
+      84213,
+      94079,
+      104434,
+      111994,
+      77587
+    ]
+  },
+  {
+    "name": "六品堂 成人行书字帖",
+    "category": "练字帖/描红本",
+    "reason": "考试/暑假场景需求激增",
+    "currentSales": 68391,
+    "growth7d": 98,
+    "predictScore": 72,
+    "trendData": [
+      37528,
+      41128,
+      44315,
+      47866,
+      52310,
+      57225,
+      63272,
+      68586,
+      73091,
+      80473,
+      85915,
+      93612,
+      68391
+    ]
+  },
+  {
+    "name": "得力 圆珠笔芯 替换",
+    "category": "圆珠笔",
+    "reason": "抖音短视频播放量暴增",
+    "currentSales": 22625,
+    "growth7d": 333,
+    "predictScore": 87,
+    "trendData": [
+      6590,
+      8415,
+      10862,
+      14007,
+      17540,
+      22487,
+      27973,
+      35601,
+      44238,
+      56480,
+      72593,
+      93491,
+      22625
+    ]
+  },
+  {
+    "name": "得力 油性圆珠笔",
+    "category": "圆珠笔",
+    "reason": "小红书种草笔记爆发",
+    "currentSales": 68904,
+    "growth7d": 244,
+    "predictScore": 77,
+    "trendData": [
+      24155,
+      28801,
+      35166,
+      42732,
+      50429,
+      60714,
+      73961,
+      86869,
+      103441,
+      125473,
+      148746,
+      177117,
+      68904
     ]
   },
   {
     "name": "施耐德 多功能圆珠笔",
     "category": "圆珠笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 15297,
-    "growth7d": 285,
-    "predictScore": 97,
+    "currentSales": 33545,
+    "growth7d": 178,
+    "predictScore": 80,
     "trendData": [
-      4829,
-      5893,
-      7352,
-      9073,
-      11210,
-      13543,
-      16680,
-      20454,
-      24657,
-      30070,
-      36984,
-      44591,
-      15297
+      13910,
+      16177,
+      18428,
+      21430,
+      24728,
+      27801,
+      32028,
+      37297,
+      42306,
+      49309,
+      55362,
+      63031,
+      33545
     ]
   },
   {
-    "name": "得力 圆珠笔 旋转出芯",
+    "name": "施耐德 圆珠笔 旋转出芯",
     "category": "圆珠笔",
     "reason": "直播间持续爆单",
-    "currentSales": 37241,
-    "growth7d": 384,
-    "predictScore": 86,
+    "currentSales": 68752,
+    "growth7d": 140,
+    "predictScore": 81,
     "trendData": [
-      10157,
-      13410,
-      17746,
-      23177,
-      30186,
-      39738,
-      51060,
-      65460,
-      84235,
-      109497,
-      143144,
-      189784,
-      37241
+      32729,
+      36887,
+      41556,
+      45869,
+      50463,
+      57481,
+      63529,
+      69702,
+      76673,
+      86389,
+      96305,
+      109493,
+      68752
     ]
   },
   {
-    "name": "施耐德 透明杆圆珠笔",
+    "name": "百乐 透明杆圆珠笔",
     "category": "圆珠笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 20907,
-    "growth7d": 286,
-    "predictScore": 98,
+    "currentSales": 41787,
+    "growth7d": 132,
+    "predictScore": 87,
     "trendData": [
-      6671,
-      8231,
-      9931,
-      12139,
-      14870,
-      18602,
-      22470,
-      27630,
-      33882,
-      41584,
-      51172,
-      63987,
-      20907
+      20311,
+      22652,
+      24677,
+      26997,
+      29927,
+      32643,
+      36558,
+      41265,
+      45843,
+      49859,
+      54932,
+      60093,
+      41787
     ]
   },
   {
-    "name": "晨光 圆珠笔 粗杆",
+    "name": "百乐 圆珠笔 粗杆",
     "category": "圆珠笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 55597,
-    "growth7d": 110,
-    "predictScore": 73,
+    "currentSales": 25169,
+    "growth7d": 230,
+    "predictScore": 79,
     "trendData": [
-      28699,
-      31346,
-      34025,
-      37823,
-      41786,
-      45456,
-      48949,
-      54046,
-      59008,
-      63839,
-      70372,
-      76413,
-      55597
+      9120,
+      10805,
+      12888,
+      15205,
+      18162,
+      21861,
+      26436,
+      31881,
+      38064,
+      46090,
+      54835,
+      64893,
+      25169
     ]
   },
   {
-    "name": "绘儿乐 水溶性蜡笔",
+    "name": "晨光 水溶性蜡笔",
     "category": "蜡笔",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 10682,
-    "growth7d": 170,
-    "predictScore": 93,
+    "currentSales": 12307,
+    "growth7d": 193,
+    "predictScore": 67,
     "trendData": [
-      4478,
-      5195,
-      6001,
-      6911,
-      7727,
-      8850,
-      10024,
-      11398,
-      13105,
-      14764,
-      17197,
-      19721,
-      10682
+      4946,
+      5642,
+      6441,
+      7391,
+      8529,
+      9888,
+      11637,
+      13224,
+      15472,
+      17898,
+      20800,
+      23699,
+      12307
     ]
   },
   {
-    "name": "真彩 荧光蜡笔",
+    "name": "绘儿乐 荧光蜡笔",
     "category": "蜡笔",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 55091,
-    "growth7d": 315,
-    "predictScore": 71,
+    "currentSales": 13110,
+    "growth7d": 158,
+    "predictScore": 79,
     "trendData": [
-      16737,
-      21268,
-      26962,
-      33422,
-      41751,
-      52605,
-      65973,
-      82509,
-      102532,
-      130472,
-      164725,
-      208088,
-      55091
+      5720,
+      6519,
+      7230,
+      8041,
+      9214,
+      10610,
+      12077,
+      13497,
+      15316,
+      17522,
+      20144,
+      22608,
+      13110
     ]
   },
   {
     "name": "马利 三角蜡笔 幼儿",
     "category": "蜡笔",
     "reason": "618期间搜索量飙升",
-    "currentSales": 57760,
-    "growth7d": 267,
-    "predictScore": 94,
-    "trendData": [
-      18876,
-      23318,
-      28568,
-      34973,
-      42913,
-      52493,
-      63866,
-      78092,
-      96545,
-      117188,
-      142264,
-      169511,
-      57760
-    ]
-  },
-  {
-    "name": "马利 蜡笔 48色 专业",
-    "category": "蜡笔",
-    "reason": "直播间持续爆单",
-    "currentSales": 45937,
-    "growth7d": 392,
+    "currentSales": 74157,
+    "growth7d": 212,
     "predictScore": 92,
     "trendData": [
-      12300,
-      16387,
-      21790,
-      28972,
-      37551,
-      48966,
-      64929,
-      84014,
-      110659,
-      146682,
-      191164,
-      254567,
-      45937
+      27993,
+      32176,
+      37323,
+      44682,
+      52634,
+      60535,
+      72129,
+      85911,
+      99305,
+      118468,
+      136844,
+      158154,
+      74157
     ]
   },
   {
-    "name": "晨光 人体彩绘蜡笔",
+    "name": "绘儿乐 蜡笔 48色 专业",
+    "category": "蜡笔",
+    "reason": "直播间持续爆单",
+    "currentSales": 42666,
+    "growth7d": 381,
+    "predictScore": 68,
+    "trendData": [
+      11644,
+      15349,
+      19741,
+      25834,
+      34239,
+      45337,
+      59614,
+      77734,
+      100563,
+      128535,
+      166504,
+      216424,
+      42666
+    ]
+  },
+  {
+    "name": "马利 人体彩绘蜡笔",
     "category": "蜡笔",
     "reason": "社交平台口碑传播",
-    "currentSales": 14234,
-    "growth7d": 389,
-    "predictScore": 82,
+    "currentSales": 75987,
+    "growth7d": 158,
+    "predictScore": 78,
     "trendData": [
-      3751,
-      4929,
-      6426,
-      8564,
-      11202,
-      14615,
-      19357,
-      25309,
-      33197,
-      43537,
-      56351,
-      73824,
-      14234
+      33426,
+      37901,
+      42280,
+      47309,
+      52658,
+      60092,
+      68132,
+      77103,
+      89139,
+      98841,
+      113094,
+      126245,
+      75987
     ]
   },
   {
-    "name": "晨光 布料蜡笔",
+    "name": "马利 布料蜡笔",
     "category": "蜡笔",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 17029,
-    "growth7d": 118,
-    "predictScore": 91,
+    "currentSales": 51946,
+    "growth7d": 361,
+    "predictScore": 86,
     "trendData": [
-      8534,
-      9315,
-      10283,
-      11351,
-      12276,
-      13665,
-      14906,
-      16360,
-      18188,
-      19755,
-      21900,
-      24094,
-      17029
+      14697,
+      18705,
+      24454,
+      31269,
+      40502,
+      53163,
+      69756,
+      89091,
+      113275,
+      143856,
+      188607,
+      240757,
+      51946
     ]
   },
   {
-    "name": "九木 夜光书签",
+    "name": "敦煌 夜光书签",
     "category": "书签",
     "reason": "抖音短视频播放量暴增",
-    "currentSales": 11224,
-    "growth7d": 189,
-    "predictScore": 83,
+    "currentSales": 71989,
+    "growth7d": 373,
+    "predictScore": 80,
     "trendData": [
-      4421,
-      5180,
-      6001,
-      6876,
-      7982,
-      9200,
-      10777,
-      12642,
-      14829,
-      17154,
-      19537,
-      22397,
-      11224
+      19639,
+      25540,
+      32914,
+      42837,
+      55772,
+      71548,
+      93434,
+      121111,
+      156664,
+      201013,
+      258321,
+      332465,
+      71989
     ]
   },
   {
-    "name": "手工 书签尺 多功能",
+    "name": "晨光 书签尺 多功能",
     "category": "书签",
     "reason": "小红书种草笔记爆发",
-    "currentSales": 33415,
-    "growth7d": 237,
-    "predictScore": 77,
+    "currentSales": 27316,
+    "growth7d": 392,
+    "predictScore": 82,
     "trendData": [
-      11997,
-      14307,
-      17370,
-      20835,
-      24498,
-      29645,
-      34982,
-      42121,
-      49995,
-      58778,
-      69621,
-      84723,
-      33415
+      7171,
+      9559,
+      12363,
+      16138,
+      21106,
+      27335,
+      35659,
+      46596,
+      61736,
+      81571,
+      106857,
+      138921,
+      27316
     ]
   },
   {
     "name": "手工 刺绣书签",
     "category": "书签",
     "reason": "618期间搜索量飙升",
-    "currentSales": 30224,
-    "growth7d": 249,
-    "predictScore": 91,
+    "currentSales": 44768,
+    "growth7d": 246,
+    "predictScore": 70,
     "trendData": [
-      10247,
-      12299,
-      14793,
-      17964,
-      21890,
-      26014,
-      31261,
-      38114,
-      46390,
-      56043,
-      67142,
-      79052,
-      30224
+      15563,
+      18457,
+      21794,
+      25748,
+      30950,
+      36396,
+      42983,
+      52338,
+      61629,
+      75212,
+      89313,
+      109223,
+      44768
     ]
   },
   {
-    "name": "故宫文创 定制书签",
+    "name": "九木 定制书签",
     "category": "书签",
     "reason": "直播间持续爆单",
-    "currentSales": 54633,
-    "growth7d": 80,
-    "predictScore": 97,
+    "currentSales": 16581,
+    "growth7d": 301,
+    "predictScore": 89,
     "trendData": [
-      32427,
-      33988,
-      37043,
-      39154,
-      42820,
-      46903,
-      50229,
-      53228,
-      55961,
-      59039,
-      62172,
-      67852,
-      54633
+      5112,
+      6453,
+      8058,
+      9803,
+      12289,
+      15512,
+      19044,
+      24068,
+      29855,
+      36801,
+      45232,
+      57253,
+      16581
     ]
   },
   {
     "name": "晨光 透明亚克力书签",
     "category": "书签",
     "reason": "社交平台口碑传播",
-    "currentSales": 77561,
-    "growth7d": 172,
-    "predictScore": 65,
+    "currentSales": 40187,
+    "growth7d": 183,
+    "predictScore": 69,
     "trendData": [
-      32763,
-      37616,
-      43445,
-      49827,
-      57055,
-      66307,
-      75907,
-      86475,
-      99523,
-      114403,
-      132928,
-      149351,
-      77561
+      16208,
+      18668,
+      21298,
+      24346,
+      28407,
+      32407,
+      37167,
+      42141,
+      48483,
+      54752,
+      62192,
+      70765,
+      40187
     ]
   },
   {
-    "name": "手工 永生花书签",
+    "name": "敦煌 永生花书签",
     "category": "书签",
     "reason": "考试/暑假场景需求激增",
-    "currentSales": 48461,
-    "growth7d": 126,
-    "predictScore": 75,
-    "trendData": [
-      23609,
-      25751,
-      28900,
-      31675,
-      35105,
-      38208,
-      42209,
-      46047,
-      52110,
-      56822,
-      63344,
-      70596,
-      48461
-    ]
-  },
-  {
-    "name": "得力 手持吸尘器 桌面",
-    "category": "桌面吸尘器",
-    "reason": "抖音短视频播放量暴增",
-    "currentSales": 11767,
-    "growth7d": 208,
-    "predictScore": 73,
-    "trendData": [
-      4563,
-      5399,
-      6273,
-      7464,
-      8611,
-      9987,
-      11587,
-      13429,
-      15392,
-      18271,
-      21249,
-      24352,
-      11767
-    ]
-  },
-  {
-    "name": "得力 可爱卡通吸尘器",
-    "category": "桌面吸尘器",
-    "reason": "小红书种草笔记爆发",
-    "currentSales": 11738,
-    "growth7d": 159,
-    "predictScore": 84,
-    "trendData": [
-      5027,
-      5602,
-      6221,
-      6902,
-      7954,
-      8831,
-      10208,
-      11305,
-      12788,
-      14436,
-      16694,
-      18707,
-      11738
-    ]
-  },
-  {
-    "name": "美的 大吸力桌面吸尘",
-    "category": "桌面吸尘器",
-    "reason": "618期间搜索量飙升",
-    "currentSales": 72687,
-    "growth7d": 231,
-    "predictScore": 88,
-    "trendData": [
-      25632,
-      29866,
-      35254,
-      42463,
-      51381,
-      61840,
-      73386,
-      85547,
-      102482,
-      123219,
-      145656,
-      169432,
-      72687
-    ]
-  },
-  {
-    "name": "晨光 静音吸尘器",
-    "category": "桌面吸尘器",
-    "reason": "直播间持续爆单",
-    "currentSales": 63328,
-    "growth7d": 88,
-    "predictScore": 70,
-    "trendData": [
-      35894,
-      38052,
-      41715,
-      45075,
-      49011,
-      53072,
-      56361,
-      60397,
-      65330,
-      70598,
-      77590,
-      85131,
-      63328
-    ]
-  },
-  {
-    "name": "晨光 多功能桌面清洁",
-    "category": "桌面吸尘器",
-    "reason": "社交平台口碑传播",
-    "currentSales": 70888,
-    "growth7d": 274,
-    "predictScore": 82,
-    "trendData": [
-      22838,
-      28036,
-      33685,
-      40641,
-      49884,
-      60611,
-      73371,
-      89243,
-      110259,
-      135941,
-      166515,
-      205215,
-      70888
-    ]
-  },
-  {
-    "name": "小米 吸尘器 配件刷头",
-    "category": "桌面吸尘器",
-    "reason": "考试/暑假场景需求激增",
-    "currentSales": 79893,
-    "growth7d": 134,
+    "currentSales": 78723,
+    "growth7d": 173,
     "predictScore": 93,
     "trendData": [
-      37880,
-      41289,
-      45033,
-      49007,
-      55624,
-      61947,
-      69298,
-      78606,
-      86593,
-      94793,
-      106262,
-      119949,
-      79893
+      33667,
+      39234,
+      44197,
+      50040,
+      57583,
+      64847,
+      72600,
+      83708,
+      96563,
+      109473,
+      124475,
+      139934,
+      78723
     ]
   }
 ]
