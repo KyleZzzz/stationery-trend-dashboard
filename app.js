@@ -300,13 +300,12 @@ function renderTrendDataTable() {
     renderPush('platformPushDouyin', '抖音');
 }
 
-// 潜在爆发商品：按爆发指数降序，全品类top20，分品类top10
+// 潜在爆发商品：按搜索环比增长降序top10
 function renderEmergingList() {
     const container = document.getElementById('emergingList');
-    const limit = currentCategory === 'all' ? 20 : 10;
     const filtered = filterByCategory(DASHBOARD_DATA.emergingProducts)
-        .sort((a, b) => b.predictScore - a.predictScore)
-        .slice(0, limit);
+        .sort((a, b) => b.searchGrowth - a.searchGrowth)
+        .slice(0, 10);
     if (filtered.length === 0) {
         container.innerHTML = '<div class="text-center text-gray-400 py-4">当前品类暂无爆发商品数据</div>';
         return;
@@ -318,24 +317,24 @@ function renderEmergingList() {
                     <span class="text-sm font-bold ${i < 3 ? 'text-red-500' : 'text-gray-600'}">#${i + 1}</span>
                     <span class="font-medium text-gray-900 text-sm">${p.name}</span>
                 </div>
-                <span class="px-2 py-0.5 text-xs rounded-full ${p.predictScore >= 90 ? 'hot-badge' : p.predictScore >= 85 ? 'warm-badge' : 'new-badge'} font-bold">
-                    爆发指数 ${p.predictScore}
+                <span class="px-2 py-0.5 text-xs rounded-full ${p.searchGrowth >= 300 ? 'hot-badge' : p.searchGrowth >= 150 ? 'warm-badge' : 'new-badge'} font-bold">
+                    搜索↑${p.searchGrowth}%
                 </span>
             </div>
             <div class="text-xs text-gray-500 mb-1.5">${p.reason}</div>
             <div class="flex items-center gap-4 text-xs">
-                <span class="text-gray-600">当前销量: <b>${formatNum(p.currentSales)}</b></span>
-                <span class="trend-up font-bold">↑ 7日增长 ${p.growth7d}%</span>
+                <span class="text-gray-600">曝光环比: <b class="trend-up">↑${p.exposureGrowth}%</b></span>
+                <span class="text-gray-600">爆发指数: <b>${p.predictScore}</b></span>
             </div>
         </div>
     `).join('');
 }
 
-// 潜在爆发商品走势图：按爆发指数降序top10
+// 潜在爆发走势图：按搜索增长降序top10
 function renderEmergingTrendChart() {
     const chart = echarts.init(document.getElementById('emergingTrendChart'));
     const products = filterByCategory(DASHBOARD_DATA.emergingProducts)
-        .sort((a, b) => b.predictScore - a.predictScore)
+        .sort((a, b) => b.searchGrowth - a.searchGrowth)
         .slice(0, 10);
     const days = Array.from({ length: 13 }, (_, i) => {
         const d = new Date('2026-06-05');

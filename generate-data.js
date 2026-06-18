@@ -80,18 +80,47 @@ function generateData() {
 
   function genHotwords(categories, timeSeed, factor) {
     const hotwords = [];
-    const wordTemplates = ['推荐', '测评', '平替', '学生党必备', '性价比', '好物分享', '618必买', '暑假', '考试用', '开箱'];
+    // 通用热搜词（不带品类前缀）
+    const GENERAL_WORDS = [
+      '618文具必买清单', '学生党开学囤货', '高考加油文具', '暑假手工推荐',
+      '考试必备好物', '平价好用文具', '毕业礼物送什么', '文具收纳技巧',
+      '刷题神器', '高颜值文具分享', '考研必备文具', '解压文具合集',
+      '直播间文具好物', '一支笔用到毕业', '学生书桌整理', '世界杯手绘',
+      '手账入坑指南', '便宜好用中性笔', '小学生开学必备', '网红文具测评',
+      '文具盲盒开箱', '考试透明袋要求', '暑假绘画入门', '618办公囤货',
+      '高中生文具推荐', '好写不贵的笔', '儿童安全文具', '电动文具黑科技',
+      '期末考试文具', '书桌好物分享', '文具礼盒送人', '无印良品平替',
+      '彩色笔套装推荐', '大容量笔袋推荐', '练字用什么笔', '国产文具之光'
+    ];
+    // 带品类的热搜词模板
+    const CAT_TEMPLATES = ['推荐', '测评', '618必买', '学生用'];
+
+    // 通用词（分配到相关品类）
+    const rngG = seededRandom(timeSeed * 999);
+    GENERAL_WORDS.forEach((word, i) => {
+      const cat = categories[i % categories.length];
+      hotwords.push({
+        word,
+        category: cat,
+        platforms: {
+          taobao: Math.round(randRange(2000000, 18000000, rngG) * factor),
+          douyin: Math.round(randRange(5000000, 35000000, rngG) * factor),
+          xhs: Math.round(randRange(2000000, 20000000, rngG) * factor)
+        }
+      });
+    });
+
+    // 带品类的词（每品类4个）
     categories.forEach((cat, ci) => {
-      const cfg = CATEGORIES_CONFIG[cat];
       const rng = seededRandom(ci * 2000 + timeSeed);
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i < 4; i++) {
         hotwords.push({
-          word: `${cat}${wordTemplates[i]}`,
+          word: `${cat}${CAT_TEMPLATES[i]}`,
           category: cat,
           platforms: {
-            taobao: Math.round(randRange(1000000, 15000000, rng) * factor),
-            douyin: Math.round(randRange(3000000, 30000000, rng) * factor),
-            xhs: Math.round(randRange(1000000, 18000000, rng) * factor)
+            taobao: Math.round(randRange(1000000, 12000000, rng) * factor),
+            douyin: Math.round(randRange(3000000, 25000000, rng) * factor),
+            xhs: Math.round(randRange(1000000, 15000000, rng) * factor)
           }
         });
       }
@@ -172,22 +201,27 @@ function generateData() {
     }
   });
 
-  // emerging products (shared, 6 per category)
+  // emerging products - focus on search/exposure growth rate
   const emergingProducts = [];
   const reasons = [
-    '抖音短视频播放量暴增', '小红书种草笔记爆发', '618期间搜索量飙升',
-    '直播间持续爆单', '社交平台口碑传播', '考试/暑假场景需求激增'
+    '搜索量环比暴增，抖音话题播放量激增',
+    '小红书种草笔记7天增长300%+',
+    '618大促搜索量环比翻倍，曝光飙升',
+    '直播间曝光环比增长200%，持续爆单',
+    '全平台搜索指数飙升，社交讨论度激增',
+    '考试/暑假场景驱动，搜索环比增长显著'
   ];
   categories.forEach((cat, ci) => {
     const cfg = CATEGORIES_CONFIG[cat];
     const rng = seededRandom(ci * 5000 + 33);
     for (let i = 0; i < 6; i++) {
-      const growth7d = randRange(80, 400, rng);
+      const searchGrowth = randRange(80, 500, rng);
+      const exposureGrowth = randRange(60, 450, rng);
       const currentSales = randRange(8000, 70000, rng);
       const trendData = [];
-      let base = Math.round(currentSales / (1 + growth7d / 100));
+      let base = Math.round(currentSales / (1 + searchGrowth / 200));
       for (let d = 0; d < 13; d++) {
-        base = Math.round(base * (1 + (growth7d / 100) / 13 + (rng() - 0.3) * 0.05));
+        base = Math.round(base * (1 + (searchGrowth / 100) / 13 + (rng() - 0.3) * 0.05));
         trendData.push(base);
       }
       trendData[12] = currentSales;
@@ -196,7 +230,8 @@ function generateData() {
         category: cat,
         reason: reasons[i % reasons.length],
         currentSales,
-        growth7d,
+        searchGrowth,
+        exposureGrowth,
         predictScore: randRange(65, 98, rng),
         trendData
       });
