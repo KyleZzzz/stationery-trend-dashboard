@@ -80,47 +80,66 @@ function generateData() {
 
   function genHotwords(categories, timeSeed, factor) {
     const hotwords = [];
-    // 通用热搜词（不带品类前缀）
-    const GENERAL_WORDS = [
-      '618文具必买清单', '学生党开学囤货', '高考加油文具', '暑假手工推荐',
-      '考试必备好物', '平价好用文具', '毕业礼物送什么', '文具收纳技巧',
-      '刷题神器', '高颜值文具分享', '考研必备文具', '解压文具合集',
-      '直播间文具好物', '一支笔用到毕业', '学生书桌整理', '世界杯手绘',
-      '手账入坑指南', '便宜好用中性笔', '小学生开学必备', '网红文具测评',
-      '文具盲盒开箱', '考试透明袋要求', '暑假绘画入门', '618办公囤货',
-      '高中生文具推荐', '好写不贵的笔', '儿童安全文具', '电动文具黑科技',
-      '期末考试文具', '书桌好物分享', '文具礼盒送人', '无印良品平替',
-      '彩色笔套装推荐', '大容量笔袋推荐', '练字用什么笔', '国产文具之光'
+    // Top-level general hotwords with realistic exposure (high-traffic generic queries)
+    const TOP_WORDS = [
+      { word: '618文具必买清单', category: '学习套装/礼盒/盲盒', base: { taobao: 15000000, douyin: 28000000, xhs: 12000000 } },
+      { word: '学生党开学囤货', category: '学习套装/礼盒/盲盒', base: { taobao: 12000000, douyin: 22000000, xhs: 9000000 } },
+      { word: '高考加油文具', category: '中性笔', base: { taobao: 10000000, douyin: 18000000, xhs: 7000000 } },
+      { word: '考试必备好物', category: '中性笔', base: { taobao: 11000000, douyin: 20000000, xhs: 8000000 } },
+      { word: '平价好用文具', category: '中性笔', base: { taobao: 9000000, douyin: 25000000, xhs: 14000000 } },
+      { word: '高颜值文具分享', category: '文创用品', base: { taobao: 5000000, douyin: 20000000, xhs: 18000000 } },
+      { word: '刷题神器', category: '中性笔', base: { taobao: 8000000, douyin: 15000000, xhs: 6000000 } },
+      { word: '暑假手工推荐', category: '手工DIY套装', base: { taobao: 6000000, douyin: 16000000, xhs: 10000000 } },
+      { word: '毕业礼物送什么', category: '笔类套装/礼盒', base: { taobao: 7000000, douyin: 12000000, xhs: 15000000 } },
+      { word: '文具收纳技巧', category: '文具收纳盒', base: { taobao: 4000000, douyin: 14000000, xhs: 11000000 } },
+      { word: '一支笔用到毕业', category: '中性笔', base: { taobao: 3000000, douyin: 22000000, xhs: 8000000 } },
+      { word: '解压文具合集', category: '橡皮擦', base: { taobao: 4000000, douyin: 19000000, xhs: 12000000 } },
+      { word: '好写不贵的笔', category: '中性笔', base: { taobao: 8000000, douyin: 18000000, xhs: 9000000 } },
+      { word: '网红文具测评', category: '文创用品', base: { taobao: 3000000, douyin: 24000000, xhs: 16000000 } },
+      { word: '文具盲盒开箱', category: '学习套装/礼盒/盲盒', base: { taobao: 4000000, douyin: 20000000, xhs: 13000000 } },
+      { word: '世界杯手绘', category: '马克笔', base: { taobao: 2000000, douyin: 15000000, xhs: 8000000 } },
+      { word: '电动文具黑科技', category: '文具盒/笔袋/痛包笔袋', base: { taobao: 5000000, douyin: 18000000, xhs: 7000000 } },
+      { word: '小学生开学必备', category: '学习套装/礼盒/盲盒', base: { taobao: 9000000, douyin: 12000000, xhs: 5000000 } },
+      { word: '便宜好用中性笔', category: '中性笔', base: { taobao: 7000000, douyin: 13000000, xhs: 6000000 } },
+      { word: '手账入坑指南', category: '手帐', base: { taobao: 3000000, douyin: 12000000, xhs: 16000000 } },
+      { word: '书桌好物分享', category: '桌面收纳架', base: { taobao: 4000000, douyin: 11000000, xhs: 13000000 } },
+      { word: '儿童安全文具', category: '水彩笔', base: { taobao: 6000000, douyin: 9000000, xhs: 4000000 } },
+      { word: '期末考试文具', category: '中性笔', base: { taobao: 8000000, douyin: 14000000, xhs: 5000000 } },
+      { word: '大容量笔袋推荐', category: '文具盒/笔袋/痛包笔袋', base: { taobao: 5000000, douyin: 10000000, xhs: 9000000 } },
+      { word: '国产文具之光', category: '中性笔', base: { taobao: 4000000, douyin: 16000000, xhs: 11000000 } },
+      { word: '马克笔画画教程', category: '马克笔', base: { taobao: 2000000, douyin: 20000000, xhs: 9000000 } },
+      { word: '练字用什么笔好', category: '钢笔', base: { taobao: 5000000, douyin: 8000000, xhs: 6000000 } },
+      { word: '百乐笔推荐', category: '中性笔', base: { taobao: 6000000, douyin: 9000000, xhs: 7000000 } },
+      { word: '斑马笔哪款好', category: '荧光笔', base: { taobao: 5000000, douyin: 8000000, xhs: 8000000 } },
+      { word: '晨光得力哪个好', category: '中性笔', base: { taobao: 7000000, douyin: 10000000, xhs: 5000000 } }
     ];
-    // 带品类的热搜词模板
-    const CAT_TEMPLATES = ['推荐', '测评', '618必买', '学生用'];
 
-    // 通用词（分配到相关品类）
     const rngG = seededRandom(timeSeed * 999);
-    GENERAL_WORDS.forEach((word, i) => {
-      const cat = categories[i % categories.length];
+    TOP_WORDS.forEach(w => {
       hotwords.push({
-        word,
-        category: cat,
+        word: w.word,
+        category: w.category,
         platforms: {
-          taobao: Math.round(randRange(2000000, 18000000, rngG) * factor),
-          douyin: Math.round(randRange(5000000, 35000000, rngG) * factor),
-          xhs: Math.round(randRange(2000000, 20000000, rngG) * factor)
+          taobao: Math.round(w.base.taobao * factor * (0.85 + rngG() * 0.3)),
+          douyin: Math.round(w.base.douyin * factor * (0.85 + rngG() * 0.3)),
+          xhs: Math.round(w.base.xhs * factor * (0.85 + rngG() * 0.3))
         }
       });
     });
 
-    // 带品类的词（每品类4个）
-    categories.forEach((cat, ci) => {
+    // Per-category specific words (lower exposure, only high-freq categories)
+    const HIGH_CATS = ['中性笔','铅笔','橡皮擦','笔记本/记事本','荧光笔','马克笔','手帐','文具盒/笔袋/痛包笔袋','修正带','书皮/书套','水彩笔','学习套装/礼盒/盲盒'];
+    const CAT_SUFFIXES = ['推荐', '618必买', '测评'];
+    HIGH_CATS.forEach((cat, ci) => {
       const rng = seededRandom(ci * 2000 + timeSeed);
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 3; i++) {
         hotwords.push({
-          word: `${cat}${CAT_TEMPLATES[i]}`,
+          word: `${cat}${CAT_SUFFIXES[i]}`,
           category: cat,
           platforms: {
-            taobao: Math.round(randRange(1000000, 12000000, rng) * factor),
-            douyin: Math.round(randRange(3000000, 25000000, rng) * factor),
-            xhs: Math.round(randRange(1000000, 15000000, rng) * factor)
+            taobao: Math.round(randRange(2000000, 8000000, rng) * factor),
+            douyin: Math.round(randRange(4000000, 15000000, rng) * factor),
+            xhs: Math.round(randRange(2000000, 10000000, rng) * factor)
           }
         });
       }
@@ -301,9 +320,9 @@ function generateData() {
 const generated = generateData();
 
 const promoActivities = [
-  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢收官·跨店满减', highlights: ['跨店每满300减50 最后一天', '文具品类额外满200减25券', '重点直播间：天猫文具旗舰店、得力官方、晨光官方'], badge: '今日生效', period: '6.18 最终日' },
+  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢收官·跨店满减', highlights: ['跨店每满300减50 最后一天', '文具品类额外满200减25券', '店播关注：得力旗舰店、晨光旗舰店、斑马旗舰店、国誉旗舰店'], badge: '今日生效', period: '6.18 最终日' },
   { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具最后冲刺', highlights: ['文具专区今日加码再降10%', '9.9特卖文具最后场', '品牌文具百亿补贴直降'], badge: '今日生效', period: '6.18 最后冲刺' },
-  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播收官', highlights: ['重点直播间：疯狂小杨哥文具专场、晨光旗舰店、交个朋友文具场', '今日整点文具秒杀 最后3场', '粉丝券满50减15 限今日'], badge: '今日生效', period: '6.18 收官日' },
+  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播收官', highlights: ['店播关注：得力文具旗舰店、晨光官方旗舰店、斑马文具旗舰店', '达人场关注：小小莎老师、办公室小野、我是学霸', '粉丝券满50减15 限今日'], badge: '今日生效', period: '6.18 收官日' },
   { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具最后一天', highlights: ['笔记种草领满99减20券 今日最后', '文具集合店免邮 收官日加码', '学生专属满3件85折'], badge: '今日生效', period: '6.18 最后一天' }
 ];
 
