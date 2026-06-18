@@ -135,38 +135,95 @@ function generateData() {
   const hotwordsToday = genHotwords(categories, 77, 0.15);
   const hotwords7d = genHotwords(categories, 42, 1);
 
-  // seasonal trends (shared across time ranges, growth rates differ)
+  // seasonal trends - hand-curated: each trend only has logically related products
   const seasonalTrends = [];
-  const TREND_TAGS = [
-    { tag: 'exam', label: '中高考文具' },
-    { tag: 'summer', label: '暑假文创/DIY' },
-    { tag: '618', label: '618大促热卖' },
-    { tag: 'office', label: '办公文具热点' },
-    { tag: 'worldcup', label: '世界杯相关' },
-    { tag: 'graduation', label: '毕业季' }
-  ];
-  categories.forEach((cat, ci) => {
-    const rng = seededRandom(ci * 3000 + 99);
-    for (let i = 0; i < 6; i++) {
-      const trend = TREND_TAGS[i];
-      const suffixes = {
-        exam: ['考试必备','中高考冲刺','考场专用'],
-        summer: ['暑假必囤','暑期手工创作','假期绘画'],
-        '618': ['618爆款','年中大促热卖','618囤货首选'],
-        office: ['办公高效','职场必备','桌面整理'],
-        worldcup: ['世界杯主题','球迷手绘','足球元素款'],
-        graduation: ['毕业纪念','毕业礼物','离校必备']
-      };
-      const suffix = suffixes[trend.tag][Math.floor(rng() * 3)];
+  const TREND_DATA = {
+    exam: { label: '中高考文具', items: [
+      { name: '考试速干中性笔套装', category: '中性笔' },
+      { name: '2B涂卡铅笔 考试专用 30支', category: '铅笔' },
+      { name: '考试专用橡皮 不留痕 超净', category: '橡皮擦' },
+      { name: '考试修正带 细头6mm', category: '修正带' },
+      { name: '透明文具袋 考场规定款', category: '按扣/拉链文件资料袋/收纳袋' },
+      { name: '速干笔芯 ST头 考试用', category: '笔芯/替芯/笔壳' },
+      { name: '划重点荧光笔 淡色护眼', category: '荧光笔' },
+      { name: '错题本 活页B5 分科', category: '笔记本/记事本' },
+      { name: '中高考文具礼盒 全套', category: '学习套装/礼盒/盲盒' },
+      { name: '答题卡专用笔 0.5mm', category: '中性笔' }
+    ]},
+    summer: { label: '暑假文创/DIY', items: [
+      { name: '暑假手工材料包 100件创意', category: '手工DIY套装' },
+      { name: '可水洗水彩笔 36色 儿童', category: '水彩笔' },
+      { name: '马克笔套装 80色 动漫手绘', category: '马克笔' },
+      { name: '水溶彩铅 48色 风景写生', category: '彩色铅笔' },
+      { name: '旋转蜡笔 不脏手 幼儿绘画', category: '蜡笔' },
+      { name: '素描纸 A4 160g 暑假练习', category: '画纸/画本' },
+      { name: '丙烯颜料 DIY手绘 24色', category: '美术颜料' },
+      { name: '咕卡套装 暑假手工 全套', category: '拼豆/咕卡套装' },
+      { name: '手账大礼盒 假期生活记录', category: '手帐' },
+      { name: '创意书签DIY材料包', category: '书签' }
+    ]},
+    '618': { label: '618大促热卖', items: [
+      { name: '晨光中性笔 50支量贩囤货', category: '中性笔' },
+      { name: '国誉笔记本套装 半价囤', category: '笔记本/记事本' },
+      { name: '开学文具大礼包 618特惠', category: '学习套装/礼盒/盲盒' },
+      { name: '电动文具盒 618秒杀价', category: '文具盒/笔袋/痛包笔袋' },
+      { name: '办公文具量贩装 618囤', category: '办公文具' },
+      { name: '桌面收纳架 618买一送一', category: '桌面收纳架' },
+      { name: '3M便利贴 年中大促囤', category: '便签本/便条纸/N次贴' },
+      { name: '文具收纳盒 618折扣', category: '文具收纳盒' },
+      { name: '旋转笔筒 618特价', category: '笔筒' },
+      { name: '包书皮 整学期囤货装', category: '书皮/书套' }
+    ]},
+    office: { label: '办公文具热点', items: [
+      { name: '得力订书机 省力型 办公', category: '办公文具' },
+      { name: '3M便利贴 强粘 会议用', category: '便签本/便条纸/N次贴' },
+      { name: '多功能笔筒 办公桌面', category: '笔筒' },
+      { name: '抽屉收纳盒 办公桌整理', category: '文具收纳盒' },
+      { name: '文件收纳架 三层 办公', category: '桌面收纳架' },
+      { name: '白板笔 可擦 会议室用', category: '白板笔' },
+      { name: '油性记号笔 防水 标记', category: '记号笔' },
+      { name: '固体胶棒 办公速粘', category: '胶水' },
+      { name: '商务笔记本 皮面 A5', category: '笔记本/记事本' },
+      { name: '商务签字笔 金属杆', category: '钢笔' }
+    ]},
+    worldcup: { label: '世界杯相关', items: [
+      { name: '马克笔 球星手绘 肤色套装', category: '马克笔' },
+      { name: '速写本 赛事手绘记录', category: '画纸/画本' },
+      { name: '世界杯主题手账本', category: '手帐' },
+      { name: '足球元素贴纸 球队徽章', category: '拼豆/咕卡套装' },
+      { name: '国旗主题文具套装', category: '文创用品' },
+      { name: '世界杯观赛笔记本', category: '笔记本/记事本' },
+      { name: '足球造型金属书签', category: '书签' },
+      { name: '球队配色蜡笔 儿童画', category: '蜡笔' },
+      { name: '国旗色水彩笔 手绘', category: '水彩笔' },
+      { name: '彩铅 球星肖像画专用', category: '彩色铅笔' }
+    ]},
+    graduation: { label: '毕业季', items: [
+      { name: '火漆印章 毕业纪念套装', category: '火漆印章' },
+      { name: '钢笔礼盒 毕业送礼 刻字', category: '笔类套装/礼盒' },
+      { name: '毕业纪念钢笔 金属杆', category: '钢笔' },
+      { name: '同学录手账本 毕业留言', category: '手帐' },
+      { name: '金属书签 毕业留念 定制', category: '书签' },
+      { name: '毕业季文创礼物套装', category: '文创用品' },
+      { name: '毕业纪念笔记本 班级', category: '笔记本/记事本' },
+      { name: '毕业文具礼盒 全班定制', category: '学习套装/礼盒/盲盒' },
+      { name: '姓名贴 毕业纪念版', category: '姓名贴' },
+      { name: '毕业赠言练字帖', category: '练字帖/描红本' }
+    ]}
+  };
+
+  const trendRng = seededRandom(8888);
+  Object.entries(TREND_DATA).forEach(([tag, config]) => {
+    config.items.forEach(item => {
       seasonalTrends.push({
-        name: `${cat} ${suffix}`,
-        category: cat,
-        trend: trend.tag,
-        trendLabel: trend.label,
-        growth: randRange(20, 250, rng),
-        heat: pick(HEATS, rng)
+        name: item.name,
+        category: item.category,
+        trend: tag,
+        trendLabel: config.label,
+        growth: randRange(30, 280, trendRng),
+        heat: pick(HEATS, trendRng)
       });
-    }
+    });
   });
 
   // platform push products (per platform with exposure, sales, comments)
@@ -244,11 +301,10 @@ function generateData() {
 const generated = generateData();
 
 const promoActivities = [
-  { platform: '京东', platformKey: 'jd', title: '618高潮期·文具主会场', highlights: ['自营文具跨店每满200减30', '文具品类券满99减15叠加', '得力/晨光品牌秒杀每日10点场'], badge: '今日生效', period: '6.18 最后一天' },
-  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢日·跨店满减', highlights: ['跨店每满300减50 今日可用', '文具品类额外满200减25券', '天猫超市文具满88免运费'], badge: '今日生效', period: '6.18 最终日' },
-  { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具加码中', highlights: ['文具专区今日加码再降10%', '9.9特卖文具限量抢', '品牌文具百亿补贴直降'], badge: '今日生效', period: '6.18 最后冲刺' },
-  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播专场', highlights: ['今日整点文具秒杀场', '文具直播间粉丝券满50减15', '达人带货专属价限今日'], badge: '今日生效', period: '6.18 收官日' },
-  { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具专题', highlights: ['笔记种草领满99减20券 今日可领', '文具集合店限时免邮', '学生专属满3件85折'], badge: '今日生效', period: '6.18 最后一天' }
+  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢收官·跨店满减', highlights: ['跨店每满300减50 最后一天', '文具品类额外满200减25券', '重点直播间：天猫文具旗舰店、得力官方、晨光官方'], badge: '今日生效', period: '6.18 最终日' },
+  { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具最后冲刺', highlights: ['文具专区今日加码再降10%', '9.9特卖文具最后场', '品牌文具百亿补贴直降'], badge: '今日生效', period: '6.18 最后冲刺' },
+  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播收官', highlights: ['重点直播间：疯狂小杨哥文具专场、晨光旗舰店、交个朋友文具场', '今日整点文具秒杀 最后3场', '粉丝券满50减15 限今日'], badge: '今日生效', period: '6.18 收官日' },
+  { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具最后一天', highlights: ['笔记种草领满99减20券 今日最后', '文具集合店免邮 收官日加码', '学生专属满3件85折'], badge: '今日生效', period: '6.18 最后一天' }
 ];
 
 const output = `const CATEGORIES = ${JSON.stringify(Object.keys(CATEGORIES_CONFIG))};
