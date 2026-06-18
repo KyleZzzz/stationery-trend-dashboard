@@ -6,6 +6,7 @@
     <title>文具商品趋势监控看板 | 2026年6月</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js"></script>
     <style>
         :root {
             --jd: #e1251b;
@@ -108,31 +109,43 @@
             </div>
         </div>
 
-        <!-- Section 4: 热搜词各平台曝光量详情 -->
+        <!-- Section 3: 热搜词各平台词云 -->
         <section>
-            <h2 class="text-lg font-bold text-gray-900 mb-4">📈 热搜词各平台曝光量</h2>
-            <div class="card p-5">
-                <div id="exposureChart" style="height: 350px;"></div>
+            <h2 class="text-lg font-bold text-gray-900 mb-4">📈 热搜词各平台词云</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <div class="card p-5">
+                    <h3 class="text-sm font-semibold text-center mb-3" style="color:#ff6a00">淘宝/天猫</h3>
+                    <div id="wordcloudTaobao" style="height: 280px;"></div>
+                </div>
+                <div class="card p-5">
+                    <h3 class="text-sm font-semibold text-center mb-3" style="color:#1a1a2e">抖音</h3>
+                    <div id="wordcloudDouyin" style="height: 280px;"></div>
+                </div>
+                <div class="card p-5">
+                    <h3 class="text-sm font-semibold text-center mb-3" style="color:#e6194b">小红书</h3>
+                    <div id="wordcloudXhs" style="height: 280px;"></div>
+                </div>
             </div>
         </section>
 
-        <!-- Section 4: 趋势品各平台数据 -->
+        <!-- Section 4: 各平台主推产品 -->
         <section>
-            <h2 class="text-lg font-bold text-gray-900 mb-4">📋 趋势品各平台数据</h2>
-            <div class="card overflow-hidden">
-                <div class="scroll-x">
-                    <table class="w-full text-sm">
-                        <thead class="bg-gray-50">
-                            <tr>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">趋势商品</th>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">平台</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">销售均价</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">爆发指数</th>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">占比</th>
-                            </tr>
-                        </thead>
-                        <tbody id="trendDataTable" class="divide-y divide-gray-50"></tbody>
-                    </table>
+            <h2 class="text-lg font-bold text-gray-900 mb-4">📋 各平台主推产品</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <div class="card p-5">
+                    <h3 class="text-sm font-semibold text-gray-700 mb-1">淘宝 百亿补贴 & 秒杀主推</h3>
+                    <p class="text-xs text-gray-400 mb-3">618限时主推商品</p>
+                    <div id="platformPushTaobao" class="space-y-2"></div>
+                </div>
+                <div class="card p-5">
+                    <h3 class="text-sm font-semibold text-gray-700 mb-1">拼多多 百亿补贴主推</h3>
+                    <p class="text-xs text-gray-400 mb-3">文具专区补贴商品</p>
+                    <div id="platformPushPdd" class="space-y-2"></div>
+                </div>
+                <div class="card p-5">
+                    <h3 class="text-sm font-semibold text-gray-700 mb-1">抖音电商 直播 & 消费券主推</h3>
+                    <p class="text-xs text-gray-400 mb-3">直播间爆品+券后价</p>
+                    <div id="platformPushDouyin" class="space-y-2"></div>
                 </div>
             </div>
         </section>

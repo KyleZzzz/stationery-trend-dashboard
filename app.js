@@ -234,76 +234,78 @@ function renderHotwordsChart() {
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 热搜词各平台曝光量：按总曝光降序top10
+// 热搜词各平台词云（淘宝、抖音、小红书）
 function renderExposureChart() {
-    const chart = echarts.init(document.getElementById('exposureChart'));
-    const allHotwords = filterByCategory(getHotwords())
-        .map(h => ({ ...h, total: Object.values(h.platforms).reduce((a, b) => a + b, 0) }))
-        .sort((a, b) => b.total - a.total)
-        .slice(0, 10);
-    const platforms = ['京东', '淘宝/天猫', '拼多多', '抖音', '小红书'];
-    const platformKeys = ['jd', 'taobao', 'pdd', 'douyin', 'xhs'];
-    const colors = ['#cc0a0a', '#ff6a00', '#f59e0b', '#1a1a2e', '#e6194b'];
+    const hotwords = filterByCategory(getHotwords());
 
-    chart.setOption({
-        tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: params => {
-            let s = params[0].axisValue + '<br/>';
-            params.forEach(p => { s += `${p.marker} ${p.seriesName}: ${formatNum(p.value)}<br/>`; });
-            return s;
-        }},
-        legend: { data: platforms, bottom: 0, textStyle: { fontSize: 11 } },
-        grid: { left: 60, right: 20, top: 20, bottom: 50 },
-        xAxis: { type: 'category', data: allHotwords.map(h => h.word), axisLabel: { rotate: 35, fontSize: 10 } },
-        yAxis: { type: 'value', axisLabel: { formatter: v => formatNum(v) } },
-        series: platforms.map((p, i) => ({
-            name: p,
-            type: 'bar',
-            stack: 'total',
-            data: allHotwords.map(h => h.platforms[platformKeys[i]]),
-            itemStyle: { color: colors[i] }
-        }))
-    });
-    window.addEventListener('resize', () => chart.resize());
+    function renderWordCloud(containerId, platformKey, color) {
+        const chart = echarts.init(document.getElementById(containerId));
+        const data = hotwords
+            .map(h => ({ name: h.word, value: h.platforms[platformKey] }))
+            .sort((a, b) => b.value - a.value)
+            .slice(0, 20);
+        chart.setOption({
+            tooltip: { formatter: p => `${p.name}<br/>曝光量: ${formatNum(p.value)}` },
+            series: [{
+                type: 'wordCloud',
+                shape: 'circle',
+                sizeRange: [12, 40],
+                rotationRange: [-30, 30],
+                rotationStep: 15,
+                gridSize: 8,
+                textStyle: { color: () => {
+                    const colors = [color, color + 'cc', color + '99', color + '77'];
+                    return colors[Math.floor(Math.random() * colors.length)];
+                }},
+                data
+            }]
+        });
+        window.addEventListener('resize', () => chart.resize());
+    }
+
+    renderWordCloud('wordcloudTaobao', 'taobao', '#ff6a00');
+    renderWordCloud('wordcloudDouyin', 'douyin', '#1a1a2e');
+    renderWordCloud('wordcloudXhs', 'xhs', '#e6194b');
 }
 
-// 趋势品：按爆发指数降序，不含拼多多
+// 各平台主推产品
 function renderTrendDataTable() {
-    const tbody = document.getElementById('trendDataTable');
-    const limit = currentCategory === 'all' ? 20 : 10;
-    const filtered = filterByCategory(DASHBOARD_DATA.trendProductData)
-        .map(p => {
-            const platforms = p.platforms.filter(pl => pl.platform !== '拼多多');
-            const totalRevenue = platforms.reduce((s, pl) => s + pl.revenue, 0);
-            const score = Math.min(99, Math.round(50 + totalRevenue / 500000));
-            return { ...p, platforms, totalRevenue, score };
-        })
-        .sort((a, b) => b.score - a.score)
-        .slice(0, limit);
-    let rows = [];
-    filtered.forEach(product => {
-        const totalScore = product.platforms.reduce((a, b) => a + b.revenue, 0);
-        product.platforms.forEach((p, i) => {
-            const share = totalScore > 0 ? ((p.revenue / totalScore) * 100).toFixed(1) : '0.0';
-            const platformScore = Math.min(99, Math.round(50 + p.revenue / 200000));
-            rows.push(`
-                <tr class="hover:bg-gray-50 ${i === 0 ? 'border-t-2 border-gray-100' : ''}">
-                    ${i === 0 ? `<td class="px-4 py-3 font-medium text-gray-900" rowspan="${product.platforms.length}">${product.name}</td>` : ''}
-                    <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
-                    <td class="px-4 py-3 text-right font-medium">¥${p.avgPrice}</td>
-                    <td class="px-4 py-3 text-right"><span class="px-2 py-0.5 text-xs rounded-full ${platformScore >= 90 ? 'hot-badge' : platformScore >= 75 ? 'warm-badge' : 'new-badge'} font-bold">${platformScore}</span></td>
-                    <td class="px-4 py-3">
-                        <div class="flex items-center gap-2">
-                            <div class="w-16 h-2 bg-gray-100 rounded-full overflow-hidden">
-                                <div class="h-full rounded-full" style="width:${share}%; background:${platformColors[p.platform] || '#6366f1'}"></div>
-                            </div>
-                            <span class="text-xs text-gray-500">${share}%</span>
-                        </div>
-                    </td>
-                </tr>
-            `);
-        });
-    });
-    tbody.innerHTML = rows.join('');
+    const data = filterByCategory(DASHBOARD_DATA.trendProductData);
+
+    function renderPlatformPush(containerId, platformFilter, badgeLabel) {
+        const container = document.getElementById(containerId);
+        const items = data
+            .map(p => {
+                const plat = p.platforms.find(pl => platformFilter.includes(pl.platform));
+                if (!plat) return null;
+                const exposure = Math.min(99, Math.round(50 + plat.revenue / 300000));
+                return { name: p.name, category: p.category, price: plat.avgPrice, exposure, platform: plat.platform };
+            })
+            .filter(Boolean)
+            .sort((a, b) => b.exposure - a.exposure)
+            .slice(0, 8);
+
+        if (items.length === 0) {
+            container.innerHTML = '<div class="text-center text-gray-400 text-xs py-4">暂无数据</div>';
+            return;
+        }
+        container.innerHTML = items.map((p, i) => `
+            <div class="flex items-center justify-between p-2 rounded-lg ${i < 3 ? 'bg-orange-50/50' : 'bg-gray-50/50'}">
+                <div class="flex items-center gap-2 flex-1 min-w-0">
+                    <span class="text-xs font-bold ${i < 3 ? 'text-orange-500' : 'text-gray-400'} w-5">${i + 1}</span>
+                    <span class="text-sm text-gray-900 truncate">${p.name}</span>
+                </div>
+                <div class="flex items-center gap-2 flex-shrink-0">
+                    <span class="text-xs text-gray-500">¥${p.price}</span>
+                    <span class="px-1.5 py-0.5 text-xs rounded ${p.exposure >= 85 ? 'hot-badge' : p.exposure >= 70 ? 'warm-badge' : 'new-badge'} font-bold">${formatNum(p.exposure * 10000)}</span>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    renderPlatformPush('platformPushTaobao', ['淘宝/天猫', '天猫', '淘宝'], '百亿补贴');
+    renderPlatformPush('platformPushPdd', ['拼多多'], '百亿补贴');
+    renderPlatformPush('platformPushDouyin', ['抖音'], '直播主推');
 }
 
 // 潜在爆发商品：按爆发指数降序，全品类top20，分品类top10
