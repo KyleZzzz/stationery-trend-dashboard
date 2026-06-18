@@ -81,29 +81,7 @@
             </div>
         </section>
 
-        <!-- Section 2: 促销力度TOP商品 -->
-        <section>
-            <h2 class="text-lg font-bold text-gray-900 mb-4">💰 热销文具商品</h2>
-            <div class="card overflow-hidden">
-                <div class="scroll-x">
-                    <table class="w-full text-sm">
-                        <thead class="bg-gray-50">
-                            <tr>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">排名</th>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">商品名称</th>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">平台</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">价格</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">预估销量</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">预估销售额</th>
-                            </tr>
-                        </thead>
-                        <tbody id="promoProductsTable" class="divide-y divide-gray-50"></tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 3: 应季趋势文具 + 热搜词 -->
+        <!-- Section 2: 应季趋势文具 + 热搜词 -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <!-- 应季趋势文具 -->
             <div class="lg:col-span-2">
@@ -138,9 +116,9 @@
             </div>
         </section>
 
-        <!-- Section 5: 趋势品各平台数据 -->
+        <!-- Section 4: 趋势品各平台数据 -->
         <section>
-            <h2 class="text-lg font-bold text-gray-900 mb-4">📋 趋势品各平台销售数据</h2>
+            <h2 class="text-lg font-bold text-gray-900 mb-4">📋 趋势品各平台数据</h2>
             <div class="card overflow-hidden">
                 <div class="scroll-x">
                     <table class="w-full text-sm">
@@ -149,9 +127,8 @@
                                 <th class="px-4 py-3 text-left font-medium text-gray-500">趋势商品</th>
                                 <th class="px-4 py-3 text-left font-medium text-gray-500">平台</th>
                                 <th class="px-4 py-3 text-right font-medium text-gray-500">销售均价</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">销量</th>
-                                <th class="px-4 py-3 text-right font-medium text-gray-500">销售额</th>
-                                <th class="px-4 py-3 text-left font-medium text-gray-500">趋势</th>
+                                <th class="px-4 py-3 text-right font-medium text-gray-500">爆发指数</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-500">占比</th>
                             </tr>
                         </thead>
                         <tbody id="trendDataTable" class="divide-y divide-gray-50"></tbody>
@@ -171,6 +148,26 @@
                 <div class="card p-5">
                     <h3 class="text-sm font-semibold text-gray-700 mb-3">近期销售走势</h3>
                     <div id="emergingTrendChart" style="height: 350px;"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 6: 热销文具商品（放最后） -->
+        <section>
+            <h2 class="text-lg font-bold text-gray-900 mb-4">💰 热销文具商品 TOP20</h2>
+            <div class="card overflow-hidden">
+                <div class="scroll-x">
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-medium text-gray-500">排名</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-500">商品名称</th>
+                                <th class="px-4 py-3 text-left font-medium text-gray-500">平台</th>
+                                <th class="px-4 py-3 text-right font-medium text-gray-500">价格</th>
+                                <th class="px-4 py-3 text-right font-medium text-gray-500">爆发指数</th>
+                            </tr>
+                        </thead>
+                        <tbody id="promoProductsTable" class="divide-y divide-gray-50"></tbody>
+                    </table>
                 </div>
             </div>
         </section>

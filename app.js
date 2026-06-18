@@ -54,7 +54,7 @@ function getTimeKey() {
 }
 
 function getPromoProducts() {
-    return DASHBOARD_DATA.promoProducts[getTimeKey()];
+    return DASHBOARD_DATA.promoProducts[getTimeKey()].filter(p => p.platform !== '拼多多');
 }
 
 function getHotwords() {
@@ -138,29 +138,28 @@ function renderPromoCards() {
     `).join('');
 }
 
-// 热销商品：分品类top20，全品类top30，按销售额降序
+// 热销商品：top20，按爆发指数降序，不含拼多多
 function renderPromoProducts() {
     const tbody = document.getElementById('promoProductsTable');
-    const limit = currentCategory === 'all' ? 30 : 20;
     const filtered = filterByCategory(getPromoProducts())
-        .sort((a, b) => (b.price * b.sales) - (a.price * a.sales))
-        .slice(0, limit);
+        .map(p => {
+            const score = Math.min(99, Math.round(50 + (p.price * p.sales) / 200000));
+            return { ...p, score };
+        })
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 20);
     if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" class="px-4 py-8 text-center text-gray-400">当前品类暂无热销数据</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="5" class="px-4 py-8 text-center text-gray-400">当前品类暂无热销数据</td></tr>';
         return;
     }
-    tbody.innerHTML = filtered.map((p, i) => {
-        const revenue = p.price * p.scaledSales;
-        return `
+    tbody.innerHTML = filtered.map((p, i) => `
         <tr class="hover:bg-gray-50">
             <td class="px-4 py-3 font-bold ${i < 3 ? 'text-red-500' : 'text-gray-500'}">${i + 1}</td>
             <td class="px-4 py-3 text-gray-900 font-medium">${p.name}</td>
             <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
             <td class="px-4 py-3 text-right font-medium">¥${p.price}</td>
-            <td class="px-4 py-3 text-right text-gray-700">${formatNum(p.sales)}</td>
-            <td class="px-4 py-3 text-right font-medium text-gray-900">${formatMoney(p.price * p.sales)}</td>
-        </tr>`;
-    }).join('');
+            <td class="px-4 py-3 text-right"><span class="px-2 py-0.5 text-xs rounded-full ${p.score >= 90 ? 'hot-badge' : p.score >= 75 ? 'warm-badge' : 'new-badge'} font-bold">${p.score}</span></td>
+        </tr>`).join('');
 }
 
 // 应季趋势：按品类+趋势双重筛选，按增长率降序top10
@@ -267,26 +266,31 @@ function renderExposureChart() {
     window.addEventListener('resize', () => chart.resize());
 }
 
-// 趋势品：按总销售额降序，全品类top20，分品类top10
+// 趋势品：按爆发指数降序，不含拼多多
 function renderTrendDataTable() {
     const tbody = document.getElementById('trendDataTable');
     const limit = currentCategory === 'all' ? 20 : 10;
     const filtered = filterByCategory(DASHBOARD_DATA.trendProductData)
-        .map(p => ({ ...p, totalRevenue: p.platforms.reduce((s, pl) => s + pl.revenue, 0) }))
-        .sort((a, b) => b.totalRevenue - a.totalRevenue)
+        .map(p => {
+            const platforms = p.platforms.filter(pl => pl.platform !== '拼多多');
+            const totalRevenue = platforms.reduce((s, pl) => s + pl.revenue, 0);
+            const score = Math.min(99, Math.round(50 + totalRevenue / 500000));
+            return { ...p, platforms, totalRevenue, score };
+        })
+        .sort((a, b) => b.score - a.score)
         .slice(0, limit);
     let rows = [];
     filtered.forEach(product => {
+        const totalScore = product.platforms.reduce((a, b) => a + b.revenue, 0);
         product.platforms.forEach((p, i) => {
-            const totalSales = product.platforms.reduce((a, b) => a + b.sales, 0);
-            const share = totalSales > 0 ? ((p.sales / totalSales) * 100).toFixed(1) : '0.0';
+            const share = totalScore > 0 ? ((p.revenue / totalScore) * 100).toFixed(1) : '0.0';
+            const platformScore = Math.min(99, Math.round(50 + p.revenue / 200000));
             rows.push(`
                 <tr class="hover:bg-gray-50 ${i === 0 ? 'border-t-2 border-gray-100' : ''}">
                     ${i === 0 ? `<td class="px-4 py-3 font-medium text-gray-900" rowspan="${product.platforms.length}">${product.name}</td>` : ''}
                     <td class="px-4 py-3"><span class="px-2 py-0.5 text-xs rounded-full ${platformTagClass[p.platform] || ''}">${p.platform}</span></td>
                     <td class="px-4 py-3 text-right font-medium">¥${p.avgPrice}</td>
-                    <td class="px-4 py-3 text-right">${formatNum(p.sales)}</td>
-                    <td class="px-4 py-3 text-right font-medium">${formatMoney(p.revenue)}</td>
+                    <td class="px-4 py-3 text-right"><span class="px-2 py-0.5 text-xs rounded-full ${platformScore >= 90 ? 'hot-badge' : platformScore >= 75 ? 'warm-badge' : 'new-badge'} font-bold">${platformScore}</span></td>
                     <td class="px-4 py-3">
                         <div class="flex items-center gap-2">
                             <div class="w-16 h-2 bg-gray-100 rounded-full overflow-hidden">
