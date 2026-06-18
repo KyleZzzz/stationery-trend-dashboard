@@ -203,17 +203,17 @@ function generateData() {
 const generated = generateData();
 
 const promoActivities = [
-  { platform: '京东', platformKey: 'jd', title: '618高潮期·文具主会场', highlights: ['自营文具跨店每满200减30', '文具品类券满99减15叠加', '得力/晨光品牌秒杀每日10点场'], badge: '今日生效', period: '6.15-6.18 高潮期' },
-  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢日·跨店满减', highlights: ['跨店每满300减50 今日可用', '文具品类额外满200减25券', '天猫超市文具满88免运费'], badge: '今日生效', period: '6.15-6.18 冲刺期' },
-  { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具加码中', highlights: ['文具专区今日加码再降10%', '9.9特卖文具限量抢', '品牌文具百亿补贴直降'], badge: '今日生效', period: '618加码中 持续至6.18' },
-  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播专场', highlights: ['今日整点文具秒杀场', '文具直播间粉丝券满50减15', '达人带货专属价限今日'], badge: '今日生效', period: '6.10-6.18 好物节' },
-  { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具专题', highlights: ['笔记种草领满99减20券 今日可领', '文具集合店限时免邮', '学生专属满3件85折'], badge: '今日生效', period: '6.8-6.18 活动期' }
+  { platform: '京东', platformKey: 'jd', title: '618高潮期·文具主会场', highlights: ['自营文具跨店每满200减30', '文具品类券满99减15叠加', '得力/晨光品牌秒杀每日10点场'], badge: '今日生效', period: '6.18 最后一天' },
+  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢日·跨店满减', highlights: ['跨店每满300减50 今日可用', '文具品类额外满200减25券', '天猫超市文具满88免运费'], badge: '今日生效', period: '6.18 最终日' },
+  { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具加码中', highlights: ['文具专区今日加码再降10%', '9.9特卖文具限量抢', '品牌文具百亿补贴直降'], badge: '今日生效', period: '6.18 最后冲刺' },
+  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播专场', highlights: ['今日整点文具秒杀场', '文具直播间粉丝券满50减15', '达人带货专属价限今日'], badge: '今日生效', period: '6.18 收官日' },
+  { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具专题', highlights: ['笔记种草领满99减20券 今日可领', '文具集合店限时免邮', '学生专属满3件85折'], badge: '今日生效', period: '6.18 最后一天' }
 ];
 
 const output = `const CATEGORIES = ${JSON.stringify(Object.keys(CATEGORIES_CONFIG))};
 
 const DASHBOARD_DATA = {
-  updateTime: '2026-06-17',
+  updateTime: '2026-06-18',
   promoActivities: ${JSON.stringify(promoActivities, null, 2)},
   promoProducts: {
     today: ${JSON.stringify(generated.promoToday)},
