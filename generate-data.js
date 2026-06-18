@@ -320,9 +320,9 @@ function generateData() {
 const generated = generateData();
 
 const promoActivities = [
-  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢收官·跨店满减', highlights: ['跨店每满300减50 最后一天', '文具品类额外满200减25券', '店播关注：得力旗舰店、晨光旗舰店、斑马旗舰店、国誉旗舰店'], badge: '今日生效', period: '6.18 最终日' },
+  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢收官·跨店满减', highlights: ['跨店每满300减50 最后一天', '文具品类额外满200减25券', '天猫超市文具满88免运费'], badge: '今日生效', period: '6.18 最终日' },
   { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具最后冲刺', highlights: ['文具专区今日加码再降10%', '9.9特卖文具最后场', '品牌文具百亿补贴直降'], badge: '今日生效', period: '6.18 最后冲刺' },
-  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具直播收官', highlights: ['店播关注：得力文具旗舰店、晨光官方旗舰店、斑马文具旗舰店', '达人场关注：小小莎老师、办公室小野、我是学霸', '粉丝券满50减15 限今日'], badge: '今日生效', period: '6.18 收官日' },
+  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具收官', highlights: ['今日整点文具秒杀 最后3场', '文具消费券满50减15 限今日', '618文具专区最后一天'], badge: '今日生效', period: '6.18 收官日' },
   { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具最后一天', highlights: ['笔记种草领满99减20券 今日最后', '文具集合店免邮 收官日加码', '学生专属满3件85折'], badge: '今日生效', period: '6.18 最后一天' }
 ];
 
