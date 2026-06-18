@@ -268,44 +268,36 @@ function renderExposureChart() {
     renderWordCloud('wordcloudXhs', 'xhs', '#e6194b');
 }
 
-// 各平台主推产品
+// 各平台主推产品（按曝光量降序）
 function renderTrendDataTable() {
-    const data = filterByCategory(DASHBOARD_DATA.trendProductData);
+    const data = filterByCategory(DASHBOARD_DATA.platformPushData);
 
-    function renderPlatformPush(containerId, platformFilter, badgeLabel) {
+    function renderPush(containerId, platformName) {
         const container = document.getElementById(containerId);
         const items = data
-            .map(p => {
-                const plat = p.platforms.find(pl => platformFilter.includes(pl.platform));
-                if (!plat) return null;
-                const exposure = Math.min(99, Math.round(50 + plat.revenue / 300000));
-                return { name: p.name, category: p.category, price: plat.avgPrice, exposure, platform: plat.platform };
-            })
-            .filter(Boolean)
+            .filter(p => p.platform === platformName)
             .sort((a, b) => b.exposure - a.exposure)
-            .slice(0, 8);
+            .slice(0, 10);
 
         if (items.length === 0) {
             container.innerHTML = '<div class="text-center text-gray-400 text-xs py-4">暂无数据</div>';
             return;
         }
         container.innerHTML = items.map((p, i) => `
-            <div class="flex items-center justify-between p-2 rounded-lg ${i < 3 ? 'bg-orange-50/50' : 'bg-gray-50/50'}">
-                <div class="flex items-center gap-2 flex-1 min-w-0">
-                    <span class="text-xs font-bold ${i < 3 ? 'text-orange-500' : 'text-gray-400'} w-5">${i + 1}</span>
-                    <span class="text-sm text-gray-900 truncate">${p.name}</span>
-                </div>
-                <div class="flex items-center gap-2 flex-shrink-0">
-                    <span class="text-xs text-gray-500">¥${p.price}</span>
-                    <span class="px-1.5 py-0.5 text-xs rounded ${p.exposure >= 85 ? 'hot-badge' : p.exposure >= 70 ? 'warm-badge' : 'new-badge'} font-bold">${formatNum(p.exposure * 10000)}</span>
-                </div>
+            <div class="flex items-center justify-between py-1.5 px-1 rounded ${i < 3 ? 'bg-orange-50/60' : ''}">
+                <span class="text-xs font-bold ${i < 3 ? 'text-orange-500' : 'text-gray-400'} w-5">${i + 1}</span>
+                <span class="flex-1 text-xs text-gray-900 truncate" title="${p.name}">${p.name}</span>
+                <span class="w-12 text-right text-xs text-gray-600">¥${p.price}</span>
+                <span class="w-14 text-right text-xs font-medium text-indigo-600">${formatNum(p.exposure)}</span>
+                <span class="w-12 text-right text-xs text-gray-500">${formatNum(p.sales)}</span>
+                <span class="w-12 text-right text-xs text-gray-400">${formatNum(p.comments)}</span>
             </div>
         `).join('');
     }
 
-    renderPlatformPush('platformPushTaobao', ['淘宝/天猫', '天猫', '淘宝'], '百亿补贴');
-    renderPlatformPush('platformPushPdd', ['拼多多'], '百亿补贴');
-    renderPlatformPush('platformPushDouyin', ['抖音'], '直播主推');
+    renderPush('platformPushTaobao', '淘宝/天猫');
+    renderPush('platformPushPdd', '拼多多');
+    renderPush('platformPushDouyin', '抖音');
 }
 
 // 潜在爆发商品：按爆发指数降序，全品类top20，分品类top10

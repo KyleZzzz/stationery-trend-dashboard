@@ -55,7 +55,6 @@
                     <div class="flex gap-1 bg-gray-100 rounded-lg p-1">
                         <button class="time-btn px-3 py-1 text-xs rounded-md text-gray-600 hover:bg-gray-200 transition" data-range="today">今天</button>
                         <button class="time-btn time-btn-active px-3 py-1 text-xs rounded-md transition" data-range="7d">近7天</button>
-                        <button class="time-btn px-3 py-1 text-xs rounded-md text-gray-600 hover:bg-gray-200 transition" data-range="30d">近30天</button>
                     </div>
                 </div>
             </div>
@@ -134,18 +133,27 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <div class="card p-5">
                     <h3 class="text-sm font-semibold text-gray-700 mb-1">淘宝 百亿补贴 & 秒杀主推</h3>
-                    <p class="text-xs text-gray-400 mb-3">618限时主推商品</p>
-                    <div id="platformPushTaobao" class="space-y-2"></div>
+                    <p class="text-xs text-gray-400 mb-3">按曝光量降序 · 618限时主推</p>
+                    <div class="text-xs text-gray-500 flex justify-between px-1 mb-2 border-b pb-1">
+                        <span class="w-5"></span><span class="flex-1">商品名</span><span class="w-12 text-right">价格</span><span class="w-14 text-right">曝光量</span><span class="w-12 text-right">销量</span><span class="w-12 text-right">评论</span>
+                    </div>
+                    <div id="platformPushTaobao" class="space-y-1"></div>
                 </div>
                 <div class="card p-5">
                     <h3 class="text-sm font-semibold text-gray-700 mb-1">拼多多 百亿补贴主推</h3>
-                    <p class="text-xs text-gray-400 mb-3">文具专区补贴商品</p>
-                    <div id="platformPushPdd" class="space-y-2"></div>
+                    <p class="text-xs text-gray-400 mb-3">按曝光量降序 · 文具专区补贴</p>
+                    <div class="text-xs text-gray-500 flex justify-between px-1 mb-2 border-b pb-1">
+                        <span class="w-5"></span><span class="flex-1">商品名</span><span class="w-12 text-right">价格</span><span class="w-14 text-right">曝光量</span><span class="w-12 text-right">销量</span><span class="w-12 text-right">评论</span>
+                    </div>
+                    <div id="platformPushPdd" class="space-y-1"></div>
                 </div>
                 <div class="card p-5">
                     <h3 class="text-sm font-semibold text-gray-700 mb-1">抖音电商 直播 & 消费券主推</h3>
-                    <p class="text-xs text-gray-400 mb-3">直播间爆品+券后价</p>
-                    <div id="platformPushDouyin" class="space-y-2"></div>
+                    <p class="text-xs text-gray-400 mb-3">按曝光量降序 · 直播间爆品</p>
+                    <div class="text-xs text-gray-500 flex justify-between px-1 mb-2 border-b pb-1">
+                        <span class="w-5"></span><span class="flex-1">商品名</span><span class="w-12 text-right">价格</span><span class="w-14 text-right">曝光量</span><span class="w-12 text-right">销量</span><span class="w-12 text-right">评论</span>
+                    </div>
+                    <div id="platformPushDouyin" class="space-y-1"></div>
                 </div>
             </div>
         </section>

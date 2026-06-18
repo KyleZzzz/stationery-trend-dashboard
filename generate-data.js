@@ -80,20 +80,18 @@ function generateData() {
 
   function genHotwords(categories, timeSeed, factor) {
     const hotwords = [];
-    const wordTemplates = ['推荐', '测评', '平替', '学生党必备', '性价比高', '好物分享'];
+    const wordTemplates = ['推荐', '测评', '平替', '学生党必备', '性价比', '好物分享', '618必买', '暑假', '考试用', '开箱'];
     categories.forEach((cat, ci) => {
       const cfg = CATEGORIES_CONFIG[cat];
       const rng = seededRandom(ci * 2000 + timeSeed);
-      for (let i = 0; i < 6; i++) {
+      for (let i = 0; i < 10; i++) {
         hotwords.push({
           word: `${cat}${wordTemplates[i]}`,
           category: cat,
           platforms: {
-            jd: Math.round(randRange(500000, 8000000, rng) * factor),
-            taobao: Math.round(randRange(1000000, 12000000, rng) * factor),
-            pdd: Math.round(randRange(500000, 6000000, rng) * factor),
-            douyin: Math.round(randRange(3000000, 25000000, rng) * factor),
-            xhs: Math.round(randRange(1000000, 15000000, rng) * factor)
+            taobao: Math.round(randRange(1000000, 15000000, rng) * factor),
+            douyin: Math.round(randRange(3000000, 30000000, rng) * factor),
+            xhs: Math.round(randRange(1000000, 18000000, rng) * factor)
           }
         });
       }
@@ -101,14 +99,12 @@ function generateData() {
     return hotwords;
   }
 
-  // today / 7d / 30d with different seeds = different rankings
+  // today / 7d only (different seeds = different rankings)
   const promoToday = genProducts(categories, 77, 0.15);
   const promo7d = genProducts(categories, 42, 1);
-  const promo30d = genProducts(categories, 13, 4.2);
 
   const hotwordsToday = genHotwords(categories, 77, 0.15);
   const hotwords7d = genHotwords(categories, 42, 1);
-  const hotwords30d = genHotwords(categories, 13, 4.2);
 
   // seasonal trends (shared across time ranges, growth rates differ)
   const seasonalTrends = [];
@@ -144,24 +140,34 @@ function generateData() {
     }
   });
 
-  // trend product data (shared, 6 per category)
-  const trendProductData = [];
+  // platform push products (per platform with exposure, sales, comments)
+  const HIGH_FREQ_CATS = ['中性笔','铅笔','橡皮擦','笔记本/记事本','学习套装/礼盒/盲盒','修正带','书皮/书套','荧光笔','文具盒/笔袋/痛包笔袋'];
+  const platformPushData = [];
+  const PUSH_PLATFORMS = ['淘宝/天猫', '拼多多', '抖音'];
   categories.forEach((cat, ci) => {
     const cfg = CATEGORIES_CONFIG[cat];
     const rng = seededRandom(ci * 4000 + 55);
+    const isHighFreq = HIGH_FREQ_CATS.includes(cat);
+    const exposureBoost = isHighFreq ? 3 : 1;
     for (let i = 0; i < 6; i++) {
       const brand = cfg.brands[i % cfg.brands.length];
       const nameBase = cfg.names[(i + 3) % cfg.names.length];
       const basePrice = +(cfg.price[0] + rng() * (cfg.price[1] - cfg.price[0])).toFixed(1);
-      trendProductData.push({
-        name: `${brand} ${nameBase}`,
-        category: cat,
-        platforms: PLATFORMS.map(p => {
-          const factor = p === '拼多多' ? 0.7 : p === '京东' ? 1.15 : p === '小红书' ? 1.2 : 1;
-          const avgPrice = +(basePrice * factor).toFixed(1);
-          const sales = randRange(Math.round(cfg.sales[0] * 0.3), Math.round(cfg.sales[1] * 0.5), rng);
-          return { platform: p === '淘宝' ? '淘宝/天猫' : p, avgPrice, sales, revenue: Math.round(avgPrice * sales) };
-        })
+      PUSH_PLATFORMS.forEach(plat => {
+        const factor = plat === '拼多多' ? 0.7 : plat === '抖音' ? 0.9 : 1;
+        const price = +(basePrice * factor).toFixed(1);
+        const exposure = Math.round(randRange(50000, 5000000, rng) * exposureBoost);
+        const sales = randRange(Math.round(cfg.sales[0] * 0.1), Math.round(cfg.sales[1] * 0.3), rng);
+        const comments = randRange(Math.round(sales * 0.02), Math.round(sales * 0.15), rng);
+        platformPushData.push({
+          name: `${brand} ${nameBase}`,
+          category: cat,
+          platform: plat,
+          price,
+          exposure,
+          sales,
+          comments
+        });
       });
     }
   });
@@ -197,7 +203,7 @@ function generateData() {
     }
   });
 
-  return { promoToday, promo7d, promo30d, hotwordsToday, hotwords7d, hotwords30d, seasonalTrends, trendProductData, emergingProducts };
+  return { promoToday, promo7d, hotwordsToday, hotwords7d, seasonalTrends, platformPushData, emergingProducts };
 }
 
 const generated = generateData();
@@ -217,16 +223,14 @@ const DASHBOARD_DATA = {
   promoActivities: ${JSON.stringify(promoActivities, null, 2)},
   promoProducts: {
     today: ${JSON.stringify(generated.promoToday)},
-    '7d': ${JSON.stringify(generated.promo7d)},
-    '30d': ${JSON.stringify(generated.promo30d)}
+    '7d': ${JSON.stringify(generated.promo7d)}
   },
   hotwords: {
     today: ${JSON.stringify(generated.hotwordsToday)},
-    '7d': ${JSON.stringify(generated.hotwords7d)},
-    '30d': ${JSON.stringify(generated.hotwords30d)}
+    '7d': ${JSON.stringify(generated.hotwords7d)}
   },
   seasonalTrends: ${JSON.stringify(generated.seasonalTrends)},
-  trendProductData: ${JSON.stringify(generated.trendProductData)},
+  platformPushData: ${JSON.stringify(generated.platformPushData)},
   emergingProducts: ${JSON.stringify(generated.emergingProducts)}
 };
 `;
