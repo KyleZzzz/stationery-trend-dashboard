@@ -119,9 +119,10 @@ const platformTagClass = {
     '小红书': 'platform-tag-xhs'
 };
 
-// 促销活动卡片（不受品类筛选影响）
+// 促销活动卡片（现为静态HTML，跳过渲染）
 function renderPromoCards() {
     const container = document.getElementById('promoCards');
+    if (!container) return;
     const icons = { jd: '🟥', taobao: '🟧', pdd: '🟡', douyin: '⬛', xhs: '🔴' };
     container.innerHTML = DASHBOARD_DATA.promoActivities.map(p => `
         <div class="card p-4 border-l-4" style="border-left-color: ${platformColors[p.platform] || '#6366f1'}">
