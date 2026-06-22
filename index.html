@@ -71,13 +71,120 @@
             </select>
             <span id="categoryCount" class="text-xs text-gray-400"></span>
         </div>
-        <!-- Section 1: 今日大促活动概览 -->
+        <!-- Section 1: 618活动复盘总结 -->
         <section>
             <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
-                🔥 今日生效的文具大促活动
-                <span class="text-xs font-normal text-gray-400">以下活动今日（6月18日）均可参与 · 618最后一天</span>
+                🔥 618各平台活动复盘
+                <span class="text-xs font-normal text-gray-400">2026年618大促已收官（5.18-6.18）</span>
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" id="promoCards">
+
+            <!-- 平台整体活动 -->
+            <div class="card p-5 mb-4">
+                <h3 class="text-sm font-bold text-gray-800 mb-3 flex items-center gap-2">📊 平台整体活动</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
+                    <div class="p-3 rounded-lg border border-red-100 bg-red-50/30">
+                        <div class="font-bold text-sm text-red-700 mb-1">京东</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 5.18启动，跨店每满200减30</li>
+                            <li>• AI全场景融入，数字人直播升级</li>
+                            <li>• 红包口令每天可领3次</li>
+                            <li>• 51个新商家破千万成交</li>
+                            <li>• AI硬件品类成交同比+200%</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-orange-100 bg-orange-50/30">
+                        <div class="font-bold text-sm text-orange-700 mb-1">淘宝/天猫</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 跨店每满300减50 四重叠加</li>
+                            <li>• 千问AI购物助手上线</li>
+                            <li>• 超4万品牌成交翻倍</li>
+                            <li>• 破亿品牌数同比+40%</li>
+                            <li>• 亿级直播间同比+50%</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-gray-200 bg-gray-50/30">
+                        <div class="font-bold text-sm text-gray-800 mb-1">抖音电商</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 消费券带动破亿商家同比+325%</li>
+                            <li>• 豆包"帮你选"直连商城购物</li>
+                            <li>• 飞鸽智能客服限免，省70%人力</li>
+                            <li>• AIGC工具免费开放做短视频</li>
+                            <li>• 亿级算力资源投入</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-yellow-100 bg-yellow-50/30">
+                        <div class="font-bold text-sm text-yellow-700 mb-1">拼多多</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 百亿补贴常驻+618专项加码</li>
+                            <li>• 文具9.9特卖专区</li>
+                            <li>• 品牌文具直降不用凑单</li>
+                            <li>• 先用后付0门槛</li>
+                            <li>• 全品类免费退货</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-pink-100 bg-pink-50/30">
+                        <div class="font-bold text-sm text-pink-700 mb-1">小红书</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 618薯你会买专题活动</li>
+                            <li>• 种草笔记领专属优惠券</li>
+                            <li>• 集合店满99减20</li>
+                            <li>• 学生专属满3件85折</li>
+                            <li>• 文具好物免邮专区</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 文具品类专属活动 -->
+            <div class="card p-5">
+                <h3 class="text-sm font-bold text-gray-800 mb-3 flex items-center gap-2">✏️ 文具品类专属活动</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
+                    <div class="p-3 rounded-lg border border-red-100">
+                        <div class="font-bold text-xs text-red-700 mb-1">京东文具</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 文具品类券满99减15</li>
+                            <li>• 得力/晨光品牌日秒杀</li>
+                            <li>• 自营文具多件多折</li>
+                            <li>• 办公文具满199减100</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-orange-100">
+                        <div class="font-bold text-xs text-orange-700 mb-1">天猫文具</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 文具品类额外满200减25券</li>
+                            <li>• 天猫超市文具满88免运</li>
+                            <li>• 品牌文具前1小时半价</li>
+                            <li>• 晨光/国誉/斑马旗舰店满赠</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-gray-200">
+                        <div class="font-bold text-xs text-gray-800 mb-1">抖音文具</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 文具消费券满50减15</li>
+                            <li>• 整点文具秒杀 每日3场</li>
+                            <li>• 达人专属券额外8折</li>
+                            <li>• 品牌旗舰店自播优惠</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-yellow-100">
+                        <div class="font-bold text-xs text-yellow-700 mb-1">拼多多文具</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 考试文具百亿补贴直降30%</li>
+                            <li>• 开学文具9.9包邮专区</li>
+                            <li>• 文具专区618加码再降10%</li>
+                            <li>• 得力/晨光补贴价</li>
+                        </ul>
+                    </div>
+                    <div class="p-3 rounded-lg border border-pink-100">
+                        <div class="font-bold text-xs text-pink-700 mb-1">小红书文具</div>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• 文具好物集合店满99减20</li>
+                            <li>• 学生党必入文具清单专题</li>
+                            <li>• 手账/文创种草专区</li>
+                            <li>• 文具集合店限时免邮</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
