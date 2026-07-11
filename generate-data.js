@@ -329,7 +329,7 @@ const promoActivities = [
 const output = `const CATEGORIES = ${JSON.stringify(Object.keys(CATEGORIES_CONFIG))};
 
 const DASHBOARD_DATA = {
-  updateTime: '2026-07-10',
+  updateTime: '2026-07-11',
   promoActivities: ${JSON.stringify(promoActivities, null, 2)},
   promoProducts: {
     today: ${JSON.stringify(generated.promoToday)},
