@@ -82,36 +82,36 @@ function generateData() {
     const hotwords = [];
     // Top-level general hotwords with realistic exposure (high-traffic generic queries)
     const TOP_WORDS = [
-      { word: '618文具必买清单', category: '学习套装/礼盒/盲盒', base: { taobao: 15000000, douyin: 28000000, xhs: 12000000 } },
-      { word: '学生党开学囤货', category: '学习套装/礼盒/盲盒', base: { taobao: 12000000, douyin: 22000000, xhs: 9000000 } },
-      { word: '高考加油文具', category: '中性笔', base: { taobao: 10000000, douyin: 18000000, xhs: 7000000 } },
-      { word: '考试必备好物', category: '中性笔', base: { taobao: 11000000, douyin: 20000000, xhs: 8000000 } },
+      { word: '开学文具清单', category: '学习套装/礼盒/盲盒', base: { taobao: 18000000, douyin: 32000000, xhs: 15000000 } },
+      { word: '新学期文具必备', category: '学习套装/礼盒/盲盒', base: { taobao: 14000000, douyin: 25000000, xhs: 11000000 } },
+      { word: '开学装备大全', category: '学习套装/礼盒/盲盒', base: { taobao: 12000000, douyin: 22000000, xhs: 9000000 } },
       { word: '平价好用文具', category: '中性笔', base: { taobao: 9000000, douyin: 25000000, xhs: 14000000 } },
-      { word: '高颜值文具分享', category: '文创用品', base: { taobao: 5000000, douyin: 20000000, xhs: 18000000 } },
-      { word: '刷题神器', category: '中性笔', base: { taobao: 8000000, douyin: 15000000, xhs: 6000000 } },
-      { word: '暑假手工推荐', category: '手工DIY套装', base: { taobao: 6000000, douyin: 16000000, xhs: 10000000 } },
-      { word: '毕业礼物送什么', category: '笔类套装/礼盒', base: { taobao: 7000000, douyin: 12000000, xhs: 15000000 } },
-      { word: '文具收纳技巧', category: '文具收纳盒', base: { taobao: 4000000, douyin: 14000000, xhs: 11000000 } },
-      { word: '一支笔用到毕业', category: '中性笔', base: { taobao: 3000000, douyin: 22000000, xhs: 8000000 } },
+      { word: '高颜值文具分享', category: '文创用品', base: { taobao: 5000000, douyin: 22000000, xhs: 20000000 } },
+      { word: '刷题神器推荐', category: '中性笔', base: { taobao: 10000000, douyin: 18000000, xhs: 7000000 } },
+      { word: '初中生文具推荐', category: '学习套装/礼盒/盲盒', base: { taobao: 8000000, douyin: 16000000, xhs: 12000000 } },
+      { word: '高中生开学必备', category: '学习套装/礼盒/盲盒', base: { taobao: 9000000, douyin: 14000000, xhs: 10000000 } },
+      { word: '暑假手工推荐', category: '手工DIY套装', base: { taobao: 6000000, douyin: 16000000, xhs: 11000000 } },
+      { word: '文具收纳技巧', category: '文具收纳盒', base: { taobao: 4000000, douyin: 14000000, xhs: 13000000 } },
       { word: '解压文具合集', category: '橡皮擦', base: { taobao: 4000000, douyin: 19000000, xhs: 12000000 } },
       { word: '好写不贵的笔', category: '中性笔', base: { taobao: 8000000, douyin: 18000000, xhs: 9000000 } },
-      { word: '网红文具测评', category: '文创用品', base: { taobao: 3000000, douyin: 24000000, xhs: 16000000 } },
-      { word: '文具盲盒开箱', category: '学习套装/礼盒/盲盒', base: { taobao: 4000000, douyin: 20000000, xhs: 13000000 } },
-      { word: '世界杯手绘', category: '马克笔', base: { taobao: 2000000, douyin: 15000000, xhs: 8000000 } },
+      { word: '网红文具测评', category: '文创用品', base: { taobao: 3000000, douyin: 24000000, xhs: 17000000 } },
+      { word: '文具盲盒开箱', category: '学习套装/礼盒/盲盒', base: { taobao: 4000000, douyin: 20000000, xhs: 14000000 } },
       { word: '电动文具黑科技', category: '文具盒/笔袋/痛包笔袋', base: { taobao: 5000000, douyin: 18000000, xhs: 7000000 } },
-      { word: '小学生开学必备', category: '学习套装/礼盒/盲盒', base: { taobao: 9000000, douyin: 12000000, xhs: 5000000 } },
+      { word: '小学生开学必备', category: '学习套装/礼盒/盲盒', base: { taobao: 11000000, douyin: 15000000, xhs: 7000000 } },
       { word: '便宜好用中性笔', category: '中性笔', base: { taobao: 7000000, douyin: 13000000, xhs: 6000000 } },
       { word: '手账入坑指南', category: '手帐', base: { taobao: 3000000, douyin: 12000000, xhs: 16000000 } },
-      { word: '书桌好物分享', category: '桌面收纳架', base: { taobao: 4000000, douyin: 11000000, xhs: 13000000 } },
-      { word: '儿童安全文具', category: '水彩笔', base: { taobao: 6000000, douyin: 9000000, xhs: 4000000 } },
-      { word: '期末考试文具', category: '中性笔', base: { taobao: 8000000, douyin: 14000000, xhs: 5000000 } },
-      { word: '大容量笔袋推荐', category: '文具盒/笔袋/痛包笔袋', base: { taobao: 5000000, douyin: 10000000, xhs: 9000000 } },
+      { word: '书桌好物分享', category: '桌面收纳架', base: { taobao: 5000000, douyin: 13000000, xhs: 15000000 } },
+      { word: '儿童安全文具', category: '水彩笔', base: { taobao: 6000000, douyin: 10000000, xhs: 5000000 } },
+      { word: '大容量笔袋推荐', category: '文具盒/笔袋/痛包笔袋', base: { taobao: 7000000, douyin: 13000000, xhs: 10000000 } },
       { word: '国产文具之光', category: '中性笔', base: { taobao: 4000000, douyin: 16000000, xhs: 11000000 } },
       { word: '马克笔画画教程', category: '马克笔', base: { taobao: 2000000, douyin: 20000000, xhs: 9000000 } },
-      { word: '练字用什么笔好', category: '钢笔', base: { taobao: 5000000, douyin: 8000000, xhs: 6000000 } },
+      { word: '练字用什么笔好', category: '钢笔', base: { taobao: 5000000, douyin: 9000000, xhs: 7000000 } },
       { word: '百乐笔推荐', category: '中性笔', base: { taobao: 6000000, douyin: 9000000, xhs: 7000000 } },
       { word: '斑马笔哪款好', category: '荧光笔', base: { taobao: 5000000, douyin: 8000000, xhs: 8000000 } },
-      { word: '晨光得力哪个好', category: '中性笔', base: { taobao: 7000000, douyin: 10000000, xhs: 5000000 } }
+      { word: '晨光得力哪个好', category: '中性笔', base: { taobao: 7000000, douyin: 10000000, xhs: 5000000 } },
+      { word: '错题本怎么用', category: '笔记本/记事本', base: { taobao: 6000000, douyin: 12000000, xhs: 10000000 } },
+      { word: '学霸文具分享', category: '中性笔', base: { taobao: 5000000, douyin: 18000000, xhs: 14000000 } },
+      { word: '新生入学装备', category: '学习套装/礼盒/盲盒', base: { taobao: 8000000, douyin: 11000000, xhs: 8000000 } }
     ];
 
     const rngG = seededRandom(timeSeed * 999);
@@ -129,7 +129,7 @@ function generateData() {
 
     // Per-category specific words (lower exposure, only high-freq categories)
     const HIGH_CATS = ['中性笔','铅笔','橡皮擦','笔记本/记事本','荧光笔','马克笔','手帐','文具盒/笔袋/痛包笔袋','修正带','书皮/书套','水彩笔','学习套装/礼盒/盲盒'];
-    const CAT_SUFFIXES = ['推荐', '618必买', '测评'];
+    const CAT_SUFFIXES = ['推荐', '开学必备', '测评'];
     HIGH_CATS.forEach((cat, ci) => {
       const rng = seededRandom(ci * 2000 + timeSeed);
       for (let i = 0; i < 3; i++) {
@@ -181,16 +181,16 @@ function generateData() {
       { name: '手账大礼盒 假期生活记录', category: '手帐' },
       { name: '创意书签DIY材料包', category: '书签' }
     ]},
-    '618': { label: '618大促热卖', items: [
+    '开学': { label: '开学季热卖', items: [
       { name: '晨光中性笔 50支量贩囤货', category: '中性笔' },
-      { name: '国誉笔记本套装 半价囤', category: '笔记本/记事本' },
-      { name: '开学文具大礼包 618特惠', category: '学习套装/礼盒/盲盒' },
-      { name: '电动文具盒 618秒杀价', category: '文具盒/笔袋/痛包笔袋' },
-      { name: '办公文具量贩装 618囤', category: '办公文具' },
-      { name: '桌面收纳架 618买一送一', category: '桌面收纳架' },
-      { name: '3M便利贴 年中大促囤', category: '便签本/便条纸/N次贴' },
-      { name: '文具收纳盒 618折扣', category: '文具收纳盒' },
-      { name: '旋转笔筒 618特价', category: '笔筒' },
+      { name: '国誉笔记本套装 开学特惠', category: '笔记本/记事本' },
+      { name: '开学文具大礼包 全套', category: '学习套装/礼盒/盲盒' },
+      { name: '电动文具盒 多功能弹射', category: '文具盒/笔袋/痛包笔袋' },
+      { name: '办公文具量贩装 开学囤', category: '办公文具' },
+      { name: '桌面收纳架 开学整理必备', category: '桌面收纳架' },
+      { name: '3M便利贴 新学期整理笔记', category: '便签本/便条纸/N次贴' },
+      { name: '文具收纳盒 开学桌面整理', category: '文具收纳盒' },
+      { name: '旋转笔筒 开学特价', category: '笔筒' },
       { name: '包书皮 整学期囤货装', category: '书皮/书套' }
     ]},
     office: { label: '办公文具热点', items: [
@@ -205,17 +205,17 @@ function generateData() {
       { name: '商务笔记本 皮面 A5', category: '笔记本/记事本' },
       { name: '商务签字笔 金属杆', category: '钢笔' }
     ]},
-    worldcup: { label: '世界杯相关', items: [
-      { name: '马克笔 球星手绘 肤色套装', category: '马克笔' },
-      { name: '速写本 赛事手绘记录', category: '画纸/画本' },
-      { name: '世界杯主题手账本', category: '手帐' },
-      { name: '足球元素贴纸 球队徽章', category: '拼豆/咕卡套装' },
-      { name: '国旗主题文具套装', category: '文创用品' },
-      { name: '世界杯观赛笔记本', category: '笔记本/记事本' },
-      { name: '足球造型金属书签', category: '书签' },
-      { name: '球队配色蜡笔 儿童画', category: '蜡笔' },
-      { name: '国旗色水彩笔 手绘', category: '水彩笔' },
-      { name: '彩铅 球星肖像画专用', category: '彩色铅笔' }
+    back2school: { label: '新生入学装备', items: [
+      { name: '大学生文具套装 宿舍必备', category: '办公文具' },
+      { name: '活页本 B5 方格 大学笔记', category: '笔记本/记事本' },
+      { name: '高颜值笔袋 大容量帆布', category: '文具盒/笔袋/痛包笔袋' },
+      { name: '桌面收纳架 宿舍整理', category: '桌面收纳架' },
+      { name: '学霸中性笔 ST头 速干', category: '中性笔' },
+      { name: '荧光笔套装 莫兰迪 护眼', category: '荧光笔' },
+      { name: '磁吸白板 宿舍备忘', category: '白板笔' },
+      { name: '卷笔刀 USB充电 宿舍用', category: '卷笔刀/卷笔器' },
+      { name: '透明笔袋 考试专用大学版', category: '文具盒/笔袋/痛包笔袋' },
+      { name: '文创笔记本 大学入学纪念', category: '文创用品' }
     ]},
     graduation: { label: '毕业季', items: [
       { name: '火漆印章 毕业纪念套装', category: '火漆印章' },
@@ -320,10 +320,10 @@ function generateData() {
 const generated = generateData();
 
 const promoActivities = [
-  { platform: '淘宝/天猫', platformKey: 'taobao', title: '618狂欢收官·跨店满减', highlights: ['跨店每满300减50 最后一天', '文具品类额外满200减25券', '天猫超市文具满88免运费'], badge: '今日生效', period: '6.18 最终日' },
-  { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·文具最后冲刺', highlights: ['文具专区今日加码再降10%', '9.9特卖文具最后场', '品牌文具百亿补贴直降'], badge: '今日生效', period: '6.18 最后冲刺' },
-  { platform: '抖音电商', platformKey: 'douyin', title: '618好物节·文具收官', highlights: ['今日整点文具秒杀 最后3场', '文具消费券满50减15 限今日', '618文具专区最后一天'], badge: '今日生效', period: '6.18 收官日' },
-  { platform: '小红书', platformKey: 'xhs', title: '618薯你会买·文具最后一天', highlights: ['笔记种草领满99减20券 今日最后', '文具集合店免邮 收官日加码', '学生专属满3件85折'], badge: '今日生效', period: '6.18 最后一天' }
+  { platform: '淘宝/天猫', platformKey: 'taobao', title: '开学季·文具大促', highlights: ['跨店每满200减30 学生专属', '文具品类额外满150减20券', '天猫超市文具满88包邮'], badge: '进行中', period: '8.1-8.31 开学季' },
+  { platform: '拼多多', platformKey: 'pdd', title: '百亿补贴·开学囤货', highlights: ['文具专区百亿补贴持续加码', '9.9特卖文具开学专场', '品牌文具直降不封顶'], badge: '进行中', period: '8月开学专场' },
+  { platform: '抖音电商', platformKey: 'douyin', title: '开学好物节·文具专场', highlights: ['每日整点文具秒杀 5场', '文具消费券满60减15', '开学文具直播专区上新'], badge: '进行中', period: '8月开学季' },
+  { platform: '小红书', platformKey: 'xhs', title: '开学薯·文具种草', highlights: ['开学文具种草领满99减20券', '文具集合店全场9折', '学生专属套装买二送一'], badge: '进行中', period: '8月开学季' }
 ];
 
 const output = `const CATEGORIES = ${JSON.stringify(Object.keys(CATEGORIES_CONFIG))};
