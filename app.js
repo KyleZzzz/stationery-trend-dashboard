@@ -269,7 +269,21 @@ function renderExposureChart() {
     renderWordCloud('wordcloudXhs', 'xhs', '#e6194b');
 }
 
-// 各平台主推产品（按曝光量降序）
+// 各平台主推产品（按爆发指数降序）
+function burstScore(p) {
+    const eScore = Math.log10(Math.max(1, p.exposure)) / Math.log10(15000000) * 40;
+    const sScore = Math.log10(Math.max(1, p.sales)) / Math.log10(240000) * 40;
+    const cScore = Math.log10(Math.max(1, p.comments)) / Math.log10(36000) * 20;
+    return Math.min(99, Math.max(1, Math.round(eScore + sScore + cScore)));
+}
+
+function burstBadgeClass(score) {
+    if (score >= 80) return 'text-red-600 font-bold';
+    if (score >= 65) return 'text-orange-500 font-bold';
+    if (score >= 50) return 'text-yellow-600 font-semibold';
+    return 'text-gray-400';
+}
+
 function renderTrendDataTable() {
     const data = filterByCategory(DASHBOARD_DATA.platformPushData);
 
@@ -277,7 +291,8 @@ function renderTrendDataTable() {
         const container = document.getElementById(containerId);
         const items = data
             .filter(p => p.platform === platformName)
-            .sort((a, b) => b.exposure - a.exposure)
+            .map(p => ({ ...p, burst: burstScore(p) }))
+            .sort((a, b) => b.burst - a.burst)
             .slice(0, 10);
 
         if (items.length === 0) {
@@ -289,9 +304,7 @@ function renderTrendDataTable() {
                 <span class="text-xs font-bold ${i < 3 ? 'text-orange-500' : 'text-gray-400'} w-5">${i + 1}</span>
                 <span class="flex-1 text-xs text-gray-900 truncate" title="${p.name}">${p.name}</span>
                 <span class="w-12 text-right text-xs text-gray-600">¥${p.price}</span>
-                <span class="w-14 text-right text-xs font-medium text-indigo-600">${formatNum(p.exposure)}</span>
-                <span class="w-12 text-right text-xs text-gray-500">${formatNum(p.sales)}</span>
-                <span class="w-12 text-right text-xs text-gray-400">${formatNum(p.comments)}</span>
+                <span class="w-14 text-right text-xs ${burstBadgeClass(p.burst)}">${p.burst}</span>
             </div>
         `).join('');
     }
