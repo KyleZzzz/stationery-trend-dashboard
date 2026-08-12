@@ -157,17 +157,17 @@ function generateData() {
   // seasonal trends - hand-curated: each trend only has logically related products
   const seasonalTrends = [];
   const TREND_DATA = {
-    exam: { label: '中高考文具', items: [
-      { name: '考试速干中性笔套装', category: '中性笔' },
-      { name: '2B涂卡铅笔 考试专用 30支', category: '铅笔' },
-      { name: '考试专用橡皮 不留痕 超净', category: '橡皮擦' },
-      { name: '考试修正带 细头6mm', category: '修正带' },
-      { name: '透明文具袋 考场规定款', category: '按扣/拉链文件资料袋/收纳袋' },
-      { name: '速干笔芯 ST头 考试用', category: '笔芯/替芯/笔壳' },
-      { name: '划重点荧光笔 淡色护眼', category: '荧光笔' },
-      { name: '错题本 活页B5 分科', category: '笔记本/记事本' },
-      { name: '中高考文具礼盒 全套', category: '学习套装/礼盒/盲盒' },
-      { name: '答题卡专用笔 0.5mm', category: '中性笔' }
+    calligraphy: { label: '练字/书法热', items: [
+      { name: '凹槽练字帖 自动消失 控笔训练', category: '练字帖/描红本' },
+      { name: '练字钢笔 暗尖F尖 学生正姿', category: '钢笔' },
+      { name: '硬笔书法字帖 田英章行楷', category: '练字帖/描红本' },
+      { name: '控笔训练字帖 基础入门', category: '练字帖/描红本' },
+      { name: '钢笔墨囊 蓝黑色 30支', category: '笔芯/替芯/笔壳' },
+      { name: '毛笔套装 书法入门 含墨汁', category: '笔类套装/礼盒' },
+      { name: '练字专用米字格本 B5', category: '笔记本/记事本' },
+      { name: '英文花体练字帖 衡水体', category: '练字帖/描红本' },
+      { name: '钢笔礼盒 练字套装 送礼', category: '笔类套装/礼盒' },
+      { name: '古诗词楷书字帖 每日一练', category: '练字帖/描红本' }
     ]},
     summer: { label: '暑假文创/DIY', items: [
       { name: '暑假手工材料包 100件创意', category: '手工DIY套装' },
@@ -217,18 +217,18 @@ function generateData() {
       { name: '透明笔袋 考试专用大学版', category: '文具盒/笔袋/痛包笔袋' },
       { name: '文创笔记本 大学入学纪念', category: '文创用品' }
     ]},
-    graduation: { label: '毕业季', items: [
-      { name: '火漆印章 毕业纪念套装', category: '火漆印章' },
-      { name: '钢笔礼盒 毕业送礼 刻字', category: '笔类套装/礼盒' },
-      { name: '毕业纪念钢笔 金属杆', category: '钢笔' },
-      { name: '同学录手账本 毕业留言', category: '手帐' },
-      { name: '金属书签 毕业留念 定制', category: '书签' },
-      { name: '毕业季文创礼物套装', category: '文创用品' },
-      { name: '毕业纪念笔记本 班级', category: '笔记本/记事本' },
-      { name: '毕业文具礼盒 全班定制', category: '学习套装/礼盒/盲盒' },
-      { name: '姓名贴 毕业纪念版', category: '姓名贴' },
-      { name: '毕业赠言练字帖', category: '练字帖/描红本' }
-    ]}
+    ipcollab: { label: '潮玩IP联名', items: [
+      { name: '三丽鸥联名文具盲盒 全套', category: '学习套装/礼盒/盲盒' },
+      { name: '迪士尼联名大容量笔袋', category: '文具盒/笔袋/痛包笔袋' },
+      { name: '奥特曼联名铅笔套装 小学', category: '铅笔' },
+      { name: '痛包笔袋 动漫周边展示款', category: '文具盒/笔袋/痛包笔袋' },
+      { name: '国潮联名中性笔 限定款', category: '中性笔' },
+      { name: '咕卡套装 IP贴纸 全套材料', category: '拼豆/咕卡套装' },
+      { name: '联名手账本 限定封面', category: '手帐' },
+      { name: 'IP联名文具礼盒 开学款', category: '学习套装/礼盒/盲盒' },
+      { name: '卡通橡皮擦 盲盒款 解压', category: '橡皮擦' },
+      { name: '故宫文创联名书签 国潮', category: '书签' }
+    ]},
   };
 
   const trendRng = seededRandom(8888);
